@@ -6,6 +6,10 @@ tech_kurogane_extend: "宇宙船工学"
  TECH_KUROGANE_EXTEND_TITLE: "§H宇宙船工学§!"
  TECH_KUROGANE_EXTEND_DESC: "我々は宇宙空間で活動を行うために様々な宇宙船に関する工学研究"
 
+KTW_SuperDreadnought: "超弩級戦艦"
+KTW_SuperDreadnought_desc: "弩級戦艦を遥かに凌駕する大型戦艦。弩級戦艦を一蹴できる性能を有している。"
+KTW_SuperFlagShip: "超弩級旗艦"
+KTW_SuperFlagShip_desc: "前時代の旗艦を遥かに凌駕する大型戦艦。"
 
 #SECTION TEMPLATES#
  CORVETTE_MID_S1: "パトロール"
