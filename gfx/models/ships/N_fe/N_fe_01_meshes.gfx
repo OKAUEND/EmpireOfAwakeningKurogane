@@ -88,7 +88,7 @@ objectTypes = {
 	#黑鐵-呉爾羅
 	#艦種フレームは黑鐵-高天原の転用
 	pdxmesh = {
-		name = "N_fe_01_titan_01_mesh"
+		name = "N_fe_01_SuperDreadnought_01_mesh"
 		file = "gfx/models/ships/N_fe/N_fe_01_titan_01.mesh"
 		scale = 1.5
 		animation = { id = "idle"			type = "N_fe_01_titan_01_idle_animation" }
@@ -228,7 +228,7 @@ objectTypes = {
 
 	#黑鐵-高天原
 	pdxmesh = {
-		name = "N_fe_01_flagship_baseframe_mesh"
+		name = "N_fe_01_Superflagship_baseframe_mesh"
 		file = "gfx/models/ships/N_fe/N_fe_01_flagship_baseframe.mesh"
 		animation = { id = "idle"		type = "pirate_01_galleon_idle_animation" }
 		animation = { id = "death"		type = "N_fe_01_flagship_baseframe_death_animation" }
@@ -261,16 +261,6 @@ objectTypes = {
 			shader = "PdxMeshShip"
 		}
 	}
-
-
-
-
-
-
-
-
-
-
 }
 
 

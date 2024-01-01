@@ -555,7 +555,7 @@ entity = {
 	}
 	
 	state = { name = "death" state_time = 5 }
-	scale = 0.75
+	scale = 1.00
 }
 
 entity = {
@@ -574,7 +574,7 @@ entity = {
 	}
 	
 	state = { name = "death" state_time = 5 }
-	scale = 0.75
+	scale = 1.00
 }
 
 
@@ -667,7 +667,7 @@ entity = {
 	}
 	
 	state = { name = "death" state_time = 5 }
-	scale = 0.75
+	scale = 1.00
 }
 
 
@@ -1505,9 +1505,9 @@ entity = {
 
 
 entity = {
-	name = "KTW_Godzilla_entity"
-	pdxmesh = "N_fe_01_flagship_baseframe_mesh"
-	scale = 1.0
+	name = "KTW_SuperDreadnought_entity"
+	pdxmesh = "humanoid_01_battleship_frame_mesh"
+	scale = 1.2
 	
 	default_state = "idle"
 	state = { name = "idle" animation = "idle"
@@ -1549,7 +1549,7 @@ entity = {
 
 entity = {
 	name = "N_fe_01_titan_01_entity"
-	pdxmesh = "N_fe_01_titan_01_mesh"
+	pdxmesh = "N_fe_01_SuperDreadnought_01_mesh"
 	
 	get_state_from_parent = yes
 
@@ -1747,8 +1747,8 @@ entity = {
 
 
 entity = {
-	name = "KTW_Takamagahara_entity"
-	pdxmesh = "N_fe_01_flagship_baseframe_mesh"
+	name = "KTW_SuperFlagShip_entity"
+	pdxmesh = "N_fe_01_Superflagship_baseframe_mesh"
 	scale = 2.0
 	
 	default_state = "idle"
