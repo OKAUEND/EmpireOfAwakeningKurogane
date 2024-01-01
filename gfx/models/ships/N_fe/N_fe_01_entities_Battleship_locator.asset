@@ -172,7 +172,7 @@ entity = {
 	}
 	
 	state = { name = "death" state_time = 5 }
-	scale = 0.75
+	scale = 1.00
 }
 
 entity = {
@@ -187,7 +187,7 @@ entity = {
 	}
 	
 	state = { name = "death" state_time = 5 }
-	scale = 0.75
+	scale = 1.00
 }
 
 
@@ -238,7 +238,7 @@ entity = {
 	}
 	
 	state = { name = "death" state_time = 5 }
-	scale = 0.75
+	scale = 1.00
 }
 
 
