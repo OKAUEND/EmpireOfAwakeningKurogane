@@ -1506,7 +1506,7 @@ entity = {
 
 entity = {
 	name = "KTW_SuperDreadnought_entity"
-	pdxmesh = "humanoid_01_battleship_frame_mesh"
+	pdxmesh = "N_fe_01_flagship_frame_mesh"
 	scale = 1.2
 	
 	default_state = "idle"
@@ -1732,23 +1732,12 @@ entity = {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 #########################################黑鐵-高天原###############################################################################
 
 
 entity = {
 	name = "KTW_SuperFlagShip_entity"
-	pdxmesh = "N_fe_01_Superflagship_baseframe_mesh"
+	pdxmesh = "N_fe_01_flagship_frame_mesh"
 	scale = 2.0
 	
 	default_state = "idle"
@@ -1792,7 +1781,7 @@ entity = {
 
 entity = {
 	name = "N_fe_01_flagship_entity"
-	pdxmesh = "N_fe_01_flagship_frame_mesh"
+	pdxmesh = "N_fe_01_Superflagship_baseframe_mesh"
 	scale = 1.0
 	
 	default_state = "idle"
