@@ -18,7 +18,8 @@ KTW_SuperDreadnought = {
 	fleet_slot_size = 14
 	section_slots = {
 		"bow" = { locator = "root" } 
-		"mid" = { locator = "root" }
+		"mid1" = { locator = "root" }
+		"mid2" = { locator = "root" }
 		"stern" = { locator = "root" }
 	 }
 	num_target_locators = 10
