@@ -13,7 +13,7 @@
 #黑鐵-陸奥
 #デフォルトで専用砲塔を使用
 ship_section_template = {
-	key = "KTW_BATTLESHIP_MID_1"
+	key = "KTW_BATTLESHIP_MID_01"
 	ship_size = battleship
 
 	#NSC
@@ -115,11 +115,11 @@ ship_section_template = {
 
 #BOW
 ship_section_template = {
-	key = "KTW_BATTLESHIP_BOW_1_A"
+	key = "KTW_BATTLESHIP_BOW_01_A"
 	ship_size = battleship
 
 	#NSC
-	fits_on_slot = BOW
+	fits_on_slot = bow
 
 	entity = "N_fe_01_battleship_10_locator_entity"
 	icon = "GFX_ship_part_core_mid"
@@ -176,11 +176,11 @@ ship_section_template = {
 }
 
 ship_section_template = {
-	key = "KTW_BATTLESHIP_BOW_1_B"
+	key = "KTW_BATTLESHIP_BOW_01_B"
 	ship_size = battleship
 
 	#NSC
-	fits_on_slot = BOW
+	fits_on_slot = bow
 
 	entity = "N_fe_01_battleship_10_locator_entity"
 	icon = "GFX_ship_part_core_mid"
@@ -279,7 +279,7 @@ ship_section_template = {
 
 #STERN
 ship_section_template = {
-	key = "KTW_BATTLESHIP_STERN_1"
+	key = "KTW_BATTLESHIP_STERN_01"
 	ship_size = battleship
 
 	#NSC
@@ -302,7 +302,7 @@ ship_section_template = {
 #黑鐵-比叡
 #デフォルトで専用砲塔を使用
 ship_section_template = {
-	key = "KTW_BATTLESHIP_MID_03_A"
+	key = "KTW_BATTLESHIP_MID_02_A"
 	ship_size = battleship
 
 	#NSC
@@ -390,7 +390,7 @@ ship_section_template = {
 }
 
 ship_section_template = {
-	key = "KTW_BATTLESHIP_MID_03_B"
+	key = "KTW_BATTLESHIP_MID_02_B"
 	ship_size = battleship
 
 	#NSC
@@ -459,7 +459,7 @@ ship_section_template = {
 
 #BOW
 ship_section_template = {
-	key = "KTW_BATTLESHIP_BOW_03_A"
+	key = "KTW_BATTLESHIP_BOW_02_A"
 	ship_size = battleship
 
 	#NSC
@@ -519,7 +519,7 @@ ship_section_template = {
 }
 
 ship_section_template = {
-	key = "KTW_BATTLESHIP_BOW_03_B"
+	key = "KTW_BATTLESHIP_BOW_02_B"
 	ship_size = battleship
 
 	#NSC
@@ -580,7 +580,7 @@ ship_section_template = {
 
 #STERN
 ship_section_template = {
-	key = "KTW_BATTLESHIP_STERN_03"
+	key = "KTW_BATTLESHIP_STERN_02"
 	ship_size = battleship
 
 	#NSC
@@ -614,7 +614,7 @@ ship_section_template = {
 #黑鐵-金剛
 #デフォルトで専用砲塔を使用
 ship_section_template = {
-	key = "KTW_BATTLESHIP_MID_02_A"
+	key = "KTW_BATTLESHIP_MID_03_A"
 	ship_size = battleship
 	#NSC
 	fits_on_slot = mid
@@ -749,7 +749,7 @@ ship_section_template = {
 }
 
 ship_section_template = {
-	key = "KTW_BATTLESHIP_MID_02_B"
+	key = "KTW_BATTLESHIP_MID_03_B"
 	ship_size = battleship
 
 	#NSC
@@ -885,7 +885,7 @@ ship_section_template = {
 }
 
 ship_section_template = {
-	key = "KTW_BATTLESHIP_MID_02_C"
+	key = "KTW_BATTLESHIP_MID_03_C"
 	ship_size = battleship
 
 	#NSC
@@ -1022,7 +1022,7 @@ ship_section_template = {
 
 #BOW
 ship_section_template = {
-	key = "KTW_BATTLESHIP_BOW_02_A"
+	key = "KTW_BATTLESHIP_BOW_03_A"
 	ship_size = battleship
 
 	#NSC
@@ -1103,7 +1103,7 @@ ship_section_template = {
 }
 
 ship_section_template = {
-	key = "KTW_BATTLESHIP_BOW_02_B"
+	key = "KTW_BATTLESHIP_BOW_03_B"
 	ship_size = battleship
 
 	#NSC
@@ -1184,7 +1184,7 @@ ship_section_template = {
 }
 
 ship_section_template = {
-	key = "KTW_BATTLESHIP_BOW_02_C"
+	key = "KTW_BATTLESHIP_BOW_03_C"
 	ship_size = battleship
 
 	#NSC
@@ -1266,7 +1266,7 @@ ship_section_template = {
 
 #STERN
 ship_section_template = {
-	key = "KTW_BATTLESHIP_STERN_02_A"
+	key = "KTW_BATTLESHIP_STERN_03_A"
 	ship_size = battleship
 
 	#NSC
@@ -1350,7 +1350,7 @@ ship_section_template = {
 }
 
 ship_section_template = {
-	key = "KTW_BATTLESHIP_STERN_02_B"
+	key = "KTW_BATTLESHIP_STERN_03_B"
 	ship_size = battleship
 
 	#NSC

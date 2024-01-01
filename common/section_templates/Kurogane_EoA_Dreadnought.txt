@@ -7,21 +7,17 @@
 @cost3 = 400
 @cost4 = 450
 
-###########
-### BOW ###
-###########
-
-#黑鐵-武蔵
-#タイタン用
+########################################################
+#加賀
 #デフォルトで専用砲塔を使用
 ship_section_template = {
-	key = "KTW_DREADNOUGHT_MID_01"
+	key = "KTW_DREADNOUGHT_MID1_01"
 
 	#NSC
 	ship_size = Dreadnought
 
 	#NSC
-	fits_on_slot = bow
+	fits_on_slot = mid1
 
 	entity = "N_fe_01_battleship_12_entity"
 	icon = "GFX_ship_part_core_mid"
@@ -62,6 +58,916 @@ ship_section_template = {
 		locatorname = "medium_gun_02"
 	}
 	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "KTW_turret_M"
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = "KTW_turret_M"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = "KTW_turret_M"
+		locatorname = "KTW_invisible_medium_fixed"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = "KTW_turret_M"
+		locatorname = "KTW_invisible_medium_fixed"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "KTW_turret_PD"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "KTW_turret_PD"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "KTW_turret_PD"
+		locatorname = "small_gun_07"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "KTW_turret_PD"
+		locatorname = "small_gun_08"
+	}
+
+	prerequisites = { "tech_KTW_colossus" }
+
+	large_utility_slots = 10
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+# BOW
+ship_section_template = {
+	key = "KTW_DREADNOUGHT_BOW_01"
+
+	#NSC
+	ship_size = Dreadnought
+
+	#NSC
+	fits_on_slot = bow
+
+	entity = "N_fe_01_battleship_12_locator_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "xl_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "xl_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_03"
+		template = "invisible_extra_large_fixed"
+		locatorname = "xl_gun_03"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_04"
+		template = "invisible_extra_large_fixed"
+		locatorname = "xl_gun_04"
+	}
+
+	prerequisites = { "tech_KTW_colossus" }
+
+	aux_utility_slots = 4
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+# MID2
+ship_section_template = {
+	key = "KTW_DREADNOUGHT_MID2_01"
+
+	#NSC
+	ship_size = Dreadnought
+
+	#NSC
+	fits_on_slot = mid2
+
+	entity = "N_fe_01_battleship_12_locator_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "KTW_turret_L_S"
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "KTW_turret_L_S"
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "KTW_turret_M_S"
+		locatorname = "small_gun_09"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "KTW_turret_M_S"
+		locatorname = "small_gun_15"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "small_gun_09"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "small_gun_15"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "small_gun_09"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "small_gun_15"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "KTW_turret_PD"
+		locatorname = "small_gun_10"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "KTW_turret_PD"
+		locatorname = "small_gun_16"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "KTW_turret_PD"
+		locatorname = "small_gun_13"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "KTW_turret_PD"
+		locatorname = "small_gun_14"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "KTW_invisible_pd_fixed"
+		locatorname = "small_gun_10"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = "KTW_invisible_pd_fixed"
+		locatorname = "small_gun_16"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = "KTW_invisible_pd_fixed"
+		locatorname = "small_gun_13"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = "KTW_invisible_pd_fixed"
+		locatorname = "small_gun_14"
+	}
+
+	prerequisites = { "tech_KTW_colossus" }
+
+	large_utility_slots = 10
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+# MID3
+ship_section_template = {
+	key = "KTW_DREADNOUGHT_MID3_01"
+
+	#NSC
+	ship_size = Dreadnought
+
+	#NSC
+	fits_on_slot = mid3
+
+	entity = "N_fe_01_battleship_12_locator_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "KTW_turret_L_S"
+		locatorname = "medium_gun_07"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "KTW_turret_L_S"
+		locatorname = "medium_gun_08"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "medium_gun_07"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "medium_gun_08"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "medium_gun_07"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "medium_gun_08"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "KTW_turret_M_S"
+		locatorname = "small_gun_11"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "KTW_turret_M_S"
+		locatorname = "small_gun_19"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "small_gun_11"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "small_gun_19"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "small_gun_11"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "small_gun_19"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "KTW_turret_PD"
+		locatorname = "small_gun_12"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "KTW_turret_PD"
+		locatorname = "small_gun_20"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "KTW_turret_PD"
+		locatorname = "small_gun_17"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "KTW_turret_PD"
+		locatorname = "small_gun_28"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "KTW_invisible_pd_fixed"
+		locatorname = "small_gun_12"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = "KTW_invisible_pd_fixed"
+		locatorname = "small_gun_20"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = "KTW_invisible_pd_fixed"
+		locatorname = "small_gun_17"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = "KTW_invisible_pd_fixed"
+		locatorname = "small_gun_28"
+	}
+
+	prerequisites = { "tech_KTW_colossus" }
+
+	large_utility_slots = 10
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+# STERN
+ship_section_template = {
+	key = "KTW_DREADNOUGHT_STERN_01_A"
+
+	#NSC
+	ship_size = Dreadnought
+
+	#NSC
+	fits_on_slot = stern
+
+	entity = "N_fe_01_battleship_12_locator_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "KTW_turret_L_S"
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "KTW_turret_L_S"
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = "KTW_turret_L_S"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = "KTW_turret_L_S"
+		locatorname = "small_gun_06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "small_gun_05"
+	}
+
+	prerequisites = { "tech_KTW_colossus" }
+
+	large_utility_slots = 10
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "KTW_DREADNOUGHT_STERN_01_B"
+
+	#NSC
+	ship_size = Dreadnought
+
+	#NSC
+	fits_on_slot = stern
+
+	entity = "N_fe_01_battleship_12_locator_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "KTW_turret_G"
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "KTW_turret_G"
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = "KTW_turret_G"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = "KTW_turret_G"
+		locatorname = "small_gun_06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "KTW_turret_G"
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "KTW_turret_G"
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = "KTW_turret_G"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = "KTW_turret_G"
+		locatorname = "small_gun_06"
+	}
+
+	prerequisites = { "tech_KTW_colossus" }
+
+	large_utility_slots = 10
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+########################################################
+#黑鐵-大和
+#デフォルトで専用砲塔を使用
+ship_section_template = {
+	key = "KTW_DREADNOUGHT_MID_02"
+
+	#NSC
+	ship_size = Dreadnought
+
+	#NSC
+	fits_on_slot = mid1
+
+	entity = "N_fe_01_battleship_11_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "KTW_turret_L_S"
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = "KTW_turret_L_S"
+		locatorname = "large_gun_07"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_08"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "KTW_turret_PD"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "KTW_turret_PD"
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "KTW_invisible_pd_fixed"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "KTW_invisible_pd_fixed"
+		locatorname = "small_gun_04"
+	}
+
+	prerequisites = { "tech_KTW_colossus" }
+
+	large_utility_slots = 14
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+#BOW
+ship_section_template = {
+	key = "KTW_DREADNOUGHT_BOW_02"
+
+	#NSC
+	ship_size = Dreadnought
+
+	#NSC
+	fits_on_slot = bow
+
+	entity = "N_fe_01_battleship_11_locator_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		template = "invisible_extra_large_fixed"
+		locatorname = "xl_gun_01"
+	}
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		template = "invisible_extra_large_fixed"
+		locatorname = "xl_gun_01"
+	}
+
+	prerequisites = { "tech_KTW_colossus" }
+
+	aux_utility_slots = 8
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+#MID2
+ship_section_template = {
+	key = "KTW_DREADNOUGHT_MID2_02"
+
+	#NSC
+	ship_size = Dreadnought
+
+	#NSC
+	fits_on_slot = mid2
+
+	entity = "N_fe_01_battleship_11_locator_entity"
+	icon = "GFX_ship_part_core_mid"
+
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_09"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_10"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "KTW_turret_M"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "KTW_turret_M"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "KTW_turret_M"
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = "KTW_turret_M"
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_07"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_08"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "KTW_turret_PD"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "KTW_turret_PD"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "KTW_invisible_pd_fixed"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "KTW_invisible_pd_fixed"
+		locatorname = "small_gun_02"
+	}
+
+	prerequisites = { "tech_KTW_colossus" }
+
+	large_utility_slots = 14
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+#MID3
+ship_section_template = {
+	key = "KTW_DREADNOUGHT_MID3_02"
+
+	#NSC
+	ship_size = Dreadnought
+
+	#NSC
+	fits_on_slot = mid3
+
+	entity = "N_fe_01_battleship_11_locator_entity"
+	icon = "GFX_ship_part_core_mid"
+
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_gun_09"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_gun_10"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_07"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_08"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "KTW_invisible_pd_fixed"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "KTW_invisible_pd_fixed"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "KTW_invisible_pd_fixed"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "KTW_invisible_pd_fixed"
+		locatorname = "small_gun_02"
+	}
+
+	prerequisites = { "tech_KTW_colossus" }
+
+	large_utility_slots = 14
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+#STERN
+ship_section_template = {
+	key = "KTW_DREADNOUGHT_STERN_02_A"
+
+	#NSC
+	ship_size = Dreadnought
+
+	#NSC
+	fits_on_slot = stern
+
+	entity = "N_fe_01_battleship_11_locator_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "KTW_turret_S2A"
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "KTW_turret_S2A"
+		locatorname = "small_gun_06"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "KTW_turret_S2A"
+		locatorname = "small_gun_07"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "KTW_invisible_small_fixed"
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "KTW_invisible_small_fixed"
+		locatorname = "small_gun_06"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = "KTW_invisible_small_fixed"
+		locatorname = "small_gun_07"
+	}
+
+	prerequisites = { "tech_KTW_colossus" }
+
+	large_utility_slots = 14
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "KTW_DREADNOUGHT_STERN_02_B"
+
+	#NSC
+	ship_size = Dreadnought
+
+	#NSC
+	fits_on_slot = stern
+
+	entity = "N_fe_01_battleship_11_locator_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "KTW_tinvisible_torpedo_fixed"
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "KTW_tinvisible_torpedo_fixed"
+		locatorname = "small_gun_06"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "KTW_tinvisible_torpedo_fixed"
+		locatorname = "small_gun_07"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "KTW_tinvisible_torpedo_fixed"
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "KTW_tinvisible_torpedo_fixed"
+		locatorname = "small_gun_06"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = "KTW_tinvisible_torpedo_fixed"
+		locatorname = "small_gun_07"
+	}
+
+	prerequisites = { "tech_KTW_colossus" }
+
+	large_utility_slots = 14
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+########################################################
+#黑鐵-武蔵
+#デフォルトで専用砲塔を使用
+ship_section_template = {
+	key = "KTW_DREADNOUGHT_MID1_03"
+
+	#NSC
+	ship_size = Dreadnought
+
+	#NSC
+	fits_on_slot = mid1
+
+	entity = "N_fe_01_battleship_15_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_07"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_07"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "KTW_turret_M2A"
+		locatorname = "medium_gun_13"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "KTW_turret_M2A"
+		locatorname = "medium_gun_14"
+	}
+	component_slot = {
 		name = "SMALL_GUN_01"
 		template = "KTW_turret_PD"
 		locatorname = "small_gun_01"
@@ -91,36 +997,6 @@ ship_section_template = {
 		template = "KTW_turret_PD"
 		locatorname = "small_gun_06"
 	}
-	component_slot = {
-		name = "SMALL_GUN_07"
-		template = "KTW_turret_PD"
-		locatorname = "small_gun_07"
-	}
-	component_slot = {
-		name = "SMALL_GUN_08"
-		template = "KTW_turret_PD"
-		locatorname = "small_gun_08"
-	}
-	component_slot = {
-		name = "EXTRA_LARGE_01"
-		template = "invisible_extra_large_fixed"
-		locatorname = "xl_gun_01"
-	}
-	component_slot = {
-		name = "EXTRA_LARGE_02"
-		template = "invisible_extra_large_fixed"
-		locatorname = "xl_gun_01"
-	}
-	component_slot = {
-		name = "EXTRA_LARGE_03"
-		template = "invisible_extra_large_fixed"
-		locatorname = "xl_gun_03"
-	}
-	component_slot = {
-		name = "EXTRA_LARGE_04"
-		template = "invisible_extra_large_fixed"
-		locatorname = "xl_gun_04"
-	}
 
 	prerequisites = { "tech_KTW_colossus" }
 
@@ -131,11 +1007,10 @@ ship_section_template = {
 	}
 }
 
-
-#黑鐵-大和
+#BOW
 #デフォルトで専用砲塔を使用
 ship_section_template = {
-	key = "KTW_DREADNOUGHT_MID_02"
+	key = "KTW_DREADNOUGHT_BOW_03"
 
 	#NSC
 	ship_size = Dreadnought
@@ -143,135 +1018,9 @@ ship_section_template = {
 	#NSC
 	fits_on_slot = bow
 
-	entity = "N_fe_01_battleship_11_entity"
+	entity = "N_fe_01_battleship_15_locator_entity"
 	icon = "GFX_ship_part_core_mid"
 
-	component_slot = {
-		name = "LARGE_GUN_01"
-		template = "KTW_turret_L"
-		locatorname = "large_gun_01"
-	}
-	component_slot = {
-		name = "LARGE_GUN_02"
-		template = "KTW_turret_L"
-		locatorname = "large_gun_02"
-	}
-	component_slot = {
-		name = "LARGE_GUN_03"
-		template = "KTW_turret_L"
-		locatorname = "large_gun_03"
-	}
-	component_slot = {
-		name = "LARGE_GUN_04"
-		template = "KTW_turret_L"
-		locatorname = "large_gun_04"
-	}
-	component_slot = {
-		name = "LARGE_GUN_05"
-		template = "KTW_turret_L"
-		locatorname = "large_gun_05"
-	}
-	component_slot = {
-		name = "LARGE_GUN_06"
-		template = "KTW_turret_L"
-		locatorname = "large_gun_06"
-	}
-	component_slot = {
-		name = "LARGE_GUN_07"
-		template = "KTW_turret_L"
-		locatorname = "large_gun_07"
-	}
-	component_slot = {
-		name = "LARGE_GUN_08"
-		template = "KTW_turret_L"
-		locatorname = "large_gun_08"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_01"
-		template = "KTW_turret_M"
-		locatorname = "medium_gun_01"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_02"
-		template = "KTW_turret_M"
-		locatorname = "medium_gun_02"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_03"
-		template = "KTW_turret_M"
-		locatorname = "medium_gun_03"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_04"
-		template = "KTW_turret_M"
-		locatorname = "medium_gun_04"
-	}
-	component_slot = {
-		name = "EXTRA_LARGE_01"
-		template = "invisible_extra_large_fixed"
-		locatorname = "xl_gun_01"
-	}
-	component_slot = {
-		name = "EXTRA_LARGE_02"
-		template = "invisible_extra_large_fixed"
-		locatorname = "xl_gun_01"
-	}
-
-	prerequisites = { "tech_KTW_colossus" }
-
-	large_utility_slots = 3
-
-	resources = {
-		category = ship_sections
-	}
-}
-
-
-#黑鐵-紀伊
-#タイタン用
-#デフォルトで専用砲塔を使用
-ship_section_template = {
-	key = "KTW_DREADNOUGHT_MID_03"
-
-	#NSC
-	ship_size = Dreadnought
-
-	#NSC
-	fits_on_slot = bow
-
-	entity = "N_fe_01_battleship_15_entity"
-	icon = "GFX_ship_part_core_mid"
-
-	component_slot = {
-		name = "LARGE_GUN_01"
-		template = "KTW_turret_L"
-		locatorname = "large_gun_01"
-	}
-	component_slot = {
-		name = "LARGE_GUN_02"
-		template = "KTW_turret_L"
-		locatorname = "large_gun_02"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_01"
-		template = "KTW_turret_M"
-		locatorname = "medium_gun_01"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_02"
-		template = "KTW_turret_M"
-		locatorname = "medium_gun_02"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_03"
-		template = "KTW_turret_M"
-		locatorname = "medium_gun_03"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_04"
-		template = "KTW_turret_M"
-		locatorname = "medium_gun_04"
-	}
 	component_slot = {
 		name = "EXTRA_LARGE_01"
 		template = "invisible_titanic_fixed"
@@ -299,6 +1048,115 @@ ship_section_template = {
 	}
 	prerequisites = { "tech_KTW_colossus" }
 
+	large_utility_slots = 5
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+#MID2
+ship_section_template = {
+	key = "KTW_DREADNOUGHT_MID2_03"
+
+	#NSC
+	ship_size = Dreadnought
+
+	#NSC
+	fits_on_slot = mid2
+
+	entity = "N_fe_01_battleship_15_locator_entity"
+	icon = "GFX_ship_part_core_mid"
+
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_09"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_10"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_11"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_12"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_gun_09"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_gun_10"
+	}
+	component_slot = {
+		name = "LARGE_GUN_07"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_gun_11"
+	}
+	component_slot = {
+		name = "LARGE_GUN_08"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_gun_12"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "KTW_turret_M2A"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "KTW_turret_M2A"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "KTW_turret_M2A"
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = "KTW_turret_M2A"
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = "KTW_turret_M2A"
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = "KTW_turret_M2A"
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "KTW_turret_S2A"
+		locatorname = "small_gun_07"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "KTW_turret_S2A"
+		locatorname = "small_gun_08"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "KTW_turret_S2A"
+		locatorname = "small_gun_09"
+	}
+
+	prerequisites = { "tech_KTW_colossus" }
+
 	large_utility_slots = 9
 
 	resources = {
@@ -306,6 +1164,247 @@ ship_section_template = {
 	}
 }
 
+#MID3
+ship_section_template = {
+	key = "KTW_DREADNOUGHT_MID3_03"
+
+	#NSC
+	ship_size = Dreadnought
+
+	#NSC
+	fits_on_slot = mid3
+
+	entity = "N_fe_01_battleship_15_locator_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_gun_09"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_gun_10"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_gun_11"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_gun_12"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_gun_09"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_gun_10"
+	}
+	component_slot = {
+		name = "LARGE_GUN_07"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_gun_11"
+	}
+	component_slot = {
+		name = "LARGE_GUN_08"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_gun_12"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "KTW_invisible_small_fixed"
+		locatorname = "small_gun_07"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "KTW_invisible_small_fixed"
+		locatorname = "small_gun_08"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "KTW_invisible_small_fixed"
+		locatorname = "small_gun_09"
+	}
+	prerequisites = { "tech_KTW_colossus" }
+
+	large_utility_slots = 9
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+#STERN
+ship_section_template = {
+	key = "KTW_DREADNOUGHT_STERN_03_A"
+
+	#NSC
+	ship_size = Dreadnought
+
+	#NSC
+	fits_on_slot = stern
+
+	entity = "N_fe_01_battleship_15_locator_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "KTW_tinvisible_torpedo_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "KTW_tinvisible_torpedo_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "KTW_tinvisible_torpedo_fixed"
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = "KTW_tinvisible_torpedo_fixed"
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = "KTW_tinvisible_torpedo_fixed"
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = "KTW_tinvisible_torpedo_fixed"
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_07"
+		template = "KTW_tinvisible_torpedo_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_08"
+		template = "KTW_tinvisible_torpedo_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_09"
+		template = "KTW_tinvisible_torpedo_fixed"
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_10"
+		template = "KTW_tinvisible_torpedo_fixed"
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_11"
+		template = "KTW_tinvisible_torpedo_fixed"
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_12"
+		template = "KTW_tinvisible_torpedo_fixed"
+		locatorname = "medium_gun_06"
+	}
+
+	prerequisites = { "tech_KTW_colossus" }
+
+	large_utility_slots = 9
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+ship_section_template = {
+	key = "KTW_DREADNOUGHT_STERN_03_A"
+
+	#NSC
+	ship_size = Dreadnought
+
+	#NSC
+	fits_on_slot = stern
+
+	entity = "N_fe_01_battleship_15_locator_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_gun_06"
+	}
+
+	prerequisites = { "tech_KTW_colossus" }
+
+	large_utility_slots = 9
+
+	resources = {
+		category = ship_sections
+	}
+}
 # #黑鐵-津軽
 # #デフォルトで専用砲塔を使用
 # ship_section_template = {
