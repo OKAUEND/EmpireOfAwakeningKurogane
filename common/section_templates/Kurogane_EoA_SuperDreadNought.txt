@@ -8,7 +8,7 @@ ship_section_template = {
 	#NSC
 	ship_size = KTW_SuperDreadnought
 
-	fits_on_slot = "mid1"
+	fits_on_slot = mid1
 
 	entity = "N_fe_01_titan_01_entity"
 	icon = "GFX_ship_part_core_mid"
@@ -114,7 +114,7 @@ ship_section_template = {
 	key = "KTW_SUPER_DREADNOUGHT_MID_2"
 	ship_size = KTW_SuperDreadnought
 
-	fits_on_slot = "mid1"
+	fits_on_slot = mid1
 
 
 	entity = "N_fe_01_titan_01_entity"
@@ -231,7 +231,7 @@ ship_section_template = {
 	key = "KTW_SUPER_DREADNOUGHT_MID2_2"
 	ship_size = KTW_SuperDreadnought
 
-	fits_on_slot = "mid2"
+	fits_on_slot = mid2
 
 	entity = "N_fe_01_titan_01_locator_entity"
 	icon = "GFX_ship_part_core_mid"
@@ -315,7 +315,7 @@ ship_section_template = {
 	ship_size = KTW_SuperDreadnought
 
 
-	fits_on_slot = "bow"
+	fits_on_slot = bow
 
 
 	entity = "N_fe_01_titan_01_locator_entity"
@@ -424,7 +424,7 @@ ship_section_template = {
 	ship_size = KTW_SuperDreadnought
 
 
-	fits_on_slot = "stern"
+	fits_on_slot = stern
 
 
 	entity = "N_fe_01_titan_01_locator_entity"
