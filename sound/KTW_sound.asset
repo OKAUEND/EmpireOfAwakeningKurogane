@@ -1,0 +1,263 @@
+
+
+category = {
+ name = "Effects"
+ soundeffects = {
+
+	KTW_plasmashockcannon
+	distance_KTW_plasmashockcannon
+	KTW_cannon
+	distance_KTW_cannon
+	KTW_pd_laser
+	distance_KTW_pd_laser
+	KTW_pd_cannon
+	distance_KTW_pd_cannon
+	KTW_radiant_heat_rays_fire
+	distance_KTW_radiant_heat_rays_fire
+	KTW_radiant_heat_rays_muzzle
+	distance_KTW_radiant_heat_rays_muzzle
+
+
+	}
+}
+
+
+
+
+
+
+
+
+
+soundeffect = {
+	name = KTW_plasmashockcannon
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = KTW_plasmashockcannon_01
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.8 }
+	volume_random_offset = { 0.0 0.25 }
+	volume = 1.0
+	fade_out = 0.1
+}
+
+soundeffect = {
+	name = distance_KTW_plasmashockcannon
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = KTW_plasmashockcannon_01
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.5 }
+	volume_random_offset = { 0.0 0.25 }
+	volume = 0.5
+	fade_out = 0.1
+}
+
+soundeffect = {
+	name = KTW_cannon
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = KTW_cannon_01
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.8 }
+	volume_random_offset = { 0.0 0.25 }
+	volume = 1.0
+	fade_out = 0.1
+}
+
+soundeffect = {
+	name = distance_KTW_cannon
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = KTW_cannon_01
+	}
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.5 }
+	volume_random_offset = { 0.0 0.25 }
+	volume = 0.5
+	fade_out = 0.1
+}
+
+soundeffect = {
+	name = KTW_pd_laser
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = KTW_pd_laser_01
+	}
+	is3d = yes
+	max_audible = 3
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.8 }
+	volume_random_offset = { 0.0 0.25 }
+	volume = 1.0
+	fade_out = 0.1
+}
+
+soundeffect = {
+	name = distance_KTW_pd_laser
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = KTW_pd_laser_01
+	}
+	is3d = yes
+	max_audible = 3
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.5 }
+	volume_random_offset = { 0.0 0.25 }
+	volume = 0.5
+	fade_out = 0.1
+}
+
+soundeffect = {
+	name = KTW_pd_cannon
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = KTW_pd_cannon_01
+	}
+	is3d = yes
+	max_audible = 3
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.8 }
+	volume_random_offset = { 0.0 0.25 }
+	volume = 1.0
+	fade_out = 0.1
+}
+
+soundeffect = {
+	name = distance_KTW_pd_cannon
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = KTW_pd_cannon_01
+	}
+	is3d = yes
+	max_audible = 3
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.5 }
+	volume_random_offset = { 0.0 0.25 }
+	volume = 0.5
+	fade_out = 0.1
+}
+
+
+soundeffect = {
+	name = KTW_radiant_heat_rays_muzzle
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = KTW_radiant_heat_rays_muzzle_01
+	}
+	is3d = yes
+	max_audible = 1
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.8 }
+	volume_random_offset = { 0.0 0.25 }
+	volume = 1.0
+	fade_out = 0.1
+}
+
+soundeffect = {
+	name = distance_KTW_radiant_heat_rays_muzzle
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = KTW_radiant_heat_rays_muzzle_01
+	}
+	is3d = yes
+	max_audible = 1
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.5 }
+	volume_random_offset = { 0.0 0.25 }
+	volume = 0.5
+	fade_out = 0.1
+}
+
+soundeffect = {
+	name = KTW_radiant_heat_rays_fire
+	falloff = "falloff_weapons_xl"
+	sounds = {
+		sound = KTW_radiant_heat_rays_fire_01
+	}
+	is3d = yes
+	max_audible = 1
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.8 }
+	volume_random_offset = { 0.0 0.25 }
+	volume = 1.0
+	fade_out = 0.1
+}
+
+soundeffect = {
+	name = distance_KTW_radiant_heat_rays_fire
+	falloff = "falloff_weapons_distance"
+	sounds = {
+		sound = KTW_radiant_heat_rays_fire_01
+	}
+	is3d = yes
+	max_audible = 1
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.5 }
+	volume_random_offset = { 0.0 0.25 }
+	volume = 0.5
+	fade_out = 0.1
+}
+
+
+
+
+
+
+
+
+
+sound = 
+{
+	name = "KTW_plasmashockcannon_01"
+	file = "weapons/KTW_plasmashockcannon_01.wav"
+	volume = 0.3
+}
+
+sound = 
+{
+	name = "KTW_cannon_01"
+	file = "weapons/KTW_cannon_01.wav"
+	volume = 0.3
+}
+
+sound = 
+{
+	name = "KTW_pd_laser_01"
+	file = "weapons/KTW_pd_laser_01.wav"
+	volume = 0.3
+}
+
+sound = 
+{
+	name = "KTW_pd_cannon_01"
+	file = "weapons/KTW_pd_cannon_01.wav"
+	volume = 0.4
+}
+
+
+
+sound = 
+{
+	name = "KTW_radiant_heat_rays_fire_01"
+	file = "weapons/KTW_radiant_heat_rays_fire_01.wav"
+	volume = 0.5
+}
+sound = 
+{
+	name = "KTW_radiant_heat_rays_muzzle_01"
+	file = "weapons/KTW_radiant_heat_rays_muzzle_01.wav"
+	volume = 0.5
+}
+
