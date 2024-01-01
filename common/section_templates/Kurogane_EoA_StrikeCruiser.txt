@@ -10,12 +10,12 @@
 #デフォルトで専用砲塔を使用
 ship_section_template = {
 	key = "KTW_STRIKECRUISER_BOW_01"
-	ship_size = StrikeCruiser
+	ship_size = cruiser
 
 	#NSC
 	fits_on_slot = bow
 
-	entity = "N_fe_01_cruiser_03_entity"
+	entity = "N_fe_01_cruiser_03_locator_entity"
 	icon = "GFX_ship_part_core_bow"
 
 
@@ -66,12 +66,12 @@ ship_section_template = {
 #MID
 ship_section_template = {
 	key = "KTW_STRIKECRUISER_MID_01"
-	ship_size = StrikeCruiser
+	ship_size = cruiser
 
 	#NSC
 	fits_on_slot = mid
 
-	entity = "N_fe_01_cruiser_03_locator_entity"
+	entity = "N_fe_01_cruiser_03_entity"
 	icon = "GFX_ship_part_core_mid"
 
 
@@ -127,7 +127,7 @@ ship_section_template = {
 #STERN
 ship_section_template = {
 	key = "KTW_STRIKECRUISER_STERN_01"
-	ship_size = StrikeCruiser
+	ship_size = cruiser
 
 	#NSC
 	fits_on_slot = stern
@@ -181,12 +181,12 @@ ship_section_template = {
 	key = "KTW_STRIKECRUISER_BOW_02"
 
 	#NSC
-	ship_size = StrikeCruiser
+	ship_size = cruiser
 
 	#NSC
 	fits_on_slot = bow
 
-	entity = "N_fe_01_cruiser_04_entity"
+	entity = "N_fe_01_cruiser_04_locator_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	component_slot = {
@@ -239,12 +239,13 @@ ship_section_template = {
 	key = "KTW_STRIKECRUISER_MID_02"
 
 	#NSC
-	ship_size = StrikeCruiser
+	ship_size = cruiser
 
 	#NSC
 	fits_on_slot = mid
 
-	entity = "N_fe_01_cruiser_04_locator_entity"
+	entity = "N_fe_01_cruiser_04_entity"
+
 	icon = "GFX_ship_part_core_mid"
 
 	component_slot = {
@@ -302,10 +303,10 @@ ship_section_template = {
 	key = "KTW_STRIKECRUISER_STERN_02"
 
 	#NSC
-	ship_size = StrikeCruiser
+	ship_size = cruiser
 
 	#NSC
-	fits_on_slot = mid
+	fits_on_slot = stern
 
 	entity = "N_fe_01_cruiser_04_locator_entity"
 	icon = "GFX_ship_part_core_mid"
@@ -347,12 +348,12 @@ ship_section_template = {
 	key = "KTW_STRIKECRUISER_BOW_04_A"
 
 	#NSC
-	ship_size = StrikeCruiser
+	ship_size = cruiser
 
 	#NSC
 	fits_on_slot = bow
 
-	entity = "N_fe_01_battleship_03_entity"
+	entity = "N_fe_01_battleship_03_locator_entity"
 	icon = "GFX_ship_part_core_bow"
 
 	component_slot = {
@@ -414,12 +415,12 @@ ship_section_template = {
 	key = "KTW_STRIKECRUISER_BOW_04_B"
 
 	#NSC
-	ship_size = StrikeCruiser
+	ship_size = cruiser
 
 	#NSC
 	fits_on_slot = bow
 
-	entity = "N_fe_01_battleship_03_entity"
+	entity = "N_fe_01_battleship_03_locator_entity"
 	icon = "GFX_ship_part_core_bow"
 
 	component_slot = {
@@ -482,12 +483,12 @@ ship_section_template = {
 	key = "KTW_STRIKECRUISER_MID_04_A"
 
 	#NSC
-	ship_size = StrikeCruiser
+	ship_size = cruiser
 
 	#NSC
 	fits_on_slot = mid
 
-	entity = "N_fe_01_battleship_03_locator_entity"
+	entity = "N_fe_01_battleship_03_entity"
 	icon = "GFX_ship_part_core_bow"
 
 	component_slot = {
@@ -549,12 +550,12 @@ ship_section_template = {
 	key = "KTW_STRIKECRUISER_MID_04_B"
 
 	#NSC
-	ship_size = StrikeCruiser
+	ship_size = cruiser
 
 	#NSC
 	fits_on_slot = mid
 
-	entity = "N_fe_01_battleship_03_locator_entity"
+	entity = "N_fe_01_battleship_03_entity"
 	icon = "GFX_ship_part_core_bow"
 
 	component_slot = {
@@ -617,7 +618,7 @@ ship_section_template = {
 	key = "KTW_STRIKECRUISER_STERN_04_A"
 
 	#NSC
-	ship_size = StrikeCruiser
+	ship_size = cruiser
 
 	#NSC
 	fits_on_slot = stern
@@ -665,7 +666,7 @@ ship_section_template = {
 	key = "KTW_STRIKECRUISER_STERN_04_B"
 
 	#NSC
-	ship_size = StrikeCruiser
+	ship_size = cruiser
 
 	#NSC
 	fits_on_slot = stern
@@ -715,12 +716,11 @@ ship_section_template = {
 ship_section_template = {
 	key = "KTW_STRIKECRUISER_MID_05"
 	ship_size = cruiser
-	ship_size = StrikeCruiser
 
 	#NSC
 	fits_on_slot = mid
 
-	entity = "N_fe_01_cruiser_06_locator_entity"
+	entity = "N_fe_01_cruiser_06_entity"
 	icon = "GFX_ship_part_core_mid"
 
 
@@ -780,12 +780,12 @@ ship_section_template = {
 ship_section_template = {
 	key = "KTW_STRIKECRUISER_BOW_05"
 	ship_size = cruiser
-	ship_size = StrikeCruiser
+	ship_size = cruiser
 
 	#NSC
 	fits_on_slot = bow
 
-	entity = "N_fe_01_cruiser_06_entity"
+	entity = "N_fe_01_cruiser_06_locator_entity"
 	icon = "GFX_ship_part_core_bow"
 
 
@@ -813,7 +813,6 @@ ship_section_template = {
 ship_section_template = {
 	key = "KTW_STRIKECRUISER_STERN_05"
 	ship_size = cruiser
-	ship_size = StrikeCruiser
 
 	#NSC
 	fits_on_slot = stern
