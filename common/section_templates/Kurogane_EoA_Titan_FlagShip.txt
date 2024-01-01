@@ -2,7 +2,7 @@
 
 
 ship_section_template = {
-	key = "KTW_NSC2TAKAMAGAHARA_BOW_HULL"	
+	key = "KTW_SUPER_FLAGSHIP_BOW_HULL"	
 	ship_size = KTW_SuperFlagShip
 	fits_on_slot = bow
 	show_draw_components = no
@@ -162,7 +162,7 @@ ship_section_template = {
 
 
 ship_section_template = {
-	key = "KTW_NSC2TAKAMAGAHARA_MID1"	
+	key = "KTW_SUPER_FLAGSHIP_MID1"	
 	ship_size = KTW_SuperFlagShip
 	fits_on_slot = mid1
 	show_draw_components = no
@@ -325,7 +325,7 @@ ship_section_template = {
 
 
 ship_section_template = {
-	key = "KTW_NSC2TAKAMAGAHARA_MID2"	
+	key = "KTW_SUPER_FLAGSHIP_MID2"	
 	ship_size = KTW_SuperFlagShip
 	fits_on_slot = mid2
 	show_draw_components = no
@@ -471,7 +471,7 @@ ship_section_template = {
 
 
 ship_section_template = {
-	key = "KTW_NSC2TAKAMAGAHARA_MID3"	
+	key = "KTW_SUPER_FLAGSHIP_MID3"	
 	ship_size = KTW_SuperFlagShip
 	fits_on_slot = mid3
 	show_draw_components = no
@@ -615,7 +615,7 @@ ship_section_template = {
 
 
 ship_section_template = {
-	key = "KTW_NSC2TAKAMAGAHARA_MID4"	
+	key = "KTW_SUPER_FLAGSHIP_MID4"	
 	ship_size = KTW_SuperFlagShip
 	fits_on_slot = mid4
 	show_draw_components = no
@@ -771,7 +771,7 @@ ship_section_template = {
 
 
 ship_section_template = {
-	key = "KTW_NSC2TAKAMAGAHARA_STERN"	
+	key = "KTW_SUPER_FLAGSHIP_STERN"	
 	ship_size = KTW_SuperFlagShip
 	fits_on_slot = stern
 	show_draw_components = no
