@@ -1,0 +1,494 @@
+objectTypes = {
+
+	#######  NSC  #######	
+	####################################################################
+	#打撃巡洋艦
+	#ベーシックスタイル
+	pdxmesh = {
+		name = "fe_01_eoa_basic_strikecruiser_core_mesh"
+		file = "gfx/models/ships/fe_01/fe_01_eoa_strikecruiser_core.mesh"
+		scale = 6.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		
+		#Mipmap tweaking
+		#texture_diffuse = "512x512.dds"
+		}
+	}
+
+	pdxmesh = {
+		name = "fe_01_eoa_basic_strikecruiser_bow_mesh"
+		file = "gfx/models/ships/fe_01/fe_01_eoa_strikecruiser_bow.mesh"
+		scale = 6.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		
+		#Mipmap tweaking
+		#texture_diffuse = "512x512.dds"
+		}
+	}
+
+	pdxmesh = {
+		name = "fe_01_eoa_basic_strikecruiser_stern_mesh"
+		file = "gfx/models/ships/fe_01/fe_01_eoa_strikecruiser_stern.mesh"
+		scale = 6.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		
+		#Mipmap tweaking
+		#texture_diffuse = "512x512.dds"
+		}
+	}
+
+	pdxmesh = {
+		name = "fe_01_eoa_battlestrike_core_mesh"
+		file = "gfx/models/ships/fe_01/fe_01_eoa_battlestrike_core.mesh"
+		scale = 6.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		
+		#Mipmap tweaking
+		#texture_diffuse = "512x512.dds"
+		}
+	}
+
+	pdxmesh = {
+		name = "fe_01_eoa_battlestrike_locator_mesh"
+		file = "gfx/models/ships/fe_01/fe_01_eoa_battlestrike_locator.mesh"
+		scale = 6.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		
+		#Mipmap tweaking
+		#texture_diffuse = "512x512.dds"
+		}
+	}
+
+	####################################################################
+	#巡洋戦艦
+	#フラットスタイル
+
+	pdxmesh = {
+		name = "fe_01_eoa_flat_battlecruiser_core_mesh"
+		file = "gfx/models/ships/fe_01/fe_01_eoa_flat_battlecruiser_core.mesh"
+		scale = 5.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		
+		#Mipmap tweaking
+		#texture_diffuse = "512x512.dds"
+		}
+	}
+
+	pdxmesh = {
+		name = "fe_01_eoa_flat_battlecruiser_bow_mesh"
+		file = "gfx/models/ships/fe_01/fe_01_eoa_flat_battlecruiser_bow.mesh"
+		scale = 5.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		
+		#Mipmap tweaking
+		#texture_diffuse = "512x512.dds"
+		}
+	}
+
+
+	pdxmesh = {
+		name = "fe_01_eoa_flat_battlecruiser_mid2_mesh"
+		file = "gfx/models/ships/fe_01/fe_01_eoa_flat_battlecruiser_mid2.mesh"
+		scale = 5.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		
+		#Mipmap tweaking
+		#texture_diffuse = "512x512.dds"
+		}
+	}
+
+
+	pdxmesh = {
+		name = "fe_01_eoa_flat_battlecruiser_stern_mesh"
+		file = "gfx/models/ships/fe_01/fe_01_eoa_flat_battlecruiser_stern.mesh"
+		scale = 5.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		
+		#Mipmap tweaking
+		#texture_diffuse = "512x512.dds"
+		}
+	}
+
+	#ミサイルパート
+
+	pdxmesh = {
+			name = "fe_01_eoa_missile_battlecruiser_core_mesh"
+			file = "gfx/models/ships/fe_01/fe_01_eoa_missile_battlecruiser_core.mesh"
+			scale = 8.0
+			meshsettings = {
+				shader = "PdxMeshShip"
+			
+			#Mipmap tweaking
+			#texture_diffuse = "512x512.dds"
+			}
+	}
+
+	pdxmesh = {
+		name = "fe_01_eoa_missile_battlecruiser_locator_mesh"
+		file = "gfx/models/ships/fe_01/fe_01_eoa_missile_battlecruiser_locator.mesh"
+		scale = 8.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		
+		#Mipmap tweaking
+		#texture_diffuse = "512x512.dds"
+		}
+	}
+
+	#ベーシック
+
+	pdxmesh = {
+		name = "fe_01_eoa_basic_battlecruiser_core_mesh"
+		file = "gfx/models/ships/fe_01/fe_01_eoa_basic_battlecruiser_core.mesh"
+		scale = 8.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		
+		#Mipmap tweaking
+		#texture_diffuse = "512x512.dds"
+		}
+	}
+
+	pdxmesh = {
+	name = "fe_01_eoa_basic_battlecruiser_locator_mesh"
+	file = "gfx/models/ships/fe_01/fe_01_eoa_basic_battlecruiser_locator.mesh"
+	scale = 8.0
+	meshsettings = {
+		shader = "PdxMeshShip"
+
+	#Mipmap tweaking
+	#texture_diffuse = "512x512.dds"
+	}
+	}
+
+
+	####################################################################
+
+	pdxmesh = {
+			name = "fe_01_support_mesh"
+			file = "gfx/models/ships/fe_01/fe_01_support.mesh"
+			scale = 4.0
+			meshsettings = {
+				shader = "PdxMeshShip"
+			
+			#Mipmap tweaking
+			#texture_diffuse = "512x512.dds"
+			}
+	}
+
+	pdxmesh = {
+			name = "fe_01_sciencecruiser_mesh"
+			file = "gfx/models/ships/fe_01/fe_01_sciencecruiser.mesh"
+			scale = 50.0
+			meshsettings = {
+				shader = "PdxMeshShip"
+			
+			#Mipmap tweaking
+			#texture_diffuse = "512x512.dds"
+			}
+	}
+
+	####################################################################
+	#護衛空母
+
+	# pdxmesh = {
+	# 		name = "fe_01_eoa_escortcarrier_core_mesh"
+	# 		file = "gfx/models/ships/fe_01/fe_01_eoa_escortcarrier_core.mesh"
+	# 		scale = 5.0
+	# 		meshsettings = {
+	# 			shader = "PdxMeshShip"
+			
+	# 		#Mipmap tweaking
+	# 		#texture_diffuse = "512x512.dds"
+	# 		}
+	# }
+
+	# pdxmesh = {
+	# 	name = "fe_01_eoa_escortcarrier_mid1_mesh"
+	# 	file = "gfx/models/ships/fe_01/fe_01_eoa_escortcarrier_mid1.mesh"
+	# 	scale = 5.0
+	# 	meshsettings = {
+	# 		shader = "PdxMeshShip"
+		
+	# 	#Mipmap tweaking
+	# 	#texture_diffuse = "512x512.dds"
+	# 	}
+	# }
+
+	# pdxmesh = {
+	# 	name = "fe_01_eoa_escortcarrier_mid2_mesh"
+	# 	file = "gfx/models/ships/fe_01/fe_01_eoa_escortcarrier_mid2.mesh"
+	# 	scale = 5.0
+	# 	meshsettings = {
+	# 		shader = "PdxMeshShip"
+		
+	# 	#Mipmap tweaking
+	# 	#texture_diffuse = "512x512.dds"
+	# 	}
+	# }
+
+	# pdxmesh = {
+	# 	name = "fe_01_eoa_escortcarrier_stern_mesh"
+	# 	file = "gfx/models/ships/fe_01/fe_01_eoa_escortcarrier_stern.mesh"
+	# 	scale = 5.0
+	# 	meshsettings = {
+	# 		shader = "PdxMeshShip"
+		
+	# 	#Mipmap tweaking
+	# 	#texture_diffuse = "512x512.dds"
+	# 	}
+	# }
+
+
+	#巡洋艦モデル
+	pdxmesh = {
+		name = "fe_01_eoa_imv_cruiser_carrier_core_mesh"
+		file = "gfx/models/ships/fe_01/fe_01_eoa_imv_cruiser_carrier_core.mesh"
+		scale = 5.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		
+		#Mipmap tweaking
+		#texture_diffuse = "512x512.dds"
+		}
+	}
+
+	pdxmesh = {
+		name = "fe_01_eoa_imv_cruiser_carrier_locator_mesh"
+		file = "gfx/models/ships/fe_01/fe_01_eoa_imv_cruiser_carrier_locator.mesh"
+		scale = 5.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		
+		#Mipmap tweaking
+		#texture_diffuse = "512x512.dds"
+		}
+	}
+	####################################################################
+	#ドレッドノート
+
+	# ニュースタイル
+
+	pdxmesh = {
+		name = "fe_01_eoa_beta_dreadnought_mesh"
+		file = "gfx/models/ships/fe_01/fe_01_eoa_beta_dreadnought_core.mesh"
+		scale = 6.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		
+		#Mipmap tweaking
+		#texture_diffuse = "512x512.dds"
+		}
+	}
+
+	pdxmesh = {
+		name = "fe_01_eoa_beta_dreadnought_locator_mesh"
+		file = "gfx/models/ships/fe_01/fe_01_eoa_beta_dreadnought_locator.mesh"
+		scale = 6.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		
+		#Mipmap tweaking
+		#texture_diffuse = "512x512.dds"
+		}
+	}
+
+	####################################################################
+	#黒鉄スタイル
+
+	pdxmesh = {
+			name = "fe_01_alpha_dreadnought_mesh"
+			# file = "gfx/models/ships/fe_01/fe_01_weebdreadnought.mesh"
+			file = "gfx/models/ships/fe_01/fe_01_eoa_alpha_dreadnought_core.mesh"
+			scale = 7.8
+			meshsettings = {
+				shader = "PdxMeshShip"
+			
+			#Mipmap tweaking
+			#texture_diffuse = "512x512.dds"
+			}
+	}
+
+	pdxmesh = {
+		name = "fe_01_alpha_dreadnought_bow_locator_mesh"
+		file = "gfx/models/ships/fe_01/fe_01_eoa_alpha_dreadnought_bow.mesh"
+		scale = 7.8
+		meshsettings = {
+			shader = "PdxMeshShip"
+		
+		#Mipmap tweaking
+		#texture_diffuse = "512x512.dds"
+		}
+	}
+
+	pdxmesh = {
+		name = "fe_01_alpha_dreadnought_mid2_locator_mesh"
+		file = "gfx/models/ships/fe_01/fe_01_eoa_alpha_dreadnought_mid2.mesh"
+		scale = 7.8
+		meshsettings = {
+			shader = "PdxMeshShip"
+		
+		#Mipmap tweaking
+		#texture_diffuse = "512x512.dds"
+		}
+	}
+
+	pdxmesh = {
+		name = "fe_01_alpha_dreadnought_stern_locator_mesh"
+		file = "gfx/models/ships/fe_01/fe_01_eoa_alpha_dreadnought_stern.mesh"
+		scale = 7.8
+		meshsettings = {
+			shader = "PdxMeshShip"
+		
+		#Mipmap tweaking
+		#texture_diffuse = "512x512.dds"
+		}
+	}
+
+	pdxmesh = {
+		name = "fe_01_old_titan_mesh"
+		file = "gfx/models/ships/fe_01/fe_01_titan.mesh"
+		scale = 7.5
+		meshsettings = {
+			shader = "PdxMeshShip"
+			
+		#Mipmap tweaking
+		#texture_diffuse = "1x512.dds"
+		}
+	}
+
+	pdxmesh = {
+		name = "fe_01_yamato_core_mesh"
+		file = "gfx/models/ships/fe_01/fe_01_yamato_core.mesh"
+		scale = 6.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		
+		#Mipmap tweaking
+		#texture_diffuse = "512x512.dds"
+		}
+	}
+
+	pdxmesh = {
+		name = "fe_01_yamato_locator_mesh"
+		file = "gfx/models/ships/fe_01/fe_01_yamato_locator.mesh"
+		scale = 6.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		
+		#Mipmap tweaking
+		#texture_diffuse = "512x512.dds"
+		}
+	}
+
+	#########################################################################
+	#空母
+	#黒鉄
+
+	pdxmesh = {
+		name = "fe_01_eoa_basic_carrier_core_mesh"
+		file = "gfx/models/ships/fe_01/fe_01_eoa_basic_carrier_core.mesh"
+		scale = 8.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		
+		#Mipmap tweaking
+		#texture_diffuse = "512x512.dds"
+		}
+	}
+
+	pdxmesh = {
+		name = "fe_01_eoa_basic_carrier_bow_mesh"
+		file = "gfx/models/ships/fe_01/fe_01_eoa_basic_carrier_bow_locator.mesh"
+		scale = 8.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		
+		#Mipmap tweaking
+		#texture_diffuse = "512x512.dds"
+		}
+	}
+
+	pdxmesh = {
+		name = "fe_01_eoa_basic_carrier_mid2_mesh"
+		file = "gfx/models/ships/fe_01/fe_01_eoa_basic_carrier_mid2_locator.mesh"
+		scale = 8.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		
+		#Mipmap tweaking
+		#texture_diffuse = "512x512.dds"
+		}
+	}
+
+	pdxmesh = {
+		name = "fe_01_eoa_basic_carrier_stern_mesh"
+		file = "gfx/models/ships/fe_01/fe_01_eoa_basic_carrier_stern_locator.mesh"
+		scale = 8.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		
+		#Mipmap tweaking
+		#texture_diffuse = "512x512.dds"
+		}
+	}
+
+	#重空母
+	pdxmesh = {
+		name = "fe_01_eoa_heavy_carrier_core_mesh"
+		file = "gfx/models/ships/fe_01/fe_01_eoa_heavy_carrier_core.mesh"
+		scale = 8.5
+		meshsettings = {
+			shader = "PdxMeshShip"
+			
+		#Mipmap tweaking
+		#texture_diffuse = "1x512.dds"
+		}
+	}
+
+	pdxmesh = {
+		name = "fe_01_eoa_heavy_carrier_locator_mesh"
+		file = "gfx/models/ships/fe_01/fe_01_eoa_heavy_carrier_locator.mesh"
+		scale = 8.5
+		meshsettings = {
+			shader = "PdxMeshShip"
+			
+		#Mipmap tweaking
+		#texture_diffuse = "1x512.dds"
+		}
+	}
+
+
+
+	pdxmesh = {
+			name = "fe_01_flagship_mesh"
+			file = "gfx/models/ships/fe_01/fe_01_flag.mesh"
+			scale = 10.0
+			meshsettings = {
+				shader = "PdxMeshShip"
+			
+			#Mipmap tweaking
+			#texture_diffuse = "512x512.dds"
+			}
+	}
+	pdxmesh = {
+			name = "fe_01_flag_empty_mesh"
+			file = "gfx/models/ships/fe_01/fe_01_flag_empty.mesh"
+			scale = 10.0
+			meshsettings = {
+				shader = "PdxMeshShip"
+			
+			#Mipmap tweaking
+			#texture_diffuse = "512x512.dds"
+			}
+	}
+}

@@ -1,0 +1,187 @@
+############
+### COST ###
+############
+@cost0 = 40
+
+
+
+
+#黑鐵-最上
+#デフォルトで専用砲塔を使用
+ship_section_template = {
+	key = "KTW_DESTROYER_BOW_01"
+	ship_size = destroyer
+
+	fits_on_slot = bow
+	entity = "N_fe_01_destroyer_01_entity"
+	icon = "GFX_ship_part_core_bow"
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "KTW_turret_PD"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "KTW_turret_S2A"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "KTW_turret_S2A"
+		locatorname = "small_gun_03"
+	}
+
+	prerequisites = { "tech_KTW_colossus" }
+
+	small_utility_slots = 8
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+
+
+#黑鐵-三隈
+#デフォルトで専用砲塔を使用
+ship_section_template = {
+	key = "KTW_DESTROYER_BOW_02"
+	ship_size = destroyer
+
+	fits_on_slot = bow
+	entity = "N_fe_01_destroyer_02_entity"
+	icon = "GFX_ship_part_core_bow"
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "KTW_turret_PD"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "KTW_turret_PD"
+		locatorname = "small_gun_02"
+	}
+
+	prerequisites = { "tech_KTW_colossus" }
+
+	small_utility_slots = 6
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+
+
+
+
+#黑鐵-鈴谷
+#デフォルトで専用砲塔を使用
+ship_section_template = {
+	key = "KTW_DESTROYER_BOW_03"
+	ship_size = destroyer
+
+	fits_on_slot = bow
+	entity = "N_fe_01_destroyer_03_entity"
+	icon = "GFX_ship_part_core_bow"
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "KTW_turret_M2A"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "KTW_turret_M2A"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "KTW_turret_M2A"
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "KTW_turret_S2A"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "KTW_turret_PD"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "KTW_turret_PD"
+		locatorname = "small_gun_03"
+	}
+
+	prerequisites = { "tech_KTW_colossus" }
+
+	small_utility_slots = 8
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+
+
+
+#黑鐵-熊野
+#デフォルトで専用砲塔を使用
+ship_section_template = {
+	key = "KTW_DESTROYER_BOW_04"
+	ship_size = destroyer
+
+	fits_on_slot = bow
+	entity = "N_fe_01_destroyer_04_entity"
+	icon = "GFX_ship_part_core_bow"
+
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_gun_01"
+	}
+
+	prerequisites = { "tech_KTW_colossus" }
+
+	small_utility_slots = 6
+
+	resources = {
+		category = ship_sections
+	}
+}

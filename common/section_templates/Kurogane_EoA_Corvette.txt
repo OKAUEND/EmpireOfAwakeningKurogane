@@ -1,0 +1,326 @@
+############
+### COST ###
+############
+@cost0 = 40
+
+#黑鐵-吹雪
+#デフォルトで専用砲塔を使用
+ship_section_template = {
+	key = "EoA_KTW_CORVETTE_MID_01"
+	ship_size = corvette
+
+	fits_on_slot = mid
+	entity = "N_fe_01_corvette_01_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "KTW_turret_S2A"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "KTW_turret_S2A"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "KTW_turret_S2A"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "KTW_turret_S2A"
+		locatorname = "small_gun_03"
+	}
+
+	prerequisites = { "tech_KTW_colossus" }
+
+	small_utility_slots = 5
+	aux_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+#黑鐵-陽炎
+#デフォルトで専用砲塔を使用
+ship_section_template = {
+	key = "EoA_KTW_CORVETTE_MID_02"
+	ship_size = corvette
+
+	fits_on_slot = mid
+	entity = "N_fe_01_corvette_02_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "KTW_turret_S2A"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "KTW_turret_S2A"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "KTW_turret_S2A"
+		locatorname = "small_gun_02"
+	}
+
+	prerequisites = { "tech_KTW_colossus" }
+
+	medium_utility_slots = 3
+	aux_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+#黑鐵-秋月
+#デフォルトで専用砲塔を使用
+ship_section_template = {
+	key = "EoA_KTW_CORVETTE_MID_03"
+	ship_size = corvette
+
+	fits_on_slot = mid
+	entity = "N_fe_01_corvette_03_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "KTW_turret_S2A"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "KTW_turret_S2A"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "KTW_turret_S2A"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "KTW_turret_PD"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "KTW_turret_PD"
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "KTW_turret_PD"
+		locatorname = "small_gun_05"
+	}
+
+	prerequisites = { "tech_KTW_colossus" }
+
+	small_utility_slots = 3
+	aux_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+#黑鐵-島風
+#デフォルトで専用砲塔を使用
+ship_section_template = {
+	key = "EoA_KTW_CORVETTE_MID_04"
+	ship_size = corvette
+
+	fits_on_slot = mid
+	entity = "N_fe_01_corvette_04_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "KTW_turret_M2A"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "KTW_turret_M2A"
+		locatorname = "medium_gun_02"
+	}
+
+	prerequisites = { "tech_KTW_colossus" }
+
+	small_utility_slots = 3
+	aux_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+
+##################フリゲート版####################################################
+
+
+#黑鐵-吹雪
+#デフォルトで専用砲塔を使用
+ship_section_template = {
+	key = "EoA_KTW_FRIGATE_MID_01"
+	ship_size = frigate
+
+	fits_on_slot = mid
+	entity = "N_fe_01_corvette_01_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "KTW_turret_G"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "KTW_turret_S2A"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "KTW_turret_S2A"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "KTW_turret_S2A"
+		locatorname = "small_gun_03"
+	}
+
+	prerequisites = { "tech_KTW_colossus" }
+
+	small_utility_slots = 6
+	aux_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+#黑鐵-陽炎
+#デフォルトで専用砲塔を使用
+ship_section_template = {
+	key = "EoA_KTW_FRIGATE_MID_02"
+	ship_size = frigate
+
+	fits_on_slot = mid
+	entity = "N_fe_01_corvette_02_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "KTW_turret_G"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "KTW_turret_S2A"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "KTW_turret_S2A"
+		locatorname = "small_gun_02"
+	}
+
+	prerequisites = { "tech_KTW_colossus" }
+
+	medium_utility_slots = 3
+	aux_utility_slots = 2
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+#黑鐵-秋月
+#デフォルトで専用砲塔を使用
+ship_section_template = {
+	key = "EoA_KTW_FRIGATE_MID_03"
+	ship_size = frigate
+
+	fits_on_slot = mid
+	entity = "N_fe_01_corvette_03_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "KTW_turret_G"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "KTW_turret_S2A"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "KTW_turret_S2A"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "KTW_turret_PD"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "KTW_turret_PD"
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "KTW_turret_PD"
+		locatorname = "small_gun_05"
+	}
+
+	prerequisites = { "tech_KTW_colossus" }
+
+	small_utility_slots = 4
+	aux_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+	}
+}
+
+#黑鐵-島風
+#デフォルトで専用砲塔を使用
+ship_section_template = {
+	key = "EoA_KTW_FRIGATE_MID_04"
+	ship_size = frigate
+
+	fits_on_slot = mid
+	entity = "N_fe_01_corvette_04_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "KTW_turret_G"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "KTW_turret_G"
+		locatorname = "medium_gun_02"
+	}
+
+	prerequisites = { "tech_KTW_colossus" }
+
+	small_utility_slots = 4
+	aux_utility_slots = 1
+
+	resources = {
+		category = ship_sections
+	}
+}

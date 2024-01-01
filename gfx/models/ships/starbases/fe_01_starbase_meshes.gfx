@@ -1,0 +1,13 @@
+objectTypes = {
+
+	#############################
+	#		TALL_WHITE			#
+	#############################
+		
+	pdxmesh = {
+		name = "fe_01_ion_cannon_mesh"
+		file = "gfx/models/ships/colossus/fe_01/fe_01_ion_cannon.mesh"
+		scale = 4.0
+	}
+
+}

@@ -1,0 +1,35 @@
+objectTypes = {
+	pdxmesh = {
+		name = "N_fe_01_cruiser_01_locator_mesh"
+		file = "gfx/models/ships/N_fe/N_fe_01_cruiser_01_locator.mesh"
+		scale = 1.25
+	}
+	pdxmesh = {
+		name = "N_fe_01_cruiser_02_locator_mesh"
+		file = "gfx/models/ships/N_fe/N_fe_01_cruiser_02_locator.mesh"
+		scale = 1.25
+	}
+	pdxmesh = {
+		name = "N_fe_01_cruiser_03_locator_mesh"
+		file = "gfx/models/ships/N_fe/N_fe_01_cruiser_03_locator.mesh"
+		scale = 1.25
+	}
+	pdxmesh = {
+		name = "N_fe_01_cruiser_04_locator_mesh"
+		file = "gfx/models/ships/N_fe/N_fe_01_cruiser_04_locator.mesh"
+		scale = 1.25
+	}
+	pdxmesh = {
+		name = "N_fe_01_cruiser_05_locator_mesh"
+		file = "gfx/models/ships/N_fe/N_fe_01_cruiser_05_locator.mesh"
+		scale = 1.25
+	}
+	pdxmesh = {
+		name = "N_fe_01_cruiser_06_locator_mesh"
+		file = "gfx/models/ships/N_fe/N_fe_01_cruiser_06_locator.mesh"
+		scale = 1.25
+	}
+}
+
+
+

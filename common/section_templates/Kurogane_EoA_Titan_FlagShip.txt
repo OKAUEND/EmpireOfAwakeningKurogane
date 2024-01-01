@@ -1,0 +1,920 @@
+##############################黑鐵-高天原(NSC2)######################################
+
+
+ship_section_template = {
+	key = "KTW_NSC2TAKAMAGAHARA_BOW_HULL"	
+	ship_size = Flagship
+	fits_on_slot = bow
+	show_draw_components = no
+	entity = "N_fe_01_NSC2flagship_entity"
+	icon = "GFX_ship_part_core_bow"
+	ai_tags = { artillery }
+	
+	
+	component_slot = {
+		name = "TITANIC_01"
+		template = "invisible_titanic_fixed"
+		locatorname = "titanic_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_07"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_07"
+	}
+	component_slot = {
+		name = "LARGE_GUN_08"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_08"
+	}
+	component_slot = {
+		name = "LARGE_GUN_09"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_09"
+	}
+	component_slot = {
+		name = "LARGE_GUN_10"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_10"
+	}
+	component_slot = {
+		name = "LARGE_GUN_11"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_11"
+	}
+	component_slot = {
+		name = "LARGE_GUN_12"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_12"
+	}
+	component_slot = {
+		name = "LARGE_GUN_13"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_13"
+	}
+	component_slot = {
+		name = "LARGE_GUN_14"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_14"
+	}
+	component_slot = {
+		name = "LARGE_GUN_15"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_15"
+	}
+	component_slot = {
+		name = "LARGE_GUN_16"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_16"
+	}
+	component_slot = {
+		name = "LARGE_GUN_17"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_17"
+	}
+	component_slot = {
+		name = "LARGE_GUN_18"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_18"
+	}
+	component_slot = {
+		name = "LARGE_GUN_19"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_19"
+	}
+	component_slot = {
+		name = "LARGE_GUN_20"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_20"
+	}
+	component_slot = {
+		name = "LARGE_GUN_21"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_21"
+	}
+	component_slot = {
+		name = "LARGE_GUN_22"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_22"
+	}
+	component_slot = {
+		name = "LARGE_GUN_23"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_23"
+	}
+	component_slot = {
+		name = "LARGE_GUN_24"
+		template = "KTW_turret_L"
+		locatorname = "large_gun_24"
+	}
+
+
+
+	aux_utility_slots = 6
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 80
+		}
+	}
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+			graphical_culture = fe_01
+		}
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}	
+}
+
+
+
+ship_section_template = {
+	key = "KTW_NSC2TAKAMAGAHARA_MID1"	
+	ship_size = Flagship
+	fits_on_slot = mid1
+	show_draw_components = no
+	entity = "N_fe_01_NSC2flagship_locator_entity"
+	icon = "GFX_ship_part_core_bow"
+	ai_tags = { artillery }
+	
+	
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_missile_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_missile_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_missile_03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_missile_04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_missile_05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_missile_06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_07"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_missile_07"
+	}
+	component_slot = {
+		name = "LARGE_GUN_08"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_missile_08"
+	}
+	component_slot = {
+		name = "LARGE_GUN_09"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_missile_09"
+	}
+	component_slot = {
+		name = "LARGE_GUN_10"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_missile_10"
+	}
+	component_slot = {
+		name = "LARGE_GUN_11"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_missile_11"
+	}
+	component_slot = {
+		name = "LARGE_GUN_12"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_missile_12"
+	}
+	component_slot = {
+		name = "LARGE_GUN_13"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_missile_13"
+	}
+	component_slot = {
+		name = "LARGE_GUN_14"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_missile_14"
+	}
+	component_slot = {
+		name = "LARGE_GUN_15"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_missile_15"
+	}
+	component_slot = {
+		name = "LARGE_GUN_16"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_missile_16"
+	}
+	component_slot = {
+		name = "LARGE_GUN_17"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_missile_17"
+	}
+	component_slot = {
+		name = "LARGE_GUN_18"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_missile_18"
+	}
+	component_slot = {
+		name = "LARGE_GUN_19"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_missile_19"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_missile_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_missile_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_missile_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_missile_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_missile_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = "KTW_invisible_medium_fixed"
+		locatorname = "medium_missile_06"
+	}
+
+
+
+	large_utility_slots = 20
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 80
+		}
+	}
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+			graphical_culture = fe_01
+		}
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}	
+}
+
+
+
+
+
+ship_section_template = {
+	key = "KTW_NSC2TAKAMAGAHARA_MID2"	
+	ship_size = Flagship
+	fits_on_slot = mid2
+	show_draw_components = no
+	entity = "N_fe_01_NSC2flagship_locator_entity"
+	icon = "GFX_ship_part_core_bow"
+	ai_tags = { artillery }
+	
+	
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_H_missile_01"
+	}
+	component_slot = {
+		name = "LARGE_GUN_02"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_H_missile_02"
+	}
+	component_slot = {
+		name = "LARGE_GUN_03"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_H_missile_03"
+	}
+	component_slot = {
+		name = "LARGE_GUN_04"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_H_missile_04"
+	}
+	component_slot = {
+		name = "LARGE_GUN_05"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_H_missile_05"
+	}
+	component_slot = {
+		name = "LARGE_GUN_06"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_H_missile_06"
+	}
+	component_slot = {
+		name = "LARGE_GUN_07"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_H_missile_07"
+	}
+	component_slot = {
+		name = "LARGE_GUN_08"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_H_missile_08"
+	}
+	component_slot = {
+		name = "LARGE_GUN_09"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_H_missile_09"
+	}
+	component_slot = {
+		name = "LARGE_GUN_10"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_H_missile_10"
+	}
+	component_slot = {
+		name = "LARGE_GUN_11"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_H_missile_11"
+	}
+	component_slot = {
+		name = "LARGE_GUN_12"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_H_missile_12"
+	}
+	component_slot = {
+		name = "LARGE_GUN_13"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_H_missile_13"
+	}
+	component_slot = {
+		name = "LARGE_GUN_14"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_H_missile_14"
+	}
+	component_slot = {
+		name = "LARGE_GUN_15"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_H_missile_15"
+	}
+	component_slot = {
+		name = "LARGE_GUN_16"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_H_missile_16"
+	}
+	component_slot = {
+		name = "LARGE_GUN_17"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_H_missile_17"
+	}
+	component_slot = {
+		name = "LARGE_GUN_18"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_H_missile_18"
+	}
+	component_slot = {
+		name = "LARGE_GUN_19"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_H_missile_19"
+	}
+	component_slot = {
+		name = "LARGE_GUN_20"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_H_missile_20"
+	}
+	component_slot = {
+		name = "LARGE_GUN_21"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_H_missile_21"
+	}
+	component_slot = {
+		name = "LARGE_GUN_22"
+		template = "KTW_invisible_large_fixed"
+		locatorname = "large_H_missile_22"
+	}
+
+	large_utility_slots = 20
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 80
+		}
+	}
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+			graphical_culture = fe_01
+		}
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}	
+}
+
+
+
+
+
+ship_section_template = {
+	key = "KTW_NSC2TAKAMAGAHARA_MID3"	
+	ship_size = Flagship
+	fits_on_slot = mid3
+	show_draw_components = no
+	entity = "N_fe_01_NSC2flagship_locator_entity"
+	icon = "GFX_ship_part_core_bow"
+	ai_tags = { artillery }
+	
+	
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		template = "KTW_turret_M"
+		locatorname = "medium_gun_01"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		template = "KTW_turret_M"
+		locatorname = "medium_gun_02"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		template = "KTW_turret_M"
+		locatorname = "medium_gun_03"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		template = "KTW_turret_M"
+		locatorname = "medium_gun_04"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_05"
+		template = "KTW_turret_M"
+		locatorname = "medium_gun_05"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_06"
+		template = "KTW_turret_M"
+		locatorname = "medium_gun_06"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_07"
+		template = "KTW_turret_M"
+		locatorname = "medium_gun_07"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_08"
+		template = "KTW_turret_M"
+		locatorname = "medium_gun_08"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_09"
+		template = "KTW_turret_M"
+		locatorname = "medium_gun_09"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_10"
+		template = "KTW_turret_M"
+		locatorname = "medium_gun_10"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_11"
+		template = "KTW_turret_M"
+		locatorname = "medium_gun_11"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_12"
+		template = "KTW_turret_M"
+		locatorname = "medium_gun_12"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_13"
+		template = "KTW_turret_M"
+		locatorname = "medium_gun_13"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_14"
+		template = "KTW_turret_M"
+		locatorname = "medium_gun_14"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_15"
+		template = "KTW_turret_M"
+		locatorname = "medium_gun_15"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_16"
+		template = "KTW_turret_M"
+		locatorname = "medium_gun_16"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_17"
+		template = "KTW_turret_M"
+		locatorname = "medium_gun_17"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_18"
+		template = "KTW_turret_M"
+		locatorname = "medium_gun_18"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_19"
+		template = "KTW_turret_M"
+		locatorname = "medium_gun_19"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_20"
+		template = "KTW_turret_M"
+		locatorname = "medium_gun_20"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_21"
+		template = "KTW_turret_M"
+		locatorname = "medium_gun_21"
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_22"
+		template = "KTW_turret_M"
+		locatorname = "medium_gun_22"
+	}
+
+	large_utility_slots = 20
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 80
+		}
+	}
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+			graphical_culture = fe_01
+		}
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}	
+}
+
+
+
+ship_section_template = {
+	key = "KTW_NSC2TAKAMAGAHARA_MID4"	
+	ship_size = Flagship
+	fits_on_slot = mid4
+	show_draw_components = no
+	entity = "N_fe_01_NSC2flagship_locator_entity"
+	icon = "GFX_ship_part_core_bow"
+	ai_tags = { artillery }
+	
+	
+
+	component_slot = {
+		name = "PD_GUN_01"
+		template = "KTW_turret_PD"
+		locatorname = "PD_gun_01"
+	}
+	component_slot = {
+		name = "PD_GUN_02"
+		template = "KTW_turret_PD"
+		locatorname = "PD_gun_02"
+	}
+	component_slot = {
+		name = "PD_GUN_03"
+		template = "KTW_turret_PD"
+		locatorname = "PD_gun_03"
+	}
+	component_slot = {
+		name = "PD_GUN_04"
+		template = "KTW_turret_PD"
+		locatorname = "PD_gun_04"
+	}
+	component_slot = {
+		name = "PD_GUN_05"
+		template = "KTW_turret_PD"
+		locatorname = "PD_gun_05"
+	}
+	component_slot = {
+		name = "PD_GUN_06"
+		template = "KTW_turret_PD"
+		locatorname = "PD_gun_06"
+	}
+	component_slot = {
+		name = "PD_GUN_07"
+		template = "KTW_turret_PD"
+		locatorname = "PD_gun_07"
+	}
+	component_slot = {
+		name = "PD_GUN_08"
+		template = "KTW_turret_PD"
+		locatorname = "PD_gun_08"
+	}
+	component_slot = {
+		name = "PD_GUN_09"
+		template = "KTW_turret_PD"
+		locatorname = "PD_gun_09"
+	}
+	component_slot = {
+		name = "PD_GUN_10"
+		template = "KTW_turret_PD"
+		locatorname = "PD_gun_10"
+	}
+	component_slot = {
+		name = "PD_GUN_11"
+		template = "KTW_turret_PD"
+		locatorname = "PD_gun_11"
+	}
+	component_slot = {
+		name = "PD_GUN_12"
+		template = "KTW_turret_PD"
+		locatorname = "PD_gun_12"
+	}
+	component_slot = {
+		name = "PD_GUN_13"
+		template = "KTW_turret_PD"
+		locatorname = "PD_gun_13"
+	}
+	component_slot = {
+		name = "PD_GUN_14"
+		template = "KTW_turret_PD"
+		locatorname = "PD_gun_14"
+	}
+	component_slot = {
+		name = "PD_GUN_15"
+		template = "KTW_turret_PD"
+		locatorname = "PD_gun_15"
+	}
+	component_slot = {
+		name = "PD_GUN_16"
+		template = "KTW_turret_PD"
+		locatorname = "PD_gun_16"
+	}
+	component_slot = {
+		name = "PD_GUN_17"
+		template = "KTW_turret_PD"
+		locatorname = "PD_gun_17"
+	}
+	component_slot = {
+		name = "PD_GUN_18"
+		template = "KTW_turret_PD"
+		locatorname = "PD_gun_18"
+	}
+	component_slot = {
+		name = "PD_GUN_19"
+		template = "KTW_turret_PD"
+		locatorname = "PD_gun_19"
+	}
+	component_slot = {
+		name = "PD_GUN_20"
+		template = "KTW_turret_PD"
+		locatorname = "PD_gun_20"
+	}
+	component_slot = {
+		name = "PD_GUN_21"
+		template = "KTW_turret_PD"
+		locatorname = "PD_gun_21"
+	}
+	component_slot = {
+		name = "PD_GUN_22"
+		template = "KTW_turret_PD"
+		locatorname = "PD_gun_22"
+	}
+	component_slot = {
+		name = "PD_GUN_23"
+		template = "KTW_turret_PD"
+		locatorname = "PD_gun_23"
+	}
+	component_slot = {
+		name = "PD_GUN_24"
+		template = "KTW_turret_PD"
+		locatorname = "PD_gun_24"
+	}
+
+
+	large_utility_slots = 20
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 80
+		}
+	}
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+			graphical_culture = fe_01
+		}
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}	
+}
+
+
+
+
+ship_section_template = {
+	key = "KTW_NSC2TAKAMAGAHARA_STERN"	
+	ship_size = Flagship
+	fits_on_slot = stern
+	show_draw_components = no
+	entity = "N_fe_01_NSC2flagship_locator_entity"
+	icon = "GFX_ship_part_core_bow"
+	ai_tags = { artillery }
+	
+	
+
+	component_slot = {
+		name = "PD_GUN_01"
+		template = "KTW_turret_PD"
+		locatorname = "PD2_gun_01"
+	}
+	component_slot = {
+		name = "PD_GUN_02"
+		template = "KTW_turret_PD"
+		locatorname = "PD2_gun_02"
+	}
+	component_slot = {
+		name = "PD_GUN_03"
+		template = "KTW_turret_PD"
+		locatorname = "PD2_gun_03"
+	}
+	component_slot = {
+		name = "PD_GUN_04"
+		template = "KTW_turret_PD"
+		locatorname = "PD2_gun_04"
+	}
+	component_slot = {
+		name = "PD_GUN_05"
+		template = "KTW_turret_PD"
+		locatorname = "PD2_gun_05"
+	}
+	component_slot = {
+		name = "PD_GUN_06"
+		template = "KTW_turret_PD"
+		locatorname = "PD2_gun_06"
+	}
+	component_slot = {
+		name = "PD_GUN_07"
+		template = "KTW_turret_PD"
+		locatorname = "PD2_gun_07"
+	}
+	component_slot = {
+		name = "PD_GUN_08"
+		template = "KTW_turret_PD"
+		locatorname = "PD2_gun_08"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "strike_craft_locator_01"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "strike_craft_locator_02"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "strike_craft_locator_03"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		template = "large_strike_craft"
+		rotation = -90
+		locatorname = "strike_craft_locator_04"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_05"
+		template = "large_strike_craft"
+		rotation = -90
+		locatorname = "strike_craft_locator_05"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_06"
+		template = "large_strike_craft"
+		rotation = -90
+		locatorname = "strike_craft_locator_06"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_07"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "strike_craft_locator_07"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_08"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "strike_craft_locator_08"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_09"
+		template = "large_strike_craft"
+		rotation = 90
+		locatorname = "strike_craft_locator_09"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_10"
+		template = "large_strike_craft"
+		rotation = -90
+		locatorname = "strike_craft_locator_10"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_11"
+		template = "large_strike_craft"
+		rotation = -90
+		locatorname = "strike_craft_locator_11"
+	}
+	component_slot = {
+		name = "STRIKE_CRAFT_12"
+		template = "large_strike_craft"
+		rotation = -90
+		locatorname = "strike_craft_locator_12"
+	}
+
+
+	large_utility_slots = 20
+	
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = 80
+		}
+	}
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+			graphical_culture = fe_01
+		}
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}	
+}
+
+
+
+

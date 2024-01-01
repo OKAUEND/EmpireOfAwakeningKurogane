@@ -1,0 +1,80 @@
+objectTypes = {
+	pdxmesh = {
+		name = "N_fe_01_battleship_01_locator_mesh"
+		file = "gfx/models/ships/N_fe/N_fe_01_battleship_01_locator.mesh"
+	}
+	pdxmesh = {
+		name = "N_fe_01_battleship_02_locator_mesh"
+		file = "gfx/models/ships/N_fe/N_fe_01_battleship_02_locator.mesh"
+	}
+	pdxmesh = {
+		name = "N_fe_01_battleship_03_locator_mesh"
+		file = "gfx/models/ships/N_fe/N_fe_01_battleship_03_locator.mesh"
+	}
+	pdxmesh = {
+		name = "N_fe_01_battleship_04_locator_mesh"
+		file = "gfx/models/ships/N_fe/N_fe_01_battleship_04_locator.mesh"
+	}
+	pdxmesh = {
+		name = "N_fe_01_battleship_05_locator_mesh"
+		file = "gfx/models/ships/N_fe/N_fe_01_battleship_05_locator.mesh"
+	}
+	pdxmesh = {
+		name = "N_fe_01_battleship_06_locator_mesh"
+		file = "gfx/models/ships/N_fe/N_fe_01_battleship_06_locator.mesh"
+	}
+	pdxmesh = {
+		name = "N_fe_01_battleship_07_locator_mesh"
+		file = "gfx/models/ships/N_fe/N_fe_01_battleship_07_locator.mesh"
+	}
+	pdxmesh = {
+		name = "N_fe_01_battleship_08_locator_mesh"
+		file = "gfx/models/ships/N_fe/N_fe_01_battleship_08_locator.mesh"
+	}
+	pdxmesh = {
+		name = "N_fe_01_battleship_09_locator_mesh"
+		file = "gfx/models/ships/N_fe/N_fe_01_battleship_09_locator.mesh"
+	}
+	pdxmesh = {
+		name = "N_fe_01_battleship_10_locator_mesh"
+		file = "gfx/models/ships/N_fe/N_fe_01_battleship_10_locator.mesh"
+	}
+	pdxmesh = {
+		name = "N_fe_01_battleship_11_locator_mesh"
+		file = "gfx/models/ships/N_fe/N_fe_01_battleship_11_locator.mesh"
+		scale = 1.5
+	}
+	pdxmesh = {
+		name = "N_fe_01_battleship_12_locator_mesh"
+		file = "gfx/models/ships/N_fe/N_fe_01_battleship_12_locator.mesh"
+		scale = 1.5
+	}
+	pdxmesh = {
+		name = "N_fe_01_battleship_13_locator_mesh"
+		file = "gfx/models/ships/N_fe/N_fe_01_battleship_13_locator.mesh"
+		scale = 1.5
+	}
+	pdxmesh = {
+		name = "N_fe_01_battleship_14_locator_mesh"
+		file = "gfx/models/ships/N_fe/N_fe_01_battleship_14_locator.mesh"
+		scale = 1.5
+	}
+	pdxmesh = {
+		name = "N_fe_01_battleship_15_locator_mesh"
+		file = "gfx/models/ships/N_fe/N_fe_01_battleship_15_locator.mesh"
+		scale = 1.5
+	}
+	pdxmesh = {
+		name = "N_fe_01_battleship_16_locator_mesh"
+		file = "gfx/models/ships/N_fe/N_fe_01_battleship_16_locator.mesh"
+		scale = 1.0
+		animation = { id = "idle"			type = "N_fe_01_battleship_16_idle_animation" }
+		animation = { id = "idle_to_combat_idle"			type = "N_fe_01_battleship_16_idle_to_combat_idle_animation" }
+		animation = { id = "combat_idle"		type = "N_fe_01_battleship_16_combat_idle_animation" }
+		animation = { id = "combat_idle_to_idle"		type = "N_fe_01_battleship_16_combat_idle_to_idle_animation" }
+
+	}
+}
+
+
+

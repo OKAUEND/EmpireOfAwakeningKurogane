@@ -1,0 +1,130 @@
+﻿l_japanese:
+ FE:0 "黒鐵"
+ 
+#TECH#
+tech_kurogane_extend: "宇宙船工学"
+ TECH_KUROGANE_EXTEND_TITLE: "§H宇宙船工学§!"
+ TECH_KUROGANE_EXTEND_DESC: "我々は宇宙空間で活動を行うために様々な宇宙船に関する工学研究"
+
+
+#SECTION TEMPLATES#
+ CORVETTE_MID_S1: "パトロール"
+ CORVETTE_MID_S4: "アドヴァンス"
+ CORVETTE_MID_HV: "ヘヴィー"
+ CORVETTE_MID_RD: "ライピッド"
+ DESTROYER_BOW_ES: "バトル"
+ DESTROYER_BOW_FR: "アサルト"
+ CRUISER_BOW_OG: "アサルト・コア"
+###########################################################
+#コルベット
+CORVETTE_MID_EoA_Advanced: "アドバンス・コルベット"
+###########################################################
+#巡洋艦
+#アルファ型
+ALPHA_CRUISER_BOW_L1: "アルファ・アーティラリ・ボウ"
+ALPHA_CRUISER_BOW_M2: "アルファ・アタック・ボウ"
+ALPHA_CRUISER_MID_L1M1: "アルファ・アーティラリ・コア"
+ALPHA_CRUISER_MID_M3: "アルファ・アタック・コア"
+ALPHA_CRUISER_STERN_M1: "アルファ・アタック・ステルン"
+ALPHA_CRUISER_STERN_PD2: "アルファ・ディフェンス・ステルン"
+#ベータ型
+BETA_CRUISER_BOW_L1: "ベータ・アーティラリ・ボウ"
+BETA_CRUISER_BOW_G1PD2: "ベータ・トルペード・ボウ"
+BETA_CRUISER_MID_L1M1: "ベータ・アーティラリ・コア"
+BETA_CRUISER_MID_G2S2: "ベータ・ミサイル・コア"
+BETA_CRUISER_STERN_M1: "ベータ・アタック・ステルン"
+BETA_CRUISER_STERN_PD2: "ベータ・ディフェンス・ステルン"
+
+###########################################################
+#打撃巡洋艦
+BATTLE_STRIKECRUISER_BOW_M2S2: "ベーシック・アタック・ボウ"
+BATTLE_STRIKECRUISER_BOW_G1S4: "ベーシック・ミサイル・ボウ"
+BATTLE_STRIKECRUISER_BOW_L1: "ベーシック・アーティラリ・ボウ"
+BATTLE_STRIKECRUISER_MID_M2S2: "ベーシック・アタック・コア"
+BATTLE_STRIKECRUISER_MID_S6: "ベーシック・アサルト・コア"
+BATTLE_STRIKECRUISER_MID_M3: "ベーシック・コマンド・コア"
+BATTLE_STRIKECRUISER_STERN_M2: "ベーシック・アタック・ステルン"
+BATTLE_STRIKECRUISER_STERN_S2PD2: "ベーシック・ディフェンス・ステルン"
+BATTLE_STRIKECRUISER_STERN_S4: "ベーシック・アサルト・ステルン"
+###########################################################
+#巡洋戦艦
+#ミサイル型
+BATTLECRUISER_MISSILE_BOW_L2: "ミサイル・アーティラリ・ボウ"
+BATTLECRUISER_MISSILE_BOW_G2S2: "ミサイル・ヘヴィー・ボウ"
+BATTLECRUISER_MISSILE_MID2_L1G2: "ミサイル・ラージ・セカンド"
+BATTLECRUISER_MISSILE_MID2_M2S2: "ミサイル・アサルト・セカンド"
+BATTLECRUISER_MISSILE_MID2_G4: "ミサイル・トルペード・セカンド"
+BATTLECRUISER_MISSILE_MID3_L1G2: "ミサイル・ラージ・サード"
+BATTLECRUISER_MISSILE_MID3_M2S2: "ミサイル・アサルト・サード"
+BATTLECRUISER_MISSILE_MID3_G4: "ミサイル・トルペード・サード"
+BATTLECRUISER_MISSILE_STERN_M2: "ミサイル・アサルト・ステルン"
+BATTLECRUISER_MISSILE_STERN_PD3: "ミサイル・ミサイル・ステルン"
+#標準型
+BASIC_BATTLECRUISER_BOW_L2: "ベーシック・アーティラリ・ボウ"
+BASIC_BATTLECRUISER_BOW_M3: "ベーシック・アタック・ボウ"
+BASIC_BATTLECRUISER_MID1_L1G2: "ベーシック・ラージ・ミッド"
+BASIC_BATTLECRUISER_MID1_L2M1: "ベーシック・アーティラリ・ミッド"
+BASIC_BATTLECRUISER_MID1_M4: "ベーシック・アタック・ミッド"
+BASIC_BATTLECRUISER_MID2_L1G2: "ベーシック・ラージ・セカンド"
+BASIC_BATTLECRUISER_MID2_L2M1: "ベーシック・アーティラリ・セカンド"
+BASIC_BATTLECRUISER_MID2_M2S2: "ベーシック・アサルト・セカンド"
+BASIC_BATTLECRUISER_MID3_L1G2: "ベーシック・ラージ・セカンド"
+BASIC_BATTLECRUISER_MID3_L2M1: "ベーシック・アーティラリ・セカンド"
+BASIC_BATTLECRUISER_MID3_M2S2: "ベーシック・アサルト・セカンド"
+BASIC_BATTLECRUISER_STERN_M2: "ベーシック・アタック・ステルン"
+BASIC_BATTLECRUISER_STERN_PD3: "ベーシック・ディフェンス・ステルン"
+###########################################################
+#護衛空母
+ESCORTCARRIER_CRUISER_BOW_M1S2: "クルーザー・アサルト・ボウ"
+ESCORTCARRIER_CRUISER_BOW_G2: "クルーザー・ミサイル・ボウ"
+ESCORTCARRIER_CRUISER_MID1_PD2H2: "クルーザー・キャリア・コア"
+ESCORTCARRIER_CRUISER_MID2_PD2H2: "クルーザー・キャリア・セカンド"
+ESCORTCARRIER_CRUISER_MID2_INV: "クルーザー・トルーパー・セカンド"
+ESCORTCARRIER_CRUISER_STERN_M1: "クルーザー・アタック・ステルン"
+ESCORTCARRIER_CRUISER_STERN_G1: "クルーザー・ミサイル・ステルン"
+ESCORTCARRIER_CRUISER_STERN_PD2: "クルーザー・ディフェンス・ステルン"
+###########################################################
+#空母
+HEAVY_CARRIER_BOW_M1S2PD2: "ヘヴィー・アタック・ボウ"
+HEAVY_CARRIER_BOW_M1G2PD4: "ヘヴィー・アサルト・ボウ"
+HEAVY_CARRIER_BOW_G2S4PD2: "ヘヴィー・ミサイル・ボウ"
+HEAVY_CARRIER_MID1_PD4HB_HU: "ヘヴィー・ベーシック・コア"
+HEAVY_CARRIER_MID1_S2PD2HB_SU: "ヘヴィー・アタック・コア"
+HEAVY_CARRIER_MID1_PD4HB_SU: "ヘヴィー・アサルト・コア"
+HEAVY_CARRIER_MID2_G4HB_HU: "ヘヴィー・ミサイル・セカンド"
+HEAVY_CARRIER_MID2_S2PD2HB_HU: "ヘヴィー・ディフェンス・セカンド"
+HEAVY_CARRIER_MID2_G4HB_SU: "ヘヴィー・ミサイル・セカンド"
+HEAVY_CARRIER_MID2_S2PD2HB_SU: "ヘヴィー・アサルト・セカンド"
+HEAVY_CARRIER_STERN_G2: "ヘヴィー・ミサイル・ステルン"
+HEAVY_CARRIER_STERN_M1PD2: "ヘヴィー・アタック・ステルン"
+HEAVY_CARRIER_STERN_S2PD2: "ヘヴィー・ディフェンス・ステルン"
+###########################################################
+#戦艦
+#重戦艦
+HEAVY_BATTLESHIP_BOW_L3M3S3: "ヘヴィー・アサルト・ボウ"
+HEAVY_BATTLESHIP_BOW_L4: "ヘヴィー・アーティラリ・ボウ"
+GUARD_BATTLESHIP_MID_SFU: "ヘヴィー・スピットファイア・コア"
+HEAVY_BATTLESHIP_STERN_L4: "ヘヴィー・アーティラリ・ステルン"
+HEAVY_BATTLESHIP_STERN_M6S6: "ヘヴィー・アサルト・ステルン"
+###########################################################
+#ドレッドノート
+#ベータ型
+BETA_DREADNOUGHT_BOW_L4: "ベータ・アーティラリ・ボウ"
+BETA_DREADNOUGHT_BOW_L2S2PD6: "ベータ・アサルト・ボウ"
+BETA_DREADNOUGHT_BOW_X2: "ベータ・カノン・ボウ"
+BETA_DREADNOUGHT_MID1_L2G5: "ベータ・ミサイル・コア"
+BETA_DREADNOUGHT_MID1_L6: "ベータ・アーティラリ・コア"
+BETA_DREADNOUGHT_MID1_L2M7: "ベータ・ファイア・コア"
+BETA_DREADNOUGHT_MID1_L2PD9: "ベータ・ディフェンス・コア"
+BETA_DREADNOUGHT_MID2_L2G5: "ベータ・ミサイル・セカンド"
+BETA_DREADNOUGHT_MID2_L6: "ベータ・アーティラリ・セカンド"
+BETA_DREADNOUGHT_MID2_L2M7: "ベータ・ファイア・セカンド"
+BETA_DREADNOUGHT_MID2_L2PD9: "ベータ・ディフェンス・セカンド"
+BETA_DREADNOUGHT_MID3_L2G5: "ベータ・ミサイル・サード"
+BETA_DREADNOUGHT_MID3_L6: "ベータ・アーティラリ・サード"
+BETA_DREADNOUGHT_MID3_L2M7: "ベータ・ファイア・サード"
+BETA_DREADNOUGHT_MID3_L2PD9: "ベータ・ディフェンス・サード"
+BETA_DREADNOUGHT_STERN_L2: "ベータ・アーティラリ・ステルン"
+BETA_DREADNOUGHT_STERN_M6: "ベータ・アタック・ステルン"
+BETA_DREADNOUGHT_STERN_M4S4PD2: "ベータ・ディフェンス・ステルン"
+BETA_DREADNOUGHT_STERN_G4: "ベータ・ミサイル・ステルン"

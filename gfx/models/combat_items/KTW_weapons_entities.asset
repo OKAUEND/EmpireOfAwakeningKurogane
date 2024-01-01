@@ -1,0 +1,895 @@
+
+animation = {
+	name = "KTW_VLS_ER_missile_launch_animation"
+	file = "KTW_VLS_ER_missile_launch.anim"
+}
+animation = {
+	name = "KTW_VLS_MR_missile_launch_animation"
+	file = "KTW_VLS_MR_missile_launch.anim"
+}
+animation = {
+	name = "KTW_turret_PD2_hit_idle_animation"
+	file = "KTW_turret_PD2_hit_idle.anim"
+}
+animation = {
+	name = "KTW_turret_PD2_hit_explosion_animation"
+	file = "KTW_turret_PD2_hit_explosion.anim"
+}
+
+animation = {
+	name = "KTW_T_kinetic_artillery_idle_animation"
+	file = "KTW_T_kinetic_artillery_idle.anim"
+}
+animation = {
+	name = "KTW_T_kinetic_artillery_none_animation"
+	file = "KTW_T_kinetic_artillery_none.anim"
+}
+animation = {
+	name = "KTW_T_kinetic_artillery_sub_idle1_animation"
+	file = "KTW_T_kinetic_artillery_sub_idle1.anim"
+}
+animation = {
+	name = "KTW_T_kinetic_artillery_sub_idle2_animation"
+	file = "KTW_T_kinetic_artillery_sub_idle2.anim"
+}
+animation = {
+	name = "KTW_T_kinetic_artillery_sub_idle3_animation"
+	file = "KTW_T_kinetic_artillery_sub_idle3.anim"
+}
+animation = {
+	name = "KTW_T_kinetic_artillery_sub_idle4_animation"
+	file = "KTW_T_kinetic_artillery_sub_idle4.anim"
+}
+animation = {
+	name = "KTW_T_kinetic_artillery_sub_idle5_animation"
+	file = "KTW_T_kinetic_artillery_sub_idle5.anim"
+}
+
+
+########################################################################################
+
+
+entity = {
+	name = "KTW_adv_kinetic_artillery_L_muzzle_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 use_parent_nodes = yes node = "turret_muzzle_01" particle = "mass_driver_small_muzzle_particle" keep_particle = yes }
+		event = { time = 0.1 use_parent_nodes = yes node = "turret_muzzle_02" particle = "mass_driver_small_muzzle_particle" keep_particle = yes }
+		event = { time = 0.2 use_parent_nodes = yes node = "turret_muzzle_03" particle = "mass_driver_small_muzzle_particle" keep_particle = yes }
+
+
+
+		event = { trigger_once = yes sound = { soundeffect = "KTW_cannon" } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_KTW_cannon" } }
+	}
+}
+entity = {
+	name = "KTW_adv_kinetic_artillery_M_muzzle_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0.1 use_parent_nodes = yes node = "turret_muzzle_02" particle = "mass_driver_small_muzzle_particle" keep_particle = yes }
+		event = { time = 0.2 use_parent_nodes = yes node = "turret_muzzle_01" particle = "mass_driver_small_muzzle_particle" keep_particle = yes }
+
+
+
+		event = { trigger_once = yes sound = { soundeffect = "KTW_cannon" } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_KTW_cannon" } }
+	}
+}
+entity = {
+	name = "KTW_adv_kinetic_artillery_S_muzzle_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0.2 use_parent_nodes = yes node = "turret_muzzle_01" particle = "mass_driver_small_muzzle_particle" keep_particle = yes }
+
+
+
+		event = { trigger_once = yes sound = { soundeffect = "KTW_cannon" } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_KTW_cannon" } }
+	}
+}
+
+
+
+
+
+
+
+
+entity = {
+	name = "KTW_adv_kinetic_artillery_L_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 2.0 particle = "mass_driver_large_hit_effect" sound = { soundeffect = mass_driver_hit } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_mass_driver_hit" } } 
+	}
+	state = { name = "explode_med_shield" state_time = 0.8 looping = no
+		event = { time = 2.0 particle = "large_hit_effect_shield" }
+	}
+	default_state = "explode_med_hp"
+}
+entity = {
+	name = "KTW_adv_kinetic_artillery_M_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 2.0 particle = "mass_driver_medium_hit_effect" sound = { soundeffect = mass_driver_hit } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_mass_driver_hit" } } 
+	}
+	state = { name = "explode_med_shield" state_time = 0.8 looping = no
+		event = { time = 2.0 particle = "medium_hit_effect_shield" }
+	}
+	default_state = "explode_med_hp"
+}
+entity = {
+	name = "KTW_adv_kinetic_artillery_S_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 2.0 particle = "mass_driver_small_hit_effect" sound = { soundeffect = mass_driver_hit } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_mass_driver_hit" } } 
+	}
+	state = { name = "explode_med_shield" state_time = 0.8 looping = no
+		event = { time = 2.0 particle = "small_hit_effect_shield" }
+	}
+	default_state = "explode_med_hp"
+}
+
+
+
+
+
+
+
+
+
+
+entity = {
+	name = "KTW_adv_kinetic_artillery_L_shield_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 2.0 particle = "mass_driver_large_hit_effect" sound = { soundeffect = shield_hit } }
+		event = { time = 2.0 particle = "projectile_large_shield_hit_effect" }
+		event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+	}
+	default_state = "explode_med_hp"
+}
+entity = {
+	name = "KTW_adv_kinetic_artillery_M_shield_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 2.0 particle = "mass_driver_medium_hit_effect" sound = { soundeffect = shield_hit } }
+		event = { time = 2.0 particle = "projectile_medium_shield_hit_effect" }
+		event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+	}
+	default_state = "explode_med_hp"
+}
+entity = {
+	name = "KTW_adv_kinetic_artillery_S_shield_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 2.0 particle = "mass_driver_small_hit_effect" sound = { soundeffect = shield_hit } }
+		event = { time = 2.0 particle = "projectile_small_shield_hit_effect" }
+		event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+	}
+	default_state = "explode_med_hp"
+}
+
+
+########################################################################################
+
+
+entity = {
+	name = "KTW_plasma_shock_cannon_L_muzzle_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0.2 use_parent_nodes = yes node = "turret_muzzle_01" particle = "blue_laser_small_muzzle_particle" keep_particle = yes }
+		event = { time = 0.2 use_parent_nodes = yes node = "turret_muzzle_02" particle = "blue_laser_small_muzzle_particle" keep_particle = yes }
+		event = { time = 0.2 use_parent_nodes = yes node = "turret_muzzle_03" particle = "blue_laser_small_muzzle_particle" keep_particle = yes }
+
+
+
+		event = { trigger_once = yes time = 0.2 sound = { soundeffect = "KTW_plasmashockcannon" } }
+		event = { trigger_once = yes time = 0.2 sound = { soundeffect = "distance_KTW_plasmashockcannon" } }
+	}
+}
+
+entity = {
+	name = "KTW_plasma_shock_cannon_M_muzzle_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0.2 use_parent_nodes = yes node = "turret_muzzle_01" particle = "blue_laser_small_muzzle_particle" keep_particle = yes }
+		event = { time = 0.2 use_parent_nodes = yes node = "turret_muzzle_02" particle = "blue_laser_small_muzzle_particle" keep_particle = yes }
+
+
+
+		event = { trigger_once = yes time = 0.2 sound = { soundeffect = "KTW_plasmashockcannon" } }
+		event = { trigger_once = yes time = 0.2 sound = { soundeffect = "distance_KTW_plasmashockcannon" } }
+	}
+}
+
+entity = {
+	name = "KTW_plasma_shock_cannon_S_muzzle_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0.2 use_parent_nodes = yes node = "turret_muzzle_01" particle = "blue_laser_small_muzzle_particle" keep_particle = yes }
+
+
+
+		event = { trigger_once = yes time = 0.2 sound = { soundeffect = "KTW_plasmashockcannon" } }
+		event = { trigger_once = yes time = 0.2 sound = { soundeffect = "distance_KTW_plasmashockcannon" } }
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+entity = {
+	name = "KTW_plasma_shock_cannon_L_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 1.0 particle = "blue_laser_large_hit_effect" sound = { soundeffect = mass_driver_hit } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_mass_driver_hit" } } 
+	}
+	default_state = "explode_med_hp"
+}
+entity = {
+	name = "KTW_plasma_shock_cannon_M_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 1.0 particle = "blue_laser_medium_hit_effect" sound = { soundeffect = mass_driver_hit } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_mass_driver_hit" } } 
+	}
+	default_state = "explode_med_hp"
+}
+entity = {
+	name = "KTW_plasma_shock_cannon_S_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 1.0 particle = "blue_laser_small_hit_effect" sound = { soundeffect = mass_driver_hit } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_mass_driver_hit" } } 
+	}
+	default_state = "explode_med_hp"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+entity = {
+	name = "KTW_plasma_shock_cannon_L_shield_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 1.0 particle = "blue_laser_large_hit_effect" sound = { soundeffect = shield_hit } }
+		event = { time = 1.0 particle = "projectile_large_shield_hit_effect" }
+		event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+	}
+	default_state = "explode_med_hp"
+}
+
+entity = {
+	name = "KTW_plasma_shock_cannon_M_shield_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 1.0 particle = "blue_laser_medium_hit_effect" sound = { soundeffect = shield_hit } }
+		event = { time = 1.0 particle = "projectile_medium_shield_hit_effect" }
+		event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+	}
+	default_state = "explode_med_hp"
+}
+
+entity = {
+	name = "KTW_plasma_shock_cannon_S_shield_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 1.0 particle = "blue_laser_small_hit_effect" sound = { soundeffect = shield_hit } }
+		event = { time = 1.0 particle = "projectile_small_shield_hit_effect" }
+		event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+	}
+	default_state = "explode_med_hp"
+}
+
+
+
+
+
+
+
+
+
+########################################################################################
+
+entity = {
+	name = "KTW_pd_muzzle_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0.0 use_parent_nodes = yes node = "turret_muzzle_01" particle = "mass_driver_small_muzzle_particle" keep_particle = yes }
+		event = { time = 0.1 use_parent_nodes = yes node = "turret_muzzle_02" particle = "mass_driver_small_muzzle_particle" keep_particle = yes }
+		event = { time = 0.2 use_parent_nodes = yes node = "turret_muzzle_01" particle = "mass_driver_small_muzzle_particle" keep_particle = yes }
+		event = { time = 0.3 use_parent_nodes = yes node = "turret_muzzle_02" particle = "mass_driver_small_muzzle_particle" keep_particle = yes }
+
+
+
+		event = { trigger_once = yes sound = { soundeffect = "KTW_pd_cannon" } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_KTW_pd_cannon" } }
+	}
+}
+entity = {
+	name = "KTW_pd_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.2 particle = "mass_driver_small_hit_effect" sound = { soundeffect = mass_driver_hit } }
+
+		event = { trigger_once = yes sound = { soundeffect = "distance_mass_driver_hit" } } 
+	}
+	default_state = "explode_med_hp"
+}
+entity = {
+	name = "KTW_pd_shield_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0.2 particle = "projectile_small_shield_hit_effect" }
+
+		event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+	}
+	default_state = "explode_med_hp"
+}
+
+
+########################################################################################
+
+
+
+entity = {
+	name = "KTW_PD2_muzzle_flash_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 particle = "plasma_accelerator_small_muzzle_particle" keep_particle = yes sound = { soundeffect = KTW_pd_laser } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_KTW_pd_laser" } }
+	}
+}
+
+entity = {
+	name = "KTW_PD2_hit_entity"
+	pdxmesh = "KTW_PD2_hit_mesh"
+	
+	default_state = "idle"
+
+	state = { name = "idle" animation = "idle" looping = yes
+	}
+	state = { name = "stop" animation = "explosion"  looping = no
+		event = { time = 0.4 node = "effect" particle = "focused_arc_emitter_muzzle_particle" keep_particle = yes }
+	}
+	scale = 1.0
+}
+
+
+
+
+########################################################################################
+
+
+
+entity = {
+	name = "KTW_H_pd_tracer_round_entity"
+	pdxmesh = "KTW_H_pd_tracer_round_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" }
+	
+	scale = 2
+}
+
+
+
+entity = {
+	name = "KTW_H_pd_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0 particle = "KTW_DUQF_hit_effect" sound = { soundeffect = mass_driver_hit } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_mass_driver_hit" } } 
+	}
+	default_state = "explode_med_hp"
+}
+
+entity = {
+	name = "KTW_H_pd_shield_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0 particle = "KTW_DUQF_hit_effect" }
+		event = { time = 0 particle = "projectile_small_shield_hit_effect" }
+
+		event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+	}
+	default_state = "explode_med_hp"
+}
+
+
+########################################################################################
+
+
+
+entity = {
+	name = "KTW_H_pd_laser_entity"
+	pdxmesh = "KTW_H_pd_tracer_round_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" }
+	
+	scale = 2
+	meshsettings = {
+		name = "polySurface5Shape"
+		texture_diffuse = "KTW_H_pd_laser.dds"
+	}
+}
+
+
+
+entity = {
+	name = "KTW_H_pd_laser_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0 particle = "KTW_pd_laser_hit_explosion" sound = { soundeffect = laser_hit } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_laser_hit" } } 
+	}
+	default_state = "explode_med_hp"
+}
+
+entity = {
+	name = "KTW_H_pd_laser_shield_hit_entity"
+	cull_radius = 1.0
+	
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0 particle = "KTW_pd_laser_hit_explosion" }
+		event = { time = 0 particle = "projectile_small_shield_hit_effect" }
+
+		event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+	}
+	default_state = "explode_med_hp"
+}
+
+
+
+
+
+########################################################################################
+
+
+
+entity = {
+	name = "KTW_VLS_ER_missile_muzzle_flash_entity"
+	cull_radius = 0.01
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 use_parent_nodes = yes node = "turret_muzzle_01" particle = "missile_small_muzzle_flash_particle" keep_particle = yes }
+		event = { time = 0.1 use_parent_nodes = yes node = "turret_muzzle_02" particle = "missile_small_muzzle_flash_particle" keep_particle = yes }
+		event = { time = 0.2 use_parent_nodes = yes node = "turret_muzzle_03" particle = "missile_small_muzzle_flash_particle" keep_particle = yes }
+		event = { time = 0.3 use_parent_nodes = yes node = "turret_muzzle_04" particle = "missile_small_muzzle_flash_particle" keep_particle = yes }
+		event = { trigger_once = yes sound = { soundeffect = "missile_fire" } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_missile_fire" } }
+	}
+	scale = 1.0
+}
+
+
+entity = {
+	name = "KTW_VLS_ER_missile_entity"
+	pdxmesh = "KTW_VLS_ER_missile_mesh"
+	
+	default_state = "idle"
+
+	state = { name = "idle" animation = "launch_ER" looping = yes
+		event = { time = 0 node = exhaust_1 particle = "KTW_small_missile_idle" keep_particle = yes  }
+		event = { time = 0 node = exhaust_1 particle = "KTW_missile_idle_flame" keep_particle = yes  }
+		event = { time = 0.1 node = exhaust_2 particle = "KTW_small_missile_idle" keep_particle = yes  }
+		event = { time = 0.1 node = exhaust_2 particle = "KTW_missile_idle_flame" keep_particle = yes  }
+		event = { time = 0.2 node = exhaust_3 particle = "KTW_small_missile_idle" keep_particle = yes  }
+		event = { time = 0.2 node = exhaust_3 particle = "KTW_missile_idle_flame" keep_particle = yes  }
+		event = { time = 0.3 node = exhaust_4 particle = "KTW_small_missile_idle" keep_particle = yes  }
+		event = { time = 0.3 node = exhaust_4 particle = "KTW_missile_idle_flame" keep_particle = yes  }
+
+	}
+	scale = 1.0
+}
+entity = {
+	name = "KTW_VLS_ER_missile_hit_entity"
+	pdxmesh = "KTW_VLS_ER_missile_hit_mesh"	
+
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0 node = exhaust_1 particle = "mass_driver_large_hit_effect" keep_particle = yes }
+		event = { time = 0.1 node = exhaust_2 particle = "mass_driver_large_hit_effect" keep_particle = yes }
+		event = { time = 0.2 node = exhaust_3 particle = "mass_driver_large_hit_effect" keep_particle = yes }
+		event = { time = 0.3 node = exhaust_4 particle = "mass_driver_large_hit_effect" keep_particle = yes }
+		event = { trigger_once = yes sound = { soundeffect = "missile_hit" } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_missile_hit" } }
+	}
+	default_state = "explode_med_hp"
+	scale = 4.0
+}
+
+
+
+
+entity = {
+	name = "KTW_VLS_MR_missile_muzzle_flash_entity"
+	cull_radius = 0.01
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 7 looping = no
+		event = { time = 0 use_parent_nodes = yes node = "turret_muzzle_01" particle = "missile_small_muzzle_flash_particle" keep_particle = yes }
+		event = { time = 0.1 use_parent_nodes = yes node = "turret_muzzle_02" particle = "missile_small_muzzle_flash_particle" keep_particle = yes }
+		event = { time = 0.2 use_parent_nodes = yes node = "turret_muzzle_03" particle = "missile_small_muzzle_flash_particle" keep_particle = yes }
+		event = { trigger_once = yes sound = { soundeffect = "missile_fire" } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_missile_fire" } }
+	}
+	scale = 1.0
+}
+
+
+entity = {
+	name = "KTW_VLS_MR_missile_entity"
+	pdxmesh = "KTW_VLS_ER_missile_mesh"
+	
+	default_state = "idle"
+
+	state = { name = "idle" animation = "launch_MR" looping = yes
+		event = { time = 0 node = exhaust_1 particle = "KTW_small_missile_idle" keep_particle = yes  }
+		event = { time = 0 node = exhaust_1 particle = "KTW_missile_idle_flame" keep_particle = yes  }
+		event = { time = 0.1 node = exhaust_2 particle = "KTW_small_missile_idle" keep_particle = yes  }
+		event = { time = 0.1 node = exhaust_2 particle = "KTW_missile_idle_flame" keep_particle = yes  }
+		event = { time = 0.2 node = exhaust_3 particle = "KTW_small_missile_idle" keep_particle = yes  }
+		event = { time = 0.2 node = exhaust_3 particle = "KTW_missile_idle_flame" keep_particle = yes  }
+
+	}
+	scale = 1.0
+}
+entity = {
+	name = "KTW_VLS_MR_missile_hit_entity"
+	pdxmesh = "KTW_VLS_MR_missile_hit_mesh"	
+
+	state = { name = "explode_med_hp" state_time = 5 looping = no
+		event = { time = 0 node = exhaust_1 particle = "mass_driver_large_hit_effect" keep_particle = yes }
+		event = { time = 0.1 node = exhaust_2 particle = "mass_driver_large_hit_effect" keep_particle = yes }
+		event = { time = 0.2 node = exhaust_3 particle = "mass_driver_large_hit_effect" keep_particle = yes }
+		event = { trigger_once = yes sound = { soundeffect = "missile_hit" } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_missile_hit" } }
+	}
+	default_state = "explode_med_hp"
+	scale = 4.0
+}
+
+
+
+
+########################################################################################
+
+entity = {
+	name = "KTW_AntiShip_missile_entity"
+	pdxmesh = "KTW_AntiShip_missile_mesh"
+	
+	default_state = "launch"
+
+	state = { name = "launch" state_time = 1  looping = no next_state = "idle"
+		event = { time = 0 node = exhaust particle = "large_torpedo_idle_particle" keep_particle = yes  }
+		event = { time = 0.1 node = exhaust particle = "large_torpedo_03_idle_flame_particle" keep_particle = yes  }
+	}
+	state = { name = "idle" state_time = 2  looping = yes
+		event = { time = 0 node = exhaust particle = "large_torpedo_03_idle_flame_particle" keep_particle = yes  }
+	}
+	scale = 1.5
+}
+entity = {
+	name = "KTW_AntiShip_torpedo_entity"
+	pdxmesh = "KTW_AntiShip_torpedo_mesh"
+	
+	default_state = "idle"
+
+	state = { name = "idle" state_time = 2  looping = no next_state = "idle"
+		event = { time = 0 node = exhaust particle = "large_torpedo_03_idle_flame_particle" keep_particle = yes  }
+	}
+
+	scale = 1.0
+}
+
+
+
+########################################################################################
+
+entity = {
+	name = "KTW_T_kinetic_artillery_entity"
+	pdxmesh = "KTW_T_kinetic_artillery_mesh"
+	
+	default_state = "idle"
+
+	state = { name = "idle" animation = "idle" looping = no
+	}
+	state = { name = "stop"  looping = no
+		event = { time = 0 node = effect particle = "particle_lance_muzzle_particle" keep_particle = yes  }
+
+	}
+	scale = 1.5
+	attach = { sub_locator_01 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_02 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_03 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_04 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_05 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_06 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_07 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_08 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_09 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_10 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_11 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_12 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_13 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_14 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_15 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_16 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_17 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_18 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_19 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_20 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_21 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_22 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_23 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_24 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_25 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_26 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_27 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_28 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_29 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_30 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_31 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_32 = "KTW_T_kinetic_artillery_sub_entity" }
+
+}
+
+entity = {
+	name = "KTW_T_kinetic_artillery_sub_entity"
+	pdxmesh = "KTW_T_kinetic_artillery_mesh"
+
+	get_state_from_parent = yes
+	
+	default_state = "idle"
+
+	state = { name = "idle" animation = "none" looping = yes
+	}
+	state = { name = "stop" animation = "idle_sub1"  looping = no
+		chance = 1
+		event = { time = 1.5 node = effect particle = "KTW_T_kinetic_artillery_sub_hit_effect" keep_particle = yes  }
+	}
+	state = { name = "stop" animation = "idle_sub2"  looping = no
+		chance = 1
+		event = { time = 1.2 node = effect particle = "KTW_T_kinetic_artillery_sub_hit_effect" keep_particle = yes  }
+	}
+	state = { name = "stop" animation = "idle_sub3"  looping = no
+		chance = 1
+		event = { time = 1 node = effect particle = "KTW_T_kinetic_artillery_sub_hit_effect" keep_particle = yes  }
+	}
+	state = { name = "stop" animation = "idle_sub4"  looping = no
+		chance = 1
+		event = { time = 0.8 node = effect particle = "KTW_T_kinetic_artillery_sub_hit_effect" keep_particle = yes  }
+	}
+	state = { name = "stop" animation = "idle_sub5"  looping = no
+		chance = 1
+		event = { time = 0.5 node = effect particle = "KTW_T_kinetic_artillery_sub_hit_effect" keep_particle = yes  }
+	}
+	scale = 0.5
+
+}
+
+
+
+
+
+
+
+entity = {
+	name = "KTW_XL_starbase_kinetic_artillery_entity"
+	pdxmesh = "KTW_T_kinetic_artillery_mesh"
+	
+	default_state = "idle"
+
+	state = { name = "idle" animation = "idle" looping = no
+	}
+	state = { name = "stop"  looping = no
+		event = { time = 0 node = effect particle = "particle_lance_muzzle_particle" keep_particle = yes  }
+
+	}
+	scale = 1.0
+	attach = { sub_locator_01 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_02 = "KTW_T_kinetic_artillery_sub_entity" }
+	#attach = { sub_locator_03 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_04 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_05 = "KTW_T_kinetic_artillery_sub_entity" }
+	#attach = { sub_locator_06 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_07 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_08 = "KTW_T_kinetic_artillery_sub_entity" }
+	#attach = { sub_locator_09 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_10 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_11 = "KTW_T_kinetic_artillery_sub_entity" }
+	#attach = { sub_locator_12 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_13 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_14 = "KTW_T_kinetic_artillery_sub_entity" }
+	#attach = { sub_locator_15 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_16 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_17 = "KTW_T_kinetic_artillery_sub_entity" }
+	#attach = { sub_locator_18 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_19 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_20 = "KTW_T_kinetic_artillery_sub_entity" }
+	#attach = { sub_locator_21 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_22 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_23 = "KTW_T_kinetic_artillery_sub_entity" }
+	#attach = { sub_locator_24 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_25 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_26 = "KTW_T_kinetic_artillery_sub_entity" }
+	#attach = { sub_locator_27 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_28 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_29 = "KTW_T_kinetic_artillery_sub_entity" }
+	#attach = { sub_locator_30 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_31 = "KTW_T_kinetic_artillery_sub_entity" }
+	attach = { sub_locator_32 = "KTW_T_kinetic_artillery_sub_entity" }
+
+}
+
+
+
+########################################################################################
+
+
+
+
+entity = {
+	name = "KTW_T_perdition_beam_windup_entity"
+	
+	default_state = "attack"
+	get_state_from_parent = no
+	state = {
+		name = "attack" looping = yes state_time = 1.0
+		event = { trigger_once = yes sound = { soundeffect = "titan_laser_windup_01" } }
+		
+
+		event = { time = 0 use_parent_nodes = yes node = "xl_windup_A1" particle = "focused_arc_emitter_windup_effect" keep_particle = yes }
+		event = { time = 0.2 use_parent_nodes = yes node = "xl_windup_A2" particle = "focused_arc_emitter_windup_effect" keep_particle = yes }
+		event = { time = 0.4 use_parent_nodes = yes node = "xl_windup_A3" particle = "focused_arc_emitter_windup_effect" keep_particle = yes }
+		event = { time = 0.6 use_parent_nodes = yes node = "xl_windup_A4" particle = "focused_arc_emitter_windup_effect" keep_particle = yes }
+		event = { time = 0.8 use_parent_nodes = yes node = "xl_windup_A5" particle = "focused_arc_emitter_windup_effect" keep_particle = yes }
+		event = { time = 1.0 use_parent_nodes = yes node = "xl_windup_A6" particle = "focused_arc_emitter_windup_effect" keep_particle = yes }
+	
+		event = { time = 0 use_parent_nodes = yes node = "xl_windup_B1" particle = "focused_arc_emitter_windup_effect" keep_particle = yes }
+		event = { time = 0.2 use_parent_nodes = yes node = "xl_windup_B2" particle = "focused_arc_emitter_windup_effect" keep_particle = yes }
+		event = { time = 0.4 use_parent_nodes = yes node = "xl_windup_B3" particle = "focused_arc_emitter_windup_effect" keep_particle = yes }
+		event = { time = 0.6 use_parent_nodes = yes node = "xl_windup_B4" particle = "focused_arc_emitter_windup_effect" keep_particle = yes }
+		event = { time = 0.8 use_parent_nodes = yes node = "xl_windup_B5" particle = "focused_arc_emitter_windup_effect" keep_particle = yes }
+		event = { time = 1.0 use_parent_nodes = yes node = "xl_windup_B6" particle = "focused_arc_emitter_windup_effect" keep_particle = yes }
+
+	}
+}
+
+entity = {
+	name = "KTW_T_perdition_beam_muzzle_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 3.0 looping = no
+		event = { time = 0 use_parent_nodes = yes node = "titanic_muzzle_1" particle = "KTW_radiant_heat_rays_muzzle_effect" keep_particle = yes }
+		event = { time = 0 use_parent_nodes = yes node = "titanic_muzzle_2" particle = "KTW_radiant_heat_rays_muzzle_effect" keep_particle = yes }
+		event = { time = 0 use_parent_nodes = yes node = "titanic_muzzle_3" particle = "KTW_radiant_heat_rays_muzzle_effect" keep_particle = yes }
+		event = { time = 0 use_parent_nodes = yes node = "titanic_muzzle_4" particle = "KTW_radiant_heat_rays_muzzle_effect" keep_particle = yes }
+		event = { time = 0 use_parent_nodes = yes node = "titanic_muzzle_5" particle = "KTW_radiant_heat_rays_muzzle_effect" keep_particle = yes }
+		event = { time = 0 use_parent_nodes = yes node = "titanic_muzzle_6" particle = "KTW_radiant_heat_rays_muzzle_effect" keep_particle = yes }
+		event = { trigger_once = yes time = 0 sound = { soundeffect = "KTW_radiant_heat_rays_muzzle" } }
+		event = { trigger_once = yes time = 0 sound = { soundeffect = "distance_KTW_radiant_heat_rays_muzzle" } }
+		event = { trigger_once = yes time = 1 sound = { soundeffect = "KTW_radiant_heat_rays_fire" } }
+		event = { trigger_once = yes time = 1 sound = { soundeffect = "distance_KTW_radiant_heat_rays_fire" } }
+	}
+}
+
+entity = {
+	name = "KTW_T_perdition_beam_hit_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 2 looping = no
+		event = { trigger_once = yes state_time = 1 particle = "ion_cannon_hit_effect" keep_particle = yes sound = { soundeffect = "ion_cannon_hit" } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_ion_cannon_hit" } }
+	}
+	state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+entity = {
+	name = "KTW_T_perdition_beam_shield_hit_entity"
+	cull_radius = 1.0
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 2 looping = no
+		event = { trigger_once = yes state_time = 1 particle = "ion_cannon_hit_effect" keep_particle = yes sound = { soundeffect = "shield_hit" } }
+		event = { trigger_once = yes state_time = 1 sound = { soundeffect = "distance_shield_hit" } }
+	}
+	state = { name = "stop" state_time = 0.5 looping = no }
+}
+
+
+entity = {
+	name = "KTW_XL_arc_emitter_muzzle_entity"
+	pdxmesh = "locator_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" state_time = 3 looping = no
+		event = { time = 0 particle = "KTW_XL_arc_emitter_muzzle_effect" keep_particle = yes sound = { soundeffect = xl_arc_emitter_fire } }
+		event = { trigger_once = yes sound = { soundeffect = "distance_xl_arc_emitter_fire" } }
+	}
+}
+
+
+entity = {
+	name = "KTW_XL_arc_emitter_hit_entity"
+	cull_radius = 1.0
+	default_state = "idle"
+	state = { name = "idle" 
+		start_event = { particle = "KTW_XL_arc_emitter_hit_effect" }
+	}
+	state = { name = "stop" state_time = 0.5 looping = no }
+	scale = 1.0
+}
+
+
+entity = {
+	name = "KTW_XL_arc_emitter_shield_hit_entity"
+	cull_radius = 1.0
+	default_state = "idle"
+	state = { name = "idle" 
+		#event = { time = 0.0 particle = KTW_XL_arc_emitter_hit_effect }
+		start_event = { particle = "projectile_large_shield_hit_effect" sound = { soundeffect = shield_hit } }
+		start_event = { trigger_once = yes sound = { soundeffect = "distance_shield_hit" } } 
+	}
+	state = { name = "stop" state_time = 0.5 looping = no }
+	scale = 0.6
+}

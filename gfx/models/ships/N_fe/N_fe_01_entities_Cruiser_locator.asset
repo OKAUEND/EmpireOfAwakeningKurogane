@@ -1,0 +1,107 @@
+
+
+########################################################################################################################
+
+
+entity = {
+	name = "N_fe_01_cruiser_01_locator_entity"
+	pdxmesh = "N_fe_01_cruiser_01_locator_mesh"
+	
+	default_state = "idle"
+	state = { name = idle	state_time = 5
+	}
+	
+	state = { name = moving	state_time = 5
+	}
+	
+	state = { name = "death" state_time = 5 }
+	scale = 0.75
+}
+
+
+
+
+entity = {
+	name = "N_fe_01_cruiser_02_locator_entity"
+	pdxmesh = "N_fe_01_cruiser_02_locator_mesh"
+	
+	default_state = "idle"
+	state = { name = idle	state_time = 5
+	}
+	
+	state = { name = moving	state_time = 5
+	}
+	
+	state = { name = "death" state_time = 5 }
+	scale = 0.75
+}
+
+
+
+
+entity = {
+	name = "N_fe_01_cruiser_03_locator_entity"
+	pdxmesh = "N_fe_01_cruiser_03_locator_mesh"
+	
+	default_state = "idle"
+	state = { name = idle	state_time = 5
+	}
+	
+	state = { name = moving	state_time = 5
+	}
+	
+	state = { name = "death" state_time = 5 }
+	scale = 0.75
+}
+
+
+
+
+
+entity = {
+	name = "N_fe_01_cruiser_04_locator_entity"
+	pdxmesh = "N_fe_01_cruiser_04_locator_mesh"
+	
+	default_state = "idle"
+	state = { name = idle	state_time = 5
+	}
+	
+	state = { name = moving	state_time = 5
+	}
+	
+	state = { name = "death" state_time = 5 }
+	scale = 0.75
+}
+
+
+
+entity = {
+	name = "N_fe_01_cruiser_05_locator_entity"
+	pdxmesh = "N_fe_01_cruiser_05_locator_mesh"
+	
+	default_state = "idle"
+	state = { name = idle	state_time = 5
+	}
+	
+	state = { name = moving	state_time = 5
+	}
+	
+	state = { name = "death" state_time = 5 }
+	scale = 0.75
+}
+
+
+entity = {
+	name = "N_fe_01_cruiser_06_locator_entity"
+	pdxmesh = "N_fe_01_cruiser_06_locator_mesh"
+	
+	default_state = "idle"
+	state = { name = idle	state_time = 5
+	}
+	
+	state = { name = moving	state_time = 5
+	}
+	
+	state = { name = "death" state_time = 5 }
+	scale = 0.75
+}

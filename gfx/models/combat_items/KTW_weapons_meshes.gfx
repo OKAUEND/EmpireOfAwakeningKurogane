@@ -1,0 +1,72 @@
+objectTypes = {
+	
+	pdxmesh = {
+		name = "KTW_VLS_ER_missile_mesh"
+		file = "gfx/models/combat_items/KTW_VLS_ER_missile.mesh"
+		scale = 1
+		
+		animation = { id = "launch_ER"					type = "KTW_VLS_ER_missile_launch_animation" }			
+		animation = { id = "launch_MR"					type = "KTW_VLS_MR_missile_launch_animation" }			
+		
+		meshsettings = {
+			shader = "PdxMeshTerra"
+		}
+	}
+	pdxmesh = {
+		name = "KTW_VLS_ER_missile_hit_mesh"
+		file = "gfx/models/combat_items/KTW_VLS_ER_missile_hit.mesh"
+		scale = 0.25
+	}
+	pdxmesh = {
+		name = "KTW_VLS_MR_missile_hit_mesh"
+		file = "gfx/models/combat_items/KTW_VLS_ER_missile_hit.mesh"
+		scale = 0.15
+	}
+	#艦船モデルテクスチャを使用
+	pdxmesh = {
+		name = "KTW_AntiShip_missile_mesh"
+		file = "gfx/models/ships/N_fe_turrets/KTW_AntiShip_missile.mesh"
+		scale = 0.5
+	}
+	#艦船モデルテクスチャを使用
+	pdxmesh = {
+		name = "KTW_AntiShip_torpedo_mesh"
+		file = "gfx/models/ships/N_fe_turrets/KTW_AntiShip_torpedo.mesh"
+		scale = 0.5
+	}
+	pdxmesh = {
+		name = "KTW_PD2_hit_mesh"
+		file = "gfx/models/combat_items/KTW_PD2_hit.mesh"
+		scale = 1
+		
+		animation = { id = "idle"					type = "KTW_turret_PD2_hit_idle_animation" }			
+		animation = { id = "explosion"					type = "KTW_turret_PD2_hit_explosion_animation" }			
+		
+	}
+
+
+
+	pdxmesh = {
+		name = "KTW_T_kinetic_artillery_mesh"
+		file = "gfx/models/combat_items/KTW_T_kinetic_artillery.mesh"
+		scale = 1
+		
+		animation = { id = "idle"					type = "KTW_T_kinetic_artillery_idle_animation" }
+		animation = { id = "none"					type = "KTW_T_kinetic_artillery_none_animation" }			
+		animation = { id = "idle_sub1"					type = "KTW_T_kinetic_artillery_sub_idle1_animation" }
+		animation = { id = "idle_sub2"					type = "KTW_T_kinetic_artillery_sub_idle2_animation" }
+		animation = { id = "idle_sub3"					type = "KTW_T_kinetic_artillery_sub_idle3_animation" }
+		animation = { id = "idle_sub4"					type = "KTW_T_kinetic_artillery_sub_idle4_animation" }
+		animation = { id = "idle_sub5"					type = "KTW_T_kinetic_artillery_sub_idle5_animation" }
+
+	}
+
+	pdxmesh = {
+		name = "KTW_H_pd_tracer_round_mesh"
+		file = "gfx/models/combat_items/KTW_H_pd_tracer_round.mesh"
+		scale = 1			
+	}
+
+}		
+
+	
