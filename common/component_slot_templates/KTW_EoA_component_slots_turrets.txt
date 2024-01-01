@@ -36,6 +36,11 @@ KTW_turret_L = {
 		weapon_type_kinetic = "KTW_turret_L_kinetic_entity"
 		weapon_type_energy = "KTW_turret_L_energy_entity"
 		weapon_type_explosive = "KTW_turret_G_entity"
+		
+		#ESC-N
+		weapon_type_psionic = "KTW_turret_L_energy_entity"
+		weapon_type_nanite = "KTW_turret_L_kinetic_entity"
+		weapon_type_biological = "KTW_turret_G_entity"
 	}
 }
 
@@ -46,7 +51,11 @@ KTW_turret_L_MM = {
 		weapon_type_kinetic = "KTW_turret_M_kinetic_entity"
 		weapon_type_energy = "KTW_turret_M_energy_entity"
 		weapon_type_explosive = "KTW_turret_M_explosive_entity"
-
+		
+		#ESC-N
+		weapon_type_psionic = "KTW_turret_M_energy_entity"
+		weapon_type_nanite = "KTW_turret_M_kinetic_entity"
+		weapon_type_biological = "KTW_turret_M_explosive_entity"
 	}
 }
 
@@ -57,6 +66,11 @@ KTW_turret_L_S = {
 		weapon_type_kinetic = "KTW_turret_S_kinetic_entity"
 		weapon_type_energy = "KTW_turret_S_energy_entity"
 		weapon_type_explosive = "KTW_turret_S_explosive_entity"
+		
+		#ESC-N
+		weapon_type_psionic = "KTW_turret_S_energy_entity"
+		weapon_type_nanite = "KTW_turret_S_kinetic_entity"
+		weapon_type_biological = "KTW_turret_S_explosive_entity"
 
 	}
 }
@@ -68,7 +82,11 @@ KTW_turret_M = {
 		weapon_type_kinetic = "KTW_turret_M_kinetic_entity"
 		weapon_type_energy = "KTW_turret_M_energy_entity"
 		weapon_type_explosive = "KTW_turret_M_explosive_entity"
-
+		
+		#ESC-N
+		weapon_type_psionic = "KTW_turret_M_energy_entity"
+		weapon_type_nanite = "KTW_turret_M_kinetic_entity"
+		weapon_type_biological = "KTW_turret_M_explosive_entity"
 	}
 }
 #コルベット･駆逐艦標準砲塔
@@ -79,7 +97,11 @@ KTW_turret_M2A = {
 		weapon_type_kinetic = "KTW_turret_M2A_kinetic_entity"
 		weapon_type_energy = "KTW_turret_M2A_energy_entity"
 		weapon_type_explosive = "KTW_turret_M_explosive_entity"
-
+		
+		#ESC-N
+		weapon_type_psionic = "KTW_turret_M2A_energy_entity"
+		weapon_type_nanite = "KTW_turret_M2A_kinetic_entity"
+		weapon_type_biological = "KTW_turret_M_explosive_entity"
 	}
 }
 
@@ -90,6 +112,11 @@ KTW_turret_M_S = {
 		weapon_type_kinetic = "KTW_turret_S_kinetic_entity"
 		weapon_type_energy = "KTW_turret_S_energy_entity"
 		weapon_type_explosive = "KTW_turret_S_explosive_entity"
+		
+		#ESC-N
+		weapon_type_psionic = "KTW_turret_S_energy_entity"
+		weapon_type_nanite = "KTW_turret_S_kinetic_entity"
+		weapon_type_biological = "KTW_turret_S_explosive_entity"
 
 	}
 }
@@ -102,6 +129,11 @@ KTW_turret_S = {
 		weapon_type_kinetic = "KTW_turret_S_kinetic_entity"
 		weapon_type_energy = "KTW_turret_S_energy_entity"
 		weapon_type_explosive = "KTW_turret_S_explosive_entity"
+		
+		#ESC-N
+		weapon_type_psionic = "KTW_turret_S_energy_entity"
+		weapon_type_nanite = "KTW_turret_S_kinetic_entity"
+		weapon_type_biological = "KTW_turret_S_explosive_entity"
 
 	}
 }
@@ -114,7 +146,11 @@ KTW_turret_S2A = {
 		weapon_type_kinetic = "KTW_turret_S2A_kinetic_entity"
 		weapon_type_energy = "KTW_turret_S2A_energy_entity"
 		weapon_type_explosive = "KTW_turret_S_explosive_entity"
-
+		
+		#ESC-N
+		weapon_type_psionic = "KTW_turret_S2A_energy_entity"
+		weapon_type_nanite = "KTW_turret_S2A_kinetic_entity"
+		weapon_type_biological = "KTW_turret_S_explosive_entity"
 	}
 }
 
@@ -125,6 +161,12 @@ KTW_turret_PD = {
 		weapon_type_kinetic = "KTW_turret_PD_entity"
 		weapon_type_energy = "KTW_turret_PD_entity"
 		weapon_type_explosive = "KTW_turret_S_explosive_entity"
+		weapon_type_point_defense = "KTW_turret_S_explosive_entity"
+		
+		#ESC-N
+		weapon_type_psionic = "KTW_turret_PD_entity"
+		weapon_type_nanite = "KTW_turret_PD_entity"
+		weapon_type_biological = "KTW_turret_S_explosive_entity"
 	}
 }
 
@@ -135,6 +177,11 @@ KTW_turret_G = {
 		weapon_type_explosive = "KTW_turret_G_entity"
 		weapon_type_kinetic = "KTW_turret_G_entity" # Failsafe for saved "invalid designs"
 		weapon_type_energy = "KTW_turret_G_entity" # Failsafe for saved "invalid designs"
+		
+		#ESC-N
+		weapon_type_psionic = "KTW_turret_G_entity"
+		weapon_type_nanite = "KTW_turret_G_entity"
+		weapon_type_biological = "KTW_turret_G_entity"
 	}
 }
 
