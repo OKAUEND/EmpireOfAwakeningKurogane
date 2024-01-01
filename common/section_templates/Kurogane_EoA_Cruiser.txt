@@ -12,9 +12,6 @@ ship_section_template = {
 	ship_size = cruiser
 
 	#NSC
-	ship_size = escortcarrier
-
-	#NSC
 	fits_on_slot = mid
 
 	entity = "N_fe_01_cruiser_01_entity"
