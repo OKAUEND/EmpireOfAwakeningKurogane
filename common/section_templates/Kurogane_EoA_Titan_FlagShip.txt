@@ -3,7 +3,7 @@
 
 ship_section_template = {
 	key = "KTW_NSC2TAKAMAGAHARA_BOW_HULL"	
-	ship_size = Flagship
+	ship_size = KTW_SuperFlagShip
 	fits_on_slot = bow
 	show_draw_components = no
 	entity = "N_fe_01_NSC2flagship_entity"
@@ -163,7 +163,7 @@ ship_section_template = {
 
 ship_section_template = {
 	key = "KTW_NSC2TAKAMAGAHARA_MID1"	
-	ship_size = Flagship
+	ship_size = KTW_SuperFlagShip
 	fits_on_slot = mid1
 	show_draw_components = no
 	entity = "N_fe_01_NSC2flagship_locator_entity"
@@ -326,7 +326,7 @@ ship_section_template = {
 
 ship_section_template = {
 	key = "KTW_NSC2TAKAMAGAHARA_MID2"	
-	ship_size = Flagship
+	ship_size = KTW_SuperFlagShip
 	fits_on_slot = mid2
 	show_draw_components = no
 	entity = "N_fe_01_NSC2flagship_locator_entity"
@@ -472,7 +472,7 @@ ship_section_template = {
 
 ship_section_template = {
 	key = "KTW_NSC2TAKAMAGAHARA_MID3"	
-	ship_size = Flagship
+	ship_size = KTW_SuperFlagShip
 	fits_on_slot = mid3
 	show_draw_components = no
 	entity = "N_fe_01_NSC2flagship_locator_entity"
@@ -616,7 +616,7 @@ ship_section_template = {
 
 ship_section_template = {
 	key = "KTW_NSC2TAKAMAGAHARA_MID4"	
-	ship_size = Flagship
+	ship_size = KTW_SuperFlagShip
 	fits_on_slot = mid4
 	show_draw_components = no
 	entity = "N_fe_01_NSC2flagship_locator_entity"
@@ -772,7 +772,7 @@ ship_section_template = {
 
 ship_section_template = {
 	key = "KTW_NSC2TAKAMAGAHARA_STERN"	
-	ship_size = Flagship
+	ship_size = KTW_SuperFlagShip
 	fits_on_slot = stern
 	show_draw_components = no
 	entity = "N_fe_01_NSC2flagship_locator_entity"
