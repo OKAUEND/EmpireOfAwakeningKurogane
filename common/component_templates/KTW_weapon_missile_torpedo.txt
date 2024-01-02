@@ -81,278 +81,278 @@ weapon_component_template = {
 	}
 }
 
-#############################################
-#  - Tier 4
-#   - 噴進爆雷砲弐型(SML)
-weapon_component_template = {
-	key = "KTW_ROCKET_TORPEDO_2"
-	size = torpedo
-	icon = GFX_ship_part_KTW_torpedo_G_2
-	entity = "KTW_turret_G_entity"
+# #############################################
+# #  - Tier 4
+# #   - 噴進爆雷砲弐型(SML)
+# weapon_component_template = {
+# 	key = "KTW_ROCKET_TORPEDO_2"
+# 	size = torpedo
+# 	icon = GFX_ship_part_KTW_torpedo_G_2
+# 	entity = "KTW_turret_G_entity"
 
-	icon_frame = 1
-	type = missile
-
-
-	power = @KWT_torpedo_weapon_power_tier2
-	damage = { min = 200 max = 300 }
-	windup = { min = 1 max = 55 }
-	total_fire_time = 250
-
-	hull_damage = 2
-	shield_damage = 1
-	shield_penetration = 1
-	armor_damage = 1
-	armor_penetration = 0.3
-
-	range = 40
-	accuracy = 1.0
-	tracking = 0.3
-	missile_speed = 16
-	missile_evasion = 0.0
-	missile_shield = 0
-	missile_armor = 0
-	missile_health = 40
-	missile_retarget_range = 100
-
-	firing_arc = 60.0
-	size_damage_factor = 1
-
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = 75
-			volatile_motes = 0.8
-		}
-		upkeep = {
-			energy = 0.4
-			alloys = 0.1
-		}
-	}
-	target_weights = {
-		titan = 3
-		battleship = 2
-	}
-
-	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_ROCKET_TORPEDO_2"
-	projectile_gfx = "KTW_TORPEDO_projectile"
-	tags = { weapon_type_explosive }
-	ai_tags = { weapon_role_anti_shield explosive }
-
-	ai_weight = {
-		weight = 1
-		### AI shouldn't use this component if it can't afford at least some upgrades right away
-		modifier = {
-			factor = 0.0
-			NOT = { graphical_culture = fe_01 }
-		}
-	}
-}
-
-#############################################
-#  - Tier 5
-#   - 噴進爆雷砲参型(SML)
-weapon_component_template = {
-	key = "KTW_ROCKET_TORPEDO_3"
-	size = torpedo
-	icon = GFX_ship_part_KTW_torpedo_G_3
-	entity = "KTW_turret_G_entity"
-
-	icon_frame = 1
-	type = missile
+# 	icon_frame = 1
+# 	type = missile
 
 
-	power = @KWT_torpedo_weapon_power_tier3
-	damage = { min = 200 max = 300 }
-	windup = { min = 1 max = 55 }
-	total_fire_time = 250
+# 	power = @KWT_torpedo_weapon_power_tier2
+# 	damage = { min = 200 max = 300 }
+# 	windup = { min = 1 max = 55 }
+# 	total_fire_time = 250
 
-	hull_damage = 2
-	shield_damage = 1
-	shield_penetration = 1
-	armor_damage = 1
-	armor_penetration = 0.3
+# 	hull_damage = 2
+# 	shield_damage = 1
+# 	shield_penetration = 1
+# 	armor_damage = 1
+# 	armor_penetration = 0.3
 
-	range = 40
-	accuracy = 1.0
-	tracking = 0.3
-	missile_speed = 16
-	missile_evasion = 0.0
-	missile_shield = 0
-	missile_armor = 0
-	missile_health = 40
-	missile_retarget_range = 100
+# 	range = 40
+# 	accuracy = 1.0
+# 	tracking = 0.3
+# 	missile_speed = 16
+# 	missile_evasion = 0.0
+# 	missile_shield = 0
+# 	missile_armor = 0
+# 	missile_health = 40
+# 	missile_retarget_range = 100
 
-	firing_arc = 60.0
-	size_damage_factor = 1
+# 	firing_arc = 60.0
+# 	size_damage_factor = 1
 
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = 75
-			volatile_motes = 0.8
-		}
-		upkeep = {
-			energy = 0.4
-			alloys = 0.1
-		}
-	}
-	target_weights = {
-		titan = 3
-		battleship = 2
-	}
+# 	resources = {
+# 		category = ship_components
+# 		cost = {
+# 			alloys = 75
+# 			volatile_motes = 0.8
+# 		}
+# 		upkeep = {
+# 			energy = 0.4
+# 			alloys = 0.1
+# 		}
+# 	}
+# 	target_weights = {
+# 		titan = 3
+# 		battleship = 2
+# 	}
 
-	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_ROCKET_TORPEDO_3"
-	projectile_gfx = "KTW_TORPEDO_projectile"
-	tags = { weapon_type_explosive }
-	ai_tags = { weapon_role_anti_shield explosive }
+# 	prerequisites = { "tech_KTW_weapons" }
+# 	component_set = "KTW_ROCKET_TORPEDO_2"
+# 	projectile_gfx = "KTW_TORPEDO_projectile"
+# 	tags = { weapon_type_explosive }
+# 	ai_tags = { weapon_role_anti_shield explosive }
 
-	ai_weight = {
-		weight = 1
-		### AI shouldn't use this component if it can't afford at least some upgrades right away
-		modifier = {
-			factor = 0.0
-			NOT = { graphical_culture = fe_01 }
-		}
-	}
-}
+# 	ai_weight = {
+# 		weight = 1
+# 		### AI shouldn't use this component if it can't afford at least some upgrades right away
+# 		modifier = {
+# 			factor = 0.0
+# 			NOT = { graphical_culture = fe_01 }
+# 		}
+# 	}
+# }
 
-#############################################
-#  - Tier 6
-#   - 噴進爆雷砲肆型(SML)
-weapon_component_template = {
-	key = "KTW_ROCKET_TORPEDO_4"
-	size = torpedo
-	icon = GFX_ship_part_KTW_torpedo_G_4
-	entity = "KTW_turret_G_entity"
+# #############################################
+# #  - Tier 5
+# #   - 噴進爆雷砲参型(SML)
+# weapon_component_template = {
+# 	key = "KTW_ROCKET_TORPEDO_3"
+# 	size = torpedo
+# 	icon = GFX_ship_part_KTW_torpedo_G_3
+# 	entity = "KTW_turret_G_entity"
 
-	icon_frame = 1
-	type = missile
-
-
-	power = @KWT_torpedo_weapon_power_tier4
-	damage = { min = 200 max = 300 }
-	windup = { min = 1 max = 55 }
-	total_fire_time = 250
-
-	hull_damage = 2
-	shield_damage = 1
-	shield_penetration = 1
-	armor_damage = 1
-	armor_penetration = 0.3
-
-	range = 40
-	accuracy = 1.0
-	tracking = 0.3
-	missile_speed = 16
-	missile_evasion = 0.0
-	missile_shield = 0
-	missile_armor = 0
-	missile_health = 40
-	missile_retarget_range = 100
-
-	firing_arc = 60.0
-	size_damage_factor = 1
-
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = 75
-			volatile_motes = 0.8
-		}
-		upkeep = {
-			energy = 0.4
-			alloys = 0.1
-		}
-	}
-	target_weights = {
-		titan = 3
-		battleship = 2
-	}
-
-	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_ROCKET_TORPEDO_4"
-	projectile_gfx = "KTW_TORPEDO_projectile"
-	tags = { weapon_type_explosive }
-	ai_tags = { weapon_role_anti_shield explosive }
-
-	ai_weight = {
-		weight = 1
-		### AI shouldn't use this component if it can't afford at least some upgrades right away
-		modifier = {
-			factor = 0.0
-			NOT = { graphical_culture = fe_01 }
-		}
-	}
-}
-
-#############################################
-#  - Tier 7
-#   - 噴進爆雷砲伍型(SML)
-weapon_component_template = {
-	key = "KTW_ROCKET_TORPEDO_5"
-	size = torpedo
-	icon = GFX_ship_part_KTW_torpedo_G_5
-	entity = "KTW_turret_G_entity"
-
-	icon_frame = 1
-	type = missile
+# 	icon_frame = 1
+# 	type = missile
 
 
-	power = @KWT_torpedo_weapon_power_tier5
-	damage = { min = 200 max = 300 }
-	windup = { min = 1 max = 55 }
-	total_fire_time = 250
+# 	power = @KWT_torpedo_weapon_power_tier3
+# 	damage = { min = 200 max = 300 }
+# 	windup = { min = 1 max = 55 }
+# 	total_fire_time = 250
 
-	hull_damage = 2
-	shield_damage = 1
-	shield_penetration = 1
-	armor_damage = 1
-	armor_penetration = 0.3
+# 	hull_damage = 2
+# 	shield_damage = 1
+# 	shield_penetration = 1
+# 	armor_damage = 1
+# 	armor_penetration = 0.3
 
-	range = 40
-	accuracy = 1.0
-	tracking = 0.3
-	missile_speed = 16
-	missile_evasion = 0.0
-	missile_shield = 0
-	missile_armor = 0
-	missile_health = 40
-	missile_retarget_range = 100
+# 	range = 40
+# 	accuracy = 1.0
+# 	tracking = 0.3
+# 	missile_speed = 16
+# 	missile_evasion = 0.0
+# 	missile_shield = 0
+# 	missile_armor = 0
+# 	missile_health = 40
+# 	missile_retarget_range = 100
 
-	firing_arc = 60.0
-	size_damage_factor = 1
+# 	firing_arc = 60.0
+# 	size_damage_factor = 1
 
-	resources = {
-		category = ship_components
-		cost = {
-			alloys = 75
-			volatile_motes = 0.8
-		}
-		upkeep = {
-			energy = 0.4
-			alloys = 0.1
-		}
-	}
-	target_weights = {
-		titan = 3
-		battleship = 2
-	}
+# 	resources = {
+# 		category = ship_components
+# 		cost = {
+# 			alloys = 75
+# 			volatile_motes = 0.8
+# 		}
+# 		upkeep = {
+# 			energy = 0.4
+# 			alloys = 0.1
+# 		}
+# 	}
+# 	target_weights = {
+# 		titan = 3
+# 		battleship = 2
+# 	}
 
-	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_ROCKET_TORPEDO_5"
-	projectile_gfx = "KTW_TORPEDO_projectile"
-	tags = { weapon_type_explosive }
-	ai_tags = { weapon_role_anti_shield explosive }
+# 	prerequisites = { "tech_KTW_weapons" }
+# 	component_set = "KTW_ROCKET_TORPEDO_3"
+# 	projectile_gfx = "KTW_TORPEDO_projectile"
+# 	tags = { weapon_type_explosive }
+# 	ai_tags = { weapon_role_anti_shield explosive }
 
-	ai_weight = {
-		weight = 1
-		### AI shouldn't use this component if it can't afford at least some upgrades right away
-		modifier = {
-			factor = 0.0
-			NOT = { graphical_culture = fe_01 }
-		}
-	}
-}
+# 	ai_weight = {
+# 		weight = 1
+# 		### AI shouldn't use this component if it can't afford at least some upgrades right away
+# 		modifier = {
+# 			factor = 0.0
+# 			NOT = { graphical_culture = fe_01 }
+# 		}
+# 	}
+# }
+
+# #############################################
+# #  - Tier 6
+# #   - 噴進爆雷砲肆型(SML)
+# weapon_component_template = {
+# 	key = "KTW_ROCKET_TORPEDO_4"
+# 	size = torpedo
+# 	icon = GFX_ship_part_KTW_torpedo_G_4
+# 	entity = "KTW_turret_G_entity"
+
+# 	icon_frame = 1
+# 	type = missile
+
+
+# 	power = @KWT_torpedo_weapon_power_tier4
+# 	damage = { min = 200 max = 300 }
+# 	windup = { min = 1 max = 55 }
+# 	total_fire_time = 250
+
+# 	hull_damage = 2
+# 	shield_damage = 1
+# 	shield_penetration = 1
+# 	armor_damage = 1
+# 	armor_penetration = 0.3
+
+# 	range = 40
+# 	accuracy = 1.0
+# 	tracking = 0.3
+# 	missile_speed = 16
+# 	missile_evasion = 0.0
+# 	missile_shield = 0
+# 	missile_armor = 0
+# 	missile_health = 40
+# 	missile_retarget_range = 100
+
+# 	firing_arc = 60.0
+# 	size_damage_factor = 1
+
+# 	resources = {
+# 		category = ship_components
+# 		cost = {
+# 			alloys = 75
+# 			volatile_motes = 0.8
+# 		}
+# 		upkeep = {
+# 			energy = 0.4
+# 			alloys = 0.1
+# 		}
+# 	}
+# 	target_weights = {
+# 		titan = 3
+# 		battleship = 2
+# 	}
+
+# 	prerequisites = { "tech_KTW_weapons" }
+# 	component_set = "KTW_ROCKET_TORPEDO_4"
+# 	projectile_gfx = "KTW_TORPEDO_projectile"
+# 	tags = { weapon_type_explosive }
+# 	ai_tags = { weapon_role_anti_shield explosive }
+
+# 	ai_weight = {
+# 		weight = 1
+# 		### AI shouldn't use this component if it can't afford at least some upgrades right away
+# 		modifier = {
+# 			factor = 0.0
+# 			NOT = { graphical_culture = fe_01 }
+# 		}
+# 	}
+# }
+
+# #############################################
+# #  - Tier 7
+# #   - 噴進爆雷砲伍型(SML)
+# weapon_component_template = {
+# 	key = "KTW_ROCKET_TORPEDO_5"
+# 	size = torpedo
+# 	icon = GFX_ship_part_KTW_torpedo_G_5
+# 	entity = "KTW_turret_G_entity"
+
+# 	icon_frame = 1
+# 	type = missile
+
+
+# 	power = @KWT_torpedo_weapon_power_tier5
+# 	damage = { min = 200 max = 300 }
+# 	windup = { min = 1 max = 55 }
+# 	total_fire_time = 250
+
+# 	hull_damage = 2
+# 	shield_damage = 1
+# 	shield_penetration = 1
+# 	armor_damage = 1
+# 	armor_penetration = 0.3
+
+# 	range = 40
+# 	accuracy = 1.0
+# 	tracking = 0.3
+# 	missile_speed = 16
+# 	missile_evasion = 0.0
+# 	missile_shield = 0
+# 	missile_armor = 0
+# 	missile_health = 40
+# 	missile_retarget_range = 100
+
+# 	firing_arc = 60.0
+# 	size_damage_factor = 1
+
+# 	resources = {
+# 		category = ship_components
+# 		cost = {
+# 			alloys = 75
+# 			volatile_motes = 0.8
+# 		}
+# 		upkeep = {
+# 			energy = 0.4
+# 			alloys = 0.1
+# 		}
+# 	}
+# 	target_weights = {
+# 		titan = 3
+# 		battleship = 2
+# 	}
+
+# 	prerequisites = { "tech_KTW_weapons" }
+# 	component_set = "KTW_ROCKET_TORPEDO_5"
+# 	projectile_gfx = "KTW_TORPEDO_projectile"
+# 	tags = { weapon_type_explosive }
+# 	ai_tags = { weapon_role_anti_shield explosive }
+
+# 	ai_weight = {
+# 		weight = 1
+# 		### AI shouldn't use this component if it can't afford at least some upgrades right away
+# 		modifier = {
+# 			factor = 0.0
+# 			NOT = { graphical_culture = fe_01 }
+# 		}
+# 	}
+# }

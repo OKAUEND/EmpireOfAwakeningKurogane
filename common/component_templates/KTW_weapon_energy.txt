@@ -808,7 +808,7 @@ weapon_component_template = {
 	icon_frame = 1
 	type = instant
 
-	damage = { min = 230 max = 430 }
+	damage = { min = 230 max = 490 }
 	windup = { min = 9 max = 34 }
 	total_fire_time = @KWT_WEAPON_LARGE_COOLDOWN
 	range = 120

@@ -23,7 +23,7 @@ weapon_component_template = {
 	type = point_defence
 
 
-	damage = { min = 60 max = 90 }
+	damage = { min = 8 max = 19 }
 	windup = { min = 5 max = 35 }
 	total_fire_time = 1
 	range = 80
@@ -75,7 +75,7 @@ weapon_component_template = {
 	type = point_defence
 
 
-	damage = { min = 60 max = 90 }
+	damage = { min = 8 max = 19 }
 	windup = { min = 25 max = 65 }
 	total_fire_time = 1
 	range = 80
@@ -128,7 +128,7 @@ weapon_component_template = {
 	type = point_defence
 
 
-	damage = { min = 60 max = 90 }
+	damage = { min = 14 max = 31 }
 	windup = { min = 5 max = 35 }
 	total_fire_time = 1
 	range = 80
@@ -180,7 +180,7 @@ weapon_component_template = {
 	type = point_defence
 
 
-	damage = { min = 60 max = 90 }
+	damage = { min = 14 max = 31 }
 	windup = { min = 25 max = 65 }
 	total_fire_time = 1
 	range = 80
@@ -233,7 +233,7 @@ weapon_component_template = {
 	type = point_defence
 
 
-	damage = { min = 60 max = 90 }
+	damage = { min = 20 max = 56 }
 	windup = { min = 5 max = 35 }
 	total_fire_time = 1
 	range = 80
@@ -285,7 +285,7 @@ weapon_component_template = {
 	type = point_defence
 
 
-	damage = { min = 60 max = 90 }
+	damage = { min = 20 max = 56 }
 	windup = { min = 25 max = 65 }
 	total_fire_time = 1
 	range = 80
@@ -338,7 +338,7 @@ weapon_component_template = {
 	type = point_defence
 
 
-	damage = { min = 60 max = 90 }
+	damage = { min = 24 max = 60 }
 	windup = { min = 5 max = 35 }
 	total_fire_time = 1
 	range = 80
@@ -390,7 +390,7 @@ weapon_component_template = {
 	type = point_defence
 
 
-	damage = { min = 60 max = 90 }
+	damage = { min = 24 max = 60 }
 	windup = { min = 25 max = 65 }
 	total_fire_time = 1
 	range = 80

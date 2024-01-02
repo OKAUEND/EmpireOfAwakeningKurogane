@@ -24,7 +24,7 @@ weapon_component_template = {
 
 
 	power = @KWT_large_heavy_missile_weapon_power_tier1
-	damage = { min = 1500 max = 2000 }
+	damage = { min = 700 max = 900 }
 	windup = { min = 1 max = 30 }
 	total_fire_time = 200
 
@@ -93,7 +93,7 @@ weapon_component_template = {
 
 
 	power = @KWT_large_weapon_power_tier4
-	damage = { min = 1500 max = 2000 }
+	damage = { min = 700 max = 900 }
 	windup = { min = 1 max = 30 }
 	total_fire_time = 400
 
@@ -163,7 +163,7 @@ weapon_component_template = {
 
 
 	power = @KWT_large_heavy_missile_weapon_power_tier2
-	damage = { min = 1500 max = 2000 }
+	damage = { min = 900 max = 1300 }
 	windup = { min = 1 max = 30 }
 	total_fire_time = 200
 
@@ -232,7 +232,7 @@ weapon_component_template = {
 
 
 	power = @KWT_large_weapon_power_tier5
-	damage = { min = 1500 max = 2000 }
+	damage = { min = 900 max = 1300 }
 	windup = { min = 1 max = 30 }
 	total_fire_time = 400
 
@@ -303,7 +303,7 @@ weapon_component_template = {
 
 
 	power = @KWT_large_heavy_missile_weapon_power_tier3
-	damage = { min = 1500 max = 2000 }
+	damage = { min = 1100 max = 1700 }
 	windup = { min = 1 max = 30 }
 	total_fire_time = 200
 
@@ -372,7 +372,7 @@ weapon_component_template = {
 
 
 	power = @KWT_large_weapon_power_tier6
-	damage = { min = 1500 max = 2000 }
+	damage = { min = 1100 max = 1700 }
 	windup = { min = 1 max = 30 }
 	total_fire_time = 400
 

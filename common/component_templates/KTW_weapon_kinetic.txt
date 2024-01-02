@@ -27,7 +27,7 @@ weapon_component_template = {
 	icon_frame = 1
 	type = instant
 
-	damage = { min = 245 max = 720 }
+	damage = { min = 55 max = 165 }
 	windup = { min = 9 max = 34 }
 	total_fire_time = @KWT_WEAPON_LARGE_COOLDOWN
 	range = 155
@@ -84,7 +84,7 @@ weapon_component_template = {
 	icon_frame = 1
 	type = instant
 
-	damage = { min = 160 max = 500 }
+	damage = { min = 18 max = 65 }
 	windup = { min = 9 max = 34 }
 	total_fire_time = @KWT_WEAPON_MEDIUM_COOLDOWN
 	range = 115
@@ -139,7 +139,7 @@ weapon_component_template = {
 	icon_frame = 1
 	type = instant
 
-	damage = { min = 70 max = 300 }
+	damage = { min = 8 max = 19 }
 	windup = { min = 9 max = 34 }
 	total_fire_time = @KWT_WEAPON_SMALL_COOLDOWN
 	range = 90
@@ -193,7 +193,7 @@ weapon_component_template = {
 	icon_frame = 1
 	type = instant
 
-	damage = { min = 245 max = 720 }
+	damage = { min = 80 max = 165 }
 	windup = { min = 9 max = 34 }
 	total_fire_time = @KWT_WEAPON_LARGE_COOLDOWN
 	range = 155
@@ -250,7 +250,7 @@ weapon_component_template = {
 	icon_frame = 1
 	type = instant
 
-	damage = { min = 160 max = 500 }
+	damage = { min = 26 max = 83 }
 	windup = { min = 9 max = 34 }
 	total_fire_time = @KWT_WEAPON_MEDIUM_COOLDOWN
 	range = 115
@@ -305,7 +305,7 @@ weapon_component_template = {
 	icon_frame = 1
 	type = instant
 
-	damage = { min = 70 max = 300 }
+	damage = { min = 12 max = 24 }
 	windup = { min = 9 max = 34 }
 	total_fire_time = @KWT_WEAPON_SMALL_COOLDOWN
 	range = 90
@@ -359,7 +359,7 @@ weapon_component_template = {
 	icon_frame = 1
 	type = instant
 
-	damage = { min = 245 max = 720 }
+	damage = { min = 115 max = 240 }
 	windup = { min = 9 max = 34 }
 	total_fire_time = @KWT_WEAPON_LARGE_COOLDOWN
 	range = 155
@@ -416,7 +416,7 @@ weapon_component_template = {
 	icon_frame = 1
 	type = instant
 
-	damage = { min = 160 max = 500 }
+	damage = { min = 34 max = 100 }
 	windup = { min = 9 max = 34 }
 	total_fire_time = @KWT_WEAPON_MEDIUM_COOLDOWN
 	range = 115
@@ -471,7 +471,7 @@ weapon_component_template = {
 	icon_frame = 1
 	type = instant
 
-	damage = { min = 70 max = 300 }
+	damage = { min = 14 max = 31 }
 	windup = { min = 9 max = 34 }
 	total_fire_time = @KWT_WEAPON_SMALL_COOLDOWN
 	range = 90
@@ -526,7 +526,7 @@ weapon_component_template = {
 	icon_frame = 1
 	type = instant
 
-	damage = { min = 245 max = 720 }
+	damage = { min = 155 max = 290 }
 	windup = { min = 9 max = 34 }
 	total_fire_time = @KWT_WEAPON_LARGE_COOLDOWN
 	range = 155
@@ -583,7 +583,7 @@ weapon_component_template = {
 	icon_frame = 1
 	type = instant
 
-	damage = { min = 160 max = 500 }
+	damage = { min = 45 max = 122 }
 	windup = { min = 9 max = 34 }
 	total_fire_time = @KWT_WEAPON_MEDIUM_COOLDOWN
 	range = 115
@@ -638,7 +638,7 @@ weapon_component_template = {
 	icon_frame = 1
 	type = instant
 
-	damage = { min = 70 max = 300 }
+	damage = { min = 16 max = 41 }
 	windup = { min = 9 max = 34 }
 	total_fire_time = @KWT_WEAPON_SMALL_COOLDOWN
 	range = 90
@@ -693,7 +693,7 @@ weapon_component_template = {
 	icon_frame = 1
 	type = instant
 
-	damage = { min = 245 max = 720 }
+	damage = { min = 200 max = 440 }
 	windup = { min = 9 max = 34 }
 	total_fire_time = @KWT_WEAPON_LARGE_COOLDOWN
 	range = 155
@@ -750,7 +750,7 @@ weapon_component_template = {
 	icon_frame = 1
 	type = instant
 
-	damage = { min = 160 max = 500 }
+	damage = { min = 62 max = 155 }
 	windup = { min = 9 max = 34 }
 	total_fire_time = @KWT_WEAPON_MEDIUM_COOLDOWN
 	range = 115
@@ -805,7 +805,7 @@ weapon_component_template = {
 	icon_frame = 1
 	type = instant
 
-	damage = { min = 70 max = 300 }
+	damage = { min = 20 max = 56 }
 	windup = { min = 9 max = 34 }
 	total_fire_time = @KWT_WEAPON_SMALL_COOLDOWN
 	range = 90
@@ -860,7 +860,7 @@ weapon_component_template = {
 	icon_frame = 1
 	type = instant
 
-	damage = { min = 245 max = 720 }
+	damage = { min = 240 max = 560 }
 	windup = { min = 9 max = 34 }
 	total_fire_time = @KWT_WEAPON_LARGE_COOLDOWN
 	range = 155
@@ -917,7 +917,7 @@ weapon_component_template = {
 	icon_frame = 1
 	type = instant
 
-	damage = { min = 160 max = 500 }
+	damage = { min = 80 max = 250 }
 	windup = { min = 9 max = 34 }
 	total_fire_time = @KWT_WEAPON_MEDIUM_COOLDOWN
 	range = 115
@@ -972,7 +972,7 @@ weapon_component_template = {
 	icon_frame = 1
 	type = instant
 
-	damage = { min = 70 max = 300 }
+	damage = { min = 24 max = 89 }
 	windup = { min = 9 max = 34 }
 	total_fire_time = @KWT_WEAPON_SMALL_COOLDOWN
 	range = 90
@@ -1084,7 +1084,7 @@ weapon_component_template = {
 	icon_frame = 1
 	type = instant
 
-	damage = { min = 160 max = 500 }
+	damage = { min = 120 max = 250 }
 	windup = { min = 9 max = 34 }
 	total_fire_time = @KWT_WEAPON_MEDIUM_COOLDOWN
 	range = 115
@@ -1139,7 +1139,7 @@ weapon_component_template = {
 	icon_frame = 1
 	type = instant
 
-	damage = { min = 70 max = 300 }
+	damage = { min = 28 max = 89 }
 	windup = { min = 9 max = 34 }
 	total_fire_time = @KWT_WEAPON_SMALL_COOLDOWN
 	range = 90

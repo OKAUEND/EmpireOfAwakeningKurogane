@@ -30,7 +30,7 @@ weapon_component_template = {
 
 
 	power = @KWT_large_weapon_power_tier1
-	damage = { min = 750 max = 800 }
+	damage = { min = 90 max = 220 }
 	windup = { min = 1 max = 15 }
 	total_fire_time = 120
 
@@ -99,7 +99,7 @@ weapon_component_template = {
 
 
 	power = @KWT_medium_weapon_power_tier1
-	damage = { min = 400 max = 500 }
+	damage = { min = 80 max = 130 }
 	windup = { min = 1 max = 15 }
 	total_fire_time = 100
 
@@ -171,7 +171,7 @@ weapon_component_template = {
 
 
 	power = @KWT_large_weapon_power_tier2
-	damage = { min = 750 max = 800 }
+	damage = { min = 200 max = 325 }
 	windup = { min = 1 max = 15 }
 	total_fire_time = 120
 
@@ -240,7 +240,7 @@ weapon_component_template = {
 
 
 	power = @KWT_medium_weapon_power_tier2
-	damage = { min = 400 max = 500 }
+	damage = { min = 110 max = 150 }
 	windup = { min = 1 max = 15 }
 	total_fire_time = 100
 
@@ -313,7 +313,7 @@ weapon_component_template = {
 
 
 	power = @KWT_large_weapon_power_tier3
-	damage = { min = 750 max = 800 }
+	damage = { min = 300 max = 450 }
 	windup = { min = 1 max = 15 }
 	total_fire_time = 120
 
@@ -382,7 +382,7 @@ weapon_component_template = {
 
 
 	power = @KWT_medium_weapon_power_tier3
-	damage = { min = 400 max = 500 }
+	damage = { min = 150 max = 225 }
 	windup = { min = 1 max = 15 }
 	total_fire_time = 100
 
@@ -454,7 +454,7 @@ weapon_component_template = {
 
 
 	power = @KWT_large_weapon_power_tier4
-	damage = { min = 750 max = 800 }
+	damage = { min = 400 max = 550 }
 	windup = { min = 1 max = 15 }
 	total_fire_time = 120
 
@@ -523,7 +523,7 @@ weapon_component_template = {
 
 
 	power = @KWT_medium_weapon_power_tier4
-	damage = { min = 400 max = 500 }
+	damage = { min = 210 max = 300 }
 	windup = { min = 1 max = 15 }
 	total_fire_time = 100
 
@@ -595,7 +595,7 @@ weapon_component_template = {
 
 
 	power = @KWT_large_weapon_power_tier5
-	damage = { min = 750 max = 800 }
+	damage = { min = 550 max = 700 }
 	windup = { min = 1 max = 15 }
 	total_fire_time = 120
 
@@ -664,7 +664,7 @@ weapon_component_template = {
 
 
 	power = @KWT_medium_weapon_power_tier5
-	damage = { min = 400 max = 500 }
+	damage = { min = 275 max = 375 }
 	windup = { min = 1 max = 15 }
 	total_fire_time = 100
 
@@ -736,7 +736,7 @@ weapon_component_template = {
 
 
 	power = @KWT_large_weapon_power_tier6
-	damage = { min = 750 max = 800 }
+	damage = { min = 600 max = 750 }
 	windup = { min = 1 max = 15 }
 	total_fire_time = 120
 
@@ -805,7 +805,7 @@ weapon_component_template = {
 
 
 	power = @KWT_medium_weapon_power_tier6
-	damage = { min = 400 max = 500 }
+	damage = { min = 325 max = 425 }
 	windup = { min = 1 max = 15 }
 	total_fire_time = 100
 
