@@ -1,0 +1,159 @@
+﻿l_japanese:
+
+#####################################################
+# コルベット
+#####################################################
+EoA_KTW_CORVETTE_MID_01: "標準A型船体"
+EoA_KTW_CORVETTE_MID_02: "高速型船体"
+EoA_KTW_CORVETTE_MID_03: "標準B型船体"
+EoA_KTW_CORVETTE_MID_04: "発展標準型船体"
+
+#####################################################
+# 駆逐艦
+#####################################################
+KTW_DESTROYER_BOW_01: "標準A型船体"
+KTW_DESTROYER_BOW_02: "標準B型船体"
+KTW_DESTROYER_BOW_03: "高速型船体"
+KTW_DESTROYER_BOW_04: "雷撃型"
+KTW_DESTROYER_STERN_01: ""
+KTW_DESTROYER_STERN_02: ""
+KTW_DESTROYER_STERN_03: ""
+KTW_DESTROYER_STERN_04: ""
+KTW_DESTROYER_DUMMY: "船体補助区画"
+
+#####################################################
+# 巡洋艦
+#####################################################
+KTW_CRUISER_MID_01: "標準A型"
+KTW_CRUISER_BOW_01_A: "標準A-I型"
+KTW_CRUISER_BOW_01_B: "標準A-II型"
+KTW_CRUISER_STERN_01_A: "標準A-I型"
+KTW_CRUISER_STERN_01_B: "標準A-II型"
+KTW_CRUISER_MID_02: "標準B型"
+KTW_CRUISER_BOW_02_A: "標準B-I型"
+KTW_CRUISER_BOW_02_B: "標準B-II型"
+KTW_CRUISER_STERN_02: "標準B型"
+KTW_CRUISER_MID_03: "重砲撃型"
+KTW_CRUISER_BOW_03: "重砲撃型"
+KTW_CRUISER_STERN_03: "重砲撃型"
+
+#####################################################
+# 打撃巡洋艦
+#####################################################
+KTW_STRIKECRUISER_BOW_01: "打撃型"
+KTW_STRIKECRUISER_MID_01: "打撃型"
+KTW_STRIKECRUISER_STERN_01: "打撃型"
+KTW_STRIKECRUISER_BOW_02: "雷撃型"
+KTW_STRIKECRUISER_MID_02: "雷撃型"
+KTW_STRIKECRUISER_STERN_02: "雷撃型"
+KTW_STRIKECRUISER_BOW_04_A: "高速I型"
+KTW_STRIKECRUISER_BOW_04_B: "高速II型"
+KTW_STRIKECRUISER_MID_04_A: "高速I型"
+KTW_STRIKECRUISER_MID_04_B: "高速II型"
+KTW_STRIKECRUISER_STERN_04_A: "高速I型"
+KTW_STRIKECRUISER_STERN_04_B: "高速II型"
+KTW_STRIKECRUISER_BOW_05: "航空型"
+KTW_STRIKECRUISER_MID_05: "航空型"
+KTW_STRIKECRUISER_STERN_05: "航空型"
+
+#####################################################
+# 巡洋戦艦
+#####################################################
+KTW_BATTLECRUISER_BOW_01: "標準型"
+KTW_BATTLECRUISER_MID_01_A: "標準-I型"
+KTW_BATTLECRUISER_MID_01_B: "標準-II型"
+KTW_BATTLECRUISER_MID_01_C: "標準-III型"
+KTW_BATTLECRUISER_MID1_01_A: "標準-I型"
+KTW_BATTLECRUISER_MID1_01_B: "標準-II型"
+KTW_BATTLECRUISER_STERN_01_A: "標準-I型"
+KTW_BATTLECRUISER_STERN_01_B: "標準-II型"
+KTW_BATTLECRUISER_BOW_02_A: "重砲撃A-I型"
+KTW_BATTLECRUISER_BOW_02_B: "重砲撃A-II型"
+KTW_BATTLECRUISER_MID_02_A: "重砲撃A-I型"
+KTW_BATTLECRUISER_MID_02_B: "重砲撃A-II型"
+KTW_BATTLECRUISER_MID_02_C: "重砲撃A-III型"
+KTW_BATTLECRUISER_MID2_02_A: "重砲撃A-I型"
+KTW_BATTLECRUISER_MID2_02_B: "重砲撃A-II型"
+KTW_BATTLECRUISER_MID2_02_C: "重砲撃A-III型"
+KTW_BATTLECRUISER_STERN_02_A: "重砲撃A-I型"
+KTW_BATTLECRUISER_STERN_02_B: "重砲撃A-II型"
+KTW_BATTLECRUISER_BOW_03: "高速型"
+KTW_BATTLECRUISER_MID_03_A: "高速-I型"
+KTW_BATTLECRUISER_MID_03_B: "高速-II型"
+KTW_BATTLECRUISER_MID_03_C: "高速-III型"
+KTW_BATTLECRUISER_MID2_03_A: "高速-I型"
+KTW_BATTLECRUISER_MID2_03_B: "高速-II型"
+KTW_BATTLECRUISER_MID2_03_C: "高速-III型"
+KTW_BATTLECRUISER_STERN_03_B: "高速型"
+
+#####################################################
+# 戦艦
+#####################################################
+KTW_BATTLESHIP_MID_01: "標準A型"
+KTW_BATTLESHIP_BOW_01_A: "標準A-I型"
+KTW_BATTLESHIP_BOW_01_B: "標準A-II型"
+KTW_BATTLESHIP_STERN_01: "標準A型"
+KTW_BATTLESHIP_MID_02_A: "標準B-I型"
+KTW_BATTLESHIP_MID_02_B: "標準B-II型"
+KTW_BATTLESHIP_BOW_02_A: "標準B-I型"
+KTW_BATTLESHIP_BOW_02_B: "標準B-II型"
+KTW_BATTLESHIP_STERN_02: "標準B型"
+KTW_BATTLESHIP_MID_03_A: "重砲撃-I型"
+KTW_BATTLESHIP_MID_03_B: "重砲撃-II型"
+KTW_BATTLESHIP_MID_03_C: "重砲撃-III型"
+KTW_BATTLESHIP_BOW_03_A: "重砲撃-I型"
+KTW_BATTLESHIP_BOW_03_B: "重砲撃-II型"
+KTW_BATTLESHIP_BOW_03_C: "重砲撃-III型"
+KTW_BATTLESHIP_STERN_03_A: "重砲撃-I型"
+KTW_BATTLESHIP_STERN_03_B: "重砲撃-II型"
+KTW_BATTLESHIP_MID_04_A: "重戦艦-I型"
+KTW_BATTLESHIP_MID_04_B: "重戦艦-II型"
+KTW_BATTLESHIP_BOW_04_A: "重戦艦-I型"
+KTW_BATTLESHIP_BOW_04_B: "重戦艦-II型"
+KTW_BATTLESHIP_STERN_04_A: "重戦艦-I型"
+KTW_BATTLESHIP_STERN_04_B: "重戦艦-II型"
+
+#####################################################
+# 空母
+#####################################################
+KTW_CARRIER_MID_01: ""
+
+#####################################################
+# 弩級戦艦
+#####################################################
+KTW_DREADNOUGHT_MID1_01: "標準型"
+KTW_DREADNOUGHT_BOW_01: "標準型"
+KTW_DREADNOUGHT_MID2_01: "標準型"
+KTW_DREADNOUGHT_MID3_01: "標準型"
+KTW_DREADNOUGHT_STERN_01_A: "標準-I型"
+KTW_DREADNOUGHT_STERN_01_B: "標準-II型"
+KTW_DREADNOUGHT_MID_02: "重弩級A型"
+KTW_DREADNOUGHT_BOW_02: "重弩級A型"
+KTW_DREADNOUGHT_MID2_02: "重弩級A型"
+KTW_DREADNOUGHT_MID3_02: "重弩級A型"
+KTW_DREADNOUGHT_STERN_02_A: "重弩級A-I型"
+KTW_DREADNOUGHT_STERN_02_B: "重弩級A-II型"
+KTW_DREADNOUGHT_MID1_03: "重弩級B型"
+KTW_DREADNOUGHT_BOW_03: "重弩級B型"
+KTW_DREADNOUGHT_MID2_03: "重弩級B型"
+KTW_DREADNOUGHT_MID3_03: "重弩級B型"
+KTW_DREADNOUGHT_STERN_03_A: "重弩級B型"
+
+#####################################################
+# 超弩級戦艦
+#####################################################
+KTW_SUPER_DREADNOUGHT_MID: "超弩級型"
+KTW_SUPER_DREADNOUGHT_MID_2: "超弩級型"
+KTW_SUPER_DREADNOUGHT_MID2_2: "超弩級型"
+KTW_SUPER_DREADNOUGHT_BOW: "超弩級型"
+KTW_SUPER_DREADNOUGHT_STERN: "超弩級型"
+
+#####################################################
+# 超弩級旗艦
+#####################################################
+KTW_SUPER_FLAGSHIP_BOW_HULL: "超旗艦型"
+KTW_SUPER_FLAGSHIP_MID1: "超旗艦型"
+KTW_SUPER_FLAGSHIP_MID2: "超旗艦型"
+KTW_SUPER_FLAGSHIP_MID3: "超旗艦型"
+KTW_SUPER_FLAGSHIP_MID4: "超旗艦型"
+KTW_SUPER_FLAGSHIP_STERN: "超旗艦型"
