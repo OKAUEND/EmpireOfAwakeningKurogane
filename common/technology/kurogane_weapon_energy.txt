@@ -41,7 +41,7 @@ tech_ktw_shock_canon_2 = {
 	tier = 1
 	category = { particles }
 	ai_update_type = military
-	prerequisites = { "tech_ktw_shock_canon_1" }
+	prerequisites = { "tech_ktw_shock_canon_1" "tech_lasers_2" }
 	weight = @tier1weight2
 
 	gateway = energy_weapons
@@ -85,7 +85,7 @@ tech_ktw_shock_canon_3 = {
 	tier = 2
 	category = { particles }
 	ai_update_type = military
-	prerequisites = { "tech_ktw_shock_canon_2" }
+	prerequisites = { "tech_ktw_shock_canon_2" "tech_lasers_3" }
 	weight = @tier2weight1
 
 	gateway = energy_weapons
@@ -129,7 +129,7 @@ tech_ktw_shock_canon_4 = {
 	tier = 3
 	category = { particles }
 	ai_update_type = military
-	prerequisites = { "tech_ktw_shock_canon_3" }
+	prerequisites = { "tech_ktw_shock_canon_3" "tech_lasers_4" }
 	weight = @tier3weight1
 
 	gateway = energy_weapons
@@ -173,7 +173,7 @@ tech_ktw_shock_canon_5 = {
 	tier = 4
 	category = { particles }
 	ai_update_type = military
-	prerequisites = { "tech_ktw_shock_canon_4" }
+	prerequisites = { "tech_ktw_shock_canon_4" "tech_lasers_5" }
 	weight = @tier4weight1
 
 	gateway = energy_weapons
@@ -219,7 +219,7 @@ tech_ktw_shock_canon_6 = {
 	cost = @tier5cost1
 	weight = @tier5weight1
 	ai_update_type = military
-	prerequisites = { "tech_ktw_shock_canon_5" "esc_tech_new_age_warfare" }
+	prerequisites = { "tech_ktw_shock_canon_5" "esc_tech_new_age_warfare" "esc_tech_laser_6" }
 
 	potential = {
 		NOT = { has_global_flag = ESC_GLOBAL_FLAG_adv_vanilla_energy_weapons_forbidden }
@@ -272,7 +272,7 @@ tech_ktw_shock_canon_7 = {
 	cost = @tier5cost3
 	weight = @tier5weight3
 	ai_update_type = military
-	prerequisites = { "tech_ktw_shock_canon_6" }
+	prerequisites = { "tech_ktw_shock_canon_6" "esc_tech_laser_7" }
 	is_rare = yes
 
 	potential = {
