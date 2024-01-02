@@ -60,6 +60,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_adv_kinetic_artillery_L"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery weapon_role_anti_shield gunship }
+	upgrades_to = "KTW_KINETIC_ARTILLERY_L_1"	
 
 	ai_weight = {
 		weight = 1
@@ -117,6 +118,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_adv_kinetic_artillery_M"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery weapon_role_anti_shield gunship }
+	upgrades_to = "KTW_KINETIC_ARTILLERY_M_1"
 
 	ai_weight = {
 		weight = 1
@@ -170,6 +172,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_adv_kinetic_artillery_S"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery weapon_role_anti_shield gunship }
+	upgrades_to = "KTW_KINETIC_ARTILLERY_S_1"
 
 	ai_weight = {
 		weight = 1
@@ -226,6 +229,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_adv_kinetic_artillery_L"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery weapon_role_anti_shield gunship }
+	upgrades_to = "KTW_KINETIC_ARTILLERY_L_2"	
 
 	ai_weight = {
 		weight = 1
@@ -283,6 +287,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_adv_kinetic_artillery_M"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery weapon_role_anti_shield gunship }
+	upgrades_to = "KTW_KINETIC_ARTILLERY_M_2"
 
 	ai_weight = {
 		weight = 1
@@ -336,6 +341,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_adv_kinetic_artillery_S"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery weapon_role_anti_shield gunship }
+	upgrades_to = "KTW_KINETIC_ARTILLERY_S_2"
 
 	ai_weight = {
 		weight = 1
@@ -392,6 +398,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_adv_kinetic_artillery_L"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery weapon_role_anti_shield gunship }
+	upgrades_to = "KTW_KINETIC_ARTILLERY_L_4"	
 
 	ai_weight = {
 		weight = 1
@@ -449,6 +456,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_adv_kinetic_artillery_M"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery weapon_role_anti_shield gunship }
+	upgrades_to = "KTW_KINETIC_ARTILLERY_M_4"
 
 	ai_weight = {
 		weight = 1
@@ -502,6 +510,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_adv_kinetic_artillery_S"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery weapon_role_anti_shield gunship }
+	upgrades_to = "KTW_KINETIC_ARTILLERY_S_4"
 
 	ai_weight = {
 		weight = 1
@@ -559,6 +568,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_adv_kinetic_artillery_L"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery weapon_role_anti_shield gunship }
+	upgrades_to = "KTW_KINETIC_ARTILLERY_L_5"	
 
 	ai_weight = {
 		weight = 1
@@ -616,6 +626,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_adv_kinetic_artillery_M"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery weapon_role_anti_shield gunship }
+	upgrades_to = "KTW_KINETIC_ARTILLERY_M_5"
 
 	ai_weight = {
 		weight = 1
@@ -669,6 +680,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_adv_kinetic_artillery_S"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery weapon_role_anti_shield gunship }
+	upgrades_to = "KTW_KINETIC_ARTILLERY_S_5"
 
 	ai_weight = {
 		weight = 1
@@ -726,6 +738,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_adv_kinetic_artillery_L"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery weapon_role_anti_shield gunship }
+	upgrades_to = "KTW_KINETIC_ARTILLERY_L_6"	
 
 	ai_weight = {
 		weight = 1
@@ -783,6 +796,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_adv_kinetic_artillery_M"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery weapon_role_anti_shield gunship }
+	upgrades_to = "KTW_KINETIC_ARTILLERY_M_6"
 
 	ai_weight = {
 		weight = 1
@@ -836,6 +850,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_adv_kinetic_artillery_S"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery weapon_role_anti_shield gunship }
+	upgrades_to = "KTW_KINETIC_ARTILLERY_S_6"
 
 	ai_weight = {
 		weight = 1
@@ -893,6 +908,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_adv_kinetic_artillery_L"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery weapon_role_anti_shield gunship }
+	upgrades_to = "KTW_KINETIC_ARTILLERY_L_7"	
 
 	ai_weight = {
 		weight = 1
@@ -950,6 +966,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_adv_kinetic_artillery_M"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery weapon_role_anti_shield gunship }
+	upgrades_to = "KTW_KINETIC_ARTILLERY_M_7"
 
 	ai_weight = {
 		weight = 1
@@ -1003,6 +1020,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_adv_kinetic_artillery_S"
 	tags = { weapon_type_kinetic }
 	ai_tags = { weapon_role_artillery weapon_role_anti_shield gunship }
+	upgrades_to = "KTW_KINETIC_ARTILLERY_S_7"
 
 	ai_weight = {
 		weight = 1

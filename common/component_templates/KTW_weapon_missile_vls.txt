@@ -77,6 +77,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_VLS_ER_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
+	upgrades_to = "KTW_VLS_2"	
 
 	ai_weight = {
 		weight = 1
@@ -146,6 +147,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_VLS_MR_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
+	upgrades_to = "KTW_VLS_2"
 
 	ai_weight = {
 		weight = 1
@@ -218,6 +220,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_VLS_ER_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
+	upgrades_to = "KTW_VLS_3"
 
 	ai_weight = {
 		weight = 1
@@ -287,6 +290,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_VLS_MR_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
+	upgrades_to = "KTW_VLS_3"
 
 	ai_weight = {
 		weight = 1
@@ -360,6 +364,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_VLS_ER_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
+	upgrades_to = "KTW_VLS_4"
 
 	ai_weight = {
 		weight = 1
@@ -429,6 +434,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_VLS_MR_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
+	upgrades_to = "KTW_VLS_4"
 
 	ai_weight = {
 		weight = 1
@@ -501,6 +507,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_VLS_ER_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
+	upgrades_to = "KTW_VLS_5"	
 
 	ai_weight = {
 		weight = 1
@@ -570,6 +577,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_VLS_MR_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
+	upgrades_to = "KTW_VLS_5"
 
 	ai_weight = {
 		weight = 1
@@ -642,6 +650,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_VLS_ER_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
+	upgrades_to = "KTW_VLS_6"	
 
 	ai_weight = {
 		weight = 1
@@ -711,6 +720,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_VLS_MR_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
+	upgrades_to = "KTW_VLS_6"
 
 	ai_weight = {
 		weight = 1
@@ -783,6 +793,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_VLS_ER_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
+	upgrades_to = "KTW_VLS_7"
 
 	ai_weight = {
 		weight = 1
@@ -852,6 +863,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_VLS_MR_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
+	upgrades_to = "KTW_VLS_7"
 
 	ai_weight = {
 		weight = 1

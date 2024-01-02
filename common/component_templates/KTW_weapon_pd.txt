@@ -61,6 +61,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_pd_cannon_projectile"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
 	ai_tags = { weapon_role_point_defense screen }
+	upgrades_to = "KTW_PD_CANNON_1"	
 
 	ai_weight = {
 		weight = 1
@@ -113,6 +114,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_pd_laser_projectile"
 	tags = { weapon_type_point_defense weapon_type_energy }
 	ai_tags = { weapon_role_point_defense screen }
+	upgrades_to = "KTW_PD_LASER_2"
 
 	ai_weight = {
 		weight = 1
@@ -168,6 +170,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_pd_cannon_projectile"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
 	ai_tags = { weapon_role_point_defense screen }
+	upgrades_to = "KTW_PD_CANNON_3"	
 
 	ai_weight = {
 		weight = 1
@@ -220,6 +223,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_pd_laser_projectile"
 	tags = { weapon_type_point_defense weapon_type_energy }
 	ai_tags = { weapon_role_point_defense screen }
+	upgrades_to = "KTW_PD_LASER_3"
 
 	ai_weight = {
 		weight = 1
@@ -275,6 +279,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_pd_cannon_projectile"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
 	ai_tags = { weapon_role_point_defense screen }
+	upgrades_to = "KTW_PD_CANNON_4"	
 
 	ai_weight = {
 		weight = 1
@@ -327,6 +332,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_pd_laser_projectile"
 	tags = { weapon_type_point_defense weapon_type_energy }
 	ai_tags = { weapon_role_point_defense screen }
+	upgrades_to = "KTW_PD_LASER_4"
 
 	ai_weight = {
 		weight = 1
@@ -383,6 +389,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_pd_cannon_projectile"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
 	ai_tags = { weapon_role_point_defense screen }
+	upgrades_to = "KTW_PD_CANNON_5"	
 
 	ai_weight = {
 		weight = 1
@@ -435,6 +442,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_pd_laser_projectile"
 	tags = { weapon_type_point_defense weapon_type_energy }
 	ai_tags = { weapon_role_point_defense screen }
+	upgrades_to = "KTW_PD_LASER_5"
 
 	ai_weight = {
 		weight = 1

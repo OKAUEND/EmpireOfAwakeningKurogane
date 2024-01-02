@@ -53,6 +53,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_H_pd_cannon_projectile_M"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
 	ai_tags = { weapon_role_point_defense screen }
+	upgrades_to = "KTW_HEAVY_PD_CANNON_M_2"	
 
 	ai_weight = {
 		weight = 1
@@ -105,6 +106,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_H_pd_cannon_projectile_S"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
 	ai_tags = { weapon_role_point_defense screen }
+	upgrades_to = "KTW_HEAVY_PD_CANNON_S_2"
 
 	ai_weight = {
 		weight = 1
@@ -158,6 +160,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_H_pd_cannon_projectile_M"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
 	ai_tags = { weapon_role_point_defense screen }
+	upgrades_to = "KTW_HEAVY_PD_CANNON_M_3"
 
 	ai_weight = {
 		weight = 1
@@ -210,6 +213,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_H_pd_cannon_projectile_S"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
 	ai_tags = { weapon_role_point_defense screen }
+	upgrades_to = "KTW_HEAVY_PD_CANNON_S_3"
 
 	ai_weight = {
 		weight = 1
@@ -263,6 +267,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_H_pd_cannon_projectile_M"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
 	ai_tags = { weapon_role_point_defense screen }
+	upgrades_to = "KTW_HEAVY_PD_CANNON_M_4"
 
 	ai_weight = {
 		weight = 1
@@ -315,6 +320,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_H_pd_cannon_projectile_S"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
 	ai_tags = { weapon_role_point_defense screen }
+	upgrades_to = "KTW_HEAVY_PD_CANNON_S_4"
 
 	ai_weight = {
 		weight = 1
@@ -368,6 +374,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_H_pd_cannon_projectile_M"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
 	ai_tags = { weapon_role_point_defense screen }
+	upgrades_to = "KTW_HEAVY_PD_CANNON_M_5"
 
 	ai_weight = {
 		weight = 1
@@ -420,6 +427,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_H_pd_cannon_projectile_S"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
 	ai_tags = { weapon_role_point_defense screen }
+	upgrades_to = "KTW_HEAVY_PD_CANNON_S_5"
 
 	ai_weight = {
 		weight = 1

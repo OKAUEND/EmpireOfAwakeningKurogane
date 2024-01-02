@@ -53,6 +53,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_H_pd_laser_projectile_M"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
 	ai_tags = { weapon_role_point_defense screen }
+	upgrades_to = "KTW_HEAVY_PD_LASER_M_2"	
 
 	ai_weight = {
 		weight = 1
@@ -104,6 +105,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_H_pd_laser_projectile_S"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
 	ai_tags = { weapon_role_point_defense screen }
+	upgrades_to = "KTW_HEAVY_PD_LASER_S_2"
 
 	ai_weight = {
 		weight = 1
@@ -158,6 +160,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_H_pd_laser_projectile_M"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
 	ai_tags = { weapon_role_point_defense screen }
+	upgrades_to = "KTW_HEAVY_PD_LASER_M_3"
 
 	ai_weight = {
 		weight = 1
@@ -209,6 +212,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_H_pd_laser_projectile_S"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
 	ai_tags = { weapon_role_point_defense screen }
+	upgrades_to = "KTW_HEAVY_PD_LASER_S_3"
 
 	ai_weight = {
 		weight = 1
@@ -263,6 +267,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_H_pd_laser_projectile_M"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
 	ai_tags = { weapon_role_point_defense screen }
+	upgrades_to = "KTW_HEAVY_PD_LASER_M_4"
 
 	ai_weight = {
 		weight = 1
@@ -314,6 +319,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_H_pd_laser_projectile_S"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
 	ai_tags = { weapon_role_point_defense screen }
+	upgrades_to = "KTW_HEAVY_PD_LASER_S_4"
 
 	ai_weight = {
 		weight = 1
@@ -368,6 +374,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_H_pd_laser_projectile_M"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
 	ai_tags = { weapon_role_point_defense screen }
+	upgrades_to = "KTW_HEAVY_PD_LASER_M_5"
 
 	ai_weight = {
 		weight = 1
@@ -419,6 +426,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_H_pd_laser_projectile_S"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
 	ai_tags = { weapon_role_point_defense screen }
+	upgrades_to = "KTW_HEAVY_PD_LASER_S_5"
 
 	ai_weight = {
 		weight = 1

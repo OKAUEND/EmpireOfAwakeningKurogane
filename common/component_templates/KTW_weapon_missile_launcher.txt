@@ -70,6 +70,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
+	upgrades_to = "KTW_MISSILE_LAUNCHER_L_2"	
 
 	ai_weight = {
 		weight = 1
@@ -138,6 +139,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
+	upgrades_to = "KTW_MISSILE_LAUNCHER_M_2"
 
 	ai_weight = {
 		weight = 1
@@ -209,6 +211,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
+	upgrades_to = "KTW_MISSILE_LAUNCHER_L_3"
 
 	ai_weight = {
 		weight = 1
@@ -277,6 +280,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
+	upgrades_to = "KTW_MISSILE_LAUNCHER_M_3"
 
 	ai_weight = {
 		weight = 1
@@ -349,6 +353,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
+	upgrades_to = "KTW_MISSILE_LAUNCHER_L_4"
 
 	ai_weight = {
 		weight = 1
@@ -417,6 +422,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
+	upgrades_to = "KTW_MISSILE_LAUNCHER_M_4"
 
 	ai_weight = {
 		weight = 1
@@ -489,6 +495,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
+	upgrades_to = "KTW_MISSILE_LAUNCHER_L_5"
 
 	ai_weight = {
 		weight = 1
@@ -557,6 +564,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
+	upgrades_to = "KTW_MISSILE_LAUNCHER_M_5"
 
 	ai_weight = {
 		weight = 1
