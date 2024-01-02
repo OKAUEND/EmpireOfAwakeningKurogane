@@ -33,7 +33,7 @@ ship_section_template = {
 		locatorname = "medium_gun_01"
 	}
 	component_slot = {
-		name = "MEDIUM_GUN_02"
+		name = "MEDIUM_GUN_04"
 		template = "KTW_invisible_medium_fixed"
 		locatorname = "medium_gun_02"
 	}
@@ -92,7 +92,7 @@ ship_section_template = {
 		locatorname = "medium_gun_04"
 	}
 	component_slot = {
-		name = "MEDIUM_GUN_02"
+		name = "MEDIUM_GUN_03"
 		template = "KTW_turret_M"
 		locatorname = "medium_gun_05"
 	}
