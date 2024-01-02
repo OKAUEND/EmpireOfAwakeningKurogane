@@ -1,0 +1,272 @@
+spriteTypes = {
+	#  黒鐵式超電磁砲塔
+	spriteType = {
+		name = "GFX_ship_part_KTW_kinetic_artillery_1"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_ktw_kinetic_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_kinetic_artillery_2"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_ktw_kinetic_2.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_kinetic_artillery_3"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_ktw_kinetic_3.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_kinetic_artillery_4"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_ktw_kinetic_4.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_kinetic_artillery_5"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_ktw_kinetic_5.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_kinetic_artillery_6"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_ktw_kinetic_6.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_kinetic_artillery_7"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_ktw_kinetic_7.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_kinetic_artillery_8"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_ktw_kinetic_7.dds"
+	}
+
+	#  黒鐵式高圧電離気体化衝撃砲塔
+	spriteType = {
+		name = "GFX_ship_part_KTW_laser_1"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_ktw_shock_canon_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_laser_2"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_ktw_shock_canon_2.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_laser_3"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_ktw_shock_canon_3.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_laser_4"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_ktw_shock_canon_4.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_laser_5"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_ktw_shock_canon_5.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_laser_6"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_ktw_shock_canon_6.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_laser_7"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_ktw_shock_canon_7.dds"
+	}
+
+	#  黒鐵式対空榴弾砲
+	spriteType = {
+		name = "GFX_ship_part_KTW_flak_batteries_1"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_flak_batteries_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_flak_batteries_2"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_flak_batteries_2.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_flak_batteries_3"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_flak_batteries_3.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_flak_batteries_4"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_flak_batteries_4.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_flak_batteries_5"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_flak_batteries_5.dds"
+	}
+
+	#  黒鐵式対空光子榴弾砲
+	spriteType = {
+		name = "GFX_ship_part_KTW_point_defense_1"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_point_defense_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_point_defense_2"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_point_defense_2.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_point_defense_3"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_point_defense_3.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_point_defense_4"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_point_defense_4.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_point_defense_5"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_point_defense_5.dds"
+	}
+	#  黑鐵型高射散弾砲塔
+	spriteType = {
+		name = "GFX_ship_part_KTW_H_flak_batteries_1"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_H_flak_batteries_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_H_flak_batteries_2"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_H_flak_batteries_2.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_H_flak_batteries_3"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_H_flak_batteries_3.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_H_flak_batteries_4"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_H_flak_batteries_4.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_H_flak_batteries_5"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_H_flak_batteries_5.dds"
+	}
+
+	#  黑鐵式エーテル衝撃砲塔
+	spriteType = {
+		name = "GFX_ship_part_KTW_H_point_defense_1"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_H_point_defense_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_H_point_defense_2"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_H_point_defense_2.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_H_point_defense_3"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_H_point_defense_3.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_H_point_defense_4"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_H_point_defense_4.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_H_point_defense_5"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_H_point_defense_5.dds"
+	}
+
+	# VSL
+	spriteType = {
+		name = "GFX_ship_part_KTW_missile_L_1"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_missile_vsl_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_missile_L_2"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_missile_vsl_2.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_missile_L_3"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_missile_vsl_3.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_missile_L_4"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_missile_vsl_4.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_missile_L_5"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_missile_vsl_5.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_missile_L_6"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_missile_vsl_6.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_missile_L_7"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_missile_vsl_7.dds"
+	}
+
+	#  黑鐵式対艦重誘導弾
+	spriteType = {
+		name = "GFX_ship_part_KTW_torpedo_L_1"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_torpedo_L_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_torpedo_L_2"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_torpedo_L_2.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_torpedo_L_3"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_torpedo_L_3.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_torpedo_L_4"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_torpedo_L_4.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_torpedo_L_5"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_torpedo_L_5.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_torpedo_L_6"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_torpedo_L_6.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_torpedo_L_7"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_torpedo_L_7.dds"
+	}
+
+	#  黑鐵式噴進爆雷砲
+	spriteType = {
+		name = "GFX_ship_part_KTW_torpedo_G_1"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_torpedo_G_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_torpedo_G_2"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_torpedo_G_2.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_torpedo_G_3"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_torpedo_G_3.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_torpedo_G_4"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_torpedo_G_4.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_torpedo_G_5"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_torpedo_G_5.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_ship_part_KTW_T_kinetic_artillery"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_T_kinetic_artillery.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_T_perdition_beam"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_T_perdition_beam.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_KTW_XL_arc_emitter"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_KTW_XL_arc_emitter.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_sm_KTW_hanger_module"
+		texturefile = "gfx/interface/icons/modules/sm_KTW_hanger_module.dds"
+	}
+	spriteType = {
+		name = "GFX_sm_KTW_XL_module"
+		texturefile = "gfx/interface/icons/modules/sm_KTW_XL_module.dds"
+	}
+	spriteType = {
+		name = "GFX_sm_KTW_L_module"
+		texturefile = "gfx/interface/icons/modules/sm_KTW_L_module.dds"
+	}
+	spriteType = {
+		name = "GFX_sm_KTW_torpedo_module"
+		texturefile = "gfx/interface/icons/modules/sm_KTW_torpedo_module.dds"
+	}
+	spriteType = {
+		name = "GFX_sm_KTW_PD_module"
+		texturefile = "gfx/interface/icons/modules/sm_KTW_PD_module.dds"
+	}
+
+
+}
