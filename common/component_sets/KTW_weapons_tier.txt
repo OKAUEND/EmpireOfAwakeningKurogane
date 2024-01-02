@@ -1,0 +1,345 @@
+
+# ############################################
+#  黒鐵式超電磁砲塔
+component_set = {
+	key = "KTW_KINETIC_ARTILLERY_1"
+
+	icon = "GFX_ship_part_KTW_kinetic_artillery"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_KINETIC_ARTILLERY_2"
+
+	icon = "GFX_ship_part_KTW_kinetic_artillery"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_KINETIC_ARTILLERY_3"
+
+	icon = "GFX_ship_part_KTW_kinetic_artillery"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_KINETIC_ARTILLERY_4"
+
+	icon = "GFX_ship_part_KTW_kinetic_artillery"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_KINETIC_ARTILLERY_5"
+
+	icon = "GFX_ship_part_KTW_kinetic_artillery"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_KINETIC_ARTILLERY_6"
+
+	icon = "GFX_ship_part_KTW_kinetic_artillery"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_KINETIC_ARTILLERY_7"
+
+	icon = "GFX_ship_part_KTW_kinetic_artillery"
+	icon_frame = 1
+}
+
+# ############################################
+#  黒鐵式高圧電離気体化衝撃砲塔
+component_set = {
+	key = "KTW_PLASMA_SHOCK_CANNON_1"
+
+	icon = "GFX_ship_part_KTW_laser"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_PLASMA_SHOCK_CANNON_2"
+
+	icon = "GFX_ship_part_KTW_laser"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_PLASMA_SHOCK_CANNON_3"
+
+	icon = "GFX_ship_part_KTW_laser"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_PLASMA_SHOCK_CANNON_4"
+
+	icon = "GFX_ship_part_KTW_laser"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_PLASMA_SHOCK_CANNON_5"
+
+	icon = "GFX_ship_part_KTW_laser"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_PLASMA_SHOCK_CANNON_6"
+
+	icon = "GFX_ship_part_KTW_laser"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_PLASMA_SHOCK_CANNON_7"
+
+	icon = "GFX_ship_part_KTW_laser"
+	icon_frame = 1
+}
+
+# ############################################
+#  黒鐵式対空榴弾砲
+#  黒鐵式対空光子榴弾砲
+component_set = {
+	key = "KTW_PD_CANNON_1"
+
+	icon = "GFX_ship_part_KTW_flak_batteries"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_PD_CANNON_2"
+
+	icon = "GFX_ship_part_KTW_flak_batteries"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_PD_CANNON_3"
+
+	icon = "GFX_ship_part_KTW_flak_batteries"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_PD_CANNON_4"
+
+	icon = "GFX_ship_part_KTW_flak_batteries"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_PD_CANNON_5"
+
+	icon = "GFX_ship_part_KTW_flak_batteries"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_PD_LASER_1"
+
+	icon = "GFX_ship_part_KTW_point_defense"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_PD_LASER_2"
+
+	icon = "GFX_ship_part_KTW_point_defense"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_PD_LASER_3"
+
+	icon = "GFX_ship_part_KTW_point_defense"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_PD_LASER_4"
+
+	icon = "GFX_ship_part_KTW_point_defense"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_PD_LASER_5"
+
+	icon = "GFX_ship_part_KTW_point_defense"
+	icon_frame = 1
+}
+
+# ############################################
+#  黑鐵型高射散弾砲塔
+component_set = {
+	key = "KTW_HEAVY_PD_CANNON_1"
+
+	icon = "GFX_ship_part_KTW_H_flak_batteries"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_HEAVY_PD_CANNON_2"
+
+	icon = "GFX_ship_part_KTW_H_flak_batteries"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_HEAVY_PD_CANNON_3"
+
+	icon = "GFX_ship_part_KTW_H_flak_batteries"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_HEAVY_PD_CANNON_4"
+
+	icon = "GFX_ship_part_KTW_H_flak_batteries"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_HEAVY_PD_CANNON_5"
+
+	icon = "GFX_ship_part_KTW_H_flak_batteries"
+	icon_frame = 1
+}
+
+# ############################################
+#  黑鐵式エーテル衝撃砲塔
+component_set = {
+	key = "KTW_HEAVY_PD_LASER_1"
+
+	icon = "GFX_ship_part_KTW_H_point_defense"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_HEAVY_PD_LASER_2"
+
+	icon = "GFX_ship_part_KTW_H_point_defense"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_HEAVY_PD_LASER_3"
+
+	icon = "GFX_ship_part_KTW_H_point_defense"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_HEAVY_PD_LASER_4"
+
+	icon = "GFX_ship_part_KTW_H_point_defense"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_HEAVY_PD_LASER_5"
+
+	icon = "GFX_ship_part_KTW_H_point_defense"
+	icon_frame = 1
+}
+
+# ############################################
+#  黒鐵式垂直打撃誘導弾
+component_set = {
+	key = "KTW_VLS_1"
+
+	icon = "GFX_ship_part_KTW_missile_L"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_VLS_2"
+
+	icon = "GFX_ship_part_KTW_missile_L"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_VLS_3"
+
+	icon = "GFX_ship_part_KTW_missile_L"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_VLS_4"
+
+	icon = "GFX_ship_part_KTW_missile_L"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_VLS_5"
+
+	icon = "GFX_ship_part_KTW_missile_L"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_VLS_6"
+
+	icon = "GFX_ship_part_KTW_missile_L"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_VLS_7"
+
+	icon = "GFX_ship_part_KTW_missile_L"
+	icon_frame = 1
+}
+
+# ############################################
+#  黑鐵式対艦重誘導弾
+component_set = {
+	key = "KTW_MISSILE_LAUNCHER_1"
+
+	icon = "GFX_ship_part_KTW_torpedo_L"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_MISSILE_LAUNCHER_2"
+
+	icon = "GFX_ship_part_KTW_torpedo_L"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_MISSILE_LAUNCHER_3"
+
+	icon = "GFX_ship_part_KTW_torpedo_L"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_MISSILE_LAUNCHER_4"
+
+	icon = "GFX_ship_part_KTW_torpedo_L"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_MISSILE_LAUNCHER_5"
+
+	icon = "GFX_ship_part_KTW_torpedo_L"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_MISSILE_LAUNCHER_6"
+
+	icon = "GFX_ship_part_KTW_torpedo_L"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_MISSILE_LAUNCHER_7"
+
+	icon = "GFX_ship_part_KTW_torpedo_L"
+	icon_frame = 1
+}
+
+
+# ############################################
+#  黑鐵式噴進爆雷砲
+component_set = {
+	key = "KTW_ROCKET_TORPEDO_1"
+
+	icon = "GFX_ship_part_KTW_torpedo_G"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_ROCKET_TORPEDO_2"
+
+	icon = "GFX_ship_part_KTW_torpedo_G"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_ROCKET_TORPEDO_3"
+
+	icon = "GFX_ship_part_KTW_torpedo_G"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_ROCKET_TORPEDO_4"
+
+	icon = "GFX_ship_part_KTW_torpedo_G"
+	icon_frame = 1
+}
+component_set = {
+	key = "KTW_ROCKET_TORPEDO_5"
+
+	icon = "GFX_ship_part_KTW_torpedo_G"
+	icon_frame = 1
+}
+
