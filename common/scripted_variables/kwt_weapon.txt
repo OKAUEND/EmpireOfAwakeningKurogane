@@ -1,0 +1,8 @@
+############################################################
+###                         weapons                      ###
+############################################################
+#CoolDown
+@KWT_WEAPON_ANTIAIR_COOLDOWN = 5
+@KWT_WEAPON_SMALL_COOLDOWN = 20.5
+@KWT_WEAPON_MEDIUM_COOLDOWN = 35.5
+@KWT_WEAPON_LARGE_COOLDOWN = 50.00
