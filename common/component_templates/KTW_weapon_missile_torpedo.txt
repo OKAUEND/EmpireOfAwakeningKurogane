@@ -66,7 +66,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_ROCKET_TORPEDO"
+	component_set = "KTW_ROCKET_TORPEDO_1"
 	projectile_gfx = "KTW_TORPEDO_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
@@ -135,7 +135,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_ROCKET_TORPEDO"
+	component_set = "KTW_ROCKET_TORPEDO_2"
 	projectile_gfx = "KTW_TORPEDO_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
@@ -204,7 +204,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_ROCKET_TORPEDO"
+	component_set = "KTW_ROCKET_TORPEDO_3"
 	projectile_gfx = "KTW_TORPEDO_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
@@ -273,7 +273,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_ROCKET_TORPEDO"
+	component_set = "KTW_ROCKET_TORPEDO_4"
 	projectile_gfx = "KTW_TORPEDO_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
@@ -342,7 +342,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_ROCKET_TORPEDO"
+	component_set = "KTW_ROCKET_TORPEDO_5"
 	projectile_gfx = "KTW_TORPEDO_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }

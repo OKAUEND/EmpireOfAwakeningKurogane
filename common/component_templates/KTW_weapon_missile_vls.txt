@@ -73,7 +73,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_VLS"
+	component_set = "KTW_VLS_1"
 	projectile_gfx = "KTW_VLS_ER_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
@@ -142,7 +142,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_VLS"
+	component_set = "KTW_VLS_1"
 	projectile_gfx = "KTW_VLS_MR_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
@@ -214,7 +214,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_VLS"
+	component_set = "KTW_VLS_2"
 	projectile_gfx = "KTW_VLS_ER_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
@@ -283,7 +283,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_VLS"
+	component_set = "KTW_VLS_2"
 	projectile_gfx = "KTW_VLS_MR_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
@@ -356,7 +356,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_VLS"
+	component_set = "KTW_VLS_3"
 	projectile_gfx = "KTW_VLS_ER_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
@@ -425,7 +425,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_VLS"
+	component_set = "KTW_VLS_3"
 	projectile_gfx = "KTW_VLS_MR_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
@@ -497,7 +497,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_VLS"
+	component_set = "KTW_VLS_4"
 	projectile_gfx = "KTW_VLS_ER_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
@@ -566,7 +566,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_VLS"
+	component_set = "KTW_VLS_4"
 	projectile_gfx = "KTW_VLS_MR_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
@@ -638,7 +638,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_VLS"
+	component_set = "KTW_VLS_5"
 	projectile_gfx = "KTW_VLS_ER_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
@@ -707,7 +707,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_VLS"
+	component_set = "KTW_VLS_5"
 	projectile_gfx = "KTW_VLS_MR_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
@@ -779,7 +779,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_VLS"
+	component_set = "KTW_VLS_6"
 	projectile_gfx = "KTW_VLS_ER_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
@@ -848,7 +848,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_VLS"
+	component_set = "KTW_VLS_6"
 	projectile_gfx = "KTW_VLS_MR_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
@@ -920,7 +920,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_VLS"
+	component_set = "KTW_VLS_7"
 	projectile_gfx = "KTW_VLS_ER_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
@@ -989,7 +989,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_VLS"
+	component_set = "KTW_VLS_7"
 	projectile_gfx = "KTW_VLS_MR_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }

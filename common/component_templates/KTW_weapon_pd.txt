@@ -57,7 +57,7 @@ weapon_component_template = {
 	tracking = 0.5
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = KTW_PD_CANNON
+	component_set = KTW_PD_CANNON_1
 	projectile_gfx = "KTW_pd_cannon_projectile"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
 	ai_tags = { weapon_role_point_defense screen }
@@ -109,7 +109,7 @@ weapon_component_template = {
 	tracking = 0.25
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = KTW_PD_LASER
+	component_set = KTW_PD_LASER_2
 	projectile_gfx = "KTW_pd_laser_projectile"
 	tags = { weapon_type_point_defense weapon_type_energy }
 	ai_tags = { weapon_role_point_defense screen }
@@ -164,7 +164,7 @@ weapon_component_template = {
 	tracking = 0.5
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = KTW_PD_CANNON
+	component_set = KTW_PD_CANNON_2
 	projectile_gfx = "KTW_pd_cannon_projectile"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
 	ai_tags = { weapon_role_point_defense screen }
@@ -216,7 +216,7 @@ weapon_component_template = {
 	tracking = 0.25
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = KTW_PD_LASER
+	component_set = KTW_PD_LASER_2
 	projectile_gfx = "KTW_pd_laser_projectile"
 	tags = { weapon_type_point_defense weapon_type_energy }
 	ai_tags = { weapon_role_point_defense screen }
@@ -271,7 +271,7 @@ weapon_component_template = {
 	tracking = 0.5
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = KTW_PD_CANNON
+	component_set = KTW_PD_CANNON_3
 	projectile_gfx = "KTW_pd_cannon_projectile"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
 	ai_tags = { weapon_role_point_defense screen }
@@ -323,7 +323,7 @@ weapon_component_template = {
 	tracking = 0.25
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = KTW_PD_LASER
+	component_set = KTW_PD_LASER_3
 	projectile_gfx = "KTW_pd_laser_projectile"
 	tags = { weapon_type_point_defense weapon_type_energy }
 	ai_tags = { weapon_role_point_defense screen }
@@ -379,7 +379,7 @@ weapon_component_template = {
 	tracking = 0.5
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = KTW_PD_CANNON
+	component_set = KTW_PD_CANNON_4
 	projectile_gfx = "KTW_pd_cannon_projectile"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
 	ai_tags = { weapon_role_point_defense screen }
@@ -431,7 +431,7 @@ weapon_component_template = {
 	tracking = 0.25
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = KTW_PD_LASER
+	component_set = KTW_PD_LASER_4
 	projectile_gfx = "KTW_pd_laser_projectile"
 	tags = { weapon_type_point_defense weapon_type_energy }
 	ai_tags = { weapon_role_point_defense screen }
@@ -486,7 +486,7 @@ weapon_component_template = {
 	tracking = 0.5
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = KTW_PD_CANNON
+	component_set = KTW_PD_CANNON_5
 	projectile_gfx = "KTW_pd_cannon_projectile"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
 	ai_tags = { weapon_role_point_defense screen }
@@ -538,7 +538,7 @@ weapon_component_template = {
 	tracking = 0.25
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = KTW_PD_LASER
+	component_set = KTW_PD_LASER_5
 	projectile_gfx = "KTW_pd_laser_projectile"
 	tags = { weapon_type_point_defense weapon_type_energy }
 	ai_tags = { weapon_role_point_defense screen }

@@ -72,7 +72,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_MISSILE_LAUNCHER"
+	component_set = "KTW_MISSILE_LAUNCHER_1"
 	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
@@ -140,7 +140,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_MISSILE_LAUNCHER"
+	component_set = "KTW_MISSILE_LAUNCHER_1"
 	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
@@ -211,7 +211,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_MISSILE_LAUNCHER"
+	component_set = "KTW_MISSILE_LAUNCHER_2"
 	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
@@ -279,7 +279,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_MISSILE_LAUNCHER"
+	component_set = "KTW_MISSILE_LAUNCHER_2"
 	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
@@ -351,7 +351,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_MISSILE_LAUNCHER"
+	component_set = "KTW_MISSILE_LAUNCHER_3"
 	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
@@ -419,7 +419,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_MISSILE_LAUNCHER"
+	component_set = "KTW_MISSILE_LAUNCHER_3"
 	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
@@ -491,7 +491,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_MISSILE_LAUNCHER"
+	component_set = "KTW_MISSILE_LAUNCHER_4"
 	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
@@ -559,7 +559,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_MISSILE_LAUNCHER"
+	component_set = "KTW_MISSILE_LAUNCHER_4"
 	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
@@ -630,7 +630,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_MISSILE_LAUNCHER"
+	component_set = "KTW_MISSILE_LAUNCHER_5"
 	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
@@ -698,7 +698,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_MISSILE_LAUNCHER"
+	component_set = "KTW_MISSILE_LAUNCHER_5"
 	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
@@ -769,7 +769,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_MISSILE_LAUNCHER"
+	component_set = "KTW_MISSILE_LAUNCHER_6"
 	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
@@ -837,7 +837,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_MISSILE_LAUNCHER"
+	component_set = "KTW_MISSILE_LAUNCHER_6"
 	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
@@ -909,7 +909,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_MISSILE_LAUNCHER"
+	component_set = "KTW_MISSILE_LAUNCHER_7"
 	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
@@ -977,7 +977,7 @@ weapon_component_template = {
 	}
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = "KTW_MISSILE_LAUNCHER"
+	component_set = "KTW_MISSILE_LAUNCHER_7"
 	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_anti_shield explosive }
