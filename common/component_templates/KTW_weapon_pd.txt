@@ -6,15 +6,9 @@
 #  - Tier 1
 #   - 対空榴弾砲壱型(SML)
 #   - 対空光子榴弾砲壱型(SML)
-#  - Tier 2
-#   - 対空榴弾砲弐型(SML)
-#   - 対空光子榴弾砲弐型(SML)
 #  - Tier 3
 #   - 対空榴弾砲参型(SML)
 #   - 対空光子榴弾砲参型(SML)
-#  - Tier 4
-#   - 対空榴弾砲肆型(SML)
-#   - 対空光子榴弾砲肆型(SML)
 #  - Tier 5
 #   - 対空榴弾砲伍型(SML)
 #   - 対空光子榴弾砲伍型(SML)
@@ -24,13 +18,12 @@
 #  - Tier 7
 #   - 対空榴弾砲漆型(SML)
 #   - 対空光子榴弾砲漆型(SML)
-#  - Tier 8
-#   - 対空榴弾砲捌型(SML)
-#   - 対空光子榴弾砲漆型(SML)
 #############################################
-
+#  - Tier 1
+#   - 対空榴弾砲壱型(SML)
+#   - 対空光子榴弾砲壱型(SML)
 weapon_component_template = {
-	key = KTW_PD_CANNON
+	key = "KTW_PD_CANNON_1"
 	entity = "KTW_turret_PD_entity"
 	size = point_defence
 	icon = GFX_ship_part_KTW_flak_batteries
@@ -82,7 +75,221 @@ weapon_component_template = {
 
 
 weapon_component_template = {
-	key = KTW_PD_LASER
+	key = "KTW_PD_LASER_1"
+	entity = "KTW_turret_PD2_entity"
+	size = point_defence
+	icon = GFX_ship_part_KTW_point_defense
+	icon_frame = 1
+	type = point_defence
+
+
+	damage = { min = 40 max = 60 }
+	windup = { min = 5 max = 25 }
+	total_fire_time = 6
+	range = 65
+	accuracy = 1.0
+	power = -20
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+		}
+		upkeep = {
+			energy = 0.23
+			alloys = 0.008
+		}
+	}
+
+	hull_damage = 1
+	armor_penetration = 0
+	armor_damage = 1.5
+	shield_penetration = 0
+	shield_damage = 0.25
+	tracking = 0.25
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = KTW_PD_LASER
+	projectile_gfx = "KTW_pd_laser_projectile"
+	tags = { weapon_type_point_defense weapon_type_energy }
+	ai_tags = { weapon_role_point_defense screen }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+	point_defence_targets = { "missile" "strike_craft" }
+}
+
+#############################################
+#  - Tier 3
+#   - 対空榴弾砲参型(SML)
+#   - 対空光子榴弾砲参型(SML)
+weapon_component_template = {
+	key = "KTW_PD_CANNON_2"
+	entity = "KTW_turret_PD_entity"
+	size = point_defence
+	icon = GFX_ship_part_KTW_flak_batteries
+	icon_frame = 1
+	type = point_defence
+
+
+	damage = { min = 10 max = 20 }
+	windup = { min = 3 max = 15 }
+	total_fire_time = 1
+	range = 50
+	accuracy = 0.75
+	power = -12
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 16
+		}
+		upkeep = {
+			energy = 0.16
+			alloys = 0.016
+		}
+	}
+
+	hull_damage = 1
+	armor_penetration = 0
+	armor_damage = 0.25
+	shield_penetration = 0
+	shield_damage = 1
+	tracking = 0.5
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = KTW_PD_CANNON
+	projectile_gfx = "KTW_pd_cannon_projectile"
+	tags = { weapon_type_point_defense weapon_type_kinetic }
+	ai_tags = { weapon_role_point_defense screen }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+	point_defence_targets = { "missile" "strike_craft" }
+}
+
+
+weapon_component_template = {
+	key = "KTW_PD_LASER_2"
+	entity = "KTW_turret_PD2_entity"
+	size = point_defence
+	icon = GFX_ship_part_KTW_point_defense
+	icon_frame = 1
+	type = point_defence
+
+
+	damage = { min = 40 max = 60 }
+	windup = { min = 5 max = 25 }
+	total_fire_time = 6
+	range = 65
+	accuracy = 1.0
+	power = -20
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+		}
+		upkeep = {
+			energy = 0.23
+			alloys = 0.008
+		}
+	}
+
+	hull_damage = 1
+	armor_penetration = 0
+	armor_damage = 1.5
+	shield_penetration = 0
+	shield_damage = 0.25
+	tracking = 0.25
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = KTW_PD_LASER
+	projectile_gfx = "KTW_pd_laser_projectile"
+	tags = { weapon_type_point_defense weapon_type_energy }
+	ai_tags = { weapon_role_point_defense screen }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+	point_defence_targets = { "missile" "strike_craft" }
+}
+
+#############################################
+#  - Tier 5
+#   - 対空榴弾砲伍型(SML)
+#   - 対空光子榴弾砲伍型(SML)
+weapon_component_template = {
+	key = "KTW_PD_CANNON_3"
+	entity = "KTW_turret_PD_entity"
+	size = point_defence
+	icon = GFX_ship_part_KTW_flak_batteries
+	icon_frame = 1
+	type = point_defence
+
+
+	damage = { min = 10 max = 20 }
+	windup = { min = 3 max = 15 }
+	total_fire_time = 1
+	range = 50
+	accuracy = 0.75
+	power = -12
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 16
+		}
+		upkeep = {
+			energy = 0.16
+			alloys = 0.016
+		}
+	}
+
+	hull_damage = 1
+	armor_penetration = 0
+	armor_damage = 0.25
+	shield_penetration = 0
+	shield_damage = 1
+	tracking = 0.5
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = KTW_PD_CANNON
+	projectile_gfx = "KTW_pd_cannon_projectile"
+	tags = { weapon_type_point_defense weapon_type_kinetic }
+	ai_tags = { weapon_role_point_defense screen }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+	point_defence_targets = { "missile" "strike_craft" }
+}
+
+
+weapon_component_template = {
+	key = "KTW_PD_LASER_3"
 	entity = "KTW_turret_PD2_entity"
 	size = point_defence
 	icon = GFX_ship_part_KTW_point_defense
@@ -133,12 +340,216 @@ weapon_component_template = {
 }
 
 
+#############################################
+#  - Tier 6
+#   - 対空榴弾砲陸型(SML)
+#   - 対空光子榴弾砲陸型(SML)
+weapon_component_template = {
+	key = "KTW_PD_CANNON_4"
+	entity = "KTW_turret_PD_entity"
+	size = point_defence
+	icon = GFX_ship_part_KTW_flak_batteries
+	icon_frame = 1
+	type = point_defence
 
 
+	damage = { min = 10 max = 20 }
+	windup = { min = 3 max = 15 }
+	total_fire_time = 1
+	range = 50
+	accuracy = 0.75
+	power = -12
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 16
+		}
+		upkeep = {
+			energy = 0.16
+			alloys = 0.016
+		}
+	}
+
+	hull_damage = 1
+	armor_penetration = 0
+	armor_damage = 0.25
+	shield_penetration = 0
+	shield_damage = 1
+	tracking = 0.5
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = KTW_PD_CANNON
+	projectile_gfx = "KTW_pd_cannon_projectile"
+	tags = { weapon_type_point_defense weapon_type_kinetic }
+	ai_tags = { weapon_role_point_defense screen }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+	point_defence_targets = { "missile" "strike_craft" }
+}
 
 
+weapon_component_template = {
+	key = "KTW_PD_LASER_4"
+	entity = "KTW_turret_PD2_entity"
+	size = point_defence
+	icon = GFX_ship_part_KTW_point_defense
+	icon_frame = 1
+	type = point_defence
 
 
+	damage = { min = 40 max = 60 }
+	windup = { min = 5 max = 25 }
+	total_fire_time = 6
+	range = 65
+	accuracy = 1.0
+	power = -20
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+		}
+		upkeep = {
+			energy = 0.23
+			alloys = 0.008
+		}
+	}
+
+	hull_damage = 1
+	armor_penetration = 0
+	armor_damage = 1.5
+	shield_penetration = 0
+	shield_damage = 0.25
+	tracking = 0.25
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = KTW_PD_LASER
+	projectile_gfx = "KTW_pd_laser_projectile"
+	tags = { weapon_type_point_defense weapon_type_energy }
+	ai_tags = { weapon_role_point_defense screen }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+	point_defence_targets = { "missile" "strike_craft" }
+}
+
+#############################################
+#  - Tier 7
+#   - 対空榴弾砲漆型(SML)
+#   - 対空光子榴弾砲漆型(SML)
+weapon_component_template = {
+	key = "KTW_PD_CANNON_5"
+	entity = "KTW_turret_PD_entity"
+	size = point_defence
+	icon = GFX_ship_part_KTW_flak_batteries
+	icon_frame = 1
+	type = point_defence
 
 
+	damage = { min = 10 max = 20 }
+	windup = { min = 3 max = 15 }
+	total_fire_time = 1
+	range = 50
+	accuracy = 0.75
+	power = -12
 
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 16
+		}
+		upkeep = {
+			energy = 0.16
+			alloys = 0.016
+		}
+	}
+
+	hull_damage = 1
+	armor_penetration = 0
+	armor_damage = 0.25
+	shield_penetration = 0
+	shield_damage = 1
+	tracking = 0.5
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = KTW_PD_CANNON
+	projectile_gfx = "KTW_pd_cannon_projectile"
+	tags = { weapon_type_point_defense weapon_type_kinetic }
+	ai_tags = { weapon_role_point_defense screen }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+	point_defence_targets = { "missile" "strike_craft" }
+}
+
+
+weapon_component_template = {
+	key = "KTW_PD_LASER_5"
+	entity = "KTW_turret_PD2_entity"
+	size = point_defence
+	icon = GFX_ship_part_KTW_point_defense
+	icon_frame = 1
+	type = point_defence
+
+
+	damage = { min = 40 max = 60 }
+	windup = { min = 5 max = 25 }
+	total_fire_time = 6
+	range = 65
+	accuracy = 1.0
+	power = -20
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 20
+		}
+		upkeep = {
+			energy = 0.23
+			alloys = 0.008
+		}
+	}
+
+	hull_damage = 1
+	armor_penetration = 0
+	armor_damage = 1.5
+	shield_penetration = 0
+	shield_damage = 0.25
+	tracking = 0.25
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = KTW_PD_LASER
+	projectile_gfx = "KTW_pd_laser_projectile"
+	tags = { weapon_type_point_defense weapon_type_energy }
+	ai_tags = { weapon_role_point_defense screen }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+	point_defence_targets = { "missile" "strike_craft" }
+}

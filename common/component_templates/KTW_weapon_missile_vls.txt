@@ -16,11 +16,11 @@
 #   - 垂直打撃誘導弾陸型(SML)
 #  - Tier 7
 #   - 垂直打撃誘導弾漆型(SML)
-#  - Tier 8
-#   - 垂直打撃誘導弾捌型(SML)
-#############################################
+# ############################################
+#  - Tier 1
+#   - 垂直打撃誘導弾壱型(SML)
 weapon_component_template = {
-	key = "KTW_VLS_ER"
+	key = "KTW_VLS_ER_1"
 	size = large
 	icon = GFX_ship_part_KTW_missile_L
 	entity = "KTW_turret_VLS_ER_entity"
@@ -88,9 +88,149 @@ weapon_component_template = {
 	}
 }
 
+weapon_component_template = {
+	key = "KTW_VLS_MR_1"
+	size = medium
+	icon = GFX_ship_part_KTW_missile_L
+	entity = "KTW_turret_VLS_MR_entity"
+
+	icon_frame = 1
+	type = missile
+
+
+	power = -75
+	damage = { min = 400 max = 500 }
+	windup = { min = 1 max = 15 }
+	total_fire_time = 100
+
+	hull_damage = 1.25
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 2
+	armor_penetration = 0
+
+	range = 180
+	accuracy = 1.0
+	tracking = 0.3
+	missile_speed = 13
+	missile_evasion = 0.4
+	missile_shield = 0
+	missile_armor = 0
+	missile_health = 65
+	missile_retarget_range = 100
+
+	firing_arc = 358.0
+	min_range = 20.0
+
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 100
+			volatile_motes = 1.5
+		}
+		upkeep = {
+			energy = 1
+			alloys = 0.3
+		}
+	}
+	target_weights = {
+		corvette = 4
+		frigate = 4
+		destroyer = 2
+		cruiser = 2
+	}
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = "KTW_VLS"
+	projectile_gfx = "KTW_VLS_MR_projectile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+}
+
+# ############################################
+#  - Tier 2
+#   - 垂直打撃誘導弾弐型(SML)
+weapon_component_template = {
+	key = "KTW_VLS_ER_2"
+	size = large
+	icon = GFX_ship_part_KTW_missile_L
+	entity = "KTW_turret_VLS_ER_entity"
+
+	icon_frame = 1
+	type = missile
+
+
+	power = -160
+	damage = { min = 750 max = 800 }
+	windup = { min = 1 max = 15 }
+	total_fire_time = 120
+
+	hull_damage = 1.25
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 2
+	armor_penetration = 0
+
+	range = 180
+	accuracy = 1.0
+	tracking = 0.3
+	missile_speed = 13
+	missile_evasion = 0.4
+	missile_shield = 0
+	missile_armor = 0
+	missile_health = 120
+	missile_retarget_range = 100
+
+	firing_arc = 358.0
+	min_range = 40.0
+
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 150
+			volatile_motes = 2.0
+		}
+		upkeep = {
+			energy = 2
+			alloys = 0.5
+		}
+	}
+	target_weights = {
+		corvette = 4
+		frigate = 4
+		destroyer = 2
+		cruiser = 2
+	}
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = "KTW_VLS"
+	projectile_gfx = "KTW_VLS_ER_projectile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+}
 
 weapon_component_template = {
-	key = "KTW_VLS_MR"
+	key = "KTW_VLS_MR_2"
 	size = medium
 	icon = GFX_ship_part_KTW_missile_L
 	entity = "KTW_turret_VLS_MR_entity"
@@ -159,3 +299,707 @@ weapon_component_template = {
 }
 
 
+# ############################################
+#  - Tier 3
+#   - 垂直打撃誘導弾参型(SML)
+weapon_component_template = {
+	key = "KTW_VLS_ER_3"
+	size = large
+	icon = GFX_ship_part_KTW_missile_L
+	entity = "KTW_turret_VLS_ER_entity"
+
+	icon_frame = 1
+	type = missile
+
+
+	power = -160
+	damage = { min = 750 max = 800 }
+	windup = { min = 1 max = 15 }
+	total_fire_time = 120
+
+	hull_damage = 1.25
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 2
+	armor_penetration = 0
+
+	range = 180
+	accuracy = 1.0
+	tracking = 0.3
+	missile_speed = 13
+	missile_evasion = 0.4
+	missile_shield = 0
+	missile_armor = 0
+	missile_health = 120
+	missile_retarget_range = 100
+
+	firing_arc = 358.0
+	min_range = 40.0
+
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 150
+			volatile_motes = 2.0
+		}
+		upkeep = {
+			energy = 2
+			alloys = 0.5
+		}
+	}
+	target_weights = {
+		corvette = 4
+		frigate = 4
+		destroyer = 2
+		cruiser = 2
+	}
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = "KTW_VLS"
+	projectile_gfx = "KTW_VLS_ER_projectile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "KTW_VLS_MR_3"
+	size = medium
+	icon = GFX_ship_part_KTW_missile_L
+	entity = "KTW_turret_VLS_MR_entity"
+
+	icon_frame = 1
+	type = missile
+
+
+	power = -75
+	damage = { min = 400 max = 500 }
+	windup = { min = 1 max = 15 }
+	total_fire_time = 100
+
+	hull_damage = 1.25
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 2
+	armor_penetration = 0
+
+	range = 180
+	accuracy = 1.0
+	tracking = 0.3
+	missile_speed = 13
+	missile_evasion = 0.4
+	missile_shield = 0
+	missile_armor = 0
+	missile_health = 65
+	missile_retarget_range = 100
+
+	firing_arc = 358.0
+	min_range = 20.0
+
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 100
+			volatile_motes = 1.5
+		}
+		upkeep = {
+			energy = 1
+			alloys = 0.3
+		}
+	}
+	target_weights = {
+		corvette = 4
+		frigate = 4
+		destroyer = 2
+		cruiser = 2
+	}
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = "KTW_VLS"
+	projectile_gfx = "KTW_VLS_MR_projectile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+}
+
+# ############################################
+#  - Tier 4
+#   - 垂直打撃誘導弾肆型(SML)
+weapon_component_template = {
+	key = "KTW_VLS_ER_4"
+	size = large
+	icon = GFX_ship_part_KTW_missile_L
+	entity = "KTW_turret_VLS_ER_entity"
+
+	icon_frame = 1
+	type = missile
+
+
+	power = -160
+	damage = { min = 750 max = 800 }
+	windup = { min = 1 max = 15 }
+	total_fire_time = 120
+
+	hull_damage = 1.25
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 2
+	armor_penetration = 0
+
+	range = 180
+	accuracy = 1.0
+	tracking = 0.3
+	missile_speed = 13
+	missile_evasion = 0.4
+	missile_shield = 0
+	missile_armor = 0
+	missile_health = 120
+	missile_retarget_range = 100
+
+	firing_arc = 358.0
+	min_range = 40.0
+
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 150
+			volatile_motes = 2.0
+		}
+		upkeep = {
+			energy = 2
+			alloys = 0.5
+		}
+	}
+	target_weights = {
+		corvette = 4
+		frigate = 4
+		destroyer = 2
+		cruiser = 2
+	}
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = "KTW_VLS"
+	projectile_gfx = "KTW_VLS_ER_projectile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "KTW_VLS_MR_4"
+	size = medium
+	icon = GFX_ship_part_KTW_missile_L
+	entity = "KTW_turret_VLS_MR_entity"
+
+	icon_frame = 1
+	type = missile
+
+
+	power = -75
+	damage = { min = 400 max = 500 }
+	windup = { min = 1 max = 15 }
+	total_fire_time = 100
+
+	hull_damage = 1.25
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 2
+	armor_penetration = 0
+
+	range = 180
+	accuracy = 1.0
+	tracking = 0.3
+	missile_speed = 13
+	missile_evasion = 0.4
+	missile_shield = 0
+	missile_armor = 0
+	missile_health = 65
+	missile_retarget_range = 100
+
+	firing_arc = 358.0
+	min_range = 20.0
+
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 100
+			volatile_motes = 1.5
+		}
+		upkeep = {
+			energy = 1
+			alloys = 0.3
+		}
+	}
+	target_weights = {
+		corvette = 4
+		frigate = 4
+		destroyer = 2
+		cruiser = 2
+	}
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = "KTW_VLS"
+	projectile_gfx = "KTW_VLS_MR_projectile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+}
+
+# ############################################
+#  - Tier 5
+#   - 垂直打撃誘導弾伍型(SML)
+weapon_component_template = {
+	key = "KTW_VLS_ER_5"
+	size = large
+	icon = GFX_ship_part_KTW_missile_L
+	entity = "KTW_turret_VLS_ER_entity"
+
+	icon_frame = 1
+	type = missile
+
+
+	power = -160
+	damage = { min = 750 max = 800 }
+	windup = { min = 1 max = 15 }
+	total_fire_time = 120
+
+	hull_damage = 1.25
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 2
+	armor_penetration = 0
+
+	range = 180
+	accuracy = 1.0
+	tracking = 0.3
+	missile_speed = 13
+	missile_evasion = 0.4
+	missile_shield = 0
+	missile_armor = 0
+	missile_health = 120
+	missile_retarget_range = 100
+
+	firing_arc = 358.0
+	min_range = 40.0
+
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 150
+			volatile_motes = 2.0
+		}
+		upkeep = {
+			energy = 2
+			alloys = 0.5
+		}
+	}
+	target_weights = {
+		corvette = 4
+		frigate = 4
+		destroyer = 2
+		cruiser = 2
+	}
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = "KTW_VLS"
+	projectile_gfx = "KTW_VLS_ER_projectile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "KTW_VLS_MR_5"
+	size = medium
+	icon = GFX_ship_part_KTW_missile_L
+	entity = "KTW_turret_VLS_MR_entity"
+
+	icon_frame = 1
+	type = missile
+
+
+	power = -75
+	damage = { min = 400 max = 500 }
+	windup = { min = 1 max = 15 }
+	total_fire_time = 100
+
+	hull_damage = 1.25
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 2
+	armor_penetration = 0
+
+	range = 180
+	accuracy = 1.0
+	tracking = 0.3
+	missile_speed = 13
+	missile_evasion = 0.4
+	missile_shield = 0
+	missile_armor = 0
+	missile_health = 65
+	missile_retarget_range = 100
+
+	firing_arc = 358.0
+	min_range = 20.0
+
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 100
+			volatile_motes = 1.5
+		}
+		upkeep = {
+			energy = 1
+			alloys = 0.3
+		}
+	}
+	target_weights = {
+		corvette = 4
+		frigate = 4
+		destroyer = 2
+		cruiser = 2
+	}
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = "KTW_VLS"
+	projectile_gfx = "KTW_VLS_MR_projectile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+}
+
+# ############################################
+#  - Tier 6
+#   - 垂直打撃誘導弾陸型(SML)
+weapon_component_template = {
+	key = "KTW_VLS_ER_6"
+	size = large
+	icon = GFX_ship_part_KTW_missile_L
+	entity = "KTW_turret_VLS_ER_entity"
+
+	icon_frame = 1
+	type = missile
+
+
+	power = -160
+	damage = { min = 750 max = 800 }
+	windup = { min = 1 max = 15 }
+	total_fire_time = 120
+
+	hull_damage = 1.25
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 2
+	armor_penetration = 0
+
+	range = 180
+	accuracy = 1.0
+	tracking = 0.3
+	missile_speed = 13
+	missile_evasion = 0.4
+	missile_shield = 0
+	missile_armor = 0
+	missile_health = 120
+	missile_retarget_range = 100
+
+	firing_arc = 358.0
+	min_range = 40.0
+
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 150
+			volatile_motes = 2.0
+		}
+		upkeep = {
+			energy = 2
+			alloys = 0.5
+		}
+	}
+	target_weights = {
+		corvette = 4
+		frigate = 4
+		destroyer = 2
+		cruiser = 2
+	}
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = "KTW_VLS"
+	projectile_gfx = "KTW_VLS_ER_projectile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "KTW_VLS_MR_6"
+	size = medium
+	icon = GFX_ship_part_KTW_missile_L
+	entity = "KTW_turret_VLS_MR_entity"
+
+	icon_frame = 1
+	type = missile
+
+
+	power = -75
+	damage = { min = 400 max = 500 }
+	windup = { min = 1 max = 15 }
+	total_fire_time = 100
+
+	hull_damage = 1.25
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 2
+	armor_penetration = 0
+
+	range = 180
+	accuracy = 1.0
+	tracking = 0.3
+	missile_speed = 13
+	missile_evasion = 0.4
+	missile_shield = 0
+	missile_armor = 0
+	missile_health = 65
+	missile_retarget_range = 100
+
+	firing_arc = 358.0
+	min_range = 20.0
+
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 100
+			volatile_motes = 1.5
+		}
+		upkeep = {
+			energy = 1
+			alloys = 0.3
+		}
+	}
+	target_weights = {
+		corvette = 4
+		frigate = 4
+		destroyer = 2
+		cruiser = 2
+	}
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = "KTW_VLS"
+	projectile_gfx = "KTW_VLS_MR_projectile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+}
+
+# ############################################
+#  - Tier 7
+#   - 垂直打撃誘導弾漆型(SML)
+weapon_component_template = {
+	key = "KTW_VLS_ER_7"
+	size = large
+	icon = GFX_ship_part_KTW_missile_L
+	entity = "KTW_turret_VLS_ER_entity"
+
+	icon_frame = 1
+	type = missile
+
+
+	power = -160
+	damage = { min = 750 max = 800 }
+	windup = { min = 1 max = 15 }
+	total_fire_time = 120
+
+	hull_damage = 1.25
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 2
+	armor_penetration = 0
+
+	range = 180
+	accuracy = 1.0
+	tracking = 0.3
+	missile_speed = 13
+	missile_evasion = 0.4
+	missile_shield = 0
+	missile_armor = 0
+	missile_health = 120
+	missile_retarget_range = 100
+
+	firing_arc = 358.0
+	min_range = 40.0
+
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 150
+			volatile_motes = 2.0
+		}
+		upkeep = {
+			energy = 2
+			alloys = 0.5
+		}
+	}
+	target_weights = {
+		corvette = 4
+		frigate = 4
+		destroyer = 2
+		cruiser = 2
+	}
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = "KTW_VLS"
+	projectile_gfx = "KTW_VLS_ER_projectile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "KTW_VLS_MR_7"
+	size = medium
+	icon = GFX_ship_part_KTW_missile_L
+	entity = "KTW_turret_VLS_MR_entity"
+
+	icon_frame = 1
+	type = missile
+
+
+	power = -75
+	damage = { min = 400 max = 500 }
+	windup = { min = 1 max = 15 }
+	total_fire_time = 100
+
+	hull_damage = 1.25
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 2
+	armor_penetration = 0
+
+	range = 180
+	accuracy = 1.0
+	tracking = 0.3
+	missile_speed = 13
+	missile_evasion = 0.4
+	missile_shield = 0
+	missile_armor = 0
+	missile_health = 65
+	missile_retarget_range = 100
+
+	firing_arc = 358.0
+	min_range = 20.0
+
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 100
+			volatile_motes = 1.5
+		}
+		upkeep = {
+			energy = 1
+			alloys = 0.3
+		}
+	}
+	target_weights = {
+		corvette = 4
+		frigate = 4
+		destroyer = 2
+		cruiser = 2
+	}
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = "KTW_VLS"
+	projectile_gfx = "KTW_VLS_MR_projectile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+}

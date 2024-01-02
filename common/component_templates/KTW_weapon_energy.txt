@@ -15,13 +15,11 @@
 #   - 高圧電離気体化衝撃砲陸型(SML)
 #  - Tier 7
 #   - 高圧電離気体化衝撃砲漆型(SML)
-#  - Tier 8
-#   - 高圧電離気体化衝撃砲捌型(SML)
 #############################################
 #  - Tier 1
 #   - 高圧電離気体化衝撃砲壱型(SML)
 weapon_component_template = {
-	key = "KTW_PLASMA_SHOCK_CANNON_L"
+	key = "KTW_PLASMA_SHOCK_CANNON_L_1"
 	size = large
 	icon = GFX_ship_part_KTW_laser
 	entity = "KTW_turret_L_energy_entity"
@@ -71,12 +69,8 @@ weapon_component_template = {
 	}
 }
 
-
-
-
-
 weapon_component_template = {
-	key = "KTW_PLASMA_SHOCK_CANNON_M"
+	key = "KTW_PLASMA_SHOCK_CANNON_M_1"
 	size = medium
 	icon = GFX_ship_part_KTW_laser
 	entity = "KTW_turret_M_energy_entity"
@@ -126,9 +120,164 @@ weapon_component_template = {
 	}
 }
 
+weapon_component_template = {
+	key = "KTW_PLASMA_SHOCK_CANNON_S_1"
+	size = small
+	icon = GFX_ship_part_KTW_laser
+	entity = "KTW_turret_S_energy_entity"
+
+	icon_frame = 1
+	type = instant
+
+	damage = { min = 100 max = 200 }
+	windup = { min = 9 max = 34 }
+	total_fire_time = 50
+	range = 75
+	accuracy = 1.0
+	power = -26
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 65
+			exotic_gases = 0.9
+		}
+		upkeep = {
+			energy = 0.7
+			alloys = 0.2
+		}
+	}
+
+	hull_damage = 1.5
+	armor_penetration =0
+	armor_damage = 2.00
+	shield_penetration = 0
+	shield_damage = 0.5
+	tracking = 0.6
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = "KTW_PLASMA_SHOCK_CANNON"
+	projectile_gfx = "KTW_plasma_shock_cannon_S"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor gunship }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+}
+
+#############################################
+#  - Tier 2
+#   - 高圧電離気体化衝撃砲弐型(SML)
+weapon_component_template = {
+	key = "KTW_PLASMA_SHOCK_CANNON_L_2"
+	size = large
+	icon = GFX_ship_part_KTW_laser
+	entity = "KTW_turret_L_energy_entity"
+
+	icon_frame = 1
+	type = instant
+
+	damage = { min = 300 max = 600 }
+	windup = { min = 9 max = 34 }
+	total_fire_time = 50
+	range = 120
+	accuracy = 0.8
+	power = -140
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 120
+			exotic_gases = 2.0
+		}
+		upkeep = {
+			energy = 1.6
+			alloys = 0.5
+		}
+	}
+
+	hull_damage = 1.5
+	armor_penetration =0
+	armor_damage = 2.00
+	shield_penetration = 0
+	shield_damage = 0.5
+	tracking = 0.1
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = "KTW_PLASMA_SHOCK_CANNON"
+	projectile_gfx = "KTW_plasma_shock_cannon_L"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor gunship }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+}
 
 weapon_component_template = {
-	key = "KTW_PLASMA_SHOCK_CANNON_S"
+	key = "KTW_PLASMA_SHOCK_CANNON_M_2"
+	size = medium
+	icon = GFX_ship_part_KTW_laser
+	entity = "KTW_turret_M_energy_entity"
+
+	icon_frame = 1
+	type = instant
+
+	damage = { min = 200 max = 400 }
+	windup = { min = 9 max = 34 }
+	total_fire_time = 50
+	range = 90
+	accuracy = 0.8
+	power = -55
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 90
+			exotic_gases = 1.3
+		}
+		upkeep = {
+			energy = 0.9
+			alloys = 0.4
+		}
+	}
+
+	hull_damage = 1.5
+	armor_penetration =0
+	armor_damage = 2.00
+	shield_penetration = 0
+	shield_damage = 0.5
+	tracking = 0.3
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = "KTW_PLASMA_SHOCK_CANNON"
+	projectile_gfx = "KTW_plasma_shock_cannon_M"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor gunship }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "KTW_PLASMA_SHOCK_CANNON_S_2"
 	size = small
 	icon = GFX_ship_part_KTW_laser
 	entity = "KTW_turret_S_energy_entity"
@@ -179,53 +328,49 @@ weapon_component_template = {
 }
 
 
-
-
-
-
-
-###############黑鐵式エーテル衝撃砲塔#############################################################
-
-
+#############################################
+#  - Tier 3
+#   - 高圧電離気体化衝撃砲参型(SML)
 weapon_component_template = {
-	key = KTW_HEAVY_PD_LASER_M
-	entity = "KTW_turret_M2_energy_entity"
-	size = medium
-	icon = GFX_ship_part_KTW_H_point_defense
+	key = "KTW_PLASMA_SHOCK_CANNON_L_3"
+	size = large
+	icon = GFX_ship_part_KTW_laser
+	entity = "KTW_turret_L_energy_entity"
+
 	icon_frame = 1
-	type = point_defence
+	type = instant
 
-
-	damage = { min = 45 max = 60 }
-	windup = { min = 5 max = 35 }
-	total_fire_time = 1
-	range = 80
-	accuracy = 0.9
-	power = -24
+	damage = { min = 300 max = 600 }
+	windup = { min = 9 max = 34 }
+	total_fire_time = 50
+	range = 120
+	accuracy = 0.8
+	power = -140
 
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 22
+			alloys = 120
+			exotic_gases = 2.0
 		}
 		upkeep = {
-			energy = 0.25
-			alloys = 0.02
+			energy = 1.6
+			alloys = 0.5
 		}
 	}
 
-	hull_damage = 2
-	armor_penetration = 0
-	armor_damage = 1
+	hull_damage = 1.5
+	armor_penetration =0
+	armor_damage = 2.00
 	shield_penetration = 0
-	shield_damage = 1
-	tracking = 0.5
+	shield_damage = 0.5
+	tracking = 0.1
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = KTW_HEAVY_PD_LASER
-	projectile_gfx = "KTW_H_pd_laser_projectile_M"
-	tags = { weapon_type_point_defense weapon_type_kinetic }
-	ai_tags = { weapon_role_point_defense screen }
+	component_set = "KTW_PLASMA_SHOCK_CANNON"
+	projectile_gfx = "KTW_plasma_shock_cannon_L"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor gunship }
 
 	ai_weight = {
 		weight = 1
@@ -235,52 +380,622 @@ weapon_component_template = {
 			NOT = { graphical_culture = fe_01 }
 		}
 	}
-	point_defence_targets = { "missile" "strike_craft" }
+}
+
+weapon_component_template = {
+	key = "KTW_PLASMA_SHOCK_CANNON_M_3"
+	size = medium
+	icon = GFX_ship_part_KTW_laser
+	entity = "KTW_turret_M_energy_entity"
+
+	icon_frame = 1
+	type = instant
+
+	damage = { min = 200 max = 400 }
+	windup = { min = 9 max = 34 }
+	total_fire_time = 50
+	range = 90
+	accuracy = 0.8
+	power = -55
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 90
+			exotic_gases = 1.3
+		}
+		upkeep = {
+			energy = 0.9
+			alloys = 0.4
+		}
+	}
+
+	hull_damage = 1.5
+	armor_penetration =0
+	armor_damage = 2.00
+	shield_penetration = 0
+	shield_damage = 0.5
+	tracking = 0.3
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = "KTW_PLASMA_SHOCK_CANNON"
+	projectile_gfx = "KTW_plasma_shock_cannon_M"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor gunship }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "KTW_PLASMA_SHOCK_CANNON_S_3"
+	size = small
+	icon = GFX_ship_part_KTW_laser
+	entity = "KTW_turret_S_energy_entity"
+
+	icon_frame = 1
+	type = instant
+
+	damage = { min = 100 max = 200 }
+	windup = { min = 9 max = 34 }
+	total_fire_time = 50
+	range = 75
+	accuracy = 1.0
+	power = -26
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 65
+			exotic_gases = 0.9
+		}
+		upkeep = {
+			energy = 0.7
+			alloys = 0.2
+		}
+	}
+
+	hull_damage = 1.5
+	armor_penetration =0
+	armor_damage = 2.00
+	shield_penetration = 0
+	shield_damage = 0.5
+	tracking = 0.6
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = "KTW_PLASMA_SHOCK_CANNON"
+	projectile_gfx = "KTW_plasma_shock_cannon_S"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor gunship }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+}
+
+#############################################
+#  - Tier 4
+#   - 高圧電離気体化衝撃砲肆型(SML)
+weapon_component_template = {
+	key = "KTW_PLASMA_SHOCK_CANNON_L_4"
+	size = large
+	icon = GFX_ship_part_KTW_laser
+	entity = "KTW_turret_L_energy_entity"
+
+	icon_frame = 1
+	type = instant
+
+	damage = { min = 300 max = 600 }
+	windup = { min = 9 max = 34 }
+	total_fire_time = 50
+	range = 120
+	accuracy = 0.8
+	power = -140
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 120
+			exotic_gases = 2.0
+		}
+		upkeep = {
+			energy = 1.6
+			alloys = 0.5
+		}
+	}
+
+	hull_damage = 1.5
+	armor_penetration =0
+	armor_damage = 2.00
+	shield_penetration = 0
+	shield_damage = 0.5
+	tracking = 0.1
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = "KTW_PLASMA_SHOCK_CANNON"
+	projectile_gfx = "KTW_plasma_shock_cannon_L"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor gunship }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "KTW_PLASMA_SHOCK_CANNON_M_4"
+	size = medium
+	icon = GFX_ship_part_KTW_laser
+	entity = "KTW_turret_M_energy_entity"
+
+	icon_frame = 1
+	type = instant
+
+	damage = { min = 200 max = 400 }
+	windup = { min = 9 max = 34 }
+	total_fire_time = 50
+	range = 90
+	accuracy = 0.8
+	power = -55
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 90
+			exotic_gases = 1.3
+		}
+		upkeep = {
+			energy = 0.9
+			alloys = 0.4
+		}
+	}
+
+	hull_damage = 1.5
+	armor_penetration =0
+	armor_damage = 2.00
+	shield_penetration = 0
+	shield_damage = 0.5
+	tracking = 0.3
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = "KTW_PLASMA_SHOCK_CANNON"
+	projectile_gfx = "KTW_plasma_shock_cannon_M"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor gunship }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "KTW_PLASMA_SHOCK_CANNON_S_4"
+	size = small
+	icon = GFX_ship_part_KTW_laser
+	entity = "KTW_turret_S_energy_entity"
+
+	icon_frame = 1
+	type = instant
+
+	damage = { min = 100 max = 200 }
+	windup = { min = 9 max = 34 }
+	total_fire_time = 50
+	range = 75
+	accuracy = 1.0
+	power = -26
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 65
+			exotic_gases = 0.9
+		}
+		upkeep = {
+			energy = 0.7
+			alloys = 0.2
+		}
+	}
+
+	hull_damage = 1.5
+	armor_penetration =0
+	armor_damage = 2.00
+	shield_penetration = 0
+	shield_damage = 0.5
+	tracking = 0.6
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = "KTW_PLASMA_SHOCK_CANNON"
+	projectile_gfx = "KTW_plasma_shock_cannon_S"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor gunship }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+}
+
+#############################################
+#  - Tier 5
+#   - 高圧電離気体化衝撃砲伍型(SML)
+weapon_component_template = {
+	key = "KTW_PLASMA_SHOCK_CANNON_L_5"
+	size = large
+	icon = GFX_ship_part_KTW_laser
+	entity = "KTW_turret_L_energy_entity"
+
+	icon_frame = 1
+	type = instant
+
+	damage = { min = 300 max = 600 }
+	windup = { min = 9 max = 34 }
+	total_fire_time = 50
+	range = 120
+	accuracy = 0.8
+	power = -140
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 120
+			exotic_gases = 2.0
+		}
+		upkeep = {
+			energy = 1.6
+			alloys = 0.5
+		}
+	}
+
+	hull_damage = 1.5
+	armor_penetration =0
+	armor_damage = 2.00
+	shield_penetration = 0
+	shield_damage = 0.5
+	tracking = 0.1
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = "KTW_PLASMA_SHOCK_CANNON"
+	projectile_gfx = "KTW_plasma_shock_cannon_L"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor gunship }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "KTW_PLASMA_SHOCK_CANNON_M_5"
+	size = medium
+	icon = GFX_ship_part_KTW_laser
+	entity = "KTW_turret_M_energy_entity"
+
+	icon_frame = 1
+	type = instant
+
+	damage = { min = 200 max = 400 }
+	windup = { min = 9 max = 34 }
+	total_fire_time = 50
+	range = 90
+	accuracy = 0.8
+	power = -55
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 90
+			exotic_gases = 1.3
+		}
+		upkeep = {
+			energy = 0.9
+			alloys = 0.4
+		}
+	}
+
+	hull_damage = 1.5
+	armor_penetration =0
+	armor_damage = 2.00
+	shield_penetration = 0
+	shield_damage = 0.5
+	tracking = 0.3
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = "KTW_PLASMA_SHOCK_CANNON"
+	projectile_gfx = "KTW_plasma_shock_cannon_M"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor gunship }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "KTW_PLASMA_SHOCK_CANNON_S_5"
+	size = small
+	icon = GFX_ship_part_KTW_laser
+	entity = "KTW_turret_S_energy_entity"
+
+	icon_frame = 1
+	type = instant
+
+	damage = { min = 100 max = 200 }
+	windup = { min = 9 max = 34 }
+	total_fire_time = 50
+	range = 75
+	accuracy = 1.0
+	power = -26
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 65
+			exotic_gases = 0.9
+		}
+		upkeep = {
+			energy = 0.7
+			alloys = 0.2
+		}
+	}
+
+	hull_damage = 1.5
+	armor_penetration =0
+	armor_damage = 2.00
+	shield_penetration = 0
+	shield_damage = 0.5
+	tracking = 0.6
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = "KTW_PLASMA_SHOCK_CANNON"
+	projectile_gfx = "KTW_plasma_shock_cannon_S"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor gunship }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+}
+
+#############################################
+#  - Tier 6
+#   - 高圧電離気体化衝撃砲陸型(SML)
+weapon_component_template = {
+	key = "KTW_PLASMA_SHOCK_CANNON_L_6"
+	size = large
+	icon = GFX_ship_part_KTW_laser
+	entity = "KTW_turret_L_energy_entity"
+
+	icon_frame = 1
+	type = instant
+
+	damage = { min = 300 max = 600 }
+	windup = { min = 9 max = 34 }
+	total_fire_time = 50
+	range = 120
+	accuracy = 0.8
+	power = -140
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 120
+			exotic_gases = 2.0
+		}
+		upkeep = {
+			energy = 1.6
+			alloys = 0.5
+		}
+	}
+
+	hull_damage = 1.5
+	armor_penetration =0
+	armor_damage = 2.00
+	shield_penetration = 0
+	shield_damage = 0.5
+	tracking = 0.1
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = "KTW_PLASMA_SHOCK_CANNON"
+	projectile_gfx = "KTW_plasma_shock_cannon_L"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor gunship }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "KTW_PLASMA_SHOCK_CANNON_M_6"
+	size = medium
+	icon = GFX_ship_part_KTW_laser
+	entity = "KTW_turret_M_energy_entity"
+
+	icon_frame = 1
+	type = instant
+
+	damage = { min = 200 max = 400 }
+	windup = { min = 9 max = 34 }
+	total_fire_time = 50
+	range = 90
+	accuracy = 0.8
+	power = -55
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 90
+			exotic_gases = 1.3
+		}
+		upkeep = {
+			energy = 0.9
+			alloys = 0.4
+		}
+	}
+
+	hull_damage = 1.5
+	armor_penetration =0
+	armor_damage = 2.00
+	shield_penetration = 0
+	shield_damage = 0.5
+	tracking = 0.3
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = "KTW_PLASMA_SHOCK_CANNON"
+	projectile_gfx = "KTW_plasma_shock_cannon_M"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor gunship }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "KTW_PLASMA_SHOCK_CANNON_S_6"
+	size = small
+	icon = GFX_ship_part_KTW_laser
+	entity = "KTW_turret_S_energy_entity"
+
+	icon_frame = 1
+	type = instant
+
+	damage = { min = 100 max = 200 }
+	windup = { min = 9 max = 34 }
+	total_fire_time = 50
+	range = 75
+	accuracy = 1.0
+	power = -26
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 65
+			exotic_gases = 0.9
+		}
+		upkeep = {
+			energy = 0.7
+			alloys = 0.2
+		}
+	}
+
+	hull_damage = 1.5
+	armor_penetration =0
+	armor_damage = 2.00
+	shield_penetration = 0
+	shield_damage = 0.5
+	tracking = 0.6
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = "KTW_PLASMA_SHOCK_CANNON"
+	projectile_gfx = "KTW_plasma_shock_cannon_S"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor gunship }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
 }
 
 
-
-
-
+#############################################
+#  - Tier 7
+#   - 高圧電離気体化衝撃砲漆型(SML)
 weapon_component_template = {
-	key = KTW_HEAVY_PD_LASER_S
-	entity = "KTW_turret_M2_energy_entity"
-	size = small
-	icon = GFX_ship_part_KTW_H_point_defense
+	key = "KTW_PLASMA_SHOCK_CANNON_L_7"
+	size = large
+	icon = GFX_ship_part_KTW_laser
+	entity = "KTW_turret_L_energy_entity"
+
 	icon_frame = 1
-	type = point_defence
+	type = instant
 
-
-	damage = { min = 45 max = 60 }
-	windup = { min = 35 max = 75 }
-	total_fire_time = 1
-	range = 80
-	accuracy = 0.9
-	power = -24
+	damage = { min = 300 max = 600 }
+	windup = { min = 9 max = 34 }
+	total_fire_time = 50
+	range = 120
+	accuracy = 0.8
+	power = -140
 
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 22
+			alloys = 120
+			exotic_gases = 2.0
 		}
 		upkeep = {
-			energy = 0.25
-			alloys = 0.02
+			energy = 1.6
+			alloys = 0.5
 		}
 	}
 
-	hull_damage = 2
-	armor_penetration = 0
-	armor_damage = 1
+	hull_damage = 1.5
+	armor_penetration =0
+	armor_damage = 2.00
 	shield_penetration = 0
-	shield_damage = 1
-	tracking = 0.5
+	shield_damage = 0.5
+	tracking = 0.1
 
 	prerequisites = { "tech_KTW_weapons" }
-	component_set = KTW_HEAVY_PD_LASER
-	projectile_gfx = "KTW_H_pd_laser_projectile_S"
-	tags = { weapon_type_point_defense weapon_type_kinetic }
-	ai_tags = { weapon_role_point_defense screen }
+	component_set = "KTW_PLASMA_SHOCK_CANNON"
+	projectile_gfx = "KTW_plasma_shock_cannon_L"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor gunship }
 
 	ai_weight = {
 		weight = 1
@@ -290,5 +1005,106 @@ weapon_component_template = {
 			NOT = { graphical_culture = fe_01 }
 		}
 	}
-	point_defence_targets = { "missile" "strike_craft" }
+}
+
+weapon_component_template = {
+	key = "KTW_PLASMA_SHOCK_CANNON_M_7"
+	size = medium
+	icon = GFX_ship_part_KTW_laser
+	entity = "KTW_turret_M_energy_entity"
+
+	icon_frame = 1
+	type = instant
+
+	damage = { min = 200 max = 400 }
+	windup = { min = 9 max = 34 }
+	total_fire_time = 50
+	range = 90
+	accuracy = 0.8
+	power = -55
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 90
+			exotic_gases = 1.3
+		}
+		upkeep = {
+			energy = 0.9
+			alloys = 0.4
+		}
+	}
+
+	hull_damage = 1.5
+	armor_penetration =0
+	armor_damage = 2.00
+	shield_penetration = 0
+	shield_damage = 0.5
+	tracking = 0.3
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = "KTW_PLASMA_SHOCK_CANNON"
+	projectile_gfx = "KTW_plasma_shock_cannon_M"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor gunship }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "KTW_PLASMA_SHOCK_CANNON_S_7"
+	size = small
+	icon = GFX_ship_part_KTW_laser
+	entity = "KTW_turret_S_energy_entity"
+
+	icon_frame = 1
+	type = instant
+
+	damage = { min = 100 max = 200 }
+	windup = { min = 9 max = 34 }
+	total_fire_time = 50
+	range = 75
+	accuracy = 1.0
+	power = -26
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 65
+			exotic_gases = 0.9
+		}
+		upkeep = {
+			energy = 0.7
+			alloys = 0.2
+		}
+	}
+
+	hull_damage = 1.5
+	armor_penetration =0
+	armor_damage = 2.00
+	shield_penetration = 0
+	shield_damage = 0.5
+	tracking = 0.6
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = "KTW_PLASMA_SHOCK_CANNON"
+	projectile_gfx = "KTW_plasma_shock_cannon_S"
+	tags = { weapon_type_energy }
+	ai_tags = { weapon_role_anti_armor gunship }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
 }
