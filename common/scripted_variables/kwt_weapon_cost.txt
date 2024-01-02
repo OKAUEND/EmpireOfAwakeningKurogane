@@ -1,0 +1,21 @@
+############################################################
+###               Weapons Product Cost                   ###
+############################################################
+# 戦略資源
+# S-サイズ
+@KTW_small_weapon_cost_gas_tier1 = 0.03
+@KTW_small_weapon_cost_gas_tier2 = 0.08
+@KTW_small_weapon_cost_gas_tier3 = 0.13
+@KTW_small_weapon_cost_gas_tier4 = 0.25
+
+# M-サイズ
+@KTW_medium_weapon_cost_gas_tier1 = 0.10
+@KTW_medium_weapon_cost_gas_tier2 = 0.25
+@KTW_medium_weapon_cost_gas_tier3 = 0.35
+@KTW_medium_weapon_cost_gas_tier4 = 0.50
+
+# L-サイズ
+@KTW_large_weapon_cost_gas_tier1 = 0.20
+@KTW_large_weapon_cost_gas_tier2 = 0.40
+@KTW_large_weapon_cost_gas_tier3 = 0.60
+@KTW_large_weapon_cost_gas_tier4 = 1.00
