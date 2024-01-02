@@ -609,7 +609,7 @@ ship_section_template = {
 		locatorname = "small_gun_08"
 	}
 
-	prerequisites = { "tech_KTW_colossus" }
+	prerequisites = { "tech_KTW_colossus" tech_energy_lance_1 tech_energy_lance_2 tech_arc_emitter_1 tech_arc_emitter_2 tech_mass_accelerator_1 tech_mass_accelerator_2 }
 
 	large_utility_slots = 10
 
@@ -915,7 +915,7 @@ ship_section_template = {
 	# 	locatorname = "small_gun_14"
 	# }
 
-	prerequisites = { "tech_KTW_colossus" }
+	prerequisites = { "tech_KTW_colossus" tech_energy_lance_1 tech_energy_lance_2 tech_arc_emitter_1 tech_arc_emitter_2 tech_mass_accelerator_1 tech_mass_accelerator_2 }
 
 	large_utility_slots = 10
 
@@ -1051,7 +1051,7 @@ ship_section_template = {
 		locatorname = "small_gun_14"
 	}
 
-	prerequisites = { "tech_KTW_colossus" }
+	prerequisites = { "tech_KTW_colossus" tech_energy_lance_1 tech_energy_lance_2 tech_arc_emitter_1 tech_arc_emitter_2 tech_mass_accelerator_1 tech_mass_accelerator_2 }
 
 	large_utility_slots = 10
 
@@ -1295,7 +1295,7 @@ ship_section_template = {
 		locatorname = "small_gun_28"
 	}
 
-	prerequisites = { "tech_KTW_colossus" }
+	prerequisites = { "tech_KTW_colossus" tech_energy_lance_1 tech_energy_lance_2 tech_arc_emitter_1 tech_arc_emitter_2 tech_mass_accelerator_1 tech_mass_accelerator_2 }
 
 	large_utility_slots = 14
 
