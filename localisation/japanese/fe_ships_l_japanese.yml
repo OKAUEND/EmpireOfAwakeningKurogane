@@ -3,23 +3,23 @@
 #####################################################
 # コルベット
 #####################################################
-EoA_KTW_CORVETTE_MID_01: "標準A型船体"
-EoA_KTW_CORVETTE_MID_02: "高速型船体"
-EoA_KTW_CORVETTE_MID_03: "標準B型船体"
-EoA_KTW_CORVETTE_MID_04: "発展標準型船体"
+EoA_KTW_CORVETTE_MID_01: "標準A型"
+EoA_KTW_CORVETTE_MID_02: "高速型"
+EoA_KTW_CORVETTE_MID_03: "標準B型"
+EoA_KTW_CORVETTE_MID_04: "発展標準型"
 
 #####################################################
 # 駆逐艦
 #####################################################
-KTW_DESTROYER_BOW_01: "標準A型船体"
-KTW_DESTROYER_BOW_02: "標準B型船体"
-KTW_DESTROYER_BOW_03: "高速型船体"
+KTW_DESTROYER_BOW_01: "標準A型"
+KTW_DESTROYER_BOW_02: "標準B型"
+KTW_DESTROYER_BOW_03: "高速型"
 KTW_DESTROYER_BOW_04: "雷撃型"
 KTW_DESTROYER_STERN_01: ""
 KTW_DESTROYER_STERN_02: ""
 KTW_DESTROYER_STERN_03: ""
 KTW_DESTROYER_STERN_04: ""
-KTW_DESTROYER_DUMMY: "船体補助区画"
+KTW_DESTROYER_DUMMY: "補助区画"
 
 #####################################################
 # 巡洋艦
