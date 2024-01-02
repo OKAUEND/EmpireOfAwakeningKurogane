@@ -1,0 +1,53 @@
+
+##########################黑鐵式要塞散弾砲##########################################
+
+
+
+weapon_component_template = {
+	key = KTW_MASS_ACCELERATOR_STARBASE
+	size = extra_large
+	icon = GFX_ship_part_KTW_T_kinetic_artillery
+	icon_frame = 1
+	type = instant
+
+	damage = { min = 3000 max = 5000 }
+	windup = { min = 20 max = 60 }
+	total_fire_time = 100
+	range = 230
+	accuracy = 0.8
+	power = -10
+
+
+	hull_damage = 2
+	armor_penetration = 0
+	armor_damage = 0.5
+	shield_penetration = 0
+	shield_damage = 2
+	tracking = 0.05
+
+	firing_arc = 358.0
+	min_range = 40
+
+	size_restriction = { starbase_starport starbase_starhold starbase_starfortress starbase_citadel starbase_stronghold starbase_headquarters }
+
+	component_set = KTW_MASS_ACCELERATOR_STARBASE
+	projectile_gfx = "adv_kinetic_artillery"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_artillery artillery }
+
+	target_weights = {
+		titan = 3
+		battleship = 2
+	}
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+}
+
+

@@ -1,0 +1,158 @@
+
+# ############################################
+#  黑鐵式対艦重誘導弾
+# ############################################
+#  - Tier 1
+#   - 対艦重誘導弾壱型(SML)
+#  - Tier 2
+#   - 対艦重誘導弾弐型(SML)
+#  - Tier 3
+#   - 対艦重誘導弾参型(SML)
+#  - Tier 4
+#   - 対艦重誘導弾肆型(SML)
+#  - Tier 5
+#   - 対艦重誘導弾伍型(SML)
+#  - Tier 6
+#   - 対艦重誘導弾陸型(SML)
+#  - Tier 7
+#   - 対艦重誘導弾漆型(SML)
+#  - Tier 8
+#   - 対艦重誘導弾捌型(SML)
+#############################################
+
+
+weapon_component_template = {
+	key = "KTW_MISSILE_LAUNCHER_L"
+	size = large
+	icon = GFX_ship_part_KTW_torpedo_L
+	entity = "KTW_turret_missile_launcher_L_entity"
+
+	icon_frame = 1
+	type = missile
+
+
+	power = -250
+	damage = { min = 1500 max = 2000 }
+	windup = { min = 1 max = 30 }
+	total_fire_time = 200
+
+	hull_damage = 1.25
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 1
+	armor_penetration = 0.25
+
+	range = 210
+	accuracy = 1.0
+	tracking = 0.3
+	missile_speed = 15
+	missile_evasion = 0.8
+	missile_shield = 0
+	missile_armor = 20
+	missile_health = 50
+	missile_retarget_range = 100
+
+	firing_arc = 358.0
+	min_range = 60.0
+
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 300
+			volatile_motes = 4.0
+		}
+		upkeep = {
+			energy = 3
+			alloys = 0.8
+		}
+	}
+
+	target_weights = {
+		titan = 3
+		battleship = 2
+	}
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = "KTW_MISSILE_LAUNCHER"
+	projectile_gfx = "KTW_MISSILE_projectile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_anti_shield explosive }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+}
+
+
+weapon_component_template = {
+	key = "KTW_MISSILE_LAUNCHER_M"
+	size = medium
+	icon = GFX_ship_part_KTW_torpedo_L
+	entity = "KTW_turret_missile_launcher_M_entity"
+
+	icon_frame = 1
+	type = missile
+
+
+	power = -100
+	damage = { min = 1500 max = 2000 }
+	windup = { min = 1 max = 30 }
+	total_fire_time = 400
+
+	hull_damage = 1.25
+	shield_damage = 1
+	shield_penetration = 1
+	armor_damage = 1
+	armor_penetration = 0.25
+
+	range = 210
+	accuracy = 1.0
+	tracking = 0.3
+	missile_speed = 15
+	missile_evasion = 0.8
+	missile_shield = 0
+	missile_armor = 20
+	missile_health = 50
+	missile_retarget_range = 100
+
+	firing_arc = 358.0
+	min_range = 60.0
+
+
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 150
+			volatile_motes = 2.0
+		}
+		upkeep = {
+			energy = 1.5
+			alloys = 0.6
+		}
+	}
+	target_weights = {
+		titan = 3
+		battleship = 2
+	}
+
+	prerequisites = { "tech_KTW_weapons" }
+	component_set = "KTW_MISSILE_LAUNCHER"
+	projectile_gfx = "KTW_MISSILE_projectile"
+	tags = { weapon_type_explosive }
+	ai_tags = { weapon_role_anti_shield explosive }
+
+	ai_weight = {
+		weight = 1
+		### AI shouldn't use this component if it can't afford at least some upgrades right away
+		modifier = {
+			factor = 0.0
+			NOT = { graphical_culture = fe_01 }
+		}
+	}
+}
