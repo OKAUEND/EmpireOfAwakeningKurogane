@@ -41,11 +41,11 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 16
+			alloys = 8
 		}
 		upkeep = {
-			energy = 0.16
-			alloys = 0.016
+			energy = 0.08
+			alloys = 0.008
 		}
 	}
 
@@ -94,10 +94,10 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 20
+			alloys = 8
 		}
 		upkeep = {
-			energy = 0.23
+			energy = 0.08
 			alloys = 0.008
 		}
 	}
@@ -150,11 +150,11 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 16
+			alloys = 10
 		}
 		upkeep = {
-			energy = 0.16
-			alloys = 0.016
+			energy = 0.10
+			alloys = 0.010
 		}
 	}
 
@@ -203,11 +203,11 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 20
+			alloys = 10
 		}
 		upkeep = {
-			energy = 0.23
-			alloys = 0.008
+			energy = 0.10
+			alloys = 0.010
 		}
 	}
 
@@ -259,11 +259,11 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 16
+			alloys = 13
 		}
 		upkeep = {
-			energy = 0.16
-			alloys = 0.016
+			energy = 0.13
+			alloys = 0.013
 		}
 	}
 
@@ -312,11 +312,11 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 20
+			alloys = 13
 		}
 		upkeep = {
-			energy = 0.23
-			alloys = 0.008
+			energy = 0.13
+			alloys = 0.013
 		}
 	}
 
@@ -422,11 +422,11 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 20
+			alloys = 16
 		}
 		upkeep = {
-			energy = 0.23
-			alloys = 0.008
+			energy = 0.16
+			alloys = 0.016
 		}
 	}
 

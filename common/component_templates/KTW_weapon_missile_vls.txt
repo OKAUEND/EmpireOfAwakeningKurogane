@@ -57,12 +57,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 150
-			volatile_motes = 2.0
+			alloys = @l_t1_cost
+			volatile_motes = @KTW_large_weapon_cost_gas_tier1
 		}
 		upkeep = {
-			energy = 2
-			alloys = 0.5
+			energy = @l_t1_upkeep_energy
+			alloys = @l_t1_upkeep_alloys
 		}
 	}
 	target_weights = {
@@ -77,7 +77,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_VLS_ER_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
-	upgrades_to = "KTW_VLS_2"	
+	upgrades_to = "KTW_VLS_ER_2"	
 
 	ai_weight = {
 		weight = 1
@@ -127,12 +127,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 100
-			volatile_motes = 1.5
+			alloys = @m_t1_cost
+			volatile_motes = @KTW_medium_weapon_cost_gas_tier1
 		}
 		upkeep = {
-			energy = 1
-			alloys = 0.3
+			energy = @m_t1_upkeep_energy
+			alloys = @m_t1_upkeep_alloys
 		}
 	}
 	target_weights = {
@@ -147,7 +147,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_VLS_MR_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
-	upgrades_to = "KTW_VLS_2"
+	upgrades_to = "KTW_VLS_MR_2"
 
 	ai_weight = {
 		weight = 1
@@ -200,12 +200,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 150
-			volatile_motes = 2.0
+			alloys = @l_t2_cost
+			volatile_motes = @KTW_large_weapon_cost_gas_tier2
 		}
 		upkeep = {
-			energy = 2
-			alloys = 0.5
+			energy = @l_t2_upkeep_energy
+			alloys = @l_t2_upkeep_alloys
 		}
 	}
 	target_weights = {
@@ -220,7 +220,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_VLS_ER_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
-	upgrades_to = "KTW_VLS_3"
+	upgrades_to = "KTW_VLS_ER_3"	
 
 	ai_weight = {
 		weight = 1
@@ -270,12 +270,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 100
-			volatile_motes = 1.5
+			alloys = @m_t2_cost
+			volatile_motes = @KTW_medium_weapon_cost_gas_tier2
 		}
 		upkeep = {
-			energy = 1
-			alloys = 0.3
+			energy = @m_t2_upkeep_energy
+			alloys = @m_t2_upkeep_alloys
 		}
 	}
 	target_weights = {
@@ -290,7 +290,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_VLS_MR_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
-	upgrades_to = "KTW_VLS_3"
+	upgrades_to = "KTW_VLS_MR_2"	
 
 	ai_weight = {
 		weight = 1
@@ -344,12 +344,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 150
-			volatile_motes = 2.0
+			alloys = @l_t3_cost
+			volatile_motes = @KTW_large_weapon_cost_gas_tier3
 		}
 		upkeep = {
-			energy = 2
-			alloys = 0.5
+			energy = @l_t3_upkeep_energy
+			alloys = @l_t3_upkeep_alloys
 		}
 	}
 	target_weights = {
@@ -364,7 +364,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_VLS_ER_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
-	upgrades_to = "KTW_VLS_4"
+	upgrades_to = "KTW_VLS_ER_4"
 
 	ai_weight = {
 		weight = 1
@@ -414,12 +414,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 100
-			volatile_motes = 1.5
+			alloys = @m_t3_cost
+			volatile_motes = @KTW_medium_weapon_cost_gas_tier3
 		}
 		upkeep = {
-			energy = 1
-			alloys = 0.3
+			energy = @m_t3_upkeep_energy
+			alloys = @m_t3_upkeep_alloys
 		}
 	}
 	target_weights = {
@@ -434,7 +434,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_VLS_MR_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
-	upgrades_to = "KTW_VLS_4"
+	upgrades_to = "KTW_VLS_MR_4"
 
 	ai_weight = {
 		weight = 1
@@ -487,12 +487,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 150
-			volatile_motes = 2.0
+			alloys = @l_t4_cost
+			volatile_motes = @l_t4_rare
 		}
 		upkeep = {
-			energy = 2
-			alloys = 0.5
+			energy = @l_t4_upkeep_energy
+			alloys = @l_t4_upkeep_alloys
 		}
 	}
 	target_weights = {
@@ -507,7 +507,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_VLS_ER_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
-	upgrades_to = "KTW_VLS_5"	
+	upgrades_to = "KTW_VLS_ER_5"
 
 	ai_weight = {
 		weight = 1
@@ -557,12 +557,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 100
-			volatile_motes = 1.5
+			alloys = @m_t4_cost
+			volatile_motes = @m_t4_rare
 		}
 		upkeep = {
-			energy = 1
-			alloys = 0.3
+			energy = @m_t4_upkeep_energy
+			alloys = @m_t4_upkeep_alloys
 		}
 	}
 	target_weights = {
@@ -577,7 +577,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_VLS_MR_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
-	upgrades_to = "KTW_VLS_5"
+	upgrades_to = "KTW_VLS_MR_5"
 
 	ai_weight = {
 		weight = 1
@@ -630,12 +630,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 150
-			volatile_motes = 2.0
+			alloys = @l_t5_cost
+			volatile_motes = @l_t5_rare
 		}
 		upkeep = {
-			energy = 2
-			alloys = 0.5
+			energy = @l_t5_upkeep_energy
+			alloys = @l_t5_upkeep_alloys
 		}
 	}
 	target_weights = {
@@ -650,7 +650,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_VLS_ER_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
-	upgrades_to = "KTW_VLS_6"	
+	upgrades_to = "KTW_VLS_ER_6"	
 
 	ai_weight = {
 		weight = 1
@@ -700,12 +700,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 100
-			volatile_motes = 1.5
+			alloys = @m_t5_cost
+			volatile_motes = @m_t5_rare
 		}
 		upkeep = {
-			energy = 1
-			alloys = 0.3
+			energy = @m_t5_upkeep_energy
+			alloys = @m_t5_upkeep_alloys
 		}
 	}
 	target_weights = {
@@ -720,7 +720,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_VLS_MR_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
-	upgrades_to = "KTW_VLS_6"
+	upgrades_to = "KTW_VLS_MR_6"
 
 	ai_weight = {
 		weight = 1
@@ -773,12 +773,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 150
-			volatile_motes = 2.0
+			alloys = @ESC_WEAPON_l_t6_cost_alloys
+			volatile_motes = @ESC_WEAPON_l_t6_cost_special
 		}
 		upkeep = {
-			energy = 2
-			alloys = 0.5
+			energy = @ESC_WEAPON_l_t6_upkeep_energy
+			alloys = @ESC_WEAPON_l_t6_upkeep_alloys
 		}
 	}
 	target_weights = {
@@ -793,7 +793,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_VLS_ER_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
-	upgrades_to = "KTW_VLS_7"
+	upgrades_to = "KTW_VLS_ER_7"
 
 	ai_weight = {
 		weight = 1
@@ -843,12 +843,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 100
-			volatile_motes = 1.5
+			alloys = @ESC_WEAPON_m_t6_cost_alloys
+			volatile_motes = @ESC_WEAPON_m_t6_cost_special
 		}
 		upkeep = {
-			energy = 1
-			alloys = 0.3
+			energy = @ESC_WEAPON_m_t6_upkeep_energy
+			alloys = @ESC_WEAPON_m_t6_upkeep_alloys
 		}
 	}
 	target_weights = {
@@ -863,7 +863,7 @@ weapon_component_template = {
 	projectile_gfx = "KTW_VLS_MR_projectile"
 	tags = { weapon_type_explosive }
 	ai_tags = { weapon_role_artillery artillery energy_torpedoes }
-	upgrades_to = "KTW_VLS_7"
+	upgrades_to = "KTW_VLS_MR_7"
 
 	ai_weight = {
 		weight = 1
@@ -916,12 +916,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 150
-			volatile_motes = 2.0
+			alloys = @ESC_WEAPON_l_t7_cost_alloys
+			volatile_motes = @ESC_WEAPON_l_t7_cost_special
 		}
 		upkeep = {
-			energy = 2
-			alloys = 0.5
+			energy = @ESC_WEAPON_l_t7_upkeep_energy
+			alloys = @ESC_WEAPON_l_t7_upkeep_alloys
 		}
 	}
 	target_weights = {
@@ -985,12 +985,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 100
-			volatile_motes = 1.5
+			alloys = @ESC_WEAPON_m_t7_cost_alloys
+			volatile_motes = @ESC_WEAPON_m_t7_cost_special
 		}
 		upkeep = {
-			energy = 1
-			alloys = 0.3
+			energy = @ESC_WEAPON_m_t7_upkeep_energy
+			alloys = @ESC_WEAPON_m_t7_upkeep_alloys
 		}
 	}
 	target_weights = {

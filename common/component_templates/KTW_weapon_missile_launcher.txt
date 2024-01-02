@@ -51,12 +51,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 300
-			volatile_motes = 4.0
+			alloys = @l_t4_cost
+			volatile_motes = @l_t4_rare
 		}
 		upkeep = {
-			energy = 3
-			alloys = 0.8
+			energy = @l_t4_upkeep_energy
+			alloys = @l_t4_upkeep_alloys
 		}
 	}
 
@@ -121,12 +121,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 150
-			volatile_motes = 2.0
+			alloys = @m_t4_cost
+			volatile_motes = @m_t4_rare
 		}
 		upkeep = {
-			energy = 1.5
-			alloys = 0.6
+			energy = @m_t4_upkeep_energy
+			alloys = @m_t4_upkeep_alloys
 		}
 	}
 	target_weights = {
@@ -192,12 +192,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 300
-			volatile_motes = 4.0
+			alloys = @l_t5_cost
+			volatile_motes = @l_t5_rare
 		}
 		upkeep = {
-			energy = 3
-			alloys = 0.8
+			energy = @l_t5_upkeep_energy
+			alloys = @l_t5_upkeep_alloys
 		}
 	}
 
@@ -262,12 +262,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 150
-			volatile_motes = 2.0
+			alloys = @m_t5_cost
+			volatile_motes = @m_t5_rare
 		}
 		upkeep = {
-			energy = 1.5
-			alloys = 0.6
+			energy = @m_t5_upkeep_energy
+			alloys = @m_t5_upkeep_alloys
 		}
 	}
 	target_weights = {
@@ -334,12 +334,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 300
-			volatile_motes = 4.0
+			alloys = @ESC_WEAPON_l_t6_cost_alloys
+			volatile_motes = @ESC_WEAPON_l_t6_cost_special
 		}
 		upkeep = {
-			energy = 3
-			alloys = 0.8
+			energy = @ESC_WEAPON_l_t6_upkeep_energy
+			alloys = @ESC_WEAPON_l_t6_upkeep_alloys
 		}
 	}
 
@@ -404,12 +404,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 150
-			volatile_motes = 2.0
+			alloys = @ESC_WEAPON_m_t6_cost_alloys
+			volatile_motes = @ESC_WEAPON_m_t6_cost_special
 		}
 		upkeep = {
-			energy = 1.5
-			alloys = 0.6
+			energy = @ESC_WEAPON_m_t6_upkeep_energy
+			alloys = @ESC_WEAPON_m_t6_upkeep_alloys
 		}
 	}
 	target_weights = {

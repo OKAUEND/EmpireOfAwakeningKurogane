@@ -33,11 +33,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 22
+			alloys = @m_t1_cost
+			exotic_gases = @KTW_medium_weapon_cost_gas_tier1
 		}
 		upkeep = {
-			energy = 0.25
-			alloys = 0.02
+			energy = @m_t1_upkeep_energy
+			alloys = @m_t1_upkeep_alloys
 		}
 	}
 
@@ -85,11 +86,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 22
+			alloys = @s_t1_cost
+			exotic_gases = @KTW_small_weapon_cost_gas_tier1
 		}
 		upkeep = {
-			energy = 0.25
-			alloys = 0.02
+			energy = @s_t1_upkeep_energy
+			alloys = @s_t1_upkeep_alloys
 		}
 	}
 
@@ -140,11 +142,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 22
+			alloys = @m_t3_cost
+			exotic_gases = @KTW_medium_weapon_cost_gas_tier3
 		}
 		upkeep = {
-			energy = 0.25
-			alloys = 0.02
+			energy = @m_t3_upkeep_energy
+			alloys = @m_t3_upkeep_alloys
 		}
 	}
 
@@ -192,11 +195,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 22
+			alloys = @s_t3_cost
+			exotic_gases = @KTW_small_weapon_cost_gas_tier3
 		}
 		upkeep = {
-			energy = 0.25
-			alloys = 0.02
+			energy = @s_t3_upkeep_energy
+			alloys = @s_t3_upkeep_alloys
 		}
 	}
 
@@ -247,11 +251,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 22
+			alloys = @m_t4_cost
+			exotic_gases = @m_t4_rare
 		}
 		upkeep = {
-			energy = 0.25
-			alloys = 0.02
+			energy = @m_t4_upkeep_energy
+			alloys = @m_t4_upkeep_alloys
 		}
 	}
 
@@ -299,11 +304,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 22
+			alloys = @s_t4_cost
+			exotic_gases = @s_t4_rare
 		}
 		upkeep = {
-			energy = 0.25
-			alloys = 0.02
+			energy = @s_t4_upkeep_energy
+			alloys = @s_t4_upkeep_alloys
 		}
 	}
 
@@ -354,11 +360,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 22
+			alloys = @ESC_WEAPON_m_t6_cost_alloys
+			exotic_gases = @ESC_WEAPON_m_t6_cost_special
 		}
 		upkeep = {
-			energy = 0.25
-			alloys = 0.02
+			energy = @ESC_WEAPON_m_t6_upkeep_energy
+			alloys = @ESC_WEAPON_m_t6_upkeep_alloys
 		}
 	}
 
@@ -406,11 +413,12 @@ weapon_component_template = {
 	resources = {
 		category = ship_components
 		cost = {
-			alloys = 22
+			alloys = @ESC_WEAPON_s_t6_cost_alloys
+			exotic_gases = @ESC_WEAPON_s_t6_cost_special
 		}
 		upkeep = {
-			energy = 0.25
-			alloys = 0.02
+			energy = @ESC_WEAPON_s_t6_upkeep_energy
+			alloys = @ESC_WEAPON_s_t6_upkeep_alloys
 		}
 	}
 
