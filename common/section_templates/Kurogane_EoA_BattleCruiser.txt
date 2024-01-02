@@ -59,7 +59,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	medium_utility_slots = 7
 
 	resources = {
 		category = ship_sections
@@ -132,7 +132,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	medium_utility_slots = 7
 
 	resources = {
 		category = ship_sections
@@ -204,7 +204,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	medium_utility_slots = 7
 
 	resources = {
 		category = ship_sections
@@ -276,7 +276,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	medium_utility_slots = 7
 
 	resources = {
 		category = ship_sections
@@ -349,7 +349,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	medium_utility_slots = 7
 
 	resources = {
 		category = ship_sections
@@ -421,7 +421,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	medium_utility_slots = 7
 
 	resources = {
 		category = ship_sections
@@ -479,7 +479,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	aux_utility_slots = 3
 
 	resources = {
 		category = ship_sections
@@ -536,7 +536,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	aux_utility_slots = 3
 
 	resources = {
 		category = ship_sections
@@ -655,7 +655,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 6
+	medium_utility_slots = 8
 
 	resources = {
 		category = ship_sections
@@ -760,7 +760,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 6
+	medium_utility_slots = 8
 
 	resources = {
 		category = ship_sections
@@ -824,7 +824,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 6
+	medium_utility_slots = 8
 
 	resources = {
 		category = ship_sections
@@ -887,7 +887,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 6
+	medium_utility_slots = 8
 
 	resources = {
 		category = ship_sections
@@ -950,7 +950,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 6
+	medium_utility_slots = 8
 
 	resources = {
 		category = ship_sections
@@ -1014,7 +1014,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 6
+	medium_utility_slots = 8
 
 	resources = {
 		category = ship_sections
@@ -1077,7 +1077,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 6
+	medium_utility_slots = 8
 
 	resources = {
 		category = ship_sections
@@ -1140,7 +1140,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 6
+	medium_utility_slots = 8
 
 	resources = {
 		category = ship_sections
@@ -1194,7 +1194,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 6
+	aux_utility_slots = 3
 
 	resources = {
 		category = ship_sections
@@ -1247,7 +1247,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 6
+	aux_utility_slots = 3
 
 	resources = {
 		category = ship_sections
@@ -1318,7 +1318,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	medium_utility_slots = 7
 
 	resources = {
 		category = ship_sections
@@ -1381,7 +1381,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	medium_utility_slots = 7
 
 	resources = {
 		category = ship_sections
@@ -1443,7 +1443,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	medium_utility_slots = 7
 
 	resources = {
 		category = ship_sections
@@ -1536,7 +1536,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	medium_utility_slots = 7
 
 	resources = {
 		category = ship_sections
@@ -1599,7 +1599,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	medium_utility_slots = 7
 
 	resources = {
 		category = ship_sections
@@ -1661,7 +1661,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	medium_utility_slots = 7
 
 	resources = {
 		category = ship_sections
@@ -1754,7 +1754,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	medium_utility_slots = 7
 
 	resources = {
 		category = ship_sections
@@ -1797,7 +1797,7 @@ ship_section_template = {
 
 # 	prerequisites = { "tech_KTW_colossus" }
 
-# 	large_utility_slots = 5
+# 	medium_utility_slots = 5
 
 # 	resources = {
 # 		category = ship_sections
@@ -1839,7 +1839,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	aux_utility_slots = 3
 
 	resources = {
 		category = ship_sections
@@ -1940,7 +1940,7 @@ ship_section_template = {
 
 # 	prerequisites = { "tech_KTW_colossus" }
 
-# 	large_utility_slots = 3
+# 	medium_utility_slots = 3
 
 # 	resources = {
 # 		category = ship_sections
@@ -2037,7 +2037,7 @@ ship_section_template = {
 
 # 	prerequisites = { "tech_KTW_colossus" }
 
-# 	large_utility_slots = 3
+# 	medium_utility_slots = 3
 
 # 	resources = {
 # 		category = ship_sections

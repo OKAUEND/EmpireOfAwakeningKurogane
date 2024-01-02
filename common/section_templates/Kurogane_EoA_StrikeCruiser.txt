@@ -334,7 +334,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	medium_utility_slots = 4
+	aux_utility_slots = 4
 
 	resources = {
 		category = ship_sections
@@ -655,7 +655,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	aux_utility_slots = 4
 
 	resources = {
 		category = ship_sections
@@ -703,7 +703,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	aux_utility_slots = 4
 
 	resources = {
 		category = ship_sections
@@ -822,7 +822,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	medium_utility_slots = 4
+	aux_utility_slots = 4
 
 	resources = {
 		category = ship_sections

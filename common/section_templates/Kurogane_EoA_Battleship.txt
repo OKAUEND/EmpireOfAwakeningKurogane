@@ -106,7 +106,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	large_utility_slots = 12
 
 	resources = {
 		category = ship_sections
@@ -168,7 +168,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	large_utility_slots = 12
 
 	resources = {
 		category = ship_sections
@@ -270,7 +270,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	large_utility_slots = 12
 
 	resources = {
 		category = ship_sections
@@ -288,10 +288,50 @@ ship_section_template = {
 	entity = "N_fe_01_battleship_10_locator_entity"
 	icon = "GFX_ship_part_core_mid"
 
+	component_slot = {
+		name = "SMALL_GUN_01"
+		template = "KTW_invisible_small_fixed"
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		template = "KTW_invisible_small_fixed"
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		template = "KTW_invisible_small_fixed"
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		template = "KTW_invisible_small_fixed"
+		locatorname = "small_gun_04"
+	}
+	component_slot = {
+		name = "SMALL_GUN_05"
+		template = "KTW_invisible_pd_fixed"
+		locatorname = "small_gun_05"
+	}
+	component_slot = {
+		name = "SMALL_GUN_06"
+		template = "KTW_invisible_pd_fixed"
+		locatorname = "small_gun_06"
+	}
+	component_slot = {
+		name = "SMALL_GUN_07"
+		template = "KTW_invisible_pd_fixed"
+		locatorname = "small_gun_07"
+	}
+	component_slot = {
+		name = "SMALL_GUN_08"
+		template = "KTW_invisible_pd_fixed"
+		locatorname = "small_gun_08"
+	}
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	aux_utility_slots = 3
 
 	resources = {
 		category = ship_sections
@@ -382,7 +422,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	large_utility_slots = 13
 
 	resources = {
 		category = ship_sections
@@ -450,7 +490,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	large_utility_slots = 13
 
 	resources = {
 		category = ship_sections
@@ -511,7 +551,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	large_utility_slots = 10
 
 	resources = {
 		category = ship_sections
@@ -571,7 +611,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	large_utility_slots = 10
 
 	resources = {
 		category = ship_sections
@@ -584,7 +624,7 @@ ship_section_template = {
 	ship_size = battleship
 
 	#NSC
-	fits_on_slot = bow
+	fits_on_slot = stern
 
 	entity = "N_fe_01_battleship_02_locator_entity"
 	icon = "GFX_ship_part_core_mid"
@@ -602,7 +642,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	aux_utility_slots = 3
 
 	resources = {
 		category = ship_sections
@@ -741,7 +781,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	large_utility_slots = 14
 
 	resources = {
 		category = ship_sections
@@ -779,31 +819,31 @@ ship_section_template = {
 		template = "KTW_turret_L"
 		locatorname = "large_gun_03"
 	}
-	component_slot = {
-		name = "LARGE_GUN_03"
-		template = "KTW_turret_L"
-		locatorname = "large_gun_03"
-	}
-	component_slot = {
-		name = "LARGE_GUN_04"
-		template = "KTW_turret_L"
-		locatorname = "large_gun_08"
-	}
-	component_slot = {
-		name = "LARGE_GUN_05"
-		template = "KTW_turret_L"
-		locatorname = "large_gun_09"
-	}
-	component_slot = {
-		name = "LARGE_GUN_06"
-		template = "KTW_invisible_large_fixed"
-		locatorname = "large_gun_04"
-	}
-	component_slot = {
-		name = "LARGE_GUN_07"
-		template = "KTW_invisible_large_fixed"
-		locatorname = "large_gun_05"
-	}
+	# component_slot = {
+	# 	name = "LARGE_GUN_03"
+	# 	template = "KTW_turret_L"
+	# 	locatorname = "large_gun_03"
+	# }
+	# component_slot = {
+	# 	name = "LARGE_GUN_04"
+	# 	template = "KTW_turret_L"
+	# 	locatorname = "large_gun_08"
+	# }
+	# component_slot = {
+	# 	name = "LARGE_GUN_05"
+	# 	template = "KTW_turret_L"
+	# 	locatorname = "large_gun_09"
+	# }
+	# component_slot = {
+	# 	name = "LARGE_GUN_06"
+	# 	template = "KTW_invisible_large_fixed"
+	# 	locatorname = "large_gun_04"
+	# }
+	# component_slot = {
+	# 	name = "LARGE_GUN_07"
+	# 	template = "KTW_invisible_large_fixed"
+	# 	locatorname = "large_gun_05"
+	# }
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		template = "KTW_turret_M"
@@ -844,16 +884,16 @@ ship_section_template = {
 		template = "KTW_turret_S2A"
 		locatorname = "small_gun_18"
 	}
-	component_slot = {
-		name = "SMALL_GUN_09"
-		template = "KTW_turret_S2A"
-		locatorname = "small_gun_19"
-	}
-	component_slot = {
-		name = "SMALL_GUN_10"
-		template = "KTW_turret_S2A"
-		locatorname = "small_gun_20"
-	}
+	# component_slot = {
+	# 	name = "SMALL_GUN_09"
+	# 	template = "KTW_turret_S2A"
+	# 	locatorname = "small_gun_19"
+	# }
+	# component_slot = {
+	# 	name = "SMALL_GUN_10"
+	# 	template = "KTW_turret_S2A"
+	# 	locatorname = "small_gun_20"
+	# }
 	component_slot = {
 		name = "SMALL_GUN_03"
 		template = "KTW_turret_PD"
@@ -864,20 +904,20 @@ ship_section_template = {
 		template = "KTW_turret_PD"
 		locatorname = "small_gun_12"
 	}
-	component_slot = {
-		name = "SMALL_GUN_05"
-		template = "KTW_turret_PD"
-		locatorname = "small_gun_13"
-	}
-	component_slot = {
-		name = "SMALL_GUN_06"
-		template = "KTW_turret_PD"
-		locatorname = "small_gun_14"
-	}
+	# component_slot = {
+	# 	name = "SMALL_GUN_05"
+	# 	template = "KTW_turret_PD"
+	# 	locatorname = "small_gun_13"
+	# }
+	# component_slot = {
+	# 	name = "SMALL_GUN_06"
+	# 	template = "KTW_turret_PD"
+	# 	locatorname = "small_gun_14"
+	# }
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	large_utility_slots = 10
 
 	resources = {
 		category = ship_sections
@@ -915,31 +955,31 @@ ship_section_template = {
 		template = "KTW_turret_L"
 		locatorname = "large_gun_03"
 	}
-	component_slot = {
-		name = "LARGE_GUN_03"
-		template = "KTW_turret_L"
-		locatorname = "large_gun_03"
-	}
-	component_slot = {
-		name = "LARGE_GUN_04"
-		template = "KTW_turret_L"
-		locatorname = "large_gun_08"
-	}
-	component_slot = {
-		name = "LARGE_GUN_05"
-		template = "KTW_turret_L"
-		locatorname = "large_gun_09"
-	}
-	component_slot = {
-		name = "LARGE_GUN_06"
-		template = "KTW_invisible_large_fixed"
-		locatorname = "large_gun_04"
-	}
-	component_slot = {
-		name = "LARGE_GUN_07"
-		template = "KTW_invisible_large_fixed"
-		locatorname = "large_gun_05"
-	}
+	# component_slot = {
+	# 	name = "LARGE_GUN_03"
+	# 	template = "KTW_turret_L"
+	# 	locatorname = "large_gun_03"
+	# }
+	# component_slot = {
+	# 	name = "LARGE_GUN_04"
+	# 	template = "KTW_turret_L"
+	# 	locatorname = "large_gun_08"
+	# }
+	# component_slot = {
+	# 	name = "LARGE_GUN_05"
+	# 	template = "KTW_turret_L"
+	# 	locatorname = "large_gun_09"
+	# }
+	# component_slot = {
+	# 	name = "LARGE_GUN_06"
+	# 	template = "KTW_invisible_large_fixed"
+	# 	locatorname = "large_gun_04"
+	# }
+	# component_slot = {
+	# 	name = "LARGE_GUN_07"
+	# 	template = "KTW_invisible_large_fixed"
+	# 	locatorname = "large_gun_05"
+	# }
 	component_slot = {
 		name = "MEDIUM_GUN_01"
 		template = "KTW_turret_M"
@@ -960,16 +1000,16 @@ ship_section_template = {
 		template = "KTW_turret_M_S"
 		locatorname = "small_gun_18"
 	}
-	component_slot = {
-		name = "MEDIUM_GUN_05"
-		template = "KTW_turret_M_S"
-		locatorname = "small_gun_19"
-	}
-	component_slot = {
-		name = "MEDIUM_GUN_06"
-		template = "KTW_turret_M_S"
-		locatorname = "small_gun_20"
-	}
+	# component_slot = {
+	# 	name = "MEDIUM_GUN_05"
+	# 	template = "KTW_turret_M_S"
+	# 	locatorname = "small_gun_19"
+	# }
+	# component_slot = {
+	# 	name = "MEDIUM_GUN_06"
+	# 	template = "KTW_turret_M_S"
+	# 	locatorname = "small_gun_20"
+	# }
 	component_slot = {
 		name = "TORPEDO_01"
 		template = "KTW_turret_G"
@@ -1013,7 +1053,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	large_utility_slots = 10
 
 	resources = {
 		category = ship_sections
@@ -1095,7 +1135,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	large_utility_slots = 14
 
 	resources = {
 		category = ship_sections
@@ -1176,7 +1216,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	large_utility_slots = 14
 
 	resources = {
 		category = ship_sections
@@ -1257,7 +1297,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	large_utility_slots = 14
 
 	resources = {
 		category = ship_sections
@@ -1342,7 +1382,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	aux_utility_slots = 3
 
 	resources = {
 		category = ship_sections
@@ -1426,7 +1466,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	aux_utility_slots = 3
 
 	resources = {
 		category = ship_sections
@@ -1535,7 +1575,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	large_utility_slots = 16
 
 	resources = {
 		category = ship_sections
@@ -1640,7 +1680,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	large_utility_slots = 16
 
 	resources = {
 		category = ship_sections
@@ -1711,7 +1751,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	large_utility_slots = 16
 
 	resources = {
 		category = ship_sections
@@ -1781,7 +1821,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	large_utility_slots = 16
 
 	resources = {
 		category = ship_sections
@@ -1852,7 +1892,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	aux_utility_slots = 3
 
 	resources = {
 		category = ship_sections
@@ -1922,7 +1962,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	large_utility_slots = 5
+	aux_utility_slots = 3
 
 	resources = {
 		category = ship_sections

@@ -545,7 +545,7 @@ ship_section_template = {
 
 	prerequisites = { "tech_KTW_colossus" }
 
-	aux_utility_slots = 5
+	aux_utility_slots = 8
 
 	resources = {
 		category = ship_sections
