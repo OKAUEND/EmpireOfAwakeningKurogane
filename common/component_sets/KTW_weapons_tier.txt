@@ -4,43 +4,43 @@
 component_set = {
 	key = "KTW_KINETIC_ARTILLERY_1"
 
-	icon = "GFX_ship_part_KTW_kinetic_artillery"
+	icon = "GFX_ship_part_KTW_kinetic_artillery_1"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_KINETIC_ARTILLERY_2"
 
-	icon = "GFX_ship_part_KTW_kinetic_artillery"
+	icon = "GFX_ship_part_KTW_kinetic_artillery_2"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_KINETIC_ARTILLERY_3"
 
-	icon = "GFX_ship_part_KTW_kinetic_artillery"
+	icon = "GFX_ship_part_KTW_kinetic_artillery_3"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_KINETIC_ARTILLERY_4"
 
-	icon = "GFX_ship_part_KTW_kinetic_artillery"
+	icon = "GFX_ship_part_KTW_kinetic_artillery_4"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_KINETIC_ARTILLERY_5"
 
-	icon = "GFX_ship_part_KTW_kinetic_artillery"
+	icon = "GFX_ship_part_KTW_kinetic_artillery_5"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_KINETIC_ARTILLERY_6"
 
-	icon = "GFX_ship_part_KTW_kinetic_artillery"
+	icon = "GFX_ship_part_KTW_kinetic_artillery_6"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_KINETIC_ARTILLERY_7"
 
-	icon = "GFX_ship_part_KTW_kinetic_artillery"
+	icon = "GFX_ship_part_KTW_kinetic_artillery_7"
 	icon_frame = 1
 }
 
@@ -49,43 +49,43 @@ component_set = {
 component_set = {
 	key = "KTW_PLASMA_SHOCK_CANNON_1"
 
-	icon = "GFX_ship_part_KTW_laser"
+	icon = "GFX_ship_part_KTW_laser_1"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_PLASMA_SHOCK_CANNON_2"
 
-	icon = "GFX_ship_part_KTW_laser"
+	icon = "GFX_ship_part_KTW_laser_2"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_PLASMA_SHOCK_CANNON_3"
 
-	icon = "GFX_ship_part_KTW_laser"
+	icon = "GFX_ship_part_KTW_laser_3"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_PLASMA_SHOCK_CANNON_4"
 
-	icon = "GFX_ship_part_KTW_laser"
+	icon = "GFX_ship_part_KTW_laser_4"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_PLASMA_SHOCK_CANNON_5"
 
-	icon = "GFX_ship_part_KTW_laser"
+	icon = "GFX_ship_part_KTW_laser_5"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_PLASMA_SHOCK_CANNON_6"
 
-	icon = "GFX_ship_part_KTW_laser"
+	icon = "GFX_ship_part_KTW_laser_6"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_PLASMA_SHOCK_CANNON_7"
 
-	icon = "GFX_ship_part_KTW_laser"
+	icon = "GFX_ship_part_KTW_laser_7"
 	icon_frame = 1
 }
 
@@ -95,61 +95,61 @@ component_set = {
 component_set = {
 	key = "KTW_PD_CANNON_1"
 
-	icon = "GFX_ship_part_KTW_flak_batteries"
+	icon = "GFX_ship_part_KTW_flak_batteries_1"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_PD_CANNON_2"
 
-	icon = "GFX_ship_part_KTW_flak_batteries"
+	icon = "GFX_ship_part_KTW_flak_batteries_2"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_PD_CANNON_3"
 
-	icon = "GFX_ship_part_KTW_flak_batteries"
+	icon = "GFX_ship_part_KTW_flak_batteries_3"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_PD_CANNON_4"
 
-	icon = "GFX_ship_part_KTW_flak_batteries"
+	icon = "GFX_ship_part_KTW_flak_batteries_4"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_PD_CANNON_5"
 
-	icon = "GFX_ship_part_KTW_flak_batteries"
+	icon = "GFX_ship_part_KTW_flak_batteries_5"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_PD_LASER_1"
 
-	icon = "GFX_ship_part_KTW_point_defense"
+	icon = "GFX_ship_part_KTW_point_defense_1"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_PD_LASER_2"
 
-	icon = "GFX_ship_part_KTW_point_defense"
+	icon = "GFX_ship_part_KTW_point_defense_2"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_PD_LASER_3"
 
-	icon = "GFX_ship_part_KTW_point_defense"
+	icon = "GFX_ship_part_KTW_point_defense_2"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_PD_LASER_4"
 
-	icon = "GFX_ship_part_KTW_point_defense"
+	icon = "GFX_ship_part_KTW_point_defense_4"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_PD_LASER_5"
 
-	icon = "GFX_ship_part_KTW_point_defense"
+	icon = "GFX_ship_part_KTW_point_defense_5"
 	icon_frame = 1
 }
 
@@ -158,31 +158,31 @@ component_set = {
 component_set = {
 	key = "KTW_HEAVY_PD_CANNON_1"
 
-	icon = "GFX_ship_part_KTW_H_flak_batteries"
+	icon = "GFX_ship_part_KTW_H_flak_batteries_1"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_HEAVY_PD_CANNON_2"
 
-	icon = "GFX_ship_part_KTW_H_flak_batteries"
+	icon = "GFX_ship_part_KTW_H_flak_batteries_2"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_HEAVY_PD_CANNON_3"
 
-	icon = "GFX_ship_part_KTW_H_flak_batteries"
+	icon = "GFX_ship_part_KTW_H_flak_batteries_3"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_HEAVY_PD_CANNON_4"
 
-	icon = "GFX_ship_part_KTW_H_flak_batteries"
+	icon = "GFX_ship_part_KTW_H_flak_batteries_4"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_HEAVY_PD_CANNON_5"
 
-	icon = "GFX_ship_part_KTW_H_flak_batteries"
+	icon = "GFX_ship_part_KTW_H_flak_batteries_5"
 	icon_frame = 1
 }
 
@@ -191,31 +191,31 @@ component_set = {
 component_set = {
 	key = "KTW_HEAVY_PD_LASER_1"
 
-	icon = "GFX_ship_part_KTW_H_point_defense"
+	icon = "GFX_ship_part_KTW_H_point_defense_1"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_HEAVY_PD_LASER_2"
 
-	icon = "GFX_ship_part_KTW_H_point_defense"
+	icon = "GFX_ship_part_KTW_H_point_defense_2"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_HEAVY_PD_LASER_3"
 
-	icon = "GFX_ship_part_KTW_H_point_defense"
+	icon = "GFX_ship_part_KTW_H_point_defense_3"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_HEAVY_PD_LASER_4"
 
-	icon = "GFX_ship_part_KTW_H_point_defense"
+	icon = "GFX_ship_part_KTW_H_point_defense_4"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_HEAVY_PD_LASER_5"
 
-	icon = "GFX_ship_part_KTW_H_point_defense"
+	icon = "GFX_ship_part_KTW_H_point_defense_5"
 	icon_frame = 1
 }
 
@@ -224,43 +224,43 @@ component_set = {
 component_set = {
 	key = "KTW_VLS_1"
 
-	icon = "GFX_ship_part_KTW_missile_L"
+	icon = "GFX_ship_part_KTW_missile_L_1"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_VLS_2"
 
-	icon = "GFX_ship_part_KTW_missile_L"
+	icon = "GFX_ship_part_KTW_missile_L_2"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_VLS_3"
 
-	icon = "GFX_ship_part_KTW_missile_L"
+	icon = "GFX_ship_part_KTW_missile_L_3"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_VLS_4"
 
-	icon = "GFX_ship_part_KTW_missile_L"
+	icon = "GFX_ship_part_KTW_missile_L_4"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_VLS_5"
 
-	icon = "GFX_ship_part_KTW_missile_L"
+	icon = "GFX_ship_part_KTW_missile_L_5"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_VLS_6"
 
-	icon = "GFX_ship_part_KTW_missile_L"
+	icon = "GFX_ship_part_KTW_missile_L_6"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_VLS_7"
 
-	icon = "GFX_ship_part_KTW_missile_L"
+	icon = "GFX_ship_part_KTW_missile_L_7"
 	icon_frame = 1
 }
 
@@ -269,43 +269,43 @@ component_set = {
 component_set = {
 	key = "KTW_MISSILE_LAUNCHER_1"
 
-	icon = "GFX_ship_part_KTW_torpedo_L"
+	icon = "GFX_ship_part_KTW_torpedo_L_1"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_MISSILE_LAUNCHER_2"
 
-	icon = "GFX_ship_part_KTW_torpedo_L"
+	icon = "GFX_ship_part_KTW_torpedo_L_2"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_MISSILE_LAUNCHER_3"
 
-	icon = "GFX_ship_part_KTW_torpedo_L"
+	icon = "GFX_ship_part_KTW_torpedo_L_3"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_MISSILE_LAUNCHER_4"
 
-	icon = "GFX_ship_part_KTW_torpedo_L"
+	icon = "GFX_ship_part_KTW_torpedo_L_4"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_MISSILE_LAUNCHER_5"
 
-	icon = "GFX_ship_part_KTW_torpedo_L"
+	icon = "GFX_ship_part_KTW_torpedo_L_5"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_MISSILE_LAUNCHER_6"
 
-	icon = "GFX_ship_part_KTW_torpedo_L"
+	icon = "GFX_ship_part_KTW_torpedo_L_6"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_MISSILE_LAUNCHER_7"
 
-	icon = "GFX_ship_part_KTW_torpedo_L"
+	icon = "GFX_ship_part_KTW_torpedo_L_7"
 	icon_frame = 1
 }
 
@@ -315,31 +315,31 @@ component_set = {
 component_set = {
 	key = "KTW_ROCKET_TORPEDO_1"
 
-	icon = "GFX_ship_part_KTW_torpedo_G"
+	icon = "GFX_ship_part_KTW_torpedo_G_1"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_ROCKET_TORPEDO_2"
 
-	icon = "GFX_ship_part_KTW_torpedo_G"
+	icon = "GFX_ship_part_KTW_torpedo_G_2"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_ROCKET_TORPEDO_3"
 
-	icon = "GFX_ship_part_KTW_torpedo_G"
+	icon = "GFX_ship_part_KTW_torpedo_G_3"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_ROCKET_TORPEDO_4"
 
-	icon = "GFX_ship_part_KTW_torpedo_G"
+	icon = "GFX_ship_part_KTW_torpedo_G_4"
 	icon_frame = 1
 }
 component_set = {
 	key = "KTW_ROCKET_TORPEDO_5"
 
-	icon = "GFX_ship_part_KTW_torpedo_G"
+	icon = "GFX_ship_part_KTW_torpedo_G_5"
 	icon_frame = 1
 }
 

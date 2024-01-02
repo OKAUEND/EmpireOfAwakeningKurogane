@@ -22,7 +22,7 @@
 weapon_component_template = {
 	key = "KTW_MISSILE_LAUNCHER_L_1"
 	size = large
-	icon = GFX_ship_part_KTW_torpedo_L
+	icon = GFX_ship_part_KTW_torpedo_L_1
 	entity = "KTW_turret_missile_launcher_L_entity"
 
 	icon_frame = 1
@@ -91,7 +91,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_MISSILE_LAUNCHER_M_1"
 	size = medium
-	icon = GFX_ship_part_KTW_torpedo_L
+	icon = GFX_ship_part_KTW_torpedo_L_1
 	entity = "KTW_turret_missile_launcher_M_entity"
 
 	icon_frame = 1
@@ -161,7 +161,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_MISSILE_LAUNCHER_L_2"
 	size = large
-	icon = GFX_ship_part_KTW_torpedo_L
+	icon = GFX_ship_part_KTW_torpedo_L_2
 	entity = "KTW_turret_missile_launcher_L_entity"
 
 	icon_frame = 1
@@ -230,7 +230,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_MISSILE_LAUNCHER_M_2"
 	size = medium
-	icon = GFX_ship_part_KTW_torpedo_L
+	icon = GFX_ship_part_KTW_torpedo_L_2
 	entity = "KTW_turret_missile_launcher_M_entity"
 
 	icon_frame = 1
@@ -301,7 +301,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_MISSILE_LAUNCHER_L_3"
 	size = large
-	icon = GFX_ship_part_KTW_torpedo_L
+	icon = GFX_ship_part_KTW_torpedo_L_3
 	entity = "KTW_turret_missile_launcher_L_entity"
 
 	icon_frame = 1
@@ -370,7 +370,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_MISSILE_LAUNCHER_M_3"
 	size = medium
-	icon = GFX_ship_part_KTW_torpedo_L
+	icon = GFX_ship_part_KTW_torpedo_L_3
 	entity = "KTW_turret_missile_launcher_M_entity"
 
 	icon_frame = 1
@@ -441,7 +441,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_MISSILE_LAUNCHER_L_4"
 	size = large
-	icon = GFX_ship_part_KTW_torpedo_L
+	icon = GFX_ship_part_KTW_torpedo_L_4
 	entity = "KTW_turret_missile_launcher_L_entity"
 
 	icon_frame = 1
@@ -510,7 +510,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_MISSILE_LAUNCHER_M_4"
 	size = medium
-	icon = GFX_ship_part_KTW_torpedo_L
+	icon = GFX_ship_part_KTW_torpedo_L_4
 	entity = "KTW_turret_missile_launcher_M_entity"
 
 	icon_frame = 1
@@ -580,7 +580,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_MISSILE_LAUNCHER_L_5"
 	size = large
-	icon = GFX_ship_part_KTW_torpedo_L
+	icon = GFX_ship_part_KTW_torpedo_L_5
 	entity = "KTW_turret_missile_launcher_L_entity"
 
 	icon_frame = 1
@@ -649,7 +649,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_MISSILE_LAUNCHER_M_5"
 	size = medium
-	icon = GFX_ship_part_KTW_torpedo_L
+	icon = GFX_ship_part_KTW_torpedo_L_5
 	entity = "KTW_turret_missile_launcher_M_entity"
 
 	icon_frame = 1
@@ -719,7 +719,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_MISSILE_LAUNCHER_L_6"
 	size = large
-	icon = GFX_ship_part_KTW_torpedo_L
+	icon = GFX_ship_part_KTW_torpedo_L_6
 	entity = "KTW_turret_missile_launcher_L_entity"
 
 	icon_frame = 1
@@ -788,7 +788,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_MISSILE_LAUNCHER_M_6"
 	size = medium
-	icon = GFX_ship_part_KTW_torpedo_L
+	icon = GFX_ship_part_KTW_torpedo_L_6
 	entity = "KTW_turret_missile_launcher_M_entity"
 
 	icon_frame = 1
@@ -859,7 +859,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_MISSILE_LAUNCHER_L_7"
 	size = large
-	icon = GFX_ship_part_KTW_torpedo_L
+	icon = GFX_ship_part_KTW_torpedo_L_7
 	entity = "KTW_turret_missile_launcher_L_entity"
 
 	icon_frame = 1
@@ -928,7 +928,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_MISSILE_LAUNCHER_M_7"
 	size = medium
-	icon = GFX_ship_part_KTW_torpedo_L
+	icon = GFX_ship_part_KTW_torpedo_L_7
 	entity = "KTW_turret_missile_launcher_M_entity"
 
 	icon_frame = 1

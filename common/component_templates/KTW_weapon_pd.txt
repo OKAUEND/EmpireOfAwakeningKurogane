@@ -26,7 +26,7 @@ weapon_component_template = {
 	key = "KTW_PD_CANNON_1"
 	entity = "KTW_turret_PD_entity"
 	size = point_defence
-	icon = GFX_ship_part_KTW_flak_batteries
+	icon = GFX_ship_part_KTW_flak_batteries_1
 	icon_frame = 1
 	type = point_defence
 
@@ -78,7 +78,7 @@ weapon_component_template = {
 	key = "KTW_PD_LASER_1"
 	entity = "KTW_turret_PD2_entity"
 	size = point_defence
-	icon = GFX_ship_part_KTW_point_defense
+	icon = GFX_ship_part_KTW_point_defense_1
 	icon_frame = 1
 	type = point_defence
 
@@ -133,7 +133,7 @@ weapon_component_template = {
 	key = "KTW_PD_CANNON_2"
 	entity = "KTW_turret_PD_entity"
 	size = point_defence
-	icon = GFX_ship_part_KTW_flak_batteries
+	icon = GFX_ship_part_KTW_flak_batteries_2
 	icon_frame = 1
 	type = point_defence
 
@@ -185,7 +185,7 @@ weapon_component_template = {
 	key = "KTW_PD_LASER_2"
 	entity = "KTW_turret_PD2_entity"
 	size = point_defence
-	icon = GFX_ship_part_KTW_point_defense
+	icon = GFX_ship_part_KTW_point_defense_2
 	icon_frame = 1
 	type = point_defence
 
@@ -240,7 +240,7 @@ weapon_component_template = {
 	key = "KTW_PD_CANNON_3"
 	entity = "KTW_turret_PD_entity"
 	size = point_defence
-	icon = GFX_ship_part_KTW_flak_batteries
+	icon = GFX_ship_part_KTW_flak_batteries_3
 	icon_frame = 1
 	type = point_defence
 
@@ -292,7 +292,7 @@ weapon_component_template = {
 	key = "KTW_PD_LASER_3"
 	entity = "KTW_turret_PD2_entity"
 	size = point_defence
-	icon = GFX_ship_part_KTW_point_defense
+	icon = GFX_ship_part_KTW_point_defense_3
 	icon_frame = 1
 	type = point_defence
 
@@ -348,7 +348,7 @@ weapon_component_template = {
 	key = "KTW_PD_CANNON_4"
 	entity = "KTW_turret_PD_entity"
 	size = point_defence
-	icon = GFX_ship_part_KTW_flak_batteries
+	icon = GFX_ship_part_KTW_flak_batteries_4
 	icon_frame = 1
 	type = point_defence
 
@@ -400,7 +400,7 @@ weapon_component_template = {
 	key = "KTW_PD_LASER_4"
 	entity = "KTW_turret_PD2_entity"
 	size = point_defence
-	icon = GFX_ship_part_KTW_point_defense
+	icon = GFX_ship_part_KTW_point_defense_4
 	icon_frame = 1
 	type = point_defence
 
@@ -455,7 +455,7 @@ weapon_component_template = {
 	key = "KTW_PD_CANNON_5"
 	entity = "KTW_turret_PD_entity"
 	size = point_defence
-	icon = GFX_ship_part_KTW_flak_batteries
+	icon = GFX_ship_part_KTW_flak_batteries_5
 	icon_frame = 1
 	type = point_defence
 
@@ -507,7 +507,7 @@ weapon_component_template = {
 	key = "KTW_PD_LASER_5"
 	entity = "KTW_turret_PD2_entity"
 	size = point_defence
-	icon = GFX_ship_part_KTW_point_defense
+	icon = GFX_ship_part_KTW_point_defense_5
 	icon_frame = 1
 	type = point_defence
 

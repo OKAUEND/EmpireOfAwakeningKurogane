@@ -21,7 +21,7 @@
 weapon_component_template = {
 	key = "KTW_PLASMA_SHOCK_CANNON_L_1"
 	size = large
-	icon = GFX_ship_part_KTW_laser
+	icon = GFX_ship_part_KTW_laser_1
 	entity = "KTW_turret_L_energy_entity"
 
 	icon_frame = 1
@@ -72,7 +72,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_PLASMA_SHOCK_CANNON_M_1"
 	size = medium
-	icon = GFX_ship_part_KTW_laser
+	icon = GFX_ship_part_KTW_laser_1
 	entity = "KTW_turret_M_energy_entity"
 
 	icon_frame = 1
@@ -123,7 +123,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_PLASMA_SHOCK_CANNON_S_1"
 	size = small
-	icon = GFX_ship_part_KTW_laser
+	icon = GFX_ship_part_KTW_laser_1
 	entity = "KTW_turret_S_energy_entity"
 
 	icon_frame = 1
@@ -177,7 +177,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_PLASMA_SHOCK_CANNON_L_2"
 	size = large
-	icon = GFX_ship_part_KTW_laser
+	icon = GFX_ship_part_KTW_laser_2
 	entity = "KTW_turret_L_energy_entity"
 
 	icon_frame = 1
@@ -228,7 +228,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_PLASMA_SHOCK_CANNON_M_2"
 	size = medium
-	icon = GFX_ship_part_KTW_laser
+	icon = GFX_ship_part_KTW_laser_2
 	entity = "KTW_turret_M_energy_entity"
 
 	icon_frame = 1
@@ -279,7 +279,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_PLASMA_SHOCK_CANNON_S_2"
 	size = small
-	icon = GFX_ship_part_KTW_laser
+	icon = GFX_ship_part_KTW_laser_2
 	entity = "KTW_turret_S_energy_entity"
 
 	icon_frame = 1
@@ -334,7 +334,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_PLASMA_SHOCK_CANNON_L_3"
 	size = large
-	icon = GFX_ship_part_KTW_laser
+	icon = GFX_ship_part_KTW_laser_3
 	entity = "KTW_turret_L_energy_entity"
 
 	icon_frame = 1
@@ -385,7 +385,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_PLASMA_SHOCK_CANNON_M_3"
 	size = medium
-	icon = GFX_ship_part_KTW_laser
+	icon = GFX_ship_part_KTW_laser_3
 	entity = "KTW_turret_M_energy_entity"
 
 	icon_frame = 1
@@ -436,7 +436,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_PLASMA_SHOCK_CANNON_S_3"
 	size = small
-	icon = GFX_ship_part_KTW_laser
+	icon = GFX_ship_part_KTW_laser_3
 	entity = "KTW_turret_S_energy_entity"
 
 	icon_frame = 1
@@ -490,7 +490,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_PLASMA_SHOCK_CANNON_L_4"
 	size = large
-	icon = GFX_ship_part_KTW_laser
+	icon = GFX_ship_part_KTW_laser_4
 	entity = "KTW_turret_L_energy_entity"
 
 	icon_frame = 1
@@ -541,7 +541,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_PLASMA_SHOCK_CANNON_M_4"
 	size = medium
-	icon = GFX_ship_part_KTW_laser
+	icon = GFX_ship_part_KTW_laser_4
 	entity = "KTW_turret_M_energy_entity"
 
 	icon_frame = 1
@@ -592,7 +592,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_PLASMA_SHOCK_CANNON_S_4"
 	size = small
-	icon = GFX_ship_part_KTW_laser
+	icon = GFX_ship_part_KTW_laser_4
 	entity = "KTW_turret_S_energy_entity"
 
 	icon_frame = 1
@@ -646,7 +646,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_PLASMA_SHOCK_CANNON_L_5"
 	size = large
-	icon = GFX_ship_part_KTW_laser
+	icon = GFX_ship_part_KTW_laser_5
 	entity = "KTW_turret_L_energy_entity"
 
 	icon_frame = 1
@@ -697,7 +697,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_PLASMA_SHOCK_CANNON_M_5"
 	size = medium
-	icon = GFX_ship_part_KTW_laser
+	icon = GFX_ship_part_KTW_laser_5
 	entity = "KTW_turret_M_energy_entity"
 
 	icon_frame = 1
@@ -748,7 +748,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_PLASMA_SHOCK_CANNON_S_5"
 	size = small
-	icon = GFX_ship_part_KTW_laser
+	icon = GFX_ship_part_KTW_laser_5
 	entity = "KTW_turret_S_energy_entity"
 
 	icon_frame = 1
@@ -802,7 +802,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_PLASMA_SHOCK_CANNON_L_6"
 	size = large
-	icon = GFX_ship_part_KTW_laser
+	icon = GFX_ship_part_KTW_laser_6
 	entity = "KTW_turret_L_energy_entity"
 
 	icon_frame = 1
@@ -853,7 +853,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_PLASMA_SHOCK_CANNON_M_6"
 	size = medium
-	icon = GFX_ship_part_KTW_laser
+	icon = GFX_ship_part_KTW_laser_6
 	entity = "KTW_turret_M_energy_entity"
 
 	icon_frame = 1
@@ -904,7 +904,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_PLASMA_SHOCK_CANNON_S_6"
 	size = small
-	icon = GFX_ship_part_KTW_laser
+	icon = GFX_ship_part_KTW_laser_6
 	entity = "KTW_turret_S_energy_entity"
 
 	icon_frame = 1
@@ -959,7 +959,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_PLASMA_SHOCK_CANNON_L_7"
 	size = large
-	icon = GFX_ship_part_KTW_laser
+	icon = GFX_ship_part_KTW_laser_7
 	entity = "KTW_turret_L_energy_entity"
 
 	icon_frame = 1
@@ -1010,7 +1010,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_PLASMA_SHOCK_CANNON_M_7"
 	size = medium
-	icon = GFX_ship_part_KTW_laser
+	icon = GFX_ship_part_KTW_laser_7
 	entity = "KTW_turret_M_energy_entity"
 
 	icon_frame = 1
@@ -1061,7 +1061,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_PLASMA_SHOCK_CANNON_S_7"
 	size = small
-	icon = GFX_ship_part_KTW_laser
+	icon = GFX_ship_part_KTW_laser_7
 	entity = "KTW_turret_S_energy_entity"
 
 	icon_frame = 1

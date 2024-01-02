@@ -18,7 +18,7 @@
 weapon_component_template = {
 	key = "KTW_ROCKET_TORPEDO_1"
 	size = torpedo
-	icon = GFX_ship_part_KTW_torpedo_G
+	icon = GFX_ship_part_KTW_torpedo_G_1
 	entity = "KTW_turret_G_entity"
 
 	icon_frame = 1
@@ -87,7 +87,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_ROCKET_TORPEDO_2"
 	size = torpedo
-	icon = GFX_ship_part_KTW_torpedo_G
+	icon = GFX_ship_part_KTW_torpedo_G_2
 	entity = "KTW_turret_G_entity"
 
 	icon_frame = 1
@@ -156,7 +156,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_ROCKET_TORPEDO_3"
 	size = torpedo
-	icon = GFX_ship_part_KTW_torpedo_G
+	icon = GFX_ship_part_KTW_torpedo_G_3
 	entity = "KTW_turret_G_entity"
 
 	icon_frame = 1
@@ -225,7 +225,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_ROCKET_TORPEDO_4"
 	size = torpedo
-	icon = GFX_ship_part_KTW_torpedo_G
+	icon = GFX_ship_part_KTW_torpedo_G_4
 	entity = "KTW_turret_G_entity"
 
 	icon_frame = 1
@@ -294,7 +294,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_ROCKET_TORPEDO_5"
 	size = torpedo
-	icon = GFX_ship_part_KTW_torpedo_G
+	icon = GFX_ship_part_KTW_torpedo_G_5
 	entity = "KTW_turret_G_entity"
 
 	icon_frame = 1

@@ -22,7 +22,7 @@
 weapon_component_template = {
 	key = "KTW_VLS_ER_1"
 	size = large
-	icon = GFX_ship_part_KTW_missile_L
+	icon = GFX_ship_part_KTW_missile_L_1
 	entity = "KTW_turret_VLS_ER_entity"
 
 	icon_frame = 1
@@ -91,7 +91,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_VLS_MR_1"
 	size = medium
-	icon = GFX_ship_part_KTW_missile_L
+	icon = GFX_ship_part_KTW_missile_L_1
 	entity = "KTW_turret_VLS_MR_entity"
 
 	icon_frame = 1
@@ -163,7 +163,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_VLS_ER_2"
 	size = large
-	icon = GFX_ship_part_KTW_missile_L
+	icon = GFX_ship_part_KTW_missile_L_2
 	entity = "KTW_turret_VLS_ER_entity"
 
 	icon_frame = 1
@@ -232,7 +232,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_VLS_MR_2"
 	size = medium
-	icon = GFX_ship_part_KTW_missile_L
+	icon = GFX_ship_part_KTW_missile_L_2
 	entity = "KTW_turret_VLS_MR_entity"
 
 	icon_frame = 1
@@ -305,7 +305,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_VLS_ER_3"
 	size = large
-	icon = GFX_ship_part_KTW_missile_L
+	icon = GFX_ship_part_KTW_missile_L_3
 	entity = "KTW_turret_VLS_ER_entity"
 
 	icon_frame = 1
@@ -374,7 +374,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_VLS_MR_3"
 	size = medium
-	icon = GFX_ship_part_KTW_missile_L
+	icon = GFX_ship_part_KTW_missile_L_3
 	entity = "KTW_turret_VLS_MR_entity"
 
 	icon_frame = 1
@@ -446,7 +446,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_VLS_ER_4"
 	size = large
-	icon = GFX_ship_part_KTW_missile_L
+	icon = GFX_ship_part_KTW_missile_L_4
 	entity = "KTW_turret_VLS_ER_entity"
 
 	icon_frame = 1
@@ -515,7 +515,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_VLS_MR_4"
 	size = medium
-	icon = GFX_ship_part_KTW_missile_L
+	icon = GFX_ship_part_KTW_missile_L_4
 	entity = "KTW_turret_VLS_MR_entity"
 
 	icon_frame = 1
@@ -587,7 +587,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_VLS_ER_5"
 	size = large
-	icon = GFX_ship_part_KTW_missile_L
+	icon = GFX_ship_part_KTW_missile_L_5
 	entity = "KTW_turret_VLS_ER_entity"
 
 	icon_frame = 1
@@ -656,7 +656,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_VLS_MR_5"
 	size = medium
-	icon = GFX_ship_part_KTW_missile_L
+	icon = GFX_ship_part_KTW_missile_L_5
 	entity = "KTW_turret_VLS_MR_entity"
 
 	icon_frame = 1
@@ -728,7 +728,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_VLS_ER_6"
 	size = large
-	icon = GFX_ship_part_KTW_missile_L
+	icon = GFX_ship_part_KTW_missile_L_6
 	entity = "KTW_turret_VLS_ER_entity"
 
 	icon_frame = 1
@@ -797,7 +797,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_VLS_MR_6"
 	size = medium
-	icon = GFX_ship_part_KTW_missile_L
+	icon = GFX_ship_part_KTW_missile_L_6
 	entity = "KTW_turret_VLS_MR_entity"
 
 	icon_frame = 1
@@ -869,7 +869,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_VLS_ER_7"
 	size = large
-	icon = GFX_ship_part_KTW_missile_L
+	icon = GFX_ship_part_KTW_missile_L_7
 	entity = "KTW_turret_VLS_ER_entity"
 
 	icon_frame = 1
@@ -938,7 +938,7 @@ weapon_component_template = {
 weapon_component_template = {
 	key = "KTW_VLS_MR_7"
 	size = medium
-	icon = GFX_ship_part_KTW_missile_L
+	icon = GFX_ship_part_KTW_missile_L_7
 	entity = "KTW_turret_VLS_MR_entity"
 
 	icon_frame = 1

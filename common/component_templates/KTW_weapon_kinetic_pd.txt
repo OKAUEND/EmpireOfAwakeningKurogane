@@ -18,7 +18,7 @@ weapon_component_template = {
 	key = KTW_HEAVY_PD_CANNON_M_1
 	entity = "KTW_turret_M2_kinetic_entity"
 	size = medium
-	icon = GFX_ship_part_KTW_H_flak_batteries
+	icon = GFX_ship_part_KTW_H_flak_batteries_1
 	icon_frame = 1
 	type = point_defence
 
@@ -70,7 +70,7 @@ weapon_component_template = {
 	key = KTW_HEAVY_PD_CANNON_S_1
 	entity = "KTW_turret_S2_kinetic_entity"
 	size = small
-	icon = GFX_ship_part_KTW_H_flak_batteries
+	icon = GFX_ship_part_KTW_H_flak_batteries_1
 	icon_frame = 1
 	type = point_defence
 
@@ -123,7 +123,7 @@ weapon_component_template = {
 	key = KTW_HEAVY_PD_CANNON_M_2
 	entity = "KTW_turret_M2_kinetic_entity"
 	size = medium
-	icon = GFX_ship_part_KTW_H_flak_batteries
+	icon = GFX_ship_part_KTW_H_flak_batteries_2
 	icon_frame = 1
 	type = point_defence
 
@@ -175,7 +175,7 @@ weapon_component_template = {
 	key = KTW_HEAVY_PD_CANNON_S_2
 	entity = "KTW_turret_S2_kinetic_entity"
 	size = small
-	icon = GFX_ship_part_KTW_H_flak_batteries
+	icon = GFX_ship_part_KTW_H_flak_batteries_2
 	icon_frame = 1
 	type = point_defence
 
@@ -228,7 +228,7 @@ weapon_component_template = {
 	key = KTW_HEAVY_PD_CANNON_M_3
 	entity = "KTW_turret_M2_kinetic_entity"
 	size = medium
-	icon = GFX_ship_part_KTW_H_flak_batteries
+	icon = GFX_ship_part_KTW_H_flak_batteries_3
 	icon_frame = 1
 	type = point_defence
 
@@ -280,7 +280,7 @@ weapon_component_template = {
 	key = KTW_HEAVY_PD_CANNON_S_3
 	entity = "KTW_turret_S2_kinetic_entity"
 	size = small
-	icon = GFX_ship_part_KTW_H_flak_batteries
+	icon = GFX_ship_part_KTW_H_flak_batteries_3
 	icon_frame = 1
 	type = point_defence
 
@@ -333,7 +333,7 @@ weapon_component_template = {
 	key = KTW_HEAVY_PD_CANNON_M_4
 	entity = "KTW_turret_M2_kinetic_entity"
 	size = medium
-	icon = GFX_ship_part_KTW_H_flak_batteries
+	icon = GFX_ship_part_KTW_H_flak_batteries_4
 	icon_frame = 1
 	type = point_defence
 
@@ -385,7 +385,7 @@ weapon_component_template = {
 	key = KTW_HEAVY_PD_CANNON_S_4
 	entity = "KTW_turret_S2_kinetic_entity"
 	size = small
-	icon = GFX_ship_part_KTW_H_flak_batteries
+	icon = GFX_ship_part_KTW_H_flak_batteries_4
 	icon_frame = 1
 	type = point_defence
 
@@ -438,7 +438,7 @@ weapon_component_template = {
 	key = KTW_HEAVY_PD_CANNON_M_5
 	entity = "KTW_turret_M2_kinetic_entity"
 	size = medium
-	icon = GFX_ship_part_KTW_H_flak_batteries
+	icon = GFX_ship_part_KTW_H_flak_batteries_5
 	icon_frame = 1
 	type = point_defence
 
@@ -490,7 +490,7 @@ weapon_component_template = {
 	key = KTW_HEAVY_PD_CANNON_S_5
 	entity = "KTW_turret_S2_kinetic_entity"
 	size = small
-	icon = GFX_ship_part_KTW_H_flak_batteries
+	icon = GFX_ship_part_KTW_H_flak_batteries_5
 	icon_frame = 1
 	type = point_defence
 
