@@ -55,7 +55,7 @@ weapon_component_template = {
 
 	min_range = 40.0
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_kinetic_1" }
 	component_set = "KTW_KINETIC_ARTILLERY_1"
 	projectile_gfx = "KTW_adv_kinetic_artillery_L"
 	tags = { weapon_type_kinetic }
@@ -113,7 +113,7 @@ weapon_component_template = {
 
 	min_range = 20.0
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_kinetic_1" }
 	component_set = "KTW_KINETIC_ARTILLERY_1"
 	projectile_gfx = "KTW_adv_kinetic_artillery_M"
 	tags = { weapon_type_kinetic }
@@ -167,7 +167,7 @@ weapon_component_template = {
 	shield_damage = 2
 	tracking = 0.55
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_kinetic_1" }
 	component_set = "KTW_KINETIC_ARTILLERY_1"
 	projectile_gfx = "KTW_adv_kinetic_artillery_S"
 	tags = { weapon_type_kinetic }
@@ -224,7 +224,7 @@ weapon_component_template = {
 
 	min_range = 40.0
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_kinetic_2" }
 	component_set = "KTW_KINETIC_ARTILLERY_2"
 	projectile_gfx = "KTW_adv_kinetic_artillery_L"
 	tags = { weapon_type_kinetic }
@@ -282,7 +282,7 @@ weapon_component_template = {
 
 	min_range = 20.0
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_kinetic_2" }
 	component_set = "KTW_KINETIC_ARTILLERY_2"
 	projectile_gfx = "KTW_adv_kinetic_artillery_M"
 	tags = { weapon_type_kinetic }
@@ -336,7 +336,7 @@ weapon_component_template = {
 	shield_damage = 2
 	tracking = 0.55
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_kinetic_2" }
 	component_set = "KTW_KINETIC_ARTILLERY_2"
 	projectile_gfx = "KTW_adv_kinetic_artillery_S"
 	tags = { weapon_type_kinetic }
@@ -393,7 +393,7 @@ weapon_component_template = {
 
 	min_range = 40.0
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_kinetic_3" }
 	component_set = "KTW_KINETIC_ARTILLERY_3"
 	projectile_gfx = "KTW_adv_kinetic_artillery_L"
 	tags = { weapon_type_kinetic }
@@ -451,7 +451,7 @@ weapon_component_template = {
 
 	min_range = 20.0
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_kinetic_3" }
 	component_set = "KTW_KINETIC_ARTILLERY_3"
 	projectile_gfx = "KTW_adv_kinetic_artillery_M"
 	tags = { weapon_type_kinetic }
@@ -505,7 +505,7 @@ weapon_component_template = {
 	shield_damage = 2
 	tracking = 0.55
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_kinetic_3" }
 	component_set = "KTW_KINETIC_ARTILLERY_3"
 	projectile_gfx = "KTW_adv_kinetic_artillery_S"
 	tags = { weapon_type_kinetic }
@@ -563,7 +563,7 @@ weapon_component_template = {
 
 	min_range = 40.0
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_kinetic_4" }
 	component_set = "KTW_KINETIC_ARTILLERY_4"
 	projectile_gfx = "KTW_adv_kinetic_artillery_L"
 	tags = { weapon_type_kinetic }
@@ -621,7 +621,7 @@ weapon_component_template = {
 
 	min_range = 20.0
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_kinetic_4" }
 	component_set = "KTW_KINETIC_ARTILLERY_4"
 	projectile_gfx = "KTW_adv_kinetic_artillery_M"
 	tags = { weapon_type_kinetic }
@@ -675,7 +675,7 @@ weapon_component_template = {
 	shield_damage = 2
 	tracking = 0.55
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_kinetic_4" }
 	component_set = "KTW_KINETIC_ARTILLERY_4"
 	projectile_gfx = "KTW_adv_kinetic_artillery_S"
 	tags = { weapon_type_kinetic }
@@ -733,7 +733,7 @@ weapon_component_template = {
 
 	min_range = 40.0
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_kinetic_5" }
 	component_set = "KTW_KINETIC_ARTILLERY_5"
 	projectile_gfx = "KTW_adv_kinetic_artillery_L"
 	tags = { weapon_type_kinetic }
@@ -791,7 +791,7 @@ weapon_component_template = {
 
 	min_range = 20.0
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_kinetic_5" }
 	component_set = "KTW_KINETIC_ARTILLERY_5"
 	projectile_gfx = "KTW_adv_kinetic_artillery_M"
 	tags = { weapon_type_kinetic }
@@ -845,7 +845,7 @@ weapon_component_template = {
 	shield_damage = 2
 	tracking = 0.55
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_kinetic_5" }
 	component_set = "KTW_KINETIC_ARTILLERY_5"
 	projectile_gfx = "KTW_adv_kinetic_artillery_S"
 	tags = { weapon_type_kinetic }
@@ -903,7 +903,7 @@ weapon_component_template = {
 
 	min_range = 40.0
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_kinetic_6" }
 	component_set = "KTW_KINETIC_ARTILLERY_6"
 	projectile_gfx = "KTW_adv_kinetic_artillery_L"
 	tags = { weapon_type_kinetic }
@@ -961,7 +961,7 @@ weapon_component_template = {
 
 	min_range = 20.0
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_kinetic_6" }
 	component_set = "KTW_KINETIC_ARTILLERY_6"
 	projectile_gfx = "KTW_adv_kinetic_artillery_M"
 	tags = { weapon_type_kinetic }
@@ -1015,7 +1015,7 @@ weapon_component_template = {
 	shield_damage = 2
 	tracking = 0.55
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_kinetic_6" }
 	component_set = "KTW_KINETIC_ARTILLERY_6"
 	projectile_gfx = "KTW_adv_kinetic_artillery_S"
 	tags = { weapon_type_kinetic }
@@ -1073,7 +1073,7 @@ weapon_component_template = {
 
 	min_range = 40.0
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_kinetic_7" }
 	component_set = "KTW_KINETIC_ARTILLERY_7"
 	projectile_gfx = "KTW_adv_kinetic_artillery_L"
 	tags = { weapon_type_kinetic }
@@ -1130,7 +1130,7 @@ weapon_component_template = {
 
 	min_range = 20.0
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_kinetic_7" }
 	component_set = "KTW_KINETIC_ARTILLERY_7"
 	projectile_gfx = "KTW_adv_kinetic_artillery_M"
 	tags = { weapon_type_kinetic }
@@ -1183,7 +1183,7 @@ weapon_component_template = {
 	shield_damage = 2
 	tracking = 0.55
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_kinetic_7" }
 	component_set = "KTW_KINETIC_ARTILLERY_7"
 	projectile_gfx = "KTW_adv_kinetic_artillery_S"
 	tags = { weapon_type_kinetic }

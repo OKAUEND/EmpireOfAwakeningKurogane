@@ -72,7 +72,7 @@ weapon_component_template = {
 		cruiser = 2
 	}
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_vls_missiles_1" }
 	component_set = "KTW_VLS_1"
 	projectile_gfx = "KTW_VLS_ER_projectile"
 	tags = { weapon_type_explosive }
@@ -142,7 +142,7 @@ weapon_component_template = {
 		cruiser = 2
 	}
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_vls_missiles_1" }
 	component_set = "KTW_VLS_1"
 	projectile_gfx = "KTW_VLS_MR_projectile"
 	tags = { weapon_type_explosive }
@@ -215,7 +215,7 @@ weapon_component_template = {
 		cruiser = 2
 	}
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_vls_missiles_2" }
 	component_set = "KTW_VLS_2"
 	projectile_gfx = "KTW_VLS_ER_projectile"
 	tags = { weapon_type_explosive }
@@ -285,7 +285,7 @@ weapon_component_template = {
 		cruiser = 2
 	}
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_vls_missiles_2" }
 	component_set = "KTW_VLS_2"
 	projectile_gfx = "KTW_VLS_MR_projectile"
 	tags = { weapon_type_explosive }
@@ -359,7 +359,7 @@ weapon_component_template = {
 		cruiser = 2
 	}
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_vls_missiles_3" }
 	component_set = "KTW_VLS_3"
 	projectile_gfx = "KTW_VLS_ER_projectile"
 	tags = { weapon_type_explosive }
@@ -429,7 +429,7 @@ weapon_component_template = {
 		cruiser = 2
 	}
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_vls_missiles_3" }
 	component_set = "KTW_VLS_3"
 	projectile_gfx = "KTW_VLS_MR_projectile"
 	tags = { weapon_type_explosive }
@@ -502,7 +502,7 @@ weapon_component_template = {
 		cruiser = 2
 	}
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_vls_missiles_4" }
 	component_set = "KTW_VLS_4"
 	projectile_gfx = "KTW_VLS_ER_projectile"
 	tags = { weapon_type_explosive }
@@ -572,7 +572,7 @@ weapon_component_template = {
 		cruiser = 2
 	}
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_vls_missiles_4" }
 	component_set = "KTW_VLS_4"
 	projectile_gfx = "KTW_VLS_MR_projectile"
 	tags = { weapon_type_explosive }
@@ -645,7 +645,7 @@ weapon_component_template = {
 		cruiser = 2
 	}
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_vls_missiles_5" }
 	component_set = "KTW_VLS_5"
 	projectile_gfx = "KTW_VLS_ER_projectile"
 	tags = { weapon_type_explosive }
@@ -715,7 +715,7 @@ weapon_component_template = {
 		cruiser = 2
 	}
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_vls_missiles_5" }
 	component_set = "KTW_VLS_5"
 	projectile_gfx = "KTW_VLS_MR_projectile"
 	tags = { weapon_type_explosive }
@@ -788,7 +788,7 @@ weapon_component_template = {
 		cruiser = 2
 	}
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_vls_missiles_6" }
 	component_set = "KTW_VLS_6"
 	projectile_gfx = "KTW_VLS_ER_projectile"
 	tags = { weapon_type_explosive }
@@ -858,7 +858,7 @@ weapon_component_template = {
 		cruiser = 2
 	}
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_vls_missiles_6" }
 	component_set = "KTW_VLS_6"
 	projectile_gfx = "KTW_VLS_MR_projectile"
 	tags = { weapon_type_explosive }
@@ -931,7 +931,7 @@ weapon_component_template = {
 		cruiser = 2
 	}
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_vls_missiles_7" }
 	component_set = "KTW_VLS_7"
 	projectile_gfx = "KTW_VLS_ER_projectile"
 	tags = { weapon_type_explosive }
@@ -1000,7 +1000,7 @@ weapon_component_template = {
 		cruiser = 2
 	}
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_vls_missiles_7" }
 	component_set = "KTW_VLS_7"
 	projectile_gfx = "KTW_VLS_MR_projectile"
 	tags = { weapon_type_explosive }

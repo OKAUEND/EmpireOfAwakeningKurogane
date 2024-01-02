@@ -53,7 +53,7 @@ weapon_component_template = {
 	shield_damage = 0.5
 	tracking = 0.1
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_shock_canon_1" }
 	component_set = "KTW_PLASMA_SHOCK_CANNON_1"
 	projectile_gfx = "KTW_plasma_shock_cannon_L"
 	tags = { weapon_type_energy }
@@ -105,7 +105,7 @@ weapon_component_template = {
 	shield_damage = 0.5
 	tracking = 0.3
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_shock_canon_1" }
 	component_set = "KTW_PLASMA_SHOCK_CANNON_1"
 	projectile_gfx = "KTW_plasma_shock_cannon_M"
 	tags = { weapon_type_energy }
@@ -157,7 +157,7 @@ weapon_component_template = {
 	shield_damage = 0.5
 	tracking = 0.6
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_shock_canon_1" }
 	component_set = "KTW_PLASMA_SHOCK_CANNON_1"
 	projectile_gfx = "KTW_plasma_shock_cannon_S"
 	tags = { weapon_type_energy }
@@ -212,7 +212,7 @@ weapon_component_template = {
 	shield_damage = 0.5
 	tracking = 0.1
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_shock_canon_2" }
 	component_set = "KTW_PLASMA_SHOCK_CANNON_2"
 	projectile_gfx = "KTW_plasma_shock_cannon_L"
 	tags = { weapon_type_energy }
@@ -264,7 +264,7 @@ weapon_component_template = {
 	shield_damage = 0.5
 	tracking = 0.3
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_shock_canon_2" }
 	component_set = "KTW_PLASMA_SHOCK_CANNON_2"
 	projectile_gfx = "KTW_plasma_shock_cannon_M"
 	tags = { weapon_type_energy }
@@ -316,7 +316,7 @@ weapon_component_template = {
 	shield_damage = 0.5
 	tracking = 0.6
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_shock_canon_2" }
 	component_set = "KTW_PLASMA_SHOCK_CANNON_2"
 	projectile_gfx = "KTW_plasma_shock_cannon_S"
 	tags = { weapon_type_energy }
@@ -372,7 +372,7 @@ weapon_component_template = {
 	shield_damage = 0.5
 	tracking = 0.1
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_shock_canon_3" }
 	component_set = "KTW_PLASMA_SHOCK_CANNON_3"
 	projectile_gfx = "KTW_plasma_shock_cannon_L"
 	tags = { weapon_type_energy }
@@ -424,7 +424,7 @@ weapon_component_template = {
 	shield_damage = 0.5
 	tracking = 0.3
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_shock_canon_3" }
 	component_set = "KTW_PLASMA_SHOCK_CANNON_3"
 	projectile_gfx = "KTW_plasma_shock_cannon_M"
 	tags = { weapon_type_energy }
@@ -476,7 +476,7 @@ weapon_component_template = {
 	shield_damage = 0.5
 	tracking = 0.6
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_shock_canon_3" }
 	component_set = "KTW_PLASMA_SHOCK_CANNON_3"
 	projectile_gfx = "KTW_plasma_shock_cannon_S"
 	tags = { weapon_type_energy }
@@ -531,7 +531,7 @@ weapon_component_template = {
 	shield_damage = 0.5
 	tracking = 0.1
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_shock_canon_4" }
 	component_set = "KTW_PLASMA_SHOCK_CANNON_4"
 	projectile_gfx = "KTW_plasma_shock_cannon_L"
 	tags = { weapon_type_energy }
@@ -583,7 +583,7 @@ weapon_component_template = {
 	shield_damage = 0.5
 	tracking = 0.3
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_shock_canon_4" }
 	component_set = "KTW_PLASMA_SHOCK_CANNON_4"
 	projectile_gfx = "KTW_plasma_shock_cannon_M"
 	tags = { weapon_type_energy }
@@ -635,7 +635,7 @@ weapon_component_template = {
 	shield_damage = 0.5
 	tracking = 0.6
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_shock_canon_4" }
 	component_set = "KTW_PLASMA_SHOCK_CANNON_4"
 	projectile_gfx = "KTW_plasma_shock_cannon_S"
 	tags = { weapon_type_energy }
@@ -690,7 +690,7 @@ weapon_component_template = {
 	shield_damage = 0.5
 	tracking = 0.1
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_shock_canon_5" }
 	component_set = "KTW_PLASMA_SHOCK_CANNON_5"
 	projectile_gfx = "KTW_plasma_shock_cannon_L"
 	tags = { weapon_type_energy }
@@ -742,7 +742,7 @@ weapon_component_template = {
 	shield_damage = 0.5
 	tracking = 0.3
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_shock_canon_5" }
 	component_set = "KTW_PLASMA_SHOCK_CANNON_5"
 	projectile_gfx = "KTW_plasma_shock_cannon_M"
 	tags = { weapon_type_energy }
@@ -794,7 +794,7 @@ weapon_component_template = {
 	shield_damage = 0.5
 	tracking = 0.6
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_shock_canon_5" }
 	component_set = "KTW_PLASMA_SHOCK_CANNON_5"
 	projectile_gfx = "KTW_plasma_shock_cannon_S"
 	tags = { weapon_type_energy }
@@ -849,7 +849,7 @@ weapon_component_template = {
 	shield_damage = 0.5
 	tracking = 0.1
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_shock_canon_6" }
 	component_set = "KTW_PLASMA_SHOCK_CANNON_6"
 	projectile_gfx = "KTW_plasma_shock_cannon_L"
 	tags = { weapon_type_energy }
@@ -901,7 +901,7 @@ weapon_component_template = {
 	shield_damage = 0.5
 	tracking = 0.3
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_shock_canon_6" }
 	component_set = "KTW_PLASMA_SHOCK_CANNON_6"
 	projectile_gfx = "KTW_plasma_shock_cannon_M"
 	tags = { weapon_type_energy }
@@ -953,7 +953,7 @@ weapon_component_template = {
 	shield_damage = 0.5
 	tracking = 0.6
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_shock_canon_6" }
 	component_set = "KTW_PLASMA_SHOCK_CANNON_6"
 	projectile_gfx = "KTW_plasma_shock_cannon_S"
 	tags = { weapon_type_energy }
@@ -1009,7 +1009,7 @@ weapon_component_template = {
 	shield_damage = 0.5
 	tracking = 0.1
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_shock_canon_7" }
 	component_set = "KTW_PLASMA_SHOCK_CANNON_7"
 	projectile_gfx = "KTW_plasma_shock_cannon_L"
 	tags = { weapon_type_energy }
@@ -1060,7 +1060,7 @@ weapon_component_template = {
 	shield_damage = 0.5
 	tracking = 0.3
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_shock_canon_7" }
 	component_set = "KTW_PLASMA_SHOCK_CANNON_7"
 	projectile_gfx = "KTW_plasma_shock_cannon_M"
 	tags = { weapon_type_energy }
@@ -1111,7 +1111,7 @@ weapon_component_template = {
 	shield_damage = 0.5
 	tracking = 0.6
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_shock_canon_7" }
 	component_set = "KTW_PLASMA_SHOCK_CANNON_7"
 	projectile_gfx = "KTW_plasma_shock_cannon_S"
 	tags = { weapon_type_energy }
