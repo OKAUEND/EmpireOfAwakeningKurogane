@@ -29,7 +29,7 @@ weapon_component_template = {
 	type = missile
 
 
-	power = -160
+	power = @KWT_large_weapon_power_tier1
 	damage = { min = 750 max = 800 }
 	windup = { min = 1 max = 15 }
 	total_fire_time = 120
@@ -98,7 +98,7 @@ weapon_component_template = {
 	type = missile
 
 
-	power = -75
+	power = @KWT_medium_weapon_power_tier1
 	damage = { min = 400 max = 500 }
 	windup = { min = 1 max = 15 }
 	total_fire_time = 100
@@ -170,7 +170,7 @@ weapon_component_template = {
 	type = missile
 
 
-	power = -160
+	power = @KWT_large_weapon_power_tier2
 	damage = { min = 750 max = 800 }
 	windup = { min = 1 max = 15 }
 	total_fire_time = 120
@@ -239,7 +239,7 @@ weapon_component_template = {
 	type = missile
 
 
-	power = -75
+	power = @KWT_medium_weapon_power_tier2
 	damage = { min = 400 max = 500 }
 	windup = { min = 1 max = 15 }
 	total_fire_time = 100
@@ -312,7 +312,7 @@ weapon_component_template = {
 	type = missile
 
 
-	power = -160
+	power = @KWT_large_weapon_power_tier3
 	damage = { min = 750 max = 800 }
 	windup = { min = 1 max = 15 }
 	total_fire_time = 120
@@ -381,7 +381,7 @@ weapon_component_template = {
 	type = missile
 
 
-	power = -75
+	power = @KWT_medium_weapon_power_tier3
 	damage = { min = 400 max = 500 }
 	windup = { min = 1 max = 15 }
 	total_fire_time = 100
@@ -453,7 +453,7 @@ weapon_component_template = {
 	type = missile
 
 
-	power = -160
+	power = @KWT_large_weapon_power_tier4
 	damage = { min = 750 max = 800 }
 	windup = { min = 1 max = 15 }
 	total_fire_time = 120
@@ -522,7 +522,7 @@ weapon_component_template = {
 	type = missile
 
 
-	power = -75
+	power = @KWT_medium_weapon_power_tier4
 	damage = { min = 400 max = 500 }
 	windup = { min = 1 max = 15 }
 	total_fire_time = 100
@@ -594,7 +594,7 @@ weapon_component_template = {
 	type = missile
 
 
-	power = -160
+	power = @KWT_large_weapon_power_tier5
 	damage = { min = 750 max = 800 }
 	windup = { min = 1 max = 15 }
 	total_fire_time = 120
@@ -663,7 +663,7 @@ weapon_component_template = {
 	type = missile
 
 
-	power = -75
+	power = @KWT_medium_weapon_power_tier5
 	damage = { min = 400 max = 500 }
 	windup = { min = 1 max = 15 }
 	total_fire_time = 100
@@ -735,7 +735,7 @@ weapon_component_template = {
 	type = missile
 
 
-	power = -160
+	power = @KWT_large_weapon_power_tier6
 	damage = { min = 750 max = 800 }
 	windup = { min = 1 max = 15 }
 	total_fire_time = 120
@@ -804,7 +804,7 @@ weapon_component_template = {
 	type = missile
 
 
-	power = -75
+	power = @KWT_medium_weapon_power_tier6
 	damage = { min = 400 max = 500 }
 	windup = { min = 1 max = 15 }
 	total_fire_time = 100
@@ -876,7 +876,7 @@ weapon_component_template = {
 	type = missile
 
 
-	power = -160
+	power = @KWT_large_weapon_power_tier7
 	damage = { min = 750 max = 800 }
 	windup = { min = 1 max = 15 }
 	total_fire_time = 120
@@ -945,7 +945,7 @@ weapon_component_template = {
 	type = missile
 
 
-	power = -75
+	power = @KWT_medium_weapon_power_tier7
 	damage = { min = 400 max = 500 }
 	windup = { min = 1 max = 15 }
 	total_fire_time = 100

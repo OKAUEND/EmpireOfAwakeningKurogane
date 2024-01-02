@@ -29,10 +29,10 @@ weapon_component_template = {
 
 	damage = { min = 245 max = 720 }
 	windup = { min = 9 max = 34 }
-	total_fire_time = 50
+	total_fire_time = @KWT_WEAPON_LARGE_COOLDOWN
 	range = 155
 	accuracy = 0.75
-	power = -110
+	power = @KWT_large_weapon_power_tier1
 
 	resources = {
 		category = ship_components
@@ -86,10 +86,10 @@ weapon_component_template = {
 
 	damage = { min = 160 max = 500 }
 	windup = { min = 9 max = 34 }
-	total_fire_time = 50
+	total_fire_time = @KWT_WEAPON_MEDIUM_COOLDOWN
 	range = 115
 	accuracy = 0.75
-	power = -65
+	power = @KWT_medium_weapon_power_tier1
 
 	resources = {
 		category = ship_components
@@ -141,10 +141,10 @@ weapon_component_template = {
 
 	damage = { min = 70 max = 300 }
 	windup = { min = 9 max = 34 }
-	total_fire_time = 50
+	total_fire_time = @KWT_WEAPON_SMALL_COOLDOWN
 	range = 90
 	accuracy = 0.75
-	power = -27
+	power = @KWT_small_weapon_power_tier1
 
 	resources = {
 		category = ship_components
@@ -195,10 +195,10 @@ weapon_component_template = {
 
 	damage = { min = 245 max = 720 }
 	windup = { min = 9 max = 34 }
-	total_fire_time = 50
+	total_fire_time = @KWT_WEAPON_LARGE_COOLDOWN
 	range = 155
 	accuracy = 0.75
-	power = -110
+	power = @KWT_large_weapon_power_tier2
 
 	resources = {
 		category = ship_components
@@ -252,10 +252,10 @@ weapon_component_template = {
 
 	damage = { min = 160 max = 500 }
 	windup = { min = 9 max = 34 }
-	total_fire_time = 50
+	total_fire_time = @KWT_WEAPON_MEDIUM_COOLDOWN
 	range = 115
 	accuracy = 0.75
-	power = -65
+	power = @KWT_medium_weapon_power_tier2
 
 	resources = {
 		category = ship_components
@@ -307,10 +307,10 @@ weapon_component_template = {
 
 	damage = { min = 70 max = 300 }
 	windup = { min = 9 max = 34 }
-	total_fire_time = 50
+	total_fire_time = @KWT_WEAPON_SMALL_COOLDOWN
 	range = 90
 	accuracy = 0.75
-	power = -27
+	power = @KWT_small_weapon_power_tier2
 
 	resources = {
 		category = ship_components
@@ -361,10 +361,10 @@ weapon_component_template = {
 
 	damage = { min = 245 max = 720 }
 	windup = { min = 9 max = 34 }
-	total_fire_time = 50
+	total_fire_time = @KWT_WEAPON_LARGE_COOLDOWN
 	range = 155
 	accuracy = 0.75
-	power = -110
+	power = @KWT_large_weapon_power_tier3
 
 	resources = {
 		category = ship_components
@@ -418,10 +418,10 @@ weapon_component_template = {
 
 	damage = { min = 160 max = 500 }
 	windup = { min = 9 max = 34 }
-	total_fire_time = 50
+	total_fire_time = @KWT_WEAPON_MEDIUM_COOLDOWN
 	range = 115
 	accuracy = 0.75
-	power = -65
+	power = @KWT_medium_weapon_power_tier3
 
 	resources = {
 		category = ship_components
@@ -473,10 +473,10 @@ weapon_component_template = {
 
 	damage = { min = 70 max = 300 }
 	windup = { min = 9 max = 34 }
-	total_fire_time = 50
+	total_fire_time = @KWT_WEAPON_SMALL_COOLDOWN
 	range = 90
 	accuracy = 0.75
-	power = -27
+	power = @KWT_small_weapon_power_tier3
 
 	resources = {
 		category = ship_components
@@ -528,10 +528,10 @@ weapon_component_template = {
 
 	damage = { min = 245 max = 720 }
 	windup = { min = 9 max = 34 }
-	total_fire_time = 50
+	total_fire_time = @KWT_WEAPON_LARGE_COOLDOWN
 	range = 155
 	accuracy = 0.75
-	power = -110
+	power = @KWT_large_weapon_power_tier4
 
 	resources = {
 		category = ship_components
@@ -585,10 +585,10 @@ weapon_component_template = {
 
 	damage = { min = 160 max = 500 }
 	windup = { min = 9 max = 34 }
-	total_fire_time = 50
+	total_fire_time = @KWT_WEAPON_MEDIUM_COOLDOWN
 	range = 115
 	accuracy = 0.75
-	power = -65
+	power = @KWT_medium_weapon_power_tier4
 
 	resources = {
 		category = ship_components
@@ -640,10 +640,10 @@ weapon_component_template = {
 
 	damage = { min = 70 max = 300 }
 	windup = { min = 9 max = 34 }
-	total_fire_time = 50
+	total_fire_time = @KWT_WEAPON_SMALL_COOLDOWN
 	range = 90
 	accuracy = 0.75
-	power = -27
+	power = @KWT_small_weapon_power_tier4
 
 	resources = {
 		category = ship_components
@@ -695,10 +695,10 @@ weapon_component_template = {
 
 	damage = { min = 245 max = 720 }
 	windup = { min = 9 max = 34 }
-	total_fire_time = 50
+	total_fire_time = @KWT_WEAPON_LARGE_COOLDOWN
 	range = 155
 	accuracy = 0.75
-	power = -110
+	power = @KWT_large_weapon_power_tier5
 
 	resources = {
 		category = ship_components
@@ -752,10 +752,10 @@ weapon_component_template = {
 
 	damage = { min = 160 max = 500 }
 	windup = { min = 9 max = 34 }
-	total_fire_time = 50
+	total_fire_time = @KWT_WEAPON_MEDIUM_COOLDOWN
 	range = 115
 	accuracy = 0.75
-	power = -65
+	power = @KWT_medium_weapon_power_tier5
 
 	resources = {
 		category = ship_components
@@ -807,10 +807,10 @@ weapon_component_template = {
 
 	damage = { min = 70 max = 300 }
 	windup = { min = 9 max = 34 }
-	total_fire_time = 50
+	total_fire_time = @KWT_WEAPON_SMALL_COOLDOWN
 	range = 90
 	accuracy = 0.75
-	power = -27
+	power = @KWT_small_weapon_power_tier5
 
 	resources = {
 		category = ship_components
@@ -862,10 +862,10 @@ weapon_component_template = {
 
 	damage = { min = 245 max = 720 }
 	windup = { min = 9 max = 34 }
-	total_fire_time = 50
+	total_fire_time = @KWT_WEAPON_LARGE_COOLDOWN
 	range = 155
 	accuracy = 0.75
-	power = -110
+	power = @KWT_large_weapon_power_tier6
 
 	resources = {
 		category = ship_components
@@ -919,10 +919,10 @@ weapon_component_template = {
 
 	damage = { min = 160 max = 500 }
 	windup = { min = 9 max = 34 }
-	total_fire_time = 50
+	total_fire_time = @KWT_WEAPON_MEDIUM_COOLDOWN
 	range = 115
 	accuracy = 0.75
-	power = -65
+	power = @KWT_medium_weapon_power_tier6
 
 	resources = {
 		category = ship_components
@@ -974,10 +974,10 @@ weapon_component_template = {
 
 	damage = { min = 70 max = 300 }
 	windup = { min = 9 max = 34 }
-	total_fire_time = 50
+	total_fire_time = @KWT_WEAPON_SMALL_COOLDOWN
 	range = 90
 	accuracy = 0.75
-	power = -27
+	power = @KWT_small_weapon_power_tier6
 
 	resources = {
 		category = ship_components
@@ -1029,10 +1029,10 @@ weapon_component_template = {
 
 	damage = { min = 245 max = 720 }
 	windup = { min = 9 max = 34 }
-	total_fire_time = 50
+	total_fire_time = @KWT_WEAPON_LARGE_COOLDOWN
 	range = 155
 	accuracy = 0.75
-	power = -110
+	power = @KWT_large_weapon_power_tier7
 
 	resources = {
 		category = ship_components
@@ -1086,10 +1086,10 @@ weapon_component_template = {
 
 	damage = { min = 160 max = 500 }
 	windup = { min = 9 max = 34 }
-	total_fire_time = 50
+	total_fire_time = @KWT_WEAPON_MEDIUM_COOLDOWN
 	range = 115
 	accuracy = 0.75
-	power = -65
+	power = @KWT_medium_weapon_power_tier7
 
 	resources = {
 		category = ship_components
@@ -1141,10 +1141,10 @@ weapon_component_template = {
 
 	damage = { min = 70 max = 300 }
 	windup = { min = 9 max = 34 }
-	total_fire_time = 50
+	total_fire_time = @KWT_WEAPON_SMALL_COOLDOWN
 	range = 90
 	accuracy = 0.75
-	power = -27
+	power = @KWT_small_weapon_power_tier7
 
 	resources = {
 		category = ship_components

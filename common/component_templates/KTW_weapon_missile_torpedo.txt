@@ -25,7 +25,7 @@ weapon_component_template = {
 	type = missile
 
 
-	power = -55
+	power = @KWT_torpedo_weapon_power_tier1
 	damage = { min = 200 max = 300 }
 	windup = { min = 1 max = 55 }
 	total_fire_time = 250
@@ -94,7 +94,7 @@ weapon_component_template = {
 	type = missile
 
 
-	power = -55
+	power = @KWT_torpedo_weapon_power_tier2
 	damage = { min = 200 max = 300 }
 	windup = { min = 1 max = 55 }
 	total_fire_time = 250
@@ -163,7 +163,7 @@ weapon_component_template = {
 	type = missile
 
 
-	power = -55
+	power = @KWT_torpedo_weapon_power_tier3
 	damage = { min = 200 max = 300 }
 	windup = { min = 1 max = 55 }
 	total_fire_time = 250
@@ -232,7 +232,7 @@ weapon_component_template = {
 	type = missile
 
 
-	power = -55
+	power = @KWT_torpedo_weapon_power_tier4
 	damage = { min = 200 max = 300 }
 	windup = { min = 1 max = 55 }
 	total_fire_time = 250
@@ -301,7 +301,7 @@ weapon_component_template = {
 	type = missile
 
 
-	power = -55
+	power = @KWT_torpedo_weapon_power_tier5
 	damage = { min = 200 max = 300 }
 	windup = { min = 1 max = 55 }
 	total_fire_time = 250

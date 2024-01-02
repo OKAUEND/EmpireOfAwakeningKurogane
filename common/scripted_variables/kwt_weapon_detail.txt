@@ -1,0 +1,45 @@
+############################################################
+###               Weapons Detail                         ###
+############################################################
+# 消費電力
+# S-サイズ
+@KWT_small_weapon_power_tier1 = -5
+@KWT_small_weapon_power_tier2 = -7
+@KWT_small_weapon_power_tier3 = -10
+@KWT_small_weapon_power_tier4 = -13
+@KWT_small_weapon_power_tier5 = -17
+@KWT_small_weapon_power_tier6 = -20
+@KWT_small_weapon_power_tier7 = -34
+
+# M-サイズ
+@KWT_medium_weapon_power_tier1 = -13
+@KWT_medium_weapon_power_tier2 = -17
+@KWT_medium_weapon_power_tier3 = -23
+@KWT_medium_weapon_power_tier4 = -30
+@KWT_medium_weapon_power_tier5 = -39
+@KWT_medium_weapon_power_tier6 = -46
+@KWT_medium_weapon_power_tier7 = -66
+
+# L-サイズ
+@KWT_large_weapon_power_tier1 = -30
+@KWT_large_weapon_power_tier2 = -39
+@KWT_large_weapon_power_tier3 = -51
+@KWT_large_weapon_power_tier4 = -67
+@KWT_large_weapon_power_tier5 = -88
+@KWT_large_weapon_power_tier6 = -88
+@KWT_large_weapon_power_tier7 = -90
+
+#重対艦弾
+@KWT_large_heavy_missile_weapon_power_tier1 = -100
+@KWT_large_heavy_missile_weapon_power_tier2 = -150
+@KWT_large_heavy_missile_weapon_power_tier3 = -200
+@KWT_large_heavy_missile_weapon_power_tier4 = -250
+
+#魚雷
+@KWT_torpedo_weapon_power_tier1 = -20
+@KWT_torpedo_weapon_power_tier2 = -26
+@KWT_torpedo_weapon_power_tier3 = -34
+@KWT_torpedo_weapon_power_tier4 = -42
+@KWT_torpedo_weapon_power_tier5 = -51
+
+

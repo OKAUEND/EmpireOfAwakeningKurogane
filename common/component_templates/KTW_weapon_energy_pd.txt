@@ -28,7 +28,7 @@ weapon_component_template = {
 	total_fire_time = 1
 	range = 80
 	accuracy = 0.9
-	power = -24
+	power = @KWT_small_weapon_power_tier1
 
 	resources = {
 		category = ship_components
@@ -79,7 +79,7 @@ weapon_component_template = {
 	total_fire_time = 1
 	range = 80
 	accuracy = 0.9
-	power = -24
+	power = @KWT_small_weapon_power_tier1
 
 	resources = {
 		category = ship_components
@@ -133,7 +133,7 @@ weapon_component_template = {
 	total_fire_time = 1
 	range = 80
 	accuracy = 0.9
-	power = -24
+	power = @KWT_small_weapon_power_tier2
 
 	resources = {
 		category = ship_components
@@ -184,7 +184,7 @@ weapon_component_template = {
 	total_fire_time = 1
 	range = 80
 	accuracy = 0.9
-	power = -24
+	power = @KWT_small_weapon_power_tier2
 
 	resources = {
 		category = ship_components
@@ -238,7 +238,7 @@ weapon_component_template = {
 	total_fire_time = 1
 	range = 80
 	accuracy = 0.9
-	power = -24
+	power = @KWT_small_weapon_power_tier3
 
 	resources = {
 		category = ship_components
@@ -289,7 +289,7 @@ weapon_component_template = {
 	total_fire_time = 1
 	range = 80
 	accuracy = 0.9
-	power = -24
+	power = @KWT_small_weapon_power_tier3
 
 	resources = {
 		category = ship_components
@@ -343,7 +343,7 @@ weapon_component_template = {
 	total_fire_time = 1
 	range = 80
 	accuracy = 0.9
-	power = -24
+	power = @KWT_small_weapon_power_tier4
 
 	resources = {
 		category = ship_components
@@ -394,7 +394,7 @@ weapon_component_template = {
 	total_fire_time = 1
 	range = 80
 	accuracy = 0.9
-	power = -24
+	power = @KWT_small_weapon_power_tier4
 
 	resources = {
 		category = ship_components
@@ -449,7 +449,7 @@ weapon_component_template = {
 	total_fire_time = 1
 	range = 80
 	accuracy = 0.9
-	power = -24
+	power = @KWT_small_weapon_power_tier5
 
 	resources = {
 		category = ship_components
@@ -500,7 +500,7 @@ weapon_component_template = {
 	total_fire_time = 1
 	range = 80
 	accuracy = 0.9
-	power = -24
+	power = @KWT_small_weapon_power_tier5
 
 	resources = {
 		category = ship_components
