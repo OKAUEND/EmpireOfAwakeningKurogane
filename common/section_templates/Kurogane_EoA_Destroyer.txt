@@ -42,7 +42,7 @@ ship_section_template = {
 		locatorname = "small_gun_03"
 	}
 
-	prerequisites = { "tech_KTW_colossus" }
+	# prerequisites = { "tech_KTW_colossus" }
 
 	small_utility_slots = 8
 
@@ -100,7 +100,7 @@ ship_section_template = {
 		locatorname = "small_gun_02"
 	}
 
-	prerequisites = { "tech_KTW_colossus" }
+	# prerequisites = { "tech_KTW_colossus" }
 
 	small_utility_slots = 6
 
@@ -160,7 +160,7 @@ ship_section_template = {
 		locatorname = "small_gun_03"
 	}
 
-	prerequisites = { "tech_KTW_colossus" }
+	# prerequisites = { "tech_KTW_colossus" }
 
 	small_utility_slots = 8
 
@@ -195,7 +195,7 @@ ship_section_template = {
 		locatorname = "large_gun_01"
 	}
 
-	prerequisites = { "tech_KTW_colossus" }
+	# prerequisites = { "tech_KTW_colossus" }
 
 	small_utility_slots = 6
 
@@ -219,7 +219,7 @@ ship_section_template = {
 	icon = "GFX_ship_part_core_bow"
 
 
-	prerequisites = { "tech_KTW_colossus" }
+	# prerequisites = { "tech_KTW_colossus" }
 
 	aux_utility_slots = 1
 
