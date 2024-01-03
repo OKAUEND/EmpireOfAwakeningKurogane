@@ -1,0 +1,403 @@
+# ############################################
+#  黒鐵式対空榴弾砲
+#  黒鐵式対空光子榴弾砲
+# ############################################
+#  - Tier 1
+#   - 対空榴弾砲壱型(SML)
+#   - 対空光子榴弾砲壱型(SML)
+#  - Tier 3
+#   - 対空榴弾砲参型(SML)
+#   - 対空光子榴弾砲参型(SML)
+#  - Tier 5
+#   - 対空榴弾砲伍型(SML)
+#   - 対空光子榴弾砲伍型(SML)
+#  - Tier 6
+#   - 対空榴弾砲陸型(SML)
+#   - 対空光子榴弾砲陸型(SML)
+#  - Tier 7
+#   - 対空榴弾砲漆型(SML)
+#   - 対空光子榴弾砲漆型(SML)
+#############################################
+
+tech_ktw_flak_batteries_1 = {
+	area = engineering
+	tier = 0
+	category = { propulsion }
+	ai_update_type = military
+	start_tech = yes
+
+	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
+	}
+}
+
+tech_ktw_flak_batteries_2 = {
+	area = engineering
+	cost = @tier2cost3
+	tier = 3
+	category = { propulsion }
+	ai_update_type = military
+	prerequisites = { "tech_ktw_flak_batteries_1" }
+	weight = @tier2weight3
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+
+		modifier = {
+			factor = @favored_weapon_ai_tech_factor
+			is_preferred_weapons = weapon_type_strike_craft
+		}
+		modifier = {
+			factor = @disfavored_weapon_ai_tech_factor
+			NOT = { is_preferred_weapons = weapon_type_strike_craft }
+		}
+	}
+}
+
+tech_ktw_flak_batteries_3 = {
+	area = engineering
+	cost = @tier4cost1
+	tier = 4
+	category = { propulsion }
+	ai_update_type = military
+	prerequisites = { "tech_ktw_flak_batteries_2" }
+	weight = @tier4weight1
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+
+		modifier = {
+			factor = @favored_weapon_ai_tech_factor
+			is_preferred_weapons = weapon_type_strike_craft
+		}
+		modifier = {
+			factor = @disfavored_weapon_ai_tech_factor
+			NOT = { is_preferred_weapons = weapon_type_strike_craft }
+		}
+	}
+}
+
+
+tech_kwt_flak_cannon_4 = {
+	area = engineering
+	category = { propulsion }
+	tier = 5
+	cost = @tier5cost1
+	weight = @tier5weight1
+	ai_update_type = military
+	prerequisites = { "tech_ktw_flak_batteries_3" "esc_tech_new_age_warfare" }
+	gateway = ESC_FLAK_CANNONS
+
+	potential = {
+		NOT = { has_global_flag = ESC_GLOBAL_FLAG_adv_vanilla_pd_weapons_forbidden }
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.9
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.95
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.05
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.1
+			has_ethic = ethic_fanatic_militarist
+		}
+	}
+
+	ai_weight = {
+		factor = @ESC_AI_tech_weight_multiplier
+		modifier = {
+			factor = 0.9
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.95
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.05
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.1
+			has_ethic = ethic_fanatic_militarist
+		}
+	}
+}
+
+############################################################
+##                     Ironcloud Defender                 ##
+############################################################
+
+tech_kwt_flak_cannon_5 = {
+	area = engineering
+	category = { propulsion }
+	tier = 5
+	cost = @tier5cost3
+	weight = @tier5weight3
+	ai_update_type = military
+	prerequisites = { "tech_kwt_flak_cannon_4" }
+	is_rare = yes
+
+	potential = {
+		NOT = { has_global_flag = ESC_GLOBAL_FLAG_adv_vanilla_pd_weapons_forbidden }
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.9
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.95
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.05
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.1
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+	}
+
+	ai_weight = {
+		factor = @ESC_AI_tech_weight_multiplier
+		modifier = {
+			factor = 0.9
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.95
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.05
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.1
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+	}
+}
+
+# ############################################
+#  黒鐵式対空榴弾砲
+#  黒鐵式対空光子榴弾砲
+# ############################################
+#  - Tier 1
+#   - 対空榴弾砲壱型(SML)
+#   - 対空光子榴弾砲壱型(SML)
+#  - Tier 3
+#   - 対空榴弾砲参型(SML)
+#   - 対空光子榴弾砲参型(SML)
+#  - Tier 5
+#   - 対空榴弾砲伍型(SML)
+#   - 対空光子榴弾砲伍型(SML)
+#  - Tier 6
+#   - 対空榴弾砲陸型(SML)
+#   - 対空光子榴弾砲陸型(SML)
+#  - Tier 7
+#   - 対空榴弾砲漆型(SML)
+#   - 対空光子榴弾砲漆型(SML)
+#############################################
+#Active Countermeasures
+tech_kwt_pd_tracking_1 = {
+	area = physics
+	tier = 0
+	category = { computing }
+	ai_update_type = military
+	start_tech = yes
+
+	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
+	}
+}
+
+#Interlinked Support Systems
+tech_kwt_pd_tracking_2 = {
+	area = physics
+	tier = 2
+	cost = @tier2cost3
+	category = { computing }
+	ai_update_type = military
+	prerequisites = { "tech_kwt_pd_tracking_1" }
+	weight = @tier2weight3
+
+	# unlocks point defence 2
+
+	weight_modifier = {
+		
+	}
+
+	ai_weight = {
+		
+		modifier = {
+			factor = @favored_weapon_ai_tech_factor
+			is_preferred_weapons = weapon_type_strike_craft
+		}
+		modifier = {
+			factor = @disfavored_weapon_ai_tech_factor
+			NOT = { is_preferred_weapons = weapon_type_strike_craft }
+		}
+	}
+}
+
+#Predictive Algorithms
+tech_kwt_pd_tracking_3 = {
+	area = physics
+	tier = 4
+	cost = @tier4cost1
+	category = { computing }
+	ai_update_type = military
+	prerequisites = { "tech_kwt_pd_tracking_2" }
+	weight = @tier4weight1
+
+	# unlocks point defence 3
+
+	weight_modifier = {
+		
+	}
+
+	ai_weight = {
+		
+		modifier = {
+			factor = @favored_weapon_ai_tech_factor
+			is_preferred_weapons = weapon_type_strike_craft
+		}
+		modifier = {
+			factor = @disfavored_weapon_ai_tech_factor
+			NOT = { is_preferred_weapons = weapon_type_strike_craft }
+		}
+	}
+}
+
+
+tech_kwt_point_defense_4 = {
+    area = physics
+	category = { computing }
+	tier = 5
+	cost = @tier5cost1
+	weight = @tier5weight1
+	ai_update_type = military
+	prerequisites = { "tech_kwt_pd_tracking_3" "esc_tech_new_age_warfare" }
+	gateway = ESC_PD_CANNONS
+
+	potential = {
+		NOT = { has_global_flag = ESC_GLOBAL_FLAG_adv_vanilla_pd_weapons_forbidden }
+	}
+
+	weight_modifier = {
+	}
+
+	ai_weight = {
+		factor = @ESC_AI_tech_weight_multiplier
+	}
+}
+
+############################################################
+##                Iron Curtain Point-Defense              ##
+############################################################
+
+tech_kwt_point_defense_5 = {
+    area = physics
+	category = { computing }
+	tier = 5
+	cost = @tier5cost3
+	weight = @tier5weight3
+	ai_update_type = military
+	prerequisites = { "tech_kwt_point_defense_4" }
+	is_rare = yes
+
+	potential = {
+		NOT = { has_global_flag = ESC_GLOBAL_FLAG_adv_vanilla_pd_weapons_forbidden }
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+	}
+
+	ai_weight = {
+		factor = @ESC_AI_tech_weight_multiplier
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = tech_kwt_point_defense_5 }
+			}
+		}
+	}
+}

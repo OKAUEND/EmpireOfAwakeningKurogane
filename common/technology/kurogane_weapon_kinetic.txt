@@ -1,5 +1,21 @@
-
-# Mass Drivers
+# ############################################
+#  黒鐵式超電磁砲塔
+# ############################################
+#  - Tier 1
+#   - 超電磁砲壱型(SML)
+#  - Tier 2
+#   - 超電磁砲弐型(SML)
+#  - Tier 3
+#   - 超電磁砲参型(SML)
+#  - Tier 4
+#   - 超電磁砲肆型(SML)
+#  - Tier 5
+#   - 超電磁砲伍型(SML)
+#  - Tier 6
+#   - 超電磁砲陸型(SML)
+#  - Tier 7
+#   - 超電磁砲漆型(SML)
+#############################################
 tech_ktw_kinetic_1 = {
 	area = engineering
 	tier = 0
@@ -260,6 +276,260 @@ tech_ktw_kinetic_7 = {
 	weight = @tier5weight3
 	ai_update_type = military
 	prerequisites = { "tech_ktw_kinetic_6" "esc_tech_mass_driver_7" }
+	is_rare = yes
+
+	potential = {
+		NOT = { has_global_flag = ESC_GLOBAL_FLAG_adv_vanilla_kinetic_weapons_forbidden }
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.9
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.1
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.2
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = esc_tech_mass_driver_7 }
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = @ESC_AI_tech_weight_multiplier
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.9
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.1
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.2
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = esc_tech_mass_driver_7 }
+			}
+		}
+	}
+}
+
+# ############################################
+#  黑鐵型高射散弾砲塔
+# ############################################
+#  - Tier 1
+#   - 高射散弾砲塔壱型(SML)
+#  - Tier 3
+#   - 高射散弾砲塔弐型(SML)
+#  - Tier 5
+#   - 高射散弾砲塔参型(SML)
+#  - Tier 6
+#   - 高射散弾砲塔肆型(SML)
+#  - Tier 7
+#   - 高射散弾砲塔伍型(SML)
+#############################################
+tech_ktw_anti_air_kinetic_1 = {
+	area = engineering
+	tier = 0
+	category = { propulsion }
+	ai_update_type = military
+	start_tech = yes
+
+	potential = {
+		owner = {
+			AND = {
+				graphical_culture = fe_01
+				is_origin_empire_of_awaking = yes
+			}
+		}
+	}
+}
+
+# Railguns
+tech_ktw_anti_air_kinetic_2 = {
+	area = engineering
+	cost = @tier2cost1
+	tier = 2
+	category = { propulsion }
+	ai_update_type = military
+	prerequisites = { "tech_ktw_anti_air_kinetic_1" }
+	weight = @tier2weight1
+
+	gateway = kinetic_weapons
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+
+		modifier = {
+			factor = @favored_weapon_ai_tech_factor
+			is_preferred_weapons = weapon_type_kinetic
+		}
+		modifier = {
+			factor = @disfavored_weapon_ai_tech_factor
+			NOT = { is_preferred_weapons = weapon_type_kinetic }
+		}
+	}
+}
+
+# Gauss Cannons
+tech_ktw_anti_air_kinetic_3 = {
+	area = engineering
+	cost = @tier4cost1
+	tier = 4
+	category = { propulsion }
+	ai_update_type = military
+	prerequisites = { "tech_ktw_anti_air_kinetic_2" }
+	weight = @tier4weight1
+
+	gateway = kinetic_weapons
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+
+		modifier = {
+			factor = @favored_weapon_ai_tech_factor
+			is_preferred_weapons = weapon_type_kinetic
+		}
+		modifier = {
+			factor = @disfavored_weapon_ai_tech_factor
+			NOT = { is_preferred_weapons = weapon_type_kinetic }
+		}
+	}
+}
+
+
+tech_ktw_anti_air_kinetic_4 = {
+	area = engineering
+	category = { propulsion }
+	tier = 5
+	cost = @tier5cost1
+	weight = @tier5weight1
+	ai_update_type = military
+	prerequisites = { "tech_ktw_anti_air_kinetic_3" "esc_tech_new_age_warfare" }
+	gateway = ESC_MASS_DRIVERS
+
+	potential = {
+		NOT = { has_global_flag = ESC_GLOBAL_FLAG_adv_vanilla_kinetic_weapons_forbidden }
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.9
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.1
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.2
+			has_ethic = ethic_fanatic_militarist
+		}
+	}
+
+	ai_weight = {
+		factor = @ESC_AI_tech_weight_multiplier
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.9
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.1
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.2
+			has_ethic = ethic_fanatic_militarist
+		}
+	}
+}
+
+tech_ktw_anti_air_kinetic_5 = {
+	area = engineering
+	category = { propulsion }
+	tier = 5
+	cost = @tier5cost3
+	weight = @tier5weight3
+	ai_update_type = military
+	prerequisites = { "tech_ktw_anti_air_kinetic_4" }
 	is_rare = yes
 
 	potential = {

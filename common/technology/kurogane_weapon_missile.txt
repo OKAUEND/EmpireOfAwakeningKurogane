@@ -1,5 +1,22 @@
 
-# Nuclear Missiles
+# ############################################
+#  黒鐵式垂直打撃誘導弾
+# ############################################
+#  - Tier 1
+#   - 垂直打撃誘導弾壱型(SML)
+#  - Tier 2
+#   - 垂直打撃誘導弾弐型(SML)
+#  - Tier 3
+#   - 垂直打撃誘導弾参型(SML)
+#  - Tier 4
+#   - 垂直打撃誘導弾肆型(SML)
+#  - Tier 5
+#   - 垂直打撃誘導弾伍型(SML)
+#  - Tier 6
+#   - 垂直打撃誘導弾陸型(SML)
+#  - Tier 7
+#   - 垂直打撃誘導弾漆型(SML)
+# ############################################
 tech_ktw_vls_missiles_1 = {
 	area = engineering
 	tier = 0
@@ -251,6 +268,284 @@ tech_ktw_vls_missiles_7 = {
 	weight = @tier5weight3
 	ai_update_type = military
 	prerequisites = { "tech_ktw_vls_missiles_6" "esc_tech_missiles_7" }
+	is_rare	= yes
+
+	potential = {
+		NOT = { has_global_flag = ESC_GLOBAL_FLAG_adv_vanilla_missile_weapons_forbidden }
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.9
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.1
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.2
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = esc_tech_missiles_7 }
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = @ESC_AI_tech_weight_multiplier
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.9
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.1
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.2
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = @ap_technological_ascendancy_rare_tech
+			has_ascension_perk = ap_technological_ascendancy
+		}
+		modifier = {
+			factor = @federation_perk_factor
+			has_federation = yes
+			federation = {
+				has_federation_perk = rare_tech_boost
+				any_member = { has_technology = esc_tech_missiles_7 }
+			}
+		}
+	}
+}
+# ############################################
+#  黑鐵式噴進爆雷砲
+# ############################################
+#  - Tier 3
+#   - 噴進爆雷砲壱型(SML)
+##############################################
+# Marauder Missiles
+tech_ktw_rocket_torpedo = {
+	area = engineering
+	tier = 5
+	category = { propulsion }
+	ai_update_type = military
+	prerequisites = { "tech_ktw_vls_missiles_4" }
+	weight = @tier5weight1
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+
+		modifier = {
+			factor = @favored_weapon_ai_tech_factor
+			is_preferred_weapons = weapon_type_explosive
+		}
+		modifier = {
+			factor = @disfavored_weapon_ai_tech_factor
+			NOT = { is_preferred_weapons = weapon_type_explosive }
+		}
+	}
+}
+
+# ############################################
+#  黑鐵式対艦重誘導弾
+# ############################################
+#  - Tier 4
+#   - 対艦重誘導弾壱型(SML)
+#  - Tier 5
+#   - 対艦重誘導弾弐型(SML)
+#  - Tier 6
+#   - 対艦重誘導弾参型(SML)
+#  - Tier 7
+#   - 対艦重誘導弾肆型(SML)
+#############################################
+
+# Heavy Missiles
+tech_ktw_missiles_launcher_1 = {
+	area = engineering
+	cost = @tier4cost1
+	tier = 4
+	category = { propulsion }
+	ai_update_type = military
+	prerequisites = { "tech_ktw_missiles_launcher_4" }
+	weight = @tier4weight1
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+
+		modifier = {
+			factor = @favored_weapon_ai_tech_factor
+			is_preferred_weapons = weapon_type_explosive
+		}
+		modifier = {
+			factor = @disfavored_weapon_ai_tech_factor
+			NOT = { is_preferred_weapons = weapon_type_explosive }
+		}
+	}
+}
+
+# Marauder Missiles
+tech_ktw_missiles_launcher_2 = {
+	area = engineering
+	cost = @tier4cost2
+	tier = 4
+	category = { propulsion }
+	ai_update_type = military
+	prerequisites = { "tech_ktw_missiles_launcher_5" }
+	weight = @tier4weight2
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+
+		modifier = {
+			factor = @favored_weapon_ai_tech_factor
+			is_preferred_weapons = weapon_type_explosive
+		}
+		modifier = {
+			factor = @disfavored_weapon_ai_tech_factor
+			NOT = { is_preferred_weapons = weapon_type_explosive }
+		}
+	}
+}
+
+tech_ktw_missiles_launcher_3 = {
+	area = engineering
+	category = { propulsion }
+	tier = 5
+	cost = @tier5cost1
+	weight = @tier5weight1
+	ai_update_type = military
+	prerequisites = { "tech_ktw_missiles_launcher_6" "esc_tech_new_age_warfare" "esc_tech_missiles_6" }
+	gateway = ESC_ADVANCED_MISSILES
+
+	potential = {
+		NOT = { has_global_flag = ESC_GLOBAL_FLAG_adv_vanilla_missile_weapons_forbidden }
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.9
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.1
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.2
+			has_ethic = ethic_fanatic_militarist
+		}
+	}
+
+	ai_weight = {
+		factor = @ESC_AI_tech_weight_multiplier
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.9
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.1
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.2
+			has_ethic = ethic_fanatic_militarist
+		}
+	}
+}
+
+tech_ktw_missiles_launcher_4 = {
+	area = engineering
+	category = { propulsion }
+	tier = 5
+	cost = @tier5cost3
+	weight = @tier5weight3
+	ai_update_type = military
+	prerequisites = { "tech_ktw_missiles_launcher_7" }
 	is_rare	= yes
 
 	potential = {
