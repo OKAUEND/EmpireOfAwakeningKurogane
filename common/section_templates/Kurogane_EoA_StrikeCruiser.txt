@@ -54,7 +54,7 @@ ship_section_template = {
 		template = "KTW_turret_S"
 		locatorname = "small_gun_12"
 	}
-	prerequisites = { "tech_StrikeCruiser_1" }
+	prerequisites = { "tech_kurogane_extend"  "tech_StrikeCruiser_1" }
 
 	medium_utility_slots = 8
 
@@ -121,7 +121,7 @@ ship_section_template = {
 		template = "KTW_turret_S"
 		locatorname = "small_gun_02"
 	}
-	prerequisites = { "tech_StrikeCruiser_1" }
+	prerequisites = { "tech_kurogane_extend"  "tech_StrikeCruiser_1" }
 
 	medium_utility_slots = 8
 
@@ -177,7 +177,7 @@ ship_section_template = {
 		template = "KTW_invisible_small_fixed"
 		locatorname = "small_gun_06"
 	}
-	prerequisites = { "tech_StrikeCruiser_1" }
+	prerequisites = { "tech_kurogane_extend"  "tech_StrikeCruiser_1" }
 
 	medium_utility_slots = 8
 
@@ -243,7 +243,7 @@ ship_section_template = {
 		locatorname = "medium_gun_07"
 	}
 
-	prerequisites = { "tech_StrikeCruiser_1" }
+	prerequisites = { "tech_kurogane_extend"  "tech_StrikeCruiser_1" }
 
 	medium_utility_slots = 4
 
@@ -313,7 +313,7 @@ ship_section_template = {
 		locatorname = "small_gun_04"
 	}
 
-	prerequisites = { "tech_StrikeCruiser_1" }
+	prerequisites = { "tech_kurogane_extend"  "tech_StrikeCruiser_1" }
 
 	medium_utility_slots = 4
 
@@ -362,7 +362,7 @@ ship_section_template = {
 		locatorname = "small_gun_06"
 	}
 
-	prerequisites = { "tech_StrikeCruiser_1" }
+	prerequisites = { "tech_kurogane_extend"  "tech_StrikeCruiser_1" }
 
 	aux_utility_slots = 4
 
@@ -438,7 +438,7 @@ ship_section_template = {
 		locatorname = "small_gun_08"
 	}
 
-	prerequisites = { "tech_StrikeCruiser_1" }
+	prerequisites = { "tech_kurogane_extend"  "tech_StrikeCruiser_1" }
 
 	large_utility_slots = 5
 
@@ -511,7 +511,7 @@ ship_section_template = {
 		locatorname = "small_gun_08"
 	}
 
-	prerequisites = { "tech_StrikeCruiser_1" }
+	prerequisites = { "tech_kurogane_extend"  "tech_StrikeCruiser_1" }
 
 	large_utility_slots = 5
 
@@ -585,7 +585,7 @@ ship_section_template = {
 		locatorname = "small_gun_05"
 	}
 
-	prerequisites = { "tech_StrikeCruiser_1" }
+	prerequisites = { "tech_kurogane_extend"  "tech_StrikeCruiser_1" }
 
 	large_utility_slots = 5
 
@@ -658,7 +658,7 @@ ship_section_template = {
 		locatorname = "small_gun_05"
 	}
 
-	prerequisites = { "tech_StrikeCruiser_1" }
+	prerequisites = { "tech_kurogane_extend"  "tech_StrikeCruiser_1" }
 
 	large_utility_slots = 5
 
@@ -713,7 +713,7 @@ ship_section_template = {
 		locatorname = "small_gun_13"
 	}
 
-	prerequisites = { "tech_StrikeCruiser_1" }
+	prerequisites = { "tech_kurogane_extend"  "tech_StrikeCruiser_1" }
 
 	aux_utility_slots = 4
 
@@ -767,7 +767,7 @@ ship_section_template = {
 		locatorname = "small_gun_13"
 	}
 
-	prerequisites = { "tech_StrikeCruiser_1" }
+	prerequisites = { "tech_kurogane_extend"  "tech_StrikeCruiser_1" }
 
 	aux_utility_slots = 4
 
@@ -839,7 +839,7 @@ ship_section_template = {
 		locatorname = "strike_craft_locator_02"
 	}
 
-	prerequisites = { "tech_StrikeCruiser_1" }
+	prerequisites = { "tech_kurogane_extend"  "tech_StrikeCruiser_1" }
 
 	medium_utility_slots = 4
 
@@ -878,7 +878,7 @@ ship_section_template = {
 		locatorname = "small_gun_05"
 	}
 
-	prerequisites = { "tech_StrikeCruiser_1" }
+	prerequisites = { "tech_kurogane_extend"  "tech_StrikeCruiser_1" }
 
 	medium_utility_slots = 4
 
@@ -904,7 +904,7 @@ ship_section_template = {
 	entity = "N_fe_01_cruiser_06_locator_entity"
 	icon = "GFX_ship_part_core_bow"
 
-	prerequisites = { "tech_StrikeCruiser_1" }
+	prerequisites = { "tech_kurogane_extend"  "tech_StrikeCruiser_1" }
 
 	aux_utility_slots = 4
 

@@ -137,6 +137,8 @@ ship_section_template = {
 		locatorname = "large_gun_24"
 	}
 
+	prerequisites = { "tech_kurogane_extend" }
+
 	potential = {
 		owner = {
 			graphical_culture = "fe_01"
@@ -302,6 +304,8 @@ ship_section_template = {
 		locatorname = "medium_missile_06"
 	}
 
+	prerequisites = { "tech_kurogane_extend" }
+
 	potential = {
 		owner = {
 			graphical_culture = "fe_01"
@@ -455,6 +459,8 @@ ship_section_template = {
 	}
 
 	large_utility_slots = 20
+
+	prerequisites = { "tech_kurogane_extend" }
 	
 	potential = {
 		owner = {
@@ -607,6 +613,8 @@ ship_section_template = {
 	}
 
 	large_utility_slots = 20
+
+	prerequisites = { "tech_kurogane_extend" }
 	
 	potential = {
 		owner = {
@@ -768,6 +776,8 @@ ship_section_template = {
 
 
 	large_utility_slots = 20
+
+	prerequisites = { "tech_kurogane_extend" }
 	
 	potential = {
 		owner = {
@@ -922,6 +932,8 @@ ship_section_template = {
 
 
 	large_utility_slots = 20
+
+	prerequisites = { "tech_kurogane_extend" }
 	
 	potential = {
 		owner = {

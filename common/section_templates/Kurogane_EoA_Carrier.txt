@@ -93,7 +93,7 @@
 # 		locatorname = "strike_craft_locator_03"
 # 	}
 
-# 	prerequisites = { "tech_KTW_colossus" }
+# 	prerequisites = { "tech_kurogane_extend" }
 
 # 	large_utility_slots = 3
 
@@ -184,7 +184,7 @@
 # 		locatorname = "strike_craft_locator_03"
 # 	}
 
-# 	prerequisites = { "tech_KTW_colossus" }
+# 	prerequisites = { "tech_kurogane_extend" }
 
 # 	large_utility_slots = 3
 
@@ -271,7 +271,7 @@
 # 		locatorname = "strike_craft_locator_05"
 # 	}
 
-# 	prerequisites = { "tech_KTW_colossus" }
+# 	prerequisites = { "tech_kurogane_extend" }
 
 # 	large_utility_slots = 3
 

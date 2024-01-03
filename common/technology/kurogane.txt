@@ -1,22 +1,22 @@
-#Kurogane sections for player only
-# tech_kurogane_extend = {
-# 	area = engineering
-# 	tier = 0
-# 	cost = 0
-# 	category = { voidcraft }
+Kurogane sections for player only
+tech_kurogane_extend = {
+	area = engineering
+	tier = 0
+	cost = 0
+	category = { voidcraft }
 
-# 	start_tech = yes
+	start_tech = yes
     
-# 	potential = {
-#     	graphical_culture = "fe_01"
-# 		# is_origin_empire_of_awaking = yes
-#     }
+	potential = {
+    	graphical_culture = "fe_01"
+		# is_origin_empire_of_awaking = yes
+    }
 
-# 	prereqfor_desc = {
-# 		ship = {
-# 			title = "TECH_KUROGANE_EXTEND_TITLE"
-# 			desc = "TECH_KUROGANE_EXTEND_DESC"
-# 		}
-# 	}
+	prereqfor_desc = {
+		ship = {
+			title = "TECH_KUROGANE_EXTEND_TITLE"
+			desc = "TECH_KUROGANE_EXTEND_DESC"
+		}
+	}
 	
-# }
+}

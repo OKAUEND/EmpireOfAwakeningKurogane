@@ -101,7 +101,7 @@ ship_section_template = {
 	}
 
 
-	# prerequisites = { "tech_KTW_colossus" }
+	prerequisites = { "tech_kurogane_extend" }
 
 	large_utility_slots = 20
 
@@ -418,7 +418,7 @@ ship_section_template = {
 		locatorname = "PD_gun_07"
 	}
 
-	# prerequisites = { "tech_KTW_colossus" }
+	prerequisites = { "tech_kurogane_extend" }
 
 	large_utility_slots = 20
 
@@ -564,7 +564,7 @@ ship_section_template = {
 	}
 
 
-	# prerequisites = { "tech_KTW_colossus" }
+	prerequisites = { "tech_kurogane_extend" }
 
 	aux_utility_slots = 8
 
