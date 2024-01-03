@@ -49,7 +49,7 @@ weapon_component_template = {
 	shield_damage = 1
 	tracking = 0.5
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_anti_air_shock_canon_1" }
 	component_set = KTW_HEAVY_PD_LASER_1
 	projectile_gfx = "KTW_H_pd_laser_projectile_M"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
@@ -102,7 +102,7 @@ weapon_component_template = {
 	shield_damage = 1
 	tracking = 0.5
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_anti_air_shock_canon_1" }
 	component_set = KTW_HEAVY_PD_LASER_1
 	projectile_gfx = "KTW_H_pd_laser_projectile_S"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
@@ -158,7 +158,7 @@ weapon_component_template = {
 	shield_damage = 1
 	tracking = 0.5
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_anti_air_shock_canon_2" }
 	component_set = KTW_HEAVY_PD_LASER_2
 	projectile_gfx = "KTW_H_pd_laser_projectile_M"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
@@ -211,7 +211,7 @@ weapon_component_template = {
 	shield_damage = 1
 	tracking = 0.5
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_anti_air_shock_canon_2" }
 	component_set = KTW_HEAVY_PD_LASER_2
 	projectile_gfx = "KTW_H_pd_laser_projectile_S"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
@@ -267,7 +267,7 @@ weapon_component_template = {
 	shield_damage = 1
 	tracking = 0.5
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_anti_air_shock_canon_3" }
 	component_set = KTW_HEAVY_PD_LASER_3
 	projectile_gfx = "KTW_H_pd_laser_projectile_M"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
@@ -320,7 +320,7 @@ weapon_component_template = {
 	shield_damage = 1
 	tracking = 0.5
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_anti_air_shock_canon_3" }
 	component_set = KTW_HEAVY_PD_LASER_3
 	projectile_gfx = "KTW_H_pd_laser_projectile_S"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
@@ -376,7 +376,7 @@ weapon_component_template = {
 	shield_damage = 1
 	tracking = 0.5
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_anti_air_shock_canon_4" }
 	component_set = KTW_HEAVY_PD_LASER_4
 	projectile_gfx = "KTW_H_pd_laser_projectile_M"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
@@ -429,7 +429,7 @@ weapon_component_template = {
 	shield_damage = 1
 	tracking = 0.5
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_anti_air_shock_canon_4" }
 	component_set = KTW_HEAVY_PD_LASER_4
 	projectile_gfx = "KTW_H_pd_laser_projectile_S"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
@@ -485,7 +485,7 @@ weapon_component_template = {
 	shield_damage = 1
 	tracking = 0.5
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_anti_air_shock_canon_5" }
 	component_set = KTW_HEAVY_PD_LASER_5
 	projectile_gfx = "KTW_H_pd_laser_projectile_M"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
@@ -536,7 +536,7 @@ weapon_component_template = {
 	shield_damage = 1
 	tracking = 0.5
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_anti_air_shock_canon_5" }
 	component_set = KTW_HEAVY_PD_LASER_5
 	projectile_gfx = "KTW_H_pd_laser_projectile_S"
 	tags = { weapon_type_point_defense weapon_type_kinetic }
