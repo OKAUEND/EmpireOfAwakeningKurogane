@@ -45,6 +45,15 @@ tech_ktw_flak_batteries_2 = {
 	prerequisites = { "tech_ktw_flak_batteries_1" }
 	weight = @tier2weight3
 
+	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
+	}
+
 	weight_modifier = {
 		modifier = {
 			factor = 1.25
@@ -86,6 +95,15 @@ tech_ktw_flak_batteries_3 = {
 	ai_update_type = military
 	prerequisites = { "tech_ktw_flak_batteries_2" }
 	weight = @tier4weight1
+
+	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
+	}
 
 	weight_modifier = {
 		modifier = {
@@ -132,6 +150,12 @@ tech_kwt_flak_cannon_4 = {
 	gateway = ESC_FLAK_CANNONS
 
 	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
 		NOT = { has_global_flag = ESC_GLOBAL_FLAG_adv_vanilla_pd_weapons_forbidden }
 	}
 
@@ -190,6 +214,12 @@ tech_kwt_flak_cannon_5 = {
 	is_rare = yes
 
 	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
 		NOT = { has_global_flag = ESC_GLOBAL_FLAG_adv_vanilla_pd_weapons_forbidden }
 	}
 
@@ -291,8 +321,13 @@ tech_kwt_pd_tracking_2 = {
 
 	# unlocks point defence 2
 
-	weight_modifier = {
-		
+	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
 	}
 
 	ai_weight = {
@@ -320,10 +355,14 @@ tech_kwt_pd_tracking_3 = {
 
 	# unlocks point defence 3
 
-	weight_modifier = {
-		
+	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
 	}
-
 	ai_weight = {
 		
 		modifier = {
@@ -349,6 +388,12 @@ tech_kwt_point_defense_4 = {
 	gateway = ESC_PD_CANNONS
 
 	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
 		NOT = { has_global_flag = ESC_GLOBAL_FLAG_adv_vanilla_pd_weapons_forbidden }
 	}
 
@@ -375,6 +420,12 @@ tech_kwt_point_defense_5 = {
 	is_rare = yes
 
 	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
 		NOT = { has_global_flag = ESC_GLOBAL_FLAG_adv_vanilla_pd_weapons_forbidden }
 	}
 

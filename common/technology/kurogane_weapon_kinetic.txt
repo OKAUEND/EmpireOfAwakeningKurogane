@@ -45,6 +45,15 @@ tech_ktw_kinetic_2 = {
 
 	gateway = kinetic_weapons
 
+	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
+	}
+
 	weight_modifier = {
 		modifier = {
 			factor = 1.25
@@ -89,6 +98,15 @@ tech_ktw_kinetic_3 = {
 	weight = @tier2weight1
 
 	gateway = kinetic_weapons
+
+	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
+	}
 
 	weight_modifier = {
 		modifier = {
@@ -135,6 +153,15 @@ tech_ktw_kinetic_4 = {
 
 	gateway = kinetic_weapons
 
+	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
+	}
+
 	weight_modifier = {
 		modifier = {
 			factor = 1.25
@@ -179,6 +206,15 @@ tech_ktw_kinetic_5 = {
 	weight = @tier4weight1
 
 	gateway = kinetic_weapons
+
+	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
+	}
 
 	weight_modifier = {
 		modifier = {
@@ -226,6 +262,15 @@ tech_ktw_kinetic_6 = {
 
 	potential = {
 		NOT = { has_global_flag = ESC_GLOBAL_FLAG_adv_vanilla_kinetic_weapons_forbidden }
+	}
+
+	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
 	}
 
 	weight_modifier = {
@@ -280,6 +325,15 @@ tech_ktw_kinetic_7 = {
 
 	potential = {
 		NOT = { has_global_flag = ESC_GLOBAL_FLAG_adv_vanilla_kinetic_weapons_forbidden }
+	}
+
+	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
 	}
 
 	weight_modifier = {
@@ -389,6 +443,15 @@ tech_ktw_anti_air_kinetic_2 = {
 
 	gateway = kinetic_weapons
 
+	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
+	}
+
 	weight_modifier = {
 		modifier = {
 			factor = 1.25
@@ -433,6 +496,15 @@ tech_ktw_anti_air_kinetic_3 = {
 	weight = @tier4weight1
 
 	gateway = kinetic_weapons
+
+	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
+	}
 
 	weight_modifier = {
 		modifier = {
@@ -480,6 +552,15 @@ tech_ktw_anti_air_kinetic_4 = {
 
 	potential = {
 		NOT = { has_global_flag = ESC_GLOBAL_FLAG_adv_vanilla_kinetic_weapons_forbidden }
+	}
+
+	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
 	}
 
 	weight_modifier = {
@@ -534,6 +615,15 @@ tech_ktw_anti_air_kinetic_5 = {
 
 	potential = {
 		NOT = { has_global_flag = ESC_GLOBAL_FLAG_adv_vanilla_kinetic_weapons_forbidden }
+	}
+
+	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
 	}
 
 	weight_modifier = {

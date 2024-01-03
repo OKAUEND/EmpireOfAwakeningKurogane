@@ -44,6 +44,15 @@ tech_ktw_vls_missiles_2 = {
 	prerequisites = { "tech_ktw_vls_missiles_1" "tech_fusion_power" "tech_missiles_2" }
 	weight = @tier1weight2
 
+	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
+	}
+
 	weight_modifier = {
 		modifier = {
 			factor = 1.25
@@ -86,6 +95,15 @@ tech_ktw_vls_missiles_3 = {
 	ai_update_type = military
 	prerequisites = { "tech_ktw_vls_missiles_2" "tech_missiles_3" }
 	weight = @tier2weight1
+
+	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
+	}
 
 	weight_modifier = {
 		modifier = {
@@ -130,6 +148,15 @@ tech_ktw_vls_missiles_4 = {
 	prerequisites = { "tech_ktw_vls_missiles_3" "tech_missiles_4" }
 	weight = @tier3weight1
 
+	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
+	}
+
 	weight_modifier = {
 		modifier = {
 			factor = 1.25
@@ -172,6 +199,15 @@ tech_ktw_vls_missiles_5 = {
 	ai_update_type = military
 	prerequisites = { "tech_ktw_vls_missiles_4" "tech_missiles_5" }
 	weight = @tier4weight2
+
+	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
+	}
 
 	weight_modifier = {
 		modifier = {
@@ -218,6 +254,15 @@ tech_ktw_vls_missiles_6 = {
 
 	potential = {
 		NOT = { has_global_flag = ESC_GLOBAL_FLAG_adv_vanilla_missile_weapons_forbidden }
+	}
+
+	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
 	}
 
 	weight_modifier = {
@@ -272,6 +317,15 @@ tech_ktw_vls_missiles_7 = {
 
 	potential = {
 		NOT = { has_global_flag = ESC_GLOBAL_FLAG_adv_vanilla_missile_weapons_forbidden }
+	}
+
+	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
 	}
 
 	weight_modifier = {
@@ -352,6 +406,15 @@ tech_ktw_rocket_torpedo = {
 	prerequisites = { "tech_ktw_vls_missiles_4" }
 	weight = @tier5weight1
 
+	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
+	}
+
 	weight_modifier = {
 		modifier = {
 			factor = 1.25
@@ -408,6 +471,15 @@ tech_ktw_missiles_launcher_1 = {
 	prerequisites = { "tech_ktw_missiles_launcher_4" }
 	weight = @tier4weight1
 
+	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
+	}
+
 	weight_modifier = {
 		modifier = {
 			factor = 1.25
@@ -450,6 +522,15 @@ tech_ktw_missiles_launcher_2 = {
 	ai_update_type = military
 	prerequisites = { "tech_ktw_missiles_launcher_5" }
 	weight = @tier4weight2
+
+	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
+	}
 
 	weight_modifier = {
 		modifier = {
@@ -496,6 +577,15 @@ tech_ktw_missiles_launcher_3 = {
 
 	potential = {
 		NOT = { has_global_flag = ESC_GLOBAL_FLAG_adv_vanilla_missile_weapons_forbidden }
+	}
+
+	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
 	}
 
 	weight_modifier = {
@@ -550,6 +640,15 @@ tech_ktw_missiles_launcher_4 = {
 
 	potential = {
 		NOT = { has_global_flag = ESC_GLOBAL_FLAG_adv_vanilla_missile_weapons_forbidden }
+	}
+
+	potential = {
+		owner = {
+			AND = {
+				graphical_culture = "fe_01"
+				is_origin_empire_of_awaking = yes
+			}
+		}
 	}
 
 	weight_modifier = {
