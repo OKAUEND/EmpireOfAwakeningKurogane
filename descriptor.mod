@@ -4,4 +4,4 @@ tags={
 	"Fixes"
 }
 name="EmpireOfAwakening Of Kurogane"
-supported_version="3.7.2"
+supported_version="3.10.*"
