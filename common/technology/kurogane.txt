@@ -1,4 +1,4 @@
-Kurogane sections for player only
+#Kurogane sections for player only
 tech_kurogane_extend = {
 	area = engineering
 	tier = 0
@@ -18,5 +18,4 @@ tech_kurogane_extend = {
 			desc = "TECH_KUROGANE_EXTEND_DESC"
 		}
 	}
-	
 }
