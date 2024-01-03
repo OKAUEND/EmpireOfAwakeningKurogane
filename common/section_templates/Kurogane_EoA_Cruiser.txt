@@ -62,6 +62,12 @@ ship_section_template = {
 
 	medium_utility_slots = 6
 
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
+
 	resources = {
 		category = ship_sections
 	}
@@ -116,6 +122,12 @@ ship_section_template = {
 
 	medium_utility_slots = 6
 
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
+
 	resources = {
 		category = ship_sections
 	}
@@ -149,6 +161,12 @@ ship_section_template = {
 	prerequisites = { "tech_KTW_colossus" }
 
 	medium_utility_slots = 6
+
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
 
 	resources = {
 		category = ship_sections
@@ -188,6 +206,12 @@ ship_section_template = {
 	prerequisites = { "tech_KTW_colossus" }
 
 	aux_utility_slots = 2
+
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
 
 	resources = {
 		category = ship_sections
@@ -231,6 +255,12 @@ ship_section_template = {
 	prerequisites = { "tech_KTW_colossus" }
 
 	aux_utility_slots = 2
+
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
 
 	resources = {
 		category = ship_sections
@@ -296,6 +326,12 @@ ship_section_template = {
 
 	medium_utility_slots = 6
 
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
+
 	resources = {
 		category = ship_sections
 	}
@@ -349,6 +385,12 @@ ship_section_template = {
 
 	medium_utility_slots = 6
 
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
+
 	resources = {
 		category = ship_sections
 	}
@@ -392,6 +434,12 @@ ship_section_template = {
 
 	medium_utility_slots = 6
 
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
+
 	resources = {
 		category = ship_sections
 	}
@@ -424,6 +472,12 @@ ship_section_template = {
 	prerequisites = { "tech_KTW_colossus" }
 
 	aux_utility_slots = 2
+
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
 
 	resources = {
 		category = ship_sections
@@ -468,6 +522,12 @@ ship_section_template = {
 
 	medium_utility_slots = 4
 
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
+
 	resources = {
 		category = ship_sections
 	}
@@ -504,6 +564,12 @@ ship_section_template = {
 
 	medium_utility_slots = 4
 
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
+
 	resources = {
 		category = ship_sections
 	}
@@ -539,6 +605,12 @@ ship_section_template = {
 	prerequisites = { "tech_KTW_colossus" tech_energy_lance_1 tech_energy_lance_2 tech_arc_emitter_1 tech_arc_emitter_2 tech_mass_accelerator_1 tech_mass_accelerator_2 }
 	
 	aux_utility_slots = 3
+
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
 
 	resources = {
 		category = ship_sections

@@ -105,6 +105,12 @@ ship_section_template = {
 
 	large_utility_slots = 20
 
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
+
 	resources = {
 		category = ship_sections
 	}
@@ -216,10 +222,13 @@ ship_section_template = {
 		locatorname = "large_gun_12"
 	}
 
-
-	
-
 	large_utility_slots = 20
+
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
 
 	resources = {
 		category = ship_sections
@@ -299,6 +308,12 @@ ship_section_template = {
 	}
 
 	large_utility_slots = 20
+
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
 
 	resources = {
 		category = ship_sections
@@ -406,6 +421,12 @@ ship_section_template = {
 	prerequisites = { "tech_KTW_colossus" }
 
 	large_utility_slots = 20
+
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
 
 	resources = {
 		category = ship_sections
@@ -546,6 +567,12 @@ ship_section_template = {
 	prerequisites = { "tech_KTW_colossus" }
 
 	aux_utility_slots = 8
+
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
 
 	resources = {
 		category = ship_sections

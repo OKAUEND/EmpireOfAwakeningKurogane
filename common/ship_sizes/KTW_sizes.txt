@@ -51,6 +51,12 @@ KTW_SuperDreadnought = {
 	required_component_set = "special_ship_slot"
 	required_component_set = "special_ship_slot"
 	
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
+
 	potential_construction = {
 		OR = {
 			is_scope_type = starbase
@@ -191,6 +197,12 @@ KTW_SuperFlagShip = {
 	required_component_set = "special_ship_slot"
 	required_component_set = "special_ship_slot"
 	
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
+
 	potential_construction = {
 		OR = {
 			is_scope_type = starbase

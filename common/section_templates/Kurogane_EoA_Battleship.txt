@@ -108,6 +108,12 @@ ship_section_template = {
 
 	large_utility_slots = 12
 
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
+
 	resources = {
 		category = ship_sections
 	}
@@ -169,6 +175,12 @@ ship_section_template = {
 	prerequisites = { "tech_KTW_colossus" }
 
 	large_utility_slots = 12
+
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
 
 	resources = {
 		category = ship_sections
@@ -272,6 +284,12 @@ ship_section_template = {
 
 	large_utility_slots = 12
 
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
+
 	resources = {
 		category = ship_sections
 	}
@@ -332,6 +350,12 @@ ship_section_template = {
 	prerequisites = { "tech_KTW_colossus" }
 
 	aux_utility_slots = 3
+
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
 
 	resources = {
 		category = ship_sections
@@ -424,6 +448,12 @@ ship_section_template = {
 
 	large_utility_slots = 13
 
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
+
 	resources = {
 		category = ship_sections
 	}
@@ -492,6 +522,12 @@ ship_section_template = {
 
 	large_utility_slots = 13
 
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
+
 	resources = {
 		category = ship_sections
 	}
@@ -553,6 +589,12 @@ ship_section_template = {
 
 	large_utility_slots = 10
 
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
+
 	resources = {
 		category = ship_sections
 	}
@@ -613,6 +655,12 @@ ship_section_template = {
 
 	large_utility_slots = 10
 
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
+
 	resources = {
 		category = ship_sections
 	}
@@ -643,6 +691,12 @@ ship_section_template = {
 	prerequisites = { "tech_KTW_colossus" }
 
 	aux_utility_slots = 3
+
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
 
 	resources = {
 		category = ship_sections
@@ -783,6 +837,12 @@ ship_section_template = {
 
 	large_utility_slots = 14
 
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
+
 	resources = {
 		category = ship_sections
 	}
@@ -918,6 +978,12 @@ ship_section_template = {
 	prerequisites = { "tech_KTW_colossus" tech_energy_lance_1 tech_energy_lance_2 tech_arc_emitter_1 tech_arc_emitter_2 tech_mass_accelerator_1 tech_mass_accelerator_2 }
 
 	large_utility_slots = 10
+
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
 
 	resources = {
 		category = ship_sections
@@ -1055,6 +1121,12 @@ ship_section_template = {
 
 	large_utility_slots = 10
 
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
+
 	resources = {
 		category = ship_sections
 	}
@@ -1137,6 +1209,12 @@ ship_section_template = {
 
 	large_utility_slots = 14
 
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
+
 	resources = {
 		category = ship_sections
 	}
@@ -1218,6 +1296,12 @@ ship_section_template = {
 
 	large_utility_slots = 14
 
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
+
 	resources = {
 		category = ship_sections
 	}
@@ -1298,6 +1382,12 @@ ship_section_template = {
 	prerequisites = { "tech_KTW_colossus" tech_energy_lance_1 tech_energy_lance_2 tech_arc_emitter_1 tech_arc_emitter_2 tech_mass_accelerator_1 tech_mass_accelerator_2 }
 
 	large_utility_slots = 14
+
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
 
 	resources = {
 		category = ship_sections
@@ -1384,6 +1474,12 @@ ship_section_template = {
 
 	aux_utility_slots = 3
 
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
+
 	resources = {
 		category = ship_sections
 	}
@@ -1467,6 +1563,12 @@ ship_section_template = {
 	prerequisites = { "tech_KTW_colossus" }
 
 	aux_utility_slots = 3
+
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
 
 	resources = {
 		category = ship_sections
@@ -1577,6 +1679,12 @@ ship_section_template = {
 
 	large_utility_slots = 16
 
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
+
 	resources = {
 		category = ship_sections
 	}
@@ -1682,6 +1790,12 @@ ship_section_template = {
 
 	large_utility_slots = 16
 
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
+
 	resources = {
 		category = ship_sections
 	}
@@ -1753,6 +1867,12 @@ ship_section_template = {
 
 	large_utility_slots = 16
 
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
+
 	resources = {
 		category = ship_sections
 	}
@@ -1822,6 +1942,12 @@ ship_section_template = {
 	prerequisites = { "tech_KTW_colossus" }
 
 	large_utility_slots = 16
+
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
 
 	resources = {
 		category = ship_sections
@@ -1894,6 +2020,12 @@ ship_section_template = {
 
 	aux_utility_slots = 3
 
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
+
 	resources = {
 		category = ship_sections
 	}
@@ -1963,6 +2095,12 @@ ship_section_template = {
 	prerequisites = { "tech_KTW_colossus" }
 
 	aux_utility_slots = 3
+
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
 
 	resources = {
 		category = ship_sections

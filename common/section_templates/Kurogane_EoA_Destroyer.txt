@@ -46,6 +46,12 @@ ship_section_template = {
 
 	small_utility_slots = 8
 
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
+
 	resources = {
 		category = ship_sections
 	}
@@ -97,6 +103,12 @@ ship_section_template = {
 	prerequisites = { "tech_KTW_colossus" }
 
 	small_utility_slots = 6
+
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
 
 	resources = {
 		category = ship_sections
@@ -152,6 +164,12 @@ ship_section_template = {
 
 	small_utility_slots = 8
 
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
+
 	resources = {
 		category = ship_sections
 	}
@@ -181,6 +199,12 @@ ship_section_template = {
 
 	small_utility_slots = 6
 
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
+
 	resources = {
 		category = ship_sections
 	}
@@ -198,6 +222,12 @@ ship_section_template = {
 	prerequisites = { "tech_KTW_colossus" }
 
 	aux_utility_slots = 1
+
+	potential = {
+		owner = {
+			graphical_culture = "fe_01"
+		}
+	}
 
 	resources = {
 		category = ship_sections
