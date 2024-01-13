@@ -110,11 +110,11 @@ weapon_component_template = {
 	tracking = 0.25
 
 	prerequisites = { "tech_kwt_pd_tracking_1" }
-	component_set = KTW_PD_LASER_2
+	component_set = KTW_PD_LASER_1
 	projectile_gfx = "KTW_pd_laser_projectile"
 	tags = { weapon_type_point_defense weapon_type_energy }
 	ai_tags = { weapon_role_point_defense screen }
-	upgrades_to = "KTW_PD_LASER_2"
+	upgrades_to = "KTW_PD_LASER_1"
 
 	ai_weight = {
 		weight = 1
