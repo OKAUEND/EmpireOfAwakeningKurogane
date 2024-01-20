@@ -65,7 +65,7 @@ weapon_component_template = {
 		battleship = 2
 	}
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_missiles_launcher_1" }
 	component_set = "KTW_MISSILE_LAUNCHER_1"
 	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
@@ -134,7 +134,7 @@ weapon_component_template = {
 		battleship = 2
 	}
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_missiles_launcher_1" }
 	component_set = "KTW_MISSILE_LAUNCHER_1"
 	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
@@ -206,7 +206,7 @@ weapon_component_template = {
 		battleship = 2
 	}
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_missiles_launcher_2" }
 	component_set = "KTW_MISSILE_LAUNCHER_2"
 	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
@@ -275,7 +275,7 @@ weapon_component_template = {
 		battleship = 2
 	}
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_missiles_launcher_2" }
 	component_set = "KTW_MISSILE_LAUNCHER_2"
 	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
@@ -348,7 +348,7 @@ weapon_component_template = {
 		battleship = 2
 	}
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_missiles_launcher_3" }
 	component_set = "KTW_MISSILE_LAUNCHER_3"
 	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
@@ -417,7 +417,7 @@ weapon_component_template = {
 		battleship = 2
 	}
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_missiles_launcher_3" }
 	component_set = "KTW_MISSILE_LAUNCHER_3"
 	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
@@ -490,7 +490,7 @@ weapon_component_template = {
 		battleship = 2
 	}
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_missiles_launcher_4" }
 	component_set = "KTW_MISSILE_LAUNCHER_4"
 	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
@@ -559,7 +559,7 @@ weapon_component_template = {
 		battleship = 2
 	}
 
-	prerequisites = { "tech_KTW_weapons" }
+	prerequisites = { "tech_ktw_missiles_launcher_4" }
 	component_set = "KTW_MISSILE_LAUNCHER_4"
 	projectile_gfx = "KTW_MISSILE_projectile"
 	tags = { weapon_type_explosive }
@@ -631,7 +631,7 @@ weapon_component_template = {
 # 		battleship = 2
 # 	}
 
-# 	prerequisites = { "tech_KTW_weapons" }
+# 	prerequisites = { "tech_ktw_missiles_launcher_2" }
 # 	component_set = "KTW_MISSILE_LAUNCHER_5"
 # 	projectile_gfx = "KTW_MISSILE_projectile"
 # 	tags = { weapon_type_explosive }
@@ -699,7 +699,7 @@ weapon_component_template = {
 # 		battleship = 2
 # 	}
 
-# 	prerequisites = { "tech_KTW_weapons" }
+# 	prerequisites = { "tech_ktw_missiles_launcher_2" }
 # 	component_set = "KTW_MISSILE_LAUNCHER_5"
 # 	projectile_gfx = "KTW_MISSILE_projectile"
 # 	tags = { weapon_type_explosive }
@@ -770,7 +770,7 @@ weapon_component_template = {
 # 		battleship = 2
 # 	}
 
-# 	prerequisites = { "tech_KTW_weapons" }
+# 	prerequisites = { "tech_ktw_missiles_launcher_2" }
 # 	component_set = "KTW_MISSILE_LAUNCHER_6"
 # 	projectile_gfx = "KTW_MISSILE_projectile"
 # 	tags = { weapon_type_explosive }
@@ -838,7 +838,7 @@ weapon_component_template = {
 # 		battleship = 2
 # 	}
 
-# 	prerequisites = { "tech_KTW_weapons" }
+# 	prerequisites = { "tech_ktw_missiles_launcher_2" }
 # 	component_set = "KTW_MISSILE_LAUNCHER_6"
 # 	projectile_gfx = "KTW_MISSILE_projectile"
 # 	tags = { weapon_type_explosive }
@@ -910,7 +910,7 @@ weapon_component_template = {
 # 		battleship = 2
 # 	}
 
-# 	prerequisites = { "tech_KTW_weapons" }
+# 	prerequisites = { "tech_ktw_missiles_launcher_2" }
 # 	component_set = "KTW_MISSILE_LAUNCHER_7"
 # 	projectile_gfx = "KTW_MISSILE_projectile"
 # 	tags = { weapon_type_explosive }
@@ -978,7 +978,7 @@ weapon_component_template = {
 # 		battleship = 2
 # 	}
 
-# 	prerequisites = { "tech_KTW_weapons" }
+# 	prerequisites = { "tech_ktw_missiles_launcher_2" }
 # 	component_set = "KTW_MISSILE_LAUNCHER_7"
 # 	projectile_gfx = "KTW_MISSILE_projectile"
 # 	tags = { weapon_type_explosive }
